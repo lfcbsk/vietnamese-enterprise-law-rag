@@ -1,7 +1,7 @@
 import os
 import glob
-from loaders.pdf_loader import PDFLoader
-from parsers.law_parser import VietnameseLawParser
+from pdf_loader import PDFLoader
+from parser import VietnameseLawParser
 
 
 def run_ingestion():
