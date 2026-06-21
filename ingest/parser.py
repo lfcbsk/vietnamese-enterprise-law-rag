@@ -25,7 +25,7 @@ class VietnameseLawParser:
             #Check chapter
             if self.chapter_pattern.match(line):
                 if curr_art: 
-                    chunks.append(self._create_chunk(curr_chap, curr_art, curr_art_title, curr_content)):
+                    chunks.append(self._create_chunk(curr_chap, curr_art, curr_art_title, curr_content))
                 curr_chap = self.chapter_pattern.match(line).group(1)
                 curr_art = ""
                 curr_content = []
