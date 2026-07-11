@@ -9,7 +9,9 @@ class VietnameseLawParser:
         self.article_pattern = re.compile(r'^(Điều\s+\d+)\.\s*(.*)$', re.MULTILINE)
         self.clause_pattern = re.compile(r'^(\d+)\.\s+(.*)$', re.MULTILINE)
 
-    def parse(self, text: str) -> List[Dict[str, Any]]:
+    def parse(
+        self,
+        text: str, source: str,) -> list[dict[str, Any]]:
         chunks = []
         curr_chap = "Phần mở đầu"
         curr_art = ""

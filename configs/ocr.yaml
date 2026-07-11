@@ -1,0 +1,10 @@
+engine: tesseract
+tesseract_version: "5.5.0.20241111"
+languages:
+  - vie
+  - eng
+dpi: 300
+min_native_text_length: 80
+force_ocr: false
+page_segmentation_mode: 6
+ocr_engine_mode: 1
