@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import sys
 from collections import Counter
@@ -52,7 +53,7 @@ def validate_chunks(
         )
 
 
-def run_ingestion() -> None:
+def run_ingestion(*, force_ocr: bool = False) -> None:
     # PowerShell trên Windows đôi khi dùng cp1252 và không in được
     # tiếng Việt, dù dữ liệu đầu ra vẫn được ghi đúng bằng UTF-8.
     if hasattr(sys.stdout, "reconfigure"):
@@ -83,6 +84,9 @@ def run_ingestion() -> None:
             ocr_dpi=300,
             min_text_length=80,
             use_cache=True,
+            # PDF có lớp text lỗi font (dºanh, hºặc, theº...), vì vậy
+            # --force-ocr sẽ OCR ảnh toàn bộ trang và ghi đè cache cũ.
+            force_ocr=force_ocr,
         )
 
         raw_text = loader.load_and_clean()
@@ -137,4 +141,15 @@ def run_ingestion() -> None:
 
 
 if __name__ == "__main__":
-    run_ingestion()
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+
+    argument_parser = argparse.ArgumentParser()
+    argument_parser.add_argument(
+        "--force-ocr",
+        action="store_true",
+        help="Bỏ qua cache/native text và OCR lại toàn bộ PDF.",
+    )
+    arguments = argument_parser.parse_args()
+
+    run_ingestion(force_ocr=arguments.force_ocr)

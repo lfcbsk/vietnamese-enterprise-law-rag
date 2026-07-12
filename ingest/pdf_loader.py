@@ -18,12 +18,14 @@ class PDFLoader:
         min_text_length: int = 80,
         tessdata_path: str | Path | None = None,
         use_cache: bool = True,
+        force_ocr: bool = False,
     ) -> None:
         self.file_path = Path(file_path).resolve()
         self.language = language
         self.ocr_dpi = ocr_dpi
         self.min_text_length = min_text_length
         self.use_cache = use_cache
+        self.force_ocr = force_ocr
 
         if not self.file_path.exists():
             raise FileNotFoundError(
@@ -43,7 +45,11 @@ class PDFLoader:
         self._validate_languages()
 
     def load_and_clean(self) -> str:
-        if self.use_cache and self.cache_path.exists():
+        if (
+            self.use_cache
+            and not self.force_ocr
+            and self.cache_path.exists()
+        ):
             print(f"Using OCR cache: {self.cache_path}")
 
             return self.clean_text(
@@ -62,7 +68,10 @@ class PDFLoader:
                     sort=True,
                 ).strip()
 
-                if len(native_text) >= self.min_text_length:
+                if (
+                    not self.force_ocr
+                    and len(native_text) >= self.min_text_length
+                ):
                     text = native_text
 
                     print(
@@ -133,6 +142,11 @@ class PDFLoader:
         text = text.replace("\u00a0", " ")
         text = text.replace("\u200b", "")
 
+        # Trong các PDF hiện tại, glyph "o" thường bị trích xuất/OCR
+        # nhầm thành ký tự masculine ordinal "º" (dºanh, hºặc, theº...).
+        # Ký tự này không thuộc chính tả tiếng Việt nên có thể thay an toàn.
+        text = text.replace("º", "o")
+
         # OCR thường nhận nhầm chữ số trong số Điều thành ký tự mũ,
         # ví dụ: "Điều 1²0" thay vì "Điều 120".
         text = text.translate(
@@ -151,12 +165,142 @@ class PDFLoader:
             text,
         )
 
+        text = PDFLoader._fix_joined_words(text)
+        text = PDFLoader._fix_missing_diacritics(text)
+
         # Giữ xuống dòng vì parser dùng cấu trúc dòng.
         text = re.sub(r"[ \t]+", " ", text)
         text = re.sub(r" *\n *", "\n", text)
         text = re.sub(r"\n{3,}", "\n\n", text)
 
         return text.strip()
+
+    @staticmethod
+    def _fix_joined_words(text: str) -> str:
+        """Tách các cặp từ pháp lý thường bị OCR dính liền.
+
+        Chỉ thêm khoảng trắng tại các ranh giới có độ tin cậy cao. Danh
+        sách được áp dụng nhiều lượt để sửa được chuỗi như
+        ``chủsởhữucôngty`` thành ``chủ sở hữu công ty``.
+        """
+        word_boundaries = (
+            ("chủ", "sở"),
+            ("sở", "hữu"),
+            ("hữu", "công"),
+            ("cổ", "đông"),
+            ("cổ", "phần"),
+            ("hồ", "sơ"),
+            ("điều", "lệ"),
+            ("lệ", "là"),
+            ("nghĩa", "vụ"),
+            ("đề", "nghị"),
+            ("nghị", "đăng"),
+            ("nghị", "quyết"),
+            ("trụ", "sở"),
+            ("thị", "trường"),
+            ("trừ", "trường"),
+            ("tỷ", "lệ"),
+            ("số", "lượng"),
+            ("thủ", "tục"),
+            ("trình", "tự"),
+            ("thanh", "lý"),
+            ("thành", "viên"),
+            ("pháp", "luật"),
+            ("đăng", "ký"),
+            ("doanh", "nghiệp"),
+            ("trách", "nhiệm"),
+            ("thực", "hiện"),
+            ("cụ", "thể"),
+            ("chữ", "ký"),
+            ("địa", "chỉ"),
+            ("cơ", "sở"),
+            ("giấy", "tờ"),
+            ("tài", "sản"),
+            ("vốn", "góp"),
+            ("góp", "của"),
+            ("phần", "của"),
+            ("biểu", "quyết"),
+            ("ủy", "quyền"),
+            ("phổ", "thông"),
+            ("chính", "xác"),
+            ("liên", "lạc"),
+            ("sau", "đây"),
+            ("trở", "lên"),
+            ("kể", "từ"),
+            ("từ", "khi"),
+            ("theo", "quy"),
+            ("quy", "định"),
+            ("công", "ty"),
+            ("nhà", "nước"),
+            ("bao", "gồm"),
+            ("quyền", "và"),
+            ("và", "nghĩa"),
+            ("vụ", "của"),
+            ("của", "chủ"),
+            ("cho", "mỗi"),
+            ("có", "thể"),
+            ("được", "quyền"),
+        )
+
+        for _ in range(2):
+            for left, right in word_boundaries:
+                text = re.sub(
+                    rf"(?i)(?<!\w)({left})({right})(?!\w)",
+                    r"\1 \2",
+                    text,
+                )
+
+                # Cũng tách ranh giới nằm trong chuỗi dài hơn; hai phía
+                # phải là chữ để không tác động tới số hoặc dấu câu.
+                text = re.sub(
+                    rf"(?i)({left})(?={right})",
+                    rf"\1 ",
+                    text,
+                )
+
+        return text
+
+    @staticmethod
+    def _fix_missing_diacritics(text: str) -> str:
+        """Sửa cụm mất dấu khi ngữ cảnh pháp lý xác định được từ đúng."""
+        phrase_corrections = {
+            r"\bco\s+đông\b": "cổ đông",
+            r"\bcố\s+đông\b": "cổ đông",
+            r"\bco\s+phần\b": "cổ phần",
+            r"\bcố\s+phần\b": "cổ phần",
+            r"\bphan\s+vốn\b": "phần vốn",
+            r"\bphan\s+góp\b": "phần góp",
+            r"\bdia\s+chỉ\b": "địa chỉ",
+            r"\btru\s+sở\b": "trụ sở",
+            r"\bdoi\s+với\b": "đối với",
+            r"\btrường\s+hop\b": "trường hợp",
+            r"\bhữu\s+han\b": "hữu hạn",
+            r"\bdai\s+diện\b": "đại diện",
+            r"\bcó\s+thé\b": "có thể",
+            r"\bđăng\s+ky\b": "đăng ký",
+            r"\bloai\s+cổ\s+phần\b": "loại cổ phần",
+            r"\bthe\s+quy\s+định\b": "theo quy định",
+            r"\bdé\s+(?=thực hiện|bảo đảm|thành lập|tạo\b)": "để ",
+        }
+
+        for pattern, replacement in phrase_corrections.items():
+            def replace_preserving_case(
+                match: re.Match[str],
+                corrected: str = replacement,
+            ) -> str:
+                if match.group(0)[:1].isupper():
+                    return corrected[:1].upper() + corrected[1:]
+
+                return corrected
+
+            text = re.sub(
+                pattern,
+                replace_preserving_case,
+                text,
+                flags=re.IGNORECASE,
+            )
+
+        return text
 
     def _resolve_tessdata_path(
         self,
