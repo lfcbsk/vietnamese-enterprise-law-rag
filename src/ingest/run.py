@@ -6,8 +6,8 @@ import sys
 from collections import Counter
 from pathlib import Path
 
-from parser import VietnameseLawParser
-from pdf_loader import PDFLoader
+from src.ingest.parser import VietnameseLawParser
+from src.ingest.pdf_loader import PDFLoader
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
