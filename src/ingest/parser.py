@@ -15,18 +15,21 @@ class VietnameseLawParser:
             re.IGNORECASE,)
 
         self.chapter_pattern = re.compile(
-            r"^\s*(Chương\s+[IVXLCDM\d]+)"
-            r"\s*[.:\-–]?\s*(.*)$",
-            re.IGNORECASE,)
+            r"^\s*(?:[|“”\"'`._–—-]\s*){0,4}"
+                r"(Chương\s+[IVXLCDM\d]+)"
+                r"\s*[.:\-–—]?\s*(.*)$",
+                re.IGNORECASE,)
 
         self.article_heading_pattern = re.compile(
-            r"^\s*(Điều\s+(\d+[A-Za-z]?))"
-            r"\s*[.:\-–]\s*(.*)$",
+            r"^\s*(?:[|“”\"'`._–—-]\s*){0,4}"
+            r"(Điều\s+(\d+[A-Za-z]?))"
+            r"\s*[.:\-–—]\s*(.*)$",
             re.IGNORECASE,)
 
         self.article_heading_only_pattern = re.compile(
-            r"^\s*(Điều\s+(\d+[A-Za-z]?))"
-            r"\s*[.:\-–]?\s*$",
+            r"^\s*(?:[|“”\"'`._–—-]\s*){0,4}"
+            r"(Điều\s+(\d+[A-Za-z]?))"
+            r"\s*[.:\-–—]?\s*$",
             re.IGNORECASE,)
 
         # các case điều này dẫn từ điều luật kia
@@ -43,6 +46,13 @@ class VietnameseLawParser:
                     Luật\s+này|Luật\s+[^,.;\n]+))?
             """,
             re.IGNORECASE | re.VERBOSE,)
+        
+        self.embedded_article_heading_pattern = re.compile(
+            r"^\s*(?:[|“”\"'`._–—-]\s*){0,4}"
+            r"Điều\s+(\d+[A-Za-z]?)"
+            r"\s*[.:\-–—]",
+            re.IGNORECASE | re.MULTILINE,
+        )
 
 
     def _extract_references(
@@ -118,15 +128,70 @@ class VietnameseLawParser:
 
         return references
 
-    def parse(
+    def validate_chunks(
         self,
-        text: str,
-        source: str,
-    ) -> list[dict[str, Any]]:
+        chunks: list[dict[str, Any]],
+    ) -> None:
+        errors: list[str] = []
+        seen_ids: set[str] = set()
+
+        for chunk in chunks:
+            chunk_id = chunk["id"]
+
+            if chunk_id in seen_ids:
+                errors.append(f"ID trùng: {chunk_id}")
+
+            seen_ids.add(chunk_id)
+
+            if not chunk["content"].strip():
+                errors.append(f"Chunk rỗng: {chunk_id}")
+                continue
+
+            expected_match = re.search(
+                r"\d+[A-Za-z]?",
+                chunk["article"],
+            )
+            expected_article = (
+                expected_match.group(0).lower()
+                if expected_match
+                else None
+            )
+
+            detected_articles = [
+                number.lower()
+                for number
+                in self.embedded_article_heading_pattern.findall(
+                    chunk["content"]
+                )
+            ]
+
+            unexpected_articles = [
+                number
+                for number in detected_articles
+                if number != expected_article
+            ]
+
+            if unexpected_articles:
+                errors.append(
+                    f"{chunk_id} chứa heading Điều khác: "
+                    f"{unexpected_articles}"
+                )
+
+        if errors:
+            error_preview = "\n".join(errors[:20])
+
+            raise ValueError(
+                "Kết quả parse không hợp lệ:\n"
+                f"{error_preview}"
+            )
+    def parse(self,text: str,source: str,) -> list[dict[str, Any]]:
+
         chunks: list[dict[str, Any]] = []
 
         current_page = 1
         current_page_start = 1
+        current_content_page_end = 1
+
         current_chapter = "Phần mở đầu"
         current_article = ""
         current_title = ""
@@ -145,18 +210,14 @@ class VietnameseLawParser:
                 content_lines=current_content,
                 source=source,
                 page_start=current_page_start,
-                page_end=current_page,
+                page_end=current_content_page_end,
             )
 
             chunks.append(chunk)
             current_content = []
 
         for raw_line in text.splitlines():
-            line = re.sub(
-                r"\s+",
-                " ",
-                raw_line,
-            ).strip()
+            line = self._normalize_line_for_parsing(raw_line)
 
             if not line:
                 continue
@@ -176,11 +237,12 @@ class VietnameseLawParser:
                 current_article = ""
                 current_title = ""
                 current_content = []
-
                 continue
 
             article_match = self.article_heading_pattern.match(line)
-            article_only_match = self.article_heading_only_pattern.match(line)
+            article_only_match = (
+                self.article_heading_only_pattern.match(line)
+            )
 
             if article_match:
                 flush_current_article()
@@ -188,6 +250,7 @@ class VietnameseLawParser:
                 current_article = article_match.group(1)
                 current_title = article_match.group(3).strip()
                 current_page_start = current_page
+                current_content_page_end = current_page
 
                 heading = current_article
 
@@ -203,20 +266,41 @@ class VietnameseLawParser:
                 current_article = article_only_match.group(1)
                 current_title = ""
                 current_page_start = current_page
+                current_content_page_end = current_page
                 current_content = [current_article]
                 continue
 
             if current_article:
-                # OCR đôi khi để tiêu đề Điều ở dòng tiếp theo.
+                is_clause = bool(
+                    re.match(r"^\d+[.)]\s+", line)
+                )
+                is_point = bool(
+                    re.match(
+                        r"^[a-zđ][.)]\s+",
+                        line,
+                        re.IGNORECASE,
+                    )
+                )
+
                 if (
                     not current_title
                     and len(current_content) == 1
+                    and not is_clause
+                    and not is_point
                 ):
                     current_title = line
+                    current_content[0] = (
+                        f"{current_article}. {current_title}"
+                    )
+                    current_content_page_end = current_page
+                    continue
 
                 current_content.append(line)
+                current_content_page_end = current_page
 
         flush_current_article()
+        self.validate_chunks(chunks)
+
         return chunks
 
     def _create_chunk(self,*,
@@ -278,9 +362,34 @@ class VietnameseLawParser:
             },
         }
 
+    
     @staticmethod
     def _slug(value: str) -> str:
         value = value.lower().strip()
         value = re.sub(r"\W+", "_", value)
 
         return value.strip("_")
+    def _normalize_line_for_parsing(raw_line: str) -> str:
+        line = re.sub(r"\s+", " ", raw_line).strip()
+
+        if not line:
+            return ""
+
+        # Chỉ xóa rác OCR nếu ngay sau đó là heading Chương/Điều.
+        line = re.sub(
+            r"^\s*(?:[|“”\"'`._–—-]\s*){1,4}"
+            r"(?=(?:Điều\s+\d+|Chương\s+[IVXLCDM\d]+)\b)",
+            "",
+            line,
+            flags=re.IGNORECASE,
+        )
+
+        # Xóa ký tự bảng ở cuối heading.
+        if re.match(
+            r"^(?:Điều\s+\d+|Chương\s+[IVXLCDM\d]+)\b",
+            line,
+            re.IGNORECASE,
+        ):
+            line = re.sub(r"\s*[|`]+$", "", line).strip()
+
+        return line
