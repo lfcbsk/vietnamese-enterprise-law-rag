@@ -6,7 +6,24 @@ from typing import Any
 
 
 class VietnameseLawParser:
-    def __init__(self , law_id: str = "59/2020/QH14",law_name: str = "Luật Doanh nghiệp 2020",) -> None:
+    ARTICLE_CHAPTER_RANGES = (
+        (1, 16, "Chương I"),
+        (17, 73, "Chương II"),
+        (74, 110, "Chương III"),
+        (111, 176, "Chương IV"),
+        (177, 187, "Chương V"),
+        (188, 197, "Chương VI"),
+        (198, 205, "Chương VII"),
+        (206, 210, "Chương VIII"),
+        (211, 216, "Chương IX"),
+        (217, 218, "Chương X"),
+    )
+
+    def __init__(
+        self,
+        law_id: str = "59/2020/QH14",
+        law_name: str = "Luật Doanh nghiệp 2020",
+    ) -> None:
         self.law_name = law_name
         self.law_id = law_id
 
@@ -32,6 +49,15 @@ class VietnameseLawParser:
             r"\s*[.:\-–—]?\s*$",
             re.IGNORECASE,)
 
+        # OCR có thể chèn một cụm rác trước heading, ví dụ:
+        # "viên Điều 61.", "ngườiĐiều 102.", "ln Điều 201.".
+        # Pattern này chỉ được chấp nhận khi số Điều đúng bằng Điều kế tiếp.
+        self.noisy_article_heading_pattern = re.compile(
+            r"^.{0,30}?Điều\s+(\d+[A-Za-z]?)"
+            r"\s*[.:\-–—]+\s*(.+)$",
+            re.IGNORECASE,
+        )
+
         # các case điều này dẫn từ điều luật kia
         self.article_reference_pattern = re.compile(
             r"^của\s+Luật\s+này\b",
@@ -48,11 +74,79 @@ class VietnameseLawParser:
             re.IGNORECASE | re.VERBOSE,)
         
         self.embedded_article_heading_pattern = re.compile(
-            r"^\s*(?:[|“”\"'`._–—-]\s*){0,4}"
-            r"Điều\s+(\d+[A-Za-z]?)"
+            r"^.{0,30}?Điều\s+(\d+[A-Za-z]?)"
             r"\s*[.:\-–—]",
             re.IGNORECASE | re.MULTILINE,
         )
+
+    @staticmethod
+    def _extract_article_number(article: str) -> int | None:
+        match = re.search(r"\d+", article)
+        return int(match.group()) if match else None
+
+    @classmethod
+    def _resolve_chapter(
+        cls,
+        article: str,
+        detected_chapter: str,
+    ) -> str:
+        article_number = cls._extract_article_number(article)
+
+        if article_number is None:
+            return detected_chapter
+
+        for start, end, chapter in cls.ARTICLE_CHAPTER_RANGES:
+            if start <= article_number <= end:
+                return chapter
+
+        return detected_chapter
+
+    def _match_article_heading(
+        self,
+        line: str,
+        current_article: str,
+        previous_article_number: int | None = None,
+    ) -> tuple[str, str] | None:
+        regular_match = self.article_heading_pattern.match(line)
+
+        if regular_match:
+            return (
+                regular_match.group(1),
+                regular_match.group(3).strip(),
+            )
+
+        only_match = self.article_heading_only_pattern.match(line)
+
+        if only_match:
+            return only_match.group(1), ""
+
+        noisy_match = self.noisy_article_heading_pattern.match(line)
+
+        if not noisy_match:
+            return None
+
+        detected_number = int(noisy_match.group(1))
+        current_number = (
+            self._extract_article_number(current_article)
+            if current_article
+            else previous_article_number
+        )
+
+        # Pattern dự phòng khá rộng, nên chỉ tin khi đây chính xác là
+        # Điều tiếp theo. Dẫn chiếu "Điều X của Luật này" sẽ bị loại.
+        if (
+            current_number is None
+            or detected_number != current_number + 1
+        ):
+            return None
+
+        title = re.sub(
+            r"\s*[|¦`_]+\s*$",
+            "",
+            noisy_match.group(2),
+        ).strip()
+
+        return f"Điều {detected_number}", title
 
 
     def _extract_references(
@@ -196,6 +290,7 @@ class VietnameseLawParser:
         current_article = ""
         current_title = ""
         current_content: list[str] = []
+        previous_article_number: int | None = None
 
         def flush_current_article() -> None:
             nonlocal current_content
@@ -239,35 +334,28 @@ class VietnameseLawParser:
                 current_content = []
                 continue
 
-            article_match = self.article_heading_pattern.match(line)
-            article_only_match = (
-                self.article_heading_only_pattern.match(line)
+            article_heading = self._match_article_heading(
+                line=line,
+                current_article=current_article,
+                previous_article_number=previous_article_number,
             )
 
-            if article_match:
+            if article_heading:
                 flush_current_article()
 
-                current_article = article_match.group(1)
-                current_title = article_match.group(3).strip()
+                current_article, current_title = article_heading
+                previous_article_number = (
+                    self._extract_article_number(current_article)
+                )
                 current_page_start = current_page
                 current_content_page_end = current_page
 
                 heading = current_article
 
                 if current_title:
-                    heading += f". {current_title}"
+                    heading = f"{current_article}. {current_title}"
 
                 current_content = [heading]
-                continue
-
-            if article_only_match:
-                flush_current_article()
-
-                current_article = article_only_match.group(1)
-                current_title = ""
-                current_page_start = current_page
-                current_content_page_end = current_page
-                current_content = [current_article]
                 continue
 
             if current_article:
@@ -303,7 +391,7 @@ class VietnameseLawParser:
 
         return chunks
 
-    def _create_chunk(self,*,
+    def _create_chunk(self, *,
         chapter: str,
         article: str,
         title: str,
@@ -311,6 +399,11 @@ class VietnameseLawParser:
         source: str,
         page_start: int,
         page_end: int,) -> dict[str, Any]:
+        resolved_chapter = self._resolve_chapter(
+            article=article,
+            detected_chapter=chapter,
+        )
+
         full_text = "\n".join(content_lines).strip()
 
         body_lines = (content_lines[1:] if len(content_lines) > 1 else [])
@@ -324,12 +417,17 @@ class VietnameseLawParser:
         source_slug = self._slug(Path(source).stem)
         article_slug = self._slug(article)
 
+        article_heading = article
+
+        if title:
+            article_heading = f"{article}. {title}"
+
         embedding_text = "\n".join(
             part
             for part in [
                 self.law_name,
-                chapter,
-                f"{article}. {title}".strip(),
+                resolved_chapter,
+                article_heading,
                 body_text,
             ]
             if part
@@ -339,7 +437,7 @@ class VietnameseLawParser:
             "id": f"{source_slug}_{article_slug}",
             "law_id": self.law_id,
             "law_name": self.law_name,
-            "chapter": chapter,
+            "chapter": resolved_chapter,
             "article": article,
             "article_title": title,
             "content": full_text,
@@ -350,7 +448,7 @@ class VietnameseLawParser:
                 "type": "article",
                 "law_id": self.law_id,
                 "law_name": self.law_name,
-                "chapter": chapter,
+                "chapter": resolved_chapter,
                 "article": article,
                 "article_title": title,
                 "page_start": page_start,

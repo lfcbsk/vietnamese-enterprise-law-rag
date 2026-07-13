@@ -68,10 +68,15 @@ class PDFLoader:
                     sort=True,
                 ).strip()
 
-                if (
+                use_native_text = (
                     not self.force_ocr
-                    and len(native_text) >= self.min_text_length
-                ):
+                    and self._is_usable_native_text(
+                        native_text,
+                        min_text_length=self.min_text_length,
+                    )
+                )
+
+                if use_native_text:
                     text = native_text
 
                     print(
@@ -81,7 +86,7 @@ class PDFLoader:
                 else:
                     print(
                         f"Page {page_number}: "
-                        "đang OCR..."
+                        "native text không đạt chất lượng, đang OCR..."
                     )
 
                     text_page = page.get_textpage_ocr(
@@ -119,6 +124,15 @@ class PDFLoader:
                 f"Không lấy được text từ {self.file_path.name}"
             )
 
+        quality = self.calculate_text_quality(full_text)
+        print(
+            "Text quality: "
+            f"{quality['article_headings']} article headings, "
+            f"{quality['chapter_headings']} chapter headings, "
+            "suspicious ratio="
+            f"{quality['suspicious_ratio']:.4%}"
+        )
+
         if self.use_cache:
             self.cache_path.parent.mkdir(
                 parents=True,
@@ -133,6 +147,61 @@ class PDFLoader:
             print(f"Saved OCR cache: {self.cache_path}")
 
         return full_text
+
+    @staticmethod
+    def _is_usable_native_text(
+        text: str,
+        *,
+        min_text_length: int,
+    ) -> bool:
+        """Kiểm tra native text có đại diện cho nội dung luật hay không.
+
+        Chỉ kiểm tra độ dài là không đủ: trang đầu của PDF có một lớp
+        native text ngắn chứa thông tin chữ ký điện tử, trong khi nội dung
+        Điều 1--4 nằm trong ảnh. Trường hợp đó phải chuyển sang OCR.
+        """
+        if len(text.strip()) < min_text_length:
+            return False
+
+        normalized = re.sub(
+            r"\s+",
+            " ",
+            text.lower(),
+        ).strip()
+
+        legal_markers = (
+            "điều ",
+            "chương ",
+            "khoản ",
+            "luật ",
+            "doanh nghiệp",
+        )
+        signature_markers = (
+            "ký bởi:",
+            "email:",
+            "thời gian ký:",
+            "cơ quan:",
+        )
+
+        legal_marker_count = sum(
+            marker in normalized
+            for marker in legal_markers
+        )
+        signature_marker_count = sum(
+            marker in normalized
+            for marker in signature_markers
+        )
+
+        # Lớp text chỉ chứa chữ ký/metadata không đại diện cho ảnh trang.
+        if (
+            signature_marker_count >= 2
+            and legal_marker_count == 0
+        ):
+            return False
+
+        # Với corpus pháp luật, native text phải có ít nhất một dấu hiệu
+        # nội dung pháp lý. Nếu không, OCR toàn trang an toàn hơn.
+        return legal_marker_count > 0
 
     @staticmethod
     def clean_text(text: str) -> str:
@@ -165,8 +234,46 @@ class PDFLoader:
             text,
         )
 
+        # Sửa các heading bị OCR phá vỡ nghiêm trọng trong hai PDF của
+        # Luật Doanh nghiệp 2020. Đây là sửa chữa có mục tiêu, không áp
+        # dụng như quy tắc tổng quát cho văn bản luật khác.
+        text = re.sub(
+            r"(?im)^.*Điềuviên79\..*$",
+            (
+                "Điều 79. Cơ cấu tổ chức quản lý của công ty "
+                "trách nhiệm hữu hạn một thành viên do tổ chức "
+                "làm chủ sở hữu"
+            ),
+            text,
+        )
+        text = re.sub(
+            r"(?im)^Điều3\..*?105\.\s*Quyền của Ban kiểm soát.*$",
+            "Điều 105. Quyền của Ban kiểm soát",
+            text,
+        )
+        text = re.sub(
+            r"(?im)^.*Di[eé]u205\.\s*Chuyển đổi doanh nghiệp tư nhân.*$",
+            (
+                "Điều 205. Chuyển đổi doanh nghiệp tư nhân thành "
+                "công ty trách nhiệm hữu hạn, công ty cổ phần, "
+                "công ty hợp danh"
+            ),
+            text,
+        )
+        text = re.sub(
+            r"(?im)^.*CONGTY\s+CO\s+PHAN\s*$",
+            "Điều 111. Công ty cổ phần",
+            text,
+        )
+
         text = PDFLoader._fix_joined_words(text)
         text = PDFLoader._fix_missing_diacritics(text)
+
+        # Chỉ bỏ ký tự kẻ bảng/nhiễu khi chúng nằm riêng hoặc ở rìa dòng.
+        # Không xóa toàn cục để tránh làm thay đổi nội dung pháp lý hợp lệ.
+        text = re.sub(r"(?m)^\s*[|¦`]+\s*$", "", text)
+        text = re.sub(r"(?m)^\s*[|¦`]+\s*", "", text)
+        text = re.sub(r"(?m)\s*[|¦`]+\s*$", "", text)
 
         # Giữ xuống dòng vì parser dùng cấu trúc dòng.
         text = re.sub(r"[ \t]+", " ", text)
@@ -174,6 +281,43 @@ class PDFLoader:
         text = re.sub(r"\n{3,}", "\n\n", text)
 
         return text.strip()
+
+    @staticmethod
+    def calculate_text_quality(
+        text: str,
+    ) -> dict[str, float | int]:
+        """Trả về các chỉ báo đơn giản để audit chất lượng OCR."""
+        text_length = max(len(text), 1)
+        suspicious_characters = {
+            "pipe": text.count("|"),
+            "backtick": text.count("`"),
+            "broken_bar": text.count("¦"),
+            "capital_i_circumflex": text.count("Î"),
+            "replacement": text.count("�"),
+        }
+        suspicious_total = sum(suspicious_characters.values())
+
+        article_headings = len(
+            re.findall(
+                r"(?im)^.{0,30}?Điều\s+\d+\s*[.:\-–—]",
+                text,
+            )
+        )
+        chapter_headings = len(
+            re.findall(
+                r"(?im)^.{0,30}?Chương\s+[IVXLCDM\d]+",
+                text,
+            )
+        )
+
+        return {
+            "text_length": len(text),
+            "suspicious_total": suspicious_total,
+            "suspicious_ratio": suspicious_total / text_length,
+            "article_headings": article_headings,
+            "chapter_headings": chapter_headings,
+            **suspicious_characters,
+        }
 
     @staticmethod
     def _fix_joined_words(text: str) -> str:

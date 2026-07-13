@@ -1,35 +1,31 @@
 [PAGE 1]
-+. 71 `
-
-`. Điều 114. Các loại cổ phần —
++. 71
+. Điều 114. Các loại cổ phần —
 1. Công ty cổ phần phải có cổ phần phổ thông. Người sở hữu cổ phần phổ
 . thông là cổ đông phổ thông. —
 2. Ngoai cổ phần phổ thông, công ty cổ phần có thểcó cổ phần ưu đãi.
 Người sở hữu cổ phần ưu đãi gọi là cổ đông ưu đãi. Cổ phần ưu đãi gồm các loại
 sau đây: . [ .
-| a) Cổ phần ưu đãi cổtức;
-
-| | |
-
+a) Cổ phần ưu đãi cổtức;
+|
 . b) Cổ phần ưu đãi hoàn lại;
-c) Cổ phần ưu đãi biểu quyết; . | |
-` d) Cổ phần ưu đãi khác theo quy định tại Điều lệcông ty và pháp luật về
+c) Cổ phần ưu đãi biểu quyết; . |
+d) Cổ phần ưu đãi khác theo quy định tại Điều lệcông ty và pháp luật về
 chứng khoán.
 
-|
 3. Người được quyền mua cổ phần ưu đãi cổtức, cổ phần ưu đãi hoàn lại và _.
-... cổ phần ưu đãi khác do Điều lệcông ty quy định hoặc do Đại hội đồng cốđông |
+... cổ phần ưu đãi khác do Điều lệcông ty quy định hoặc do Đại hội đồng cốđông
 quyết định. .
 4. Mỗi cổ phần của cùng một loại đều tạo cho người sở hữu cổ phần đó các
 quyền, nghĩa vụvà lợi ích ngang nhau.
 5. Cổ phần phổ thông không thểchuyển đổi thành cổ phầnưu đãi. Cổ phần . ..
 ưu đãi có thểchuyển đổi thành cổ phần phốthông theo nghị quyết của Đại hội
-| đồng cổ đông. ¦ , . n
+đồng cổ đông. ¦ , . n
 6. Cổ phần phổ thông được dùng làm tài sản cơ sởdé phát hành chứng chi
-lưu ký không có quyền biểu quyết được gọi là co phan phốthông cơ sở. Chứng — |
+lưu ký không có quyền biểu quyết được gọi là co phan phốthông cơ sở. Chứng —
 chỉlưu ký không có quyền biểu quyết có lợi ích kinh tếvà nghĩa vụtương ứng
 os A À A A 3 x a + Ả Á
-¦ với cổ phần phốthông cơ sở, trừquyền biểu quyết. Bug .
+với cổ phần phốthông cơ sở, trừquyền biểu quyết. Bug .
 7. Chính phủquy định vềchứng chỉlưu ký không có quyền biểu quyết.
 Điều 115. Quyền của cổ đông phổ thông [
 . 1. Cổ đông phổ thông có quyền sau đây:
@@ -42,7 +38,6 @@ b) Nhận cổtức với mức theo quyết định của Đại hội đồng 
 của từng cổ đông trong công ty;
 d) Tựdo chuyển nhượng cổ phần của mình cho người khác, trừ trường hợp
 
-|
 quy định tại khoản 3 Điều 120, khoản 1 Điều 127 của Luật này và quy định khác
 của pháp luật có liên quan; . .
 
@@ -53,16 +48,13 @@ của pháp luật có liên quan; . .
 . danh sách cổ đông có quyền biểu quyết; yêu cầu sửa đổi thông tin không chính
 Lu xác của mình;
 
-|
-
 —
 Dai e) Xem xét, tra cứu, trích lục hoặc sao chụp Điều lệcông ty, biên bản họp hội đồng cốđông và nghị quyết Đại hội dong cổ đông;
-g) Khi công ty giải thé hoặc phá san, được nhận một phan tai san còn lai |
-tương ứng với tỷ lệsở hữu cốphần tai công ty. `
+g) Khi công ty giải thé hoặc phá san, được nhận một phan tai san còn lai
+tương ứng với tỷ lệsở hữu cốphần tai công ty.
 ln 2. Cổ đông hoặc nhóm cổ đông sở hữu từ05% tổng sốcổ phần phổ thông
 trở lên hoặc một tỷ lệkhác nhỏhơn theo quy định tại Điều lệcông ty có quyền
 
-|
 sau đây:
 
 — a,
@@ -77,32 +69,30 @@ nghiệptịch, sốgiấy tờpháp ly của cá nhân đối với cổ đông
 là hoặc sốgiấy tờpháp lý của tổchức, địa chỉtrụ sởchính đối với cổ đông
 tổchức; số lượng cổ phần và thời điểm đăng ký co phan của từng cổ đông.... -
 tong sốco phan của cảnhóm cổ đông và tỷ lệsở hữu trong tổng sốcổ phần của
-
-| d) Quyền khác theo quy định của Luật này và Điều lệcông ty.
+d) Quyền khác theo quy định của Luật này và Điều lệcông ty.
 yêu 3. Cổ đông hoặc nhóm cổ đông quý định tại khöảñ2 Điều này có äüyèñ~—^— cau triệu tập hop Đại hội đồng cổ đông trong trường hợp sau đây: .
-| a) Hội đồng quản trịvi phạm nghiêm trọng quyền của cổ đông, nghĩa vụ __.
-của người quản lý hoặc ra quyết định vượt quá thẩm quyền được giao; ¦
+a) Hội đồng quản trịvi phạm nghiêm trọng quyền của cổ đông, nghĩa vụ __.
+của người quản lý hoặc ra quyết định vượt quá thẩm quyền được giao;
 b) Trường hợp khác theo quy định tại Điều lệcông tỵ. 9 ee xố
-` này 4. Yêu cầu triệutập họp Đại hội đồngcổ đông quy định tại khoản 3 Điều phải bang văn bản và phải bao gồm các nội dung sau day: họ, tên, địa chỉ _:
+này 4. Yêu cầu triệutập họp Đại hội đồngcổ đông quy định tại khoản 3 Điều phải bang văn bản và phải bao gồm các nội dung sau day: họ, tên, địa chỉ _:
 . liên lạc, quốc tịch, sốgiấy tờpháp lý của cá nhân đối với cổ đông là cá nhân; _.
 tên, mã sốdoanh nghiệp hoặc sốgiấy tờpháp lý của tổchức, dia chi tru sởchỉnh lg
 đổi với cốđông là tổchức; số lượng cổ phần và thời điểm dang ký cổphan của
-| từng cổ đông, tổng sốcốphan của cảnhóm cổ đông và tỷ lệsở hữu trong tổng số Î
+từng cổ đông, tổng sốcốphan của cảnhóm cổ đông và tỷ lệsở hữu trong tổng số Î
 cổ phần của công ty, căn cứvà ly do yêu cau triệu tập họp Đại hội dong cổ đông.
 
 [PAGE 3]
 . Kèm theo yêu cầu triệu tập hợp phải có các tài liệu, chứng cứvềcác vi phạm của
-Hội đồng quản trị, mức độvi phạm hoặc vềquyết định vượt quá thẩm quyền. `
+Hội đồng quản trị, mức độvi phạm hoặc vềquyết định vượt quá thẩm quyền.
 5. Cổ đông hoặc nhóm cổ đông sở hữu từ10% tổng sốcổ phần phổ thông
 trở lên hoặc một tỷ lệkhác nhỏhon theo quy định tại Điều lệcông ty có quyền
 đềcửngười vào Hội đồng quan tri, Bankiếm soát. Trường hợp Điều lệcông ty
 không có quy định khác thì việc đềcửngười vào Hội đồng quản` trịvà Ban kiểm
 soát thực hiện như sau:
 a) Các cổ đông phổ thông hợp thành nhómđểđềcửngười vào Hội đồng
-| quản trịvà Ban kiểm soát phải thông bao vềviệc họp nhóm cho các cổ đông dự
+quản trịvà Ban kiểm soát phải thông bao vềviệc họp nhóm cho các cổ đông dự
 họp biết trước khi khai mac Đại hội đồng cổ đông; :
 
-|
 b) Căn cứsố lượng thành viên Hội đồng quản trịvà Ban kiểm soát, cổ đông
 hoặc nhóm cổ đông quy định tại khoan này được quyền đềcửmột hoặc một số
 người theo quyết định của Đại hội đồng cô đông làm ứng cửviên Hội đồng quản
@@ -117,12 +107,12 @@ quyết so với cổphan pho thông khác; sốphiếu biểu quyết của m�
 ...... quyền và cốđông sáng lập được quyền năm giữcổphan ưu đãi biểu quyết. Ưu
 đãi biểu quyết của cốđông sáng lập có hiệu luc trong 03 năm ké từngày công ty
 duoc cấp Giấy chứng nhận dang ky doanh nghiệp. Quyền biểu quyết và thời hạn .
-` ưu đãi biểu quyết đối với cổ phần ưu đãi biểu quyết do tổchức được Chính phủ .
+ưu đãi biểu quyết đối với cổ phần ưu đãi biểu quyết do tổchức được Chính phủ .
 ủy quyền nắm giữđược quy định tại Dieu lệcông ty. Sau thời hạn ưu đãi biểu _
-` quyết, cổphan ưu đãi biểu quyết chuyên đổi thành cốphan pho thông. |
+quyết, cổphan ưu đãi biểu quyết chuyên đổi thành cốphan pho thông.
 2. Cổ đông sở hữu cổ phần ưu đãi biểu quyết có quyền sau đây:
 a) Biểu quyết vềcác vấn đềthuộc thẩm quyền của Đại hội đồng cổ đông
-với sốphiếu biểu quyết theo quy định tại khoản 1 Điều này; |
+với sốphiếu biểu quyết theo quy định tại khoản 1 Điều này;
 b) Quyền khác như cổ đông phổ thông, trừ trường hợp quy định tại khoản 3
 Điều này. . .
 3. Cổ đông sở hữu cổ phần ưu đãi biểu quyết không được chuyển nhượng
@@ -139,32 +129,32 @@ mức 1. Cổ phần ưu đãi cổtức là cổ phần được trảcổtức
 100000 hằng năm gồm cổtức cốđịnh và cô tức thưởng. Cổtức cốđịnh không phụthuộc
 vào kết quảkinh doanh của công ty. Mức cổtức cốđịnh cụ thểvà phương thức
 xác định cốtức thưởng được ghi rõ trong cổphiếu của cổphan ưu đãi cốtức.
-2. Cổ đông sở hữu cổ phần ưu đãi cổtức có quyền sau đây: |
+2. Cổ đông sở hữu cổ phần ưu đãi cổtức có quyền sau đây:
 a) Nhận cổtức theo quy định tại khoản 1 Điều này; . .
-| ` b) Nhận phần tai sản còn lai tương ứng với tỷ lệsở hữu cổ phần tại công ty `
+` b) Nhận phần tai sản còn lai tương ứng với tỷ lệsở hữu cổ phần tại công ty
 sau khi công ty đã thanh toán hết các khoản nợ, cổ phần ưu đãi hoàn lại khi công
 ty giải thểhoặc phá sản; -- -
-| ©) Quyền khác như cổ đông phổ thông, trừ trường hợp quy định tai khoản 3°
+©) Quyền khác như cổ đông phổ thông, trừ trường hợp quy định tai khoản 3°
 Điều này. _
 
 . ` ln
 họp 3. Cổ đông sở hữu cổ phần ưu đãicổtức không có quyền biểu quyết, dự
 trừ trườngĐại hộihợpđồngquycổ đông,định tại đềcửngườikhoản 6 Điềuvào148HộicủađồngLuậtquảnnày. trịvàBan__ kiểm soát,
 Điều 118. Cổphan ưu đãi hoàn. lạivà quyền của cốđông sở hữu cố.. ..
-| phần ưu đãi hoàn lại.... Bel) SLT MLit Dec SLee RE
+phần ưu đãi hoàn lại.... Bel) SLT MLit Dec SLee RE
 yêu 1. Cổphan ưu đãi hoan lai là cổ phần được công ty hoàn lại vốn góp theo
-phancâu của người sở hữu hoặc theo các điều kiệnđược ghi tạicổphiếu của cổ..... .... ưu dai hoàn lai và Điều lệcông ty. `
+phancâu của người sở hữu hoặc theo các điều kiệnđược ghi tạicổphiếu của cổ..... .... ưu dai hoàn lai và Điều lệcông ty.
 2. Cổ đông sở hữucổ phầnưu đãi hoàn lại cóquyềnnhư thông, cổ đông phổ.... .. trừ trường hợp quy định tại khoản 3 Điều này. R .
 .. 3, Cổ đông sở hữu cổ phần ưu đãi hoàn lại họp khôngcó quyền biểu quyết, dự
 trừ trườngĐại hộihợpđồngquycổ đông,định tại đềcửngười vào Hội đồng quản trịvà Ban kiểm soát, __ | | khoan5 Điều 114 vàkhoản6 Điều 148 của Luậtnày. ______.
-`. Điều 119. Nghĩa vụ của cốGong ee ee 0 3/06 ur —
-| — 1. Thanh toán đủva đúng thời han sốcổ phần cam kết ma. _ . .`‹
+. Điều 119. Nghĩa vụ của cốGong ee ee 0 3/06 ur —
+— 1. Thanh toán đủva đúng thời han sốcổ phần cam kết ma. _ . .`‹
 mọi 2, Không được rút vốn đã góp bằng cổ phầnphổ thông ra khỏi công ty dưới | hình thức, trừ trường hợp được công ty hoặc người khác mua lại cổphân. __
 Trường hợp có cổ đông rút một phần hoặc toàn bộvốn cổ phần đã góp trái với
 quy định tại khoản này thì cổ đông đó và người có lợi ích liên quan trong công
 tycủaphải cùng liên đới chịu trách nhiệm vềcác khoảnnợvà nghĩa vụtài sản khác
 công ty trong phạm vi giá trịcổ phần đã bịrút và các thiệt hại xảy ra. l
-` 3. Tuân thủĐiều lệcông ty và quy chếquản lý nội bộcủa công ty.
+3. Tuân thủĐiều lệcông ty và quy chếquản lý nội bộcủa công ty.
 
 [PAGE 5]
 t“ | 75
@@ -172,7 +162,7 @@ t“ | 75
 4, Chấp hành nghị quyết, quyết định của Đại hội đồng cổ đông, Hội đồng
 quản trị.
 5. Bảo mật các thông tin được công ty cung cấp theo quy định tại Điều lệ
-` công tyvà pháp luật; chỉsửdụng thông tin được cung cấp để thực hiện va bao
+công tyvà pháp luật; chỉsửdụng thông tin được cung cấp để thực hiện va bao
 vệquyền va lợi ich hop pháp cua minh; nghiêm cam phat tan hoặc sao, gửi
 thông tin được công ty cung cap cho tổchức, cá nhânkhác.
 6.Nghĩa vụkhác theo quy định của Luật nay và Điều lệcông ty.
@@ -193,16 +183,14 @@ cốđông. Trường hợp này, cổ đông sáng lập dựđịnh chuyên nh
 thong thi không có quyền biểu quyết vềviệc chuyển nhượng cốphan đó.
 _ 4. Cac han chếquy định tai khoan 3 Điều nay không áp dung đối với cổ
 phần phốthông sau đây:
-¦ a) Cổ phần mà cổ đông sáng lập có thêm sau khi đăng ký thành lập
-doanh nghiệp; l | |
+a) Cổ phần mà cổ đông sáng lập có thêm sau khi đăng ký thành lập
+doanh nghiệp; l |
 . b) Cổ phần đã được chuyển nhượng cho người khác không phải là cổ đông
-. sáng lập. . `
+. sáng lập. .
 Điều 121. Cổphiếu . | | ln
-
-| |
 1. Cổphiếu là chứng chỉdo công ty cổ phần phát hành, bút toán ghi sốhoặc _:
 dữliệu điện tửxác nhận quyền sở hữu một hoặc một sốcổphan của công ty đó.
-Co phiếu phải bao gồm các nội dung chủyếu sau đây: |
+Co phiếu phải bao gồm các nội dung chủyếu sau đây:
 lữ
 a) Tên, mã sốdoanh nghiệp, địa chỉtrụ sởchính của công ty;
 b) Số lượng cổ phần và loại cổ phần; _ B
@@ -217,30 +205,25 @@ cổ đông là cá nhân; tên, mã sốdoanh nghiệp hoặc sốgiây to phá
 đ) Chữ ký của người đại diện theo pháp luật của công ty;
 ©) Sốđăng ky tại sổđăng ký cổ đông của công ty và ngày phát hành cổphiếu; .
 đối g) Nội dung khác theo quy định tai các điều 116, 117 va 118 của Luật này với cổphiếu của cổ phần ưu đãi.
-
-| |
-| 2. Trường hợp có sai sót trong nội dung và hình thức cổphiếu do công ty
+2. Trường hợp có sai sót trong nội dung và hình thức cổphiếu do công ty
 phát hành thì quyền và lợi ích của người sở hữu cổphiêu đó không bịanh
-` — hưởng. Người đại diện theo pháp luật của công ty chịu trách nhiệm vềthiệt hại
+— hưởng. Người đại diện theo pháp luật của công ty chịu trách nhiệm vềthiệt hại
 do những sai sótđó gây ra.
 khác 3.thìTrường hợp cổphiếu bịmất,bịhư hỏng hoặc bịhủy hoai dưới hình thức _:
 nghịcủa cổ đôngco đông đượcphải baocônggồmty cấpcác lạinộicổphiếudung sautheođây:đề nghịcủa cổ đông| đó. Đề
-| a) Thông tin vềcổphiếu đã bịmất, bịhư hỏng hoặc bịhủy hoại dưới hình —
+a) Thông tin vềcổphiếu đã bịmất, bịhư hỏng hoặc bịhủy hoại dưới hình —
 thức khác; — ;
 —.. b) Cam kết chịu trách nhiệm vềnhững tranh chấp phát sinh từviệc cấp lại
-cổphiếu mới. . ` |
-
-|
-
+cổphiếu mới. . `
 . Điều 122. Sổđăng ký cốđông
 Giấy 1. Công ty cổ phần phải lập và lưu giữsổđăng ký cổ đông từ khi được| cấp
 giấy, chứng nhận đăng ký doanh nghiệp. Sốđăng ký cổ đông có thểlà văn bản
 công tập dữliệu điện tửghi nhận thông tin vềsở hữu cổ phần của các côđông... ...:. ty.__...TLD ttt ar eee n th 8 thịreen nem pa emnm mansamen ne “8 *
 2. Sổđăng ký cổ đông phải bao gồm các nộidungchủyếu sau đây:———————...........
-| a) Tên, địa chỉtrụ sởchính của công ty; __. ..
+a) Tên, địa chỉtrụ sởchính của công ty; __. ..
 ln b) Tổng sốcổ phần được quyền chào bán, loại cổ phần được quyền chao
 bán và sốcổphan được quyền chao bán của từng loại; ...... —.._..—2¦... 7
-| ©) Tổngsốcổ phầnđã bán của timg loại va giá trịvốn cổ phần đã góp; ` .“
+©) Tổngsốcổ phầnđã bán của timg loại va giá trịvốn cổ phần đã góp; ` .“
 d) Họ, tên, địa chỉliên lạc, quốc tịch, sốgiấy tờpháp lý của cá nhân đối với _ | cổ đông là cá nhân; tên, mã sốdoanh nghiệp hoặc sốgiấy tờpháp lý của tổchức, _
 địa chỉtrụ sởchính đối với cổ đông là tổchức; ___... [N EE HHNH
 —. —. đ) Số lượng cổ phần từng loại của mỗi cổ đông, ngàyđăng ký cổ phần. ___
@@ -248,35 +231,30 @@ chức 3. Sốđăng ky cổ đông được lưu giữtại trụ sởchính c�
 tra, khác có chức năng lưu giữsổđăng ký cổ đông. Cổ đông có quyền kiém
 sốđăngtra cứu,ký cổ đông.trích lục, sao chép tên và(0000địa chỉliên lạc của cổ đông công ty trong
 
-|
 với 4. Trường hợp cổ đông thay đổi địa chỉliên lạc thì phải thông báo kịp thời công ty đểcập nhật vào sổđăng ký cổ đông. Công ty không chịu trách
 
 [PAGE 7]
-| `... nhiệm vềviệc không liên lạc được với cổ đông do không được thông báo thay
+`... nhiệm vềviệc không liên lạc được với cổ đông do không được thông báo thay
 đối dia chỉliên lạc của cổ đông.
 5. Công ty phải cập nhật kịp thời thay đổi cổ đông trong sổđăng ký cổ
 đông theo yêu cầu của cổ đông có liên quan theo quy định tại Điều lệcông ty.
-` Điều 123. Chao bán cé phan
-1. Chào bán cổ phần là việc công ty tăng thêm số lượng cổ phần, loại cổ|
-
-|
+Điều 123. Chao bán cé phan
+1. Chào bán cổ phần là việc công ty tăng thêm số lượng cổ phần, loại cổ
 phần được quyền chao ban dé tăng von điểu lệ.
 2. Chao bán cổ phần có thểthực hiện theo các hình thức sau đây:
-a) Chào bán cổ phần cho cổ đông hiện hữu; |
-
-|
-“b) Chao bán cổphan riêng lẻ; | ¦
-| ©) Chao ban cổphan ra công chúng. ¦
-` 3. Chào bán cổ phần ra công chúng, chào bán cổ phần của công ty đại
+a) Chào bán cổ phần cho cổ đông hiện hữu;
+“b) Chao bán cổphan riêng lẻ; |
+©) Chao ban cổphan ra công chúng.
+3. Chào bán cổ phần ra công chúng, chào bán cổ phần của công ty đại
 chúng và tổchức khác thực hiện theo quy định của pháp luật vềchứng khoán.
 4. Công ty thực hiện đăng ký thay đổi vốn điều lệtrong thời hạn 10 ngày kể
 từngày hoàn thành dot bán cô phan. .
-Điều 124. Chào bán cổ phần cho cốđông hiện hữu |
+Điều 124. Chào bán cổ phần cho cốđông hiện hữu
 1. Chào bán cổ phần cho cổ đông hiện hữu là trường hợp công ty tăng thêm
-` số lượng cổphan, loại cổ phần được quyền chao bán và bán toan bộsốcốphân ` ..
+số lượng cổphan, loại cổ phần được quyền chao bán và bán toan bộsốcốphân ` ..
 đó cho tất cảcổ đông theo tỷ lệsở hữu cốphan hiện có của họtai công ty.
 2, Chào bán cổ phần cho cổ đông hiện hữu của công ty cổ phần không phải —
-là công ty đại chúng được thực hiện như sau: `
+là công ty đại chúng được thực hiện như sau:
 a) Công ty phải thông báo bằng văn bản đến cổ đông theo phương thức để _.
 bao đảm đến được địa chỉliên lạc của ho trong sốđăng ky cô đông chậm nhất là
 15 ngày trước ngày kết thúc thời han đăng ký mua côphân; _ * (00010100
@@ -287,10 +265,10 @@ và tỷ lệsở hữu cổ phần hiện có của cốđông tai công ty; to
 chao bán và sốcổ phần cổ đông được quyền mua; giá chao bán co phan, thời hạn
 đăng ký mua; họ, tên, chữ ký của người đại diện theo pháp luật của công ty. Kèm
 theo thông báo phải có mẫu phiếu đăng ký mua co phan do công ty phát hành.
-Trường hợp phiếu đăng ký mua cô phần không được gửi vềcông ty đúng hạn |
+Trường hợp phiếu đăng ký mua cô phần không được gửi vềcông ty đúng hạn
 theo thông báo thì cổ đông đó coi như đã không nhận quyền ưu tiên mua;
 ©) Cổ đông có quyền chuyển quyền ưu tiên |mua cổ phần của mình cho
-người khác. . ¦
+người khác. .
 
 [PAGE 8]
 . 3. Trường hợp số lượng cổ phần dựkiến chao bán không được cổ đông và
@@ -302,13 +280,13 @@ hoặc pháp luật vềchứng khoán có quy định khác.
 về 4. Cổ phần được coi là đã bán khi được thanh toán đủvà những thông tin
 sổđăngngườikymuacổ đông;quy địnhkể từthờitại khoảnđiểm2 Điềuđó, người122 củamuaLuậtcổ phầnnày đượctrởthànhghi đầycổ đôngđủvào
 của công ty.
-5. Sau khi cổ phần được thanh toán đầy đủ, công ty phát hành và giao— cổ |
+5. Sau khi cổ phần được thanh toán đầy đủ, công ty phát hành và giao— cổ
 phiếu cho người mua; trường hợp không giao cốphiếu, các thông tin vềcổ đông __.
 quy định tại khoản 2 Điều 122 của Luật nay được ghi vào sổđăng ky cốđông dé
-| chứng thực quyền sở hữu cổphan của cổ đông đó trong công ty.
-— Điều 125. Chao bán cổ phần riêng lẻ |
+chứng thực quyền sở hữu cổphan của cổ đông đó trong công ty.
+— Điều 125. Chao bán cổ phần riêng lẻ
 1. Chào bán cổ phần riêng lẻcủa công ty cổ phần không phải là công ty đại
-. chúng phải đáp ứng các điều kiện sau đây: |
+. chúng phải đáp ứng các điều kiện sau đây:
 ..:. 9) Không chao bán thông qua phương tiện thông tin đại chúng; ___... __.
 
 chuyên nghiệp hoặc chỉchào bán cho nhà đầu tư chứng khoán chuyên nghiệp— —————
@@ -316,12 +294,12 @@ phan 2.riêngCônglẻtheoty cổ phầnquy địnhkhôngsau day:phải làcông
 a) Công ty quyết định phương án chao bán cổ phần riêng lẻtheo quy định
 
 tại b) Cổ đôngcủa công ty thực hiện quyền ưutiênmua cổ phần theo quy định... ___ khoản 2 Điều 124 của Luật này, trừ trường hợp sáp nhập, hợp nhất công ty;
-` __¢)Trường hợp cổ đôngvà người nhận chuyển quyền tru tiên mua khống ..
+__¢)Trường hợp cổ đôngvà người nhận chuyển quyền tru tiên mua khống ..
 mua hết thì sốcổ phần còn lại được bán cho người khác theo phương an chao
-ban co phan riêng lẻvới điều kiện không thuận lợi hon sovới điều kiện chào `
-ban cho các cổ đông, trừ trường hợp Đại hội đồng cổ đông có chấp thuận khác. |
+ban co phan riêng lẻvới điều kiện không thuận lợi hon sovới điều kiện chào
+ban cho các cổ đông, trừ trường hợp Đại hội đồng cổ đông có chấp thuận khác.
 phải 3. Nhà đầu tưnước ngoai mua cổ phầnchao bantheo quy định tại Điều nay’ _ làm thủ tục vềmua cốphần theo quy định của Luật Đầu tư. .
-Điều 126. Bán cốphan ấÎ0 I s |
+Điều 126. Bán cốphan ấÎ0 I s
 bán Hội đồng quantri quyết định thời điểm, phương thức va giá bán cổ phần. Giá co phan không được thấp hon giá thị trường tai thời điểm bán hoặc giá tri
 được ghi trong sổsách của cổphan tại thời điểm gần nhất, trừ trường hợp sau đây:
 1. Cổ phần bán lần đầu tiên cho những người không phải là cổ đông sáng lập;
@@ -334,14 +312,14 @@ bán Hội đồng quantri quyết định thời điểm, phương thức va gi
 3. Cổ phần bán cho người môi giới hoặc người bảo lãnh; trường hợp này,
 sốchiết khấu hoặc ty lệchiết khẩu cụthé phải được sựchấp thuận của Đại hội ỉ
 đồng cổ đông, trừ trường hợp Điều lệcông ty quy định khác;
-| 4. Trường hợp khác và mức chiết khấu trong các trường hợp đó do Điều lệ
+4. Trường hợp khác và mức chiết khấu trong các trường hợp đó do Điều lệ
 công ty hoặc nghị quyết Đại hội dong cổ đông quy định.
-Điều 127. Chuyển nhượng cốphần | ¦
+Điều 127. Chuyển nhượng cốphần |
 1. Cổ phần được tựdo chuyển nhượng, trừ trường hợp quy định tại khoản 3
 Điều 120 của Luật này và Điều lệcông ty có quy định hạn chếchuyên nhượng
 cổphan. Trường hợp Điều lệcông ty có quy định hạn chếvềchuyển nhượng cô
 phần thì các quy định này chỉcó hiệu lực khi được nêu rõ trong cổphiêu của cổ
-| phan tương ung. |
+phan tương ung.
 2. Việc chuyểnnhượng được thực hiện bằng hợp đồng hoặc giao dịch trên
 thị trường chứng khoán. Trường hợp chuyển nhượng bằng hợp đồng thì giấy tờ
 chuyển nhượng phải được bên chuyển nhượng và bên nhận chuyển nhượng hoặc
@@ -353,45 +331,41 @@ theo pháp luật của cốđông đó trởthành cổ đông của công ty. 
 4. Trường hợp cổ đông là cá nhân chết mà không có người thừa kế, người
 thừa kếtừchối nhận thừa ké hoặc bịtruất quyền thừa kếthì sốcổphan của cố
 . đông đó được giải quyết theo quy định của pháp luật vềdân sự. .
-
-` l tình Cổ đông có quyền tặng cho một phần hoặc toàn bộcổ phần của mình tại `
+l tình Cổ đông có quyền tặng cho một phần hoặc toàn bộcổ phần của mình tại
 công ty cho cá nhân, tổchức khác; sửdụngcổ phầnđểtrảnợ. Cánhân,tổchức .
-được tang cho hoặc nhận tra ng băng cốphan sẽtrởthành cổ đông của công ty. |
+được tang cho hoặc nhận tra ng băng cốphan sẽtrởthành cổ đông của công ty.
 ; 6. Cá nhân, tổchức nhận cổ phần trong các trường hợp quy định tại Điều
 nay chỉtrởthành cốđông công ty từthời điểm các thông tin của họquy định tại
 .. khoản 2 Điều 122 của Luật này được ghi day đủvào sốđăng ky cổ đông.
 7. Công ty phải đăng ký thay đổi cổ đông trong sổđăng ký cổ đông theo
-| yêu cau của cổ đông có liên quan trong thời han 24 giờké từ khi nhận được yêu
-cau theo quy định tai Điều lệcông ty. | |
-Điều 128. Chào bán trái phiếu riêng lẻ |
+yêu cau của cổ đông có liên quan trong thời han 24 giờké từ khi nhận được yêu
+cau theo quy định tai Điều lệcông ty. |
+Điều 128. Chào bán trái phiếu riêng lẻ
 1. Công ty cổ phần không phải là công ty đại chúng chào bán trái phiếu
 riêng lẻtheo quy định của Luật này và quy định khác của pháp luật có liên quan.
 
 [PAGE 10]
 . li . 80 .
 
-|
-
 Chào bán trái phiếu riêng lẻcủa công ty đại chúng, các tổchức khác và chào bán
 trái phiếu ra công chúng thực hiện theo quy định của pháp luật vềchứng khoán.
 2. Chào bán trái phiếu riêng lẻcủa công ty cổ phần không phải là công ty
-. đại chúng là chào bán không thông qua phương tiện thông tin đại chúng cho ¦
+. đại chúng là chào bán không thông qua phương tiện thông tin đại chúng cho
 dưới 100 nhà đầu tư, không ké nha đầu tư chứng khoán chuyên nghiệp và đáp
 ứng điều kiện vềđối tượng mua trái phiếu riêng lẻnhư sau:
 kèm a) Nhà đầu tư chiến lược đối với trái phiếu chuyển đổi riêng lẻvà trái phiếu — theo chứng quyền riêng lẻ;
-| b) Nhà đầu tư chứng khoán chuyên nghiệp đối với trái phiéu chuyển đổi
-riêng lẻ, trái phiếu kèm theo chứng quyền riêng lẻva loai trái phiếu riênglẻkhác. . `
+b) Nhà đầu tư chứng khoán chuyên nghiệp đối với trái phiéu chuyển đổi
+riêng lẻ, trái phiếu kèm theo chứng quyền riêng lẻva loai trái phiếu riênglẻkhác. .
 ...... 3. Công ty cổ phần không phải là công ty đại chúng chao bán trái phiếu ` Tiếng lẻphải đáp ứng các điều kiện sau đây; — —“ .“....¦.¦.T i 1 1 nh, ở0 (3 ơn rị
 đến a) Công ty đã thanh toán đủcảgốc và lãi của trái phiếu đã chào bán và đã
 hạn thanh toán hoặc thanh toán đủcác khoản nợđến hạn trong 03 năm liên
 . tiếp trước đợt chào bán trái phiếu (nếu có), trừ trường hợp chào bán trái phiếu
-| cho các chủnợlà tổchức tài chính được lựa chọn; |
-| b) Có báo cáo tài chính của năm trước liền kềnăm phát hành được kiểm toán;
+cho các chủnợlà tổchức tài chính được lựa chọn;
+b) Có báo cáo tài chính của năm trước liền kềnăm phát hành được kiểm toán;
 hoat c) Bao đảm điều kiện vềtỷ lệan toàn tài chính, tỷ lệbảo đảm an toan trong _: độngtheo quy định pháp luật;—.————————————————— Tore ener ie nese sate
 d) Diéu kiện khác theo quy định của pháp luật có liên quan. | .
 . Điều 129. Trình tự, thủ tục chào bán và chuyển nhượng trái phiếu .
-riêng lẻ `
-
+riêng lẻ
 .
 
 _ 1. Công ty quyết định phương án chào bán trái phiếu riêng lẻtheo quy định —
@@ -402,15 +376,14 @@ nhấtmua trái phiếu và thông bdo đợt. chào— bán cho sởgiao dịch
 3. Công ty công bốthông tin vềkết quảcủa đợt chào bán cho các nhà đầu
 tư đã mua trái phiếu và thông báo kết quảđợt chào bán đến sởgiao dịch chứng
 khoán trong thời hạn 10 ngày kể từngày kết thúc đợt chào bán trái phiếu.
-` 4. Trái phiếu phát hành riêng lẻđược chuyển nhượng giữa các nhà đầu tư
-đáp ứng điều kiện vềđối tượng mua trái phiếu riêng lẻquy định tại khoản 2 `
-
+4. Trái phiếu phát hành riêng lẻđược chuyển nhượng giữa các nhà đầu tư
+đáp ứng điều kiện vềđối tượng mua trái phiếu riêng lẻquy định tại khoản 2
 . Điều 128 của Luật này, trừ trường hợp thực hiện theo bản án, quyết định của
 Tòa án đã có hiệu lực pháp luật, phán quyết của Trọng tài có hiệu lực hoặc thừa
 ke theo quy định pháp luật.
 
 [PAGE 11]
-vô 81 |
+vô 81
 định 5.chiCăntiết vềloạicứquytráiđịnhphiếu,của Luậthồ sơ,nàytrìnhvàtự,Luậtthủ tụcChứngphátkhoán,hành vàChínhgiao phủquydịch trái
 phiếu riêng lẻ; công bốthông tin; phát hành trái phiếu ra thị trường quốc tế.
 Điều 130. Quyết định chào bán trái phiếu riêng lẻ
@@ -429,7 +402,7 @@ từngày hoàn thành việc chuyển đối trái phiêu thành cổphan.
 Điều 131. Mua c6 phan, trái phiếu
 Cổ phần, trái phiếu của công ty cổ phần có thểđược mua bằng Đồng Việt
 Nam, ngoai tệtựdo chuyển đổi, vàng, quyền sửdung đất, quyền sở hữu trí tuệ,
-ỉ` | công nghệ, bí quyết kỹthuật, tài sản khác quy định tại Điều lệcông ty và phải /`
+ỉ` | công nghệ, bí quyết kỹthuật, tài sản khác quy định tại Điều lệcông ty và phải /
 được thanh toán đủmột lần.
 Điều 132. Mua lại cổphan theo yêu cầu của cốđông .
 1. Cổ đông đã biểu quyết không thông qua nghị quyết vềviệc tổchức lại
@@ -438,15 +411,15 @@ có quyền yêu cầu công ty mua lại cổphan của mình. Yêu cầu phả
 trong đó nêu rõ tên, địa chi của cốđông, số lượng co phan từng loai, giá dựđịnh
 bán, lý do yêu cầu công ty mua lại. Yêu cầu phải được gửi đền công ty trong
 thời hạn 10 ngày kể từngày Đại hội đồng cốđông thông qua nghị quyết vềcác
-van đềquy định tai khoản này. c . |
+van đềquy định tai khoản này. c .
 2. Công ty phải mua lại cổ phần theo yêu cầu của cổ đông quy định tại
 khoản1tại Điều Điều lệcôngnày vớity tronggiá thị trườngthời hạnhoặc90 ngàygiá đượckể từngàytính theo nhậnnguyênđượctắc yêuquy địnhcau.
 Trường hợp không thỏa thuận được vềgiá thì các bên có thể yêu cau một tổ
 chức thẩm định giá định giá. Công ty giới thiệu ít nhất 03 tổchức thẩm định giá
 đểcổ đông lựa chọn và lựa chọn đó là quyết định cuối cùng.
 Điều 133. Mua lại cổ phần theo quyết định của công ty
-| Công ty có quyền mua lại không quá 30% tổng sốcổ phần phổ thông đã
-`. bán, một phan hoặc toàn bộcốphan ưu đãi co tức đã ban theo quy định sau đây:
+Công ty có quyền mua lại không quá 30% tổng sốcổ phần phổ thông đã
+. bán, một phan hoặc toàn bộcốphan ưu đãi co tức đã ban theo quy định sau đây:
 
 [PAGE 12]
 cổ phần1. Hộicủađồngtừng quảnloại đãtrịcóbánquyềntrong quyếtthời hạnđịnh12muatháng.lại khôngTrườngquáhợp10%khác,tổngviệcsố
@@ -459,7 +432,7 @@ thuận khác thì giá mua lại không được thấp hơn giá thị trườ
 hữu 3. Công ty có thểmua lại cổ phần của từng cổ đông tương ứng với tỷ lệsở cổ phần của họtrong công ty theo trình tự, thủ tục sau đây: .
 a) Quyết định mua lại cổ phần của công ty phải được thông báo bằng
 phương thức đểbảo đảm đến được tất—cảcổ đông trong thời hạn 30 ngày kể từ
-`. ngày quyết định đó được thông qua. Thông báo phải gồm tên, địa chỉtrụ sở _.
+. ngày quyết định đó được thông qua. Thông báo phải gồm tên, địa chỉtrụ sở _.
 chính của công ty, tổng sốcổ phần và loại cổ phần được mua lại, giá mua lại
 hoặc nguyên tắc định giá mua lại, thủ tục vàthời hạn thanh toán, thủ tục và thời
 hạn đểcổ đông bán cổ phần của họcho công ty;
@@ -470,43 +443,40 @@ Công tytoán;chimuachữ kýlạicủacổ phầncổ đôngtronghoặcthờing
 Điều 134. Điều kiện thanh toán và xửlý các cổ phần được mua lại —
 định1. Công ty chỉđược thanh toán cổ phần được mua lại chocổ đôngtheo quy ~~~ ~~~
 cổ phầntai Điềuđược mua132 valại,Điềucông133ty vẫncủabảoLuậtđảmnaythanhnếu ngaytoán đủcácsau khi thanh toán hết số vụtài sản khác. khoảnnợvà. nghĩa ...
-| 2. Cổ phần được mua lại theo quy định tại Điều 132 và Điều 133 của Luật
+2. Cổ phần được mua lại theo quy định tại Điều 132 và Điều 133 của Luật
 này được coi là cổ phần chưa bán theo quy định tai khoản 4 Điều 112 củaLuật __
 này. Công ty phải đăng ký giảm vốn điều lệtương ứng với tổng mệnh giá các cổ
-` phần được công ty mua lại trong thời hạn 10 ngày kể từngày hoàn thành việc
+phần được công ty mua lại trong thời hạn 10 ngày kể từngày hoàn thành việc
 có thanh toán mua lại cổ phần, trừ trường hợp pháp luật vềchứng khoán có quy _.
 định khác. Lũ L. lặn R
 
 .
-` hủy 3. Cổphiếu xác nhận quyền sở hữu cổ phần đã được mua lại phải được tiêu ` ` | ngay sau khi cổ phần tương ứng đã được thanh toán đủ. Chủtịch Hội đồng
+hủy 3. Cổphiếu xác nhận quyền sở hữu cổ phần đã được mua lại phải được tiêu ` ` | ngay sau khi cổ phần tương ứng đã được thanh toán đủ. Chủtịch Hội đồng
 quản trịvà Giám đốc hoặc Tổng giám đốc phải liên đới chịu trách nhiệm vềthiệt
-hại do không tiêu hủy hoặc chậm tiêu hủy cổphiếu. |
+hại do không tiêu hủy hoặc chậm tiêu hủy cổphiếu.
 
 [PAGE 13]
-tó 83 — |
-
+tó 83 —
 4. Sau khi thanh toán hết sốcổ phần được mua lại, nếu tổng giá trịtài sản .
 được ghi trong sổkếtoán của công ty giảm hơn 10% thì công ty phải thông báo
 cho tất cảchủnợbiết trong thời han 15 ngày kể từngày thanh toán hết sốco
 phan được mua lai. ¦ .
-Điều 135. Trảcổtức |
+Điều 135. Trảcổtức
 1. Cổtức trảcho cổ phần ưu đãi được thực hiện theo điều kiện áp dụng
 riêng cho môi loại cổphan ưu đãi.
 2. Cổtức trảcho cổ phần phổ thông được xác định căn cứvào sốlợi nhuận
 rong đã thực hiện va khoản chi trảcốtức được trích từnguén lợi nhuận giữlại
 của công ty. Công ty cổ phần chỉđược trảcổtức của cổphan| pho thông khi có
-| đủcác điều kiện sau đây:
+đủcác điều kiện sau đây:
 a) Công ty đã hoàn thành nghĩa vụthuếvà các nghĩa vụtài chính khác theo
 quy định của pháp luật; :
-b) Đã trích lập các quỹcông ty và bù đắplỗtrước đó theo quy định của |
-| pháp luật và Điều lệcông ty; —
-c) Ngay sau khi trảhết sốcổtức, công ty vẫn bảo đảm thanh toán đủcác |
-khoản nợvà nghĩa vụtài sản khác đền hạn. |
-
-|
+b) Đã trích lập các quỹcông ty và bù đắplỗtrước đó theo quy định của
+pháp luật và Điều lệcông ty; —
+c) Ngay sau khi trảhết sốcổtức, công ty vẫn bảo đảm thanh toán đủcác
+khoản nợvà nghĩa vụtài sản khác đền hạn.
 3. Cổtức có thểđược chi trảbằng tiền mặt, bằng cổ phần của công ty hoặc °
 . bằng tài sản khác quy định tại Điều lệcông ty. Nếu chi trảbăng tiền mặt thì phải .
-` ` được thực hiện bằng Đồng Việt Nam va theo các phương thức thanh toan theo
+` được thực hiện bằng Đồng Việt Nam va theo các phương thức thanh toan theo
 quy định của pháp luật. .
 4. Cổtức phải được thanh toán đầy đủtrong thời hạn 06 tháng kể từngày
 kết thúc họp Đại hội đồng cổ đông thường niên. Hội đồng quản trịlập danh sách
@@ -517,21 +487,18 @@ chỉđăng ký trong sổđăng ký cổ đông chậm nhất là 15 ngày trư
 trảcổtức. Thông báo phải bao gồm các nội dung sau đây:
 a) Tên công ty và dia chi trụ sởchính của công ty; —
 b) Họ, tên, địa chỉliên lạc, quốc tịch, sốgiấy tờpháp lý của cá nhân đối với
-cô đông là cá nhân; `
-
-`
+cô đông là cá nhân;
 c) Tên, mã sốdoanh nghiệp hoặc sốgiấy tờpháp lý của tổchức, địa chi trụ
 ... sởchính đối với cốđông là tổchức; . | .
 d) Số lượng cổ phần từng loại của cổ đông; mức cổtức đối với từng cổ
-phan va tổng sốcốtức mà cổ đông đó được nhận; ` |
-đ)Thời điểm và phương thức trảcổtức; `
+phan va tổng sốcốtức mà cổ đông đó được nhận; `
+đ)Thời điểm và phương thức trảcổtức;
 
 [PAGE 14]
 é
+84 B
 
-¦ 84 B
-
-— |
+—
 pháp ©) Họ, tên, chữky của Chủtịch Hội đồng quản trịvà người đại diện theo luật của công ty. . l
 
 .
@@ -543,9 +510,8 @@ ty bán cổ phần theo quy định tại các điều 123, 124 và 125 của L
 co tức.chi trảcổtức trong thời hạn 10 ngày ké từngày hoàn thành việc thanh toán
 
 1000 àu21.10 1100000011 001 ce
-
-| Điều 136. Thu hồi tiền thanh toán cốphần được mua lại hoặc cốtức
-Trường hợp việc thanh toán cổ phần được mua lại trái với quy định tại `
+Điều 136. Thu hồi tiền thanh toán cốphần được mua lại hoặc cốtức
+Trường hợp việc thanh toán cổ phần được mua lại trái với quy định tại
 khoản 1 Điều 134 của Luật này hoặc trảcổtức trái với quy định tại Điều 135
 của Luật này, cổ đông phải hoàn trảcho công ty sốtiền, tài sản khác đã nhận;
 —.. trường hợp cổ đông không hoàn trảđược cho công ty thì tất cảthành viên Hội
@@ -560,7 +526,7 @@ hoặc a) Dai hội đồng cổ đông, Hội đồng quản trị, Ban kiểm 
 đông Tổng giám đốc. Trường hợp công ty cổ phần có dưới—11—cổ đông và các cổ _
 buộc là tổchức sở hữu dưới 50% tổng sốcổ phần của công ty thì không bắt phải có Ban kiểm soát; RÈG IIS 1 H T 4 E E E N HỆ NN
 đốc. b) Đại hội đồng cổ đông,Hội đồng:. quản trịvà Giám đốc hoặc Tổng giám.. Trường hợp này ít nhất 20% sốthành viên Hội đồng quản trịphải là thành
-viên độc lập và có Ủy ban kiểm toán trực thuộc Hội đồng quản trị. Cơ cấu tổ |
+viên độc lập và có Ủy ban kiểm toán trực thuộc Hội đồng quản trị. Cơ cấu tổ
 chức, chức năng, nhiệm vụ của Uy ban kiểm toán quy định hoặc tạiĐiều lệcong ty.. .. ...... quy chếhoạt động của Ủy ban kiểm toán do Hội đồng quản trịban hành. —
 tịch 2. Trường hợp công ty chỉcó một người đại diện theo pháp luậtthì Chủ —
 theo Hội đồng quản trịhoặc Giám đốc hoặc Tổng giám đốc là người đại diện
@@ -576,7 +542,7 @@ công ty. . kị 00
 [PAGE 15]
 Điều 138. Quyền và nghĩa vụ của Đại hội đồng cốđông
 1. Đại hội đồng cổ đông gồm tất cảcổ đông có quyền biểu quyết, là cơ
-quan quyết định cao nhất của công ty cốphan. |
+quan quyết định cao nhất của công ty cốphan.
 * 2. Dai hội đồng cổ đông có quyền và nghĩa vụsau đây: | | l
 a) Thông qua định hướng phát triển của công ty; .
 b) Quyết định loại cổ phần và tổng sốcổ phần của từng loại được quyền
@@ -594,13 +560,13 @@ h) Xem xét, xửlý vi phạm của thành viên Hội đồng| quản trị,| 
 a) Quyét dinh tổchức lai, giải thé công ty; . .
 k) Quyết định ngân sách hoặc tổng mức thù lao, thưởngvà lợi ích khác cho —
 Hội đồng quản trị, Ban kiểm soát; . .
-1) Phê duyệt quy chếquản trịnội bộ; quy chếhoạt động Hội đồng quản trị, |
+1) Phê duyệt quy chếquản trịnội bộ; quy chếhoạt động Hội đồng quản trị,
 Ban kiếm soát; _ .
-| m) Phê duyệt danh sách công ty kiểm toán độc lập; quyết định công ty
+m) Phê duyệt danh sách công ty kiểm toán độc lập; quyết định công ty
 kiểm toán độc lập thực hiện kiểm tra hoat động của công ty, bãi miễn kiểm toán
 viên độc lập khi xét thấy cần thiết, . ... | t
 n) Quyền và nghĩa vụkhác theo quy định của Luật nayva Điều lệcông ty.
-Điều 139. Cuộc họp Đại hội đồng cổ đông | |
+Điều 139. Cuộc họp Đại hội đồng cổ đông |
 1. Đại hội đồng cổ đông họp thường niên mỗi năm một lần. Ngoài cuộc họp
 thường niên, Dai hội đồng cốđông có thểhop bất thường. Địa điểm hop Đại hội
 đồng cổ đông được xác định là nơi chủtọa tham dựhọp | và phải ởtrên lãnh thổ
@@ -619,22 +585,22 @@ b) Báo cáo tài chính hằng năm;
 —.. c) Bao cdo của Hội déng quan tri vé quan tri va két qua hoat động cua Hội
 đồng quan tri va từng thành viên Hội đồng quản trị;
 hoạt d) Báo cáo của Ban kiểm soát vềkết quảkinh doanh của| công ty, kết quả động của Hội đồng quản trị, Giám đốc hoặc Tổng giám đốc; .
-. đ) Bao cdo tựđánh giá kết quảhoat động củaBan kiểm soát và Kiểm soát viên; |
+. đ) Bao cdo tựđánh giá kết quảhoat động củaBan kiểm soát và Kiểm soát viên;
 ©) Mức cổtức đối với mỗi cổ phần của từng loại;
 g) Vấn đềkhác thuộc thẩm quyền.
-| Điều 140. Triệu tập hop Đại hội đồng cổđồng == “[[ z nh lơ
+Điều 140. Triệu tập hop Đại hội đồng cổđồng == “[[ z nh lơ
 1. Hội đồng quản trịtriệu tập họp Đại hội đồng cổ đông thường niên và bất
 thường. Hội đồng quản trịtriệu tập họp bất thường Đại hội đồng cd đông trong _
-trường hợp sau đây: `
+trường hợp sau đây:
 a) Hội đồng quản trịxét thấy cần thiết vì lợi ích của công ty;
 b) Số lượng thành viên Hội đồng quản trị, Ban kiểm soát còn lại ít hơn số
 lượng thành viên toi thiều theo quy định của phápua
-115 c) Theo yêu cầu của cổ đông hoặc nhóm cổ đông quy định tại khoản 2 Điều của Luật này; . . ...... ln |
-d) Theo yêu cầu của Ban kiểm soát; | |
+115 c) Theo yêu cầu của cổ đông hoặc nhóm cổ đông quy định tại khoản 2 Điều của Luật này; . . ...... ln
+d) Theo yêu cầu của Ban kiểm soát; |
 đ) Trường hợp khác theo quy định của pháp luật và Điều lệcông ty.” BI
 triệu 2. Trừ trường hợp Điều lệcông ty có quy định khác, Hội đồng quản trịphải tập họp Đại hội đồng cổ đông trong thời hạn 30ngàykể từngày xảy ra
 . trường hợp quy định tại điểm b khoản 1 Điều này hoặc nhận được yêu cầu triệu
-`... tậpquảnhọp quy định tại điểm c vàđiểmd khoản1 Điều nay. Trường hợp Hội đồng _:
+... tậpquảnhọp quy định tại điểm c vàđiểmd khoản1 Điều nay. Trường hợp Hội đồng _:
 Hội trịkhông triệu tập họp Đại hội dong cốđông theo quy định thì Chủtịch
 phát đồng quản trịvà các thành viên Hội đồng quan trịphải bồi thường thiệt hại — ` sinh cho công ty.: UL messes s tị 7 re
 3, Trường hợp Hội đồng quan tri không triệu tập họp Đại hội đồng cổ đông
@@ -646,19 +612,15 @@ sinh cho công ty. `... [Ng | t
 theo 4. Trường hợp Ban kiểm soát không triệu tập họp Đại hội đồng cổ đông _ ` quy định tại khoản 3 Điều này thì cổ đông hoặc nhóm cổ đông theo quy
 
 [PAGE 17]
-“ 87 . |
-
+“ 87 .
 định tại khoản 2 Điều 115 của Luật này có quyền đại diện công ty triệu tập họp
 Đại hội đồng cốđông theo quy định của Luật này. .
 5. Người triệu tập họp Đại hội đồng cổ đông phải thực hiện các công việc
 
-`
-
-. sau đây: `
-a) Lập danh sách cổ đông có quyền dựhọp; . . | |
+. sau đây:
+a) Lập danh sách cổ đông có quyền dựhọp; . . |
 b) Cung cấp thông tin và giải quyết khiếu nại liên quan đến danh sách cổ đông;
 
-|
 ©) Lập chương trình và nội dung cuộc hop;
 d) Chuẩn bi tài liệu cho cuộc hop; la
 đ) Dựthảo nghị quyết Đại hội đồng cổ đông theo nội dung dựkiến của —
@@ -668,13 +630,10 @@ e) Xác định thời gian và địa điểm họp; — . .
 g) Gửi thông báo mời họp đến từng cổ đông có quyền dựhọp theo quy định
 của Luật này; | lg
 
-|
-h) Công việc khác phục vụcuộc họp. | ¦
+h) Công việc khác phục vụcuộc họp. |
 6. Chi phí triệu tập và tiến hành họp Đại hội đồng cổ đông theo quy định tại.
 các khoản 2, 3 và 4 Điều này sẽđược công ty hoàn lại. B
-
-|
-| Điều 141. Danh sách cổ đông có quyền dựhọp Đại hội đồng cổ đông .
+Điều 141. Danh sách cổ đông có quyền dựhọp Đại hội đồng cổ đông .
 1. Danh sách cổ đông có quyền dựhợp Đại hội đồng cổ đông được lập dựa
 trên sổđăng ký cổ đông của công ty. Danh sách cổ đông có quyền dựhọp Đại
 hội đồng cổ đông được lập không quá 10 ngày trước ngày gửi giấy mời họp Đại __
@@ -682,14 +641,13 @@ hội đồng cổ đông nếu Điều lệcông ty không quy định thời h
 “2, Danh sách cổ đông có quyền dựhop Đại hội đồng cổ đông phải có họ,
 tên, dia chỉliên lạc, quốc tịch, sốgiấy tờpháp ly của cá nhân đối với cô đông là .
 cá nhân; tên, mã sốdoanh nghiệp hoặc sốgiấy tờpháp lý của tổchức, địa chỉtrụ.
-— sởchính đối với cổ đông là tổchức; số lượng cốphần từng loại, sốvà| ngày| đăng |
-| ký cốđông của từng cổ đông. _:
+— sởchính đối với cổ đông là tổchức; số lượng cốphần từng loại, sốvà| ngày| đăng
+ký cốđông của từng cổ đông. _:
 3. cổ đông có quyền kiểm tra, tra cứu, trích lục, sao chép tên và địa chỉliên
 lạc của cổ đông trong danh sách cổ đông có quyền dựhọp Đại hội đồng cốđông; _:
 yêu cầu sửa đổi thông tin sai lệch hoặc bốsung thông tin can thiết vềmình trong
 danh sách cổ đông có quyền dựhop Đại hội đồng cổ đông. Người quản lý công
 
-|
 ty phải cung cấp kịp thời thông tin trong sổđăng ký cổ đông, sửa đối, bổsung
 thông tin sai lệch theo yêu cầu của cổ đông; chịu trách nhiệm boi thường thiệt
 hại phát sinh do không cung cấp hoặc cung cấp không kịp thời, không chính xác
@@ -697,26 +655,22 @@ thông tin sổđăng ký cổ đông theo yêu cau. Trinh tự, thủ tục yê
 thông tin trong sốđăng ký cổ đông thực hiện theo quy định tại Điều lệcông ty. .
 
 [PAGE 18]
-| 88 |
-
-|
-
-|
+88
 Điều 142. Chương trình và nội dung họp Đại hội đồng cốđông —
 nội dung1. Ngườicuộc họp.triệu tập họp Đại hội đồng cổ đông ` phải chuẩn bịchương trình,
 2. Cổ đông hoặc nhóm cổ đông quy định tại khoản 2 Điều 115 của Luật này
-có quyền kiến nghịvấn dé đưa vào chương trình hop Đại hội đồng cốđông. |
+có quyền kiến nghịvấn dé đưa vào chương trình hop Đại hội đồng cốđông.
 : Kiến nghịphải bang văn bản và được gửi đến công ty chậm nhất là 03 ngày làm
 việc trước ngày khai mạc, trừ trường hợp Điều lệcông ty có quy định thời hạn
 khác. Kiến nghịphải ghi rõ tên cổ đông, số lượng từng loai cd phan của cổ đông,
-van đềkiến nghịđưa vào chương trình họp. |
+van đềkiến nghịđưa vào chương trình họp.
 3. Trường hợp người triệu tập hợp Đại hội đồng cổ đông từchối kiến nghị
 quy định tại khoản 2 Điều này thì chậm nhất là 02 ngày làm việc trước ngày
 . khai mạc cuộc họp Đại hội đồng cổ đông phải trảlời bang văn ban và nêu rõ lý ... ...
 do. Người triệu tập họp Đại hội đồng cổ đông chỉđược từchối kiến nghịnếu
 thuộc một trong các trường hợp sau đây: ln
-a) Kiến nghịđược gửi đến không đúng quy định tại khoản 2 Điều này; |
-` b) Vấn đềkiến nghịkhông thuộc thẩm quyền quyết định của Đại hội đồng
+a) Kiến nghịđược gửi đến không đúng quy định tại khoản 2 Điều này;
+b) Vấn đềkiến nghịkhông thuộc thẩm quyền quyết định của Đại hội đồng
 cổ đông;
 
 . .
@@ -726,12 +680,12 @@ họp, quy định tại khoản 2 Điều này vào dựkiến chương trình 
 bo trừ trường hợp quy định tại khoản 3 Điều này; kiến nghịđược chính thức . sung vào chương trình và nội dung cuộc họp nếu được Đại hội đồng cổ đông
 chấp thuận. .... — ..............._ . _... kị 32 2200 1D 11101 11 2.) 1010 1110010001
 — Điều 143. Mời họp Đại hội đồng cổ đông _ .
-| 1. Người triệu tập họp Đại hộiđồng cổ đông phải gửi thông báo mờihọp ___
+1. Người triệu tập họp Đại hộiđồng cổ đông phải gửi thông báo mờihọp ___
 đến tất cảcổ đông trong danh sách cổ đông có quyền dựhọp chậm nhất là 21
 Î ngàyThôngtrước ngày khai mạc nếu Điều lệcông tykhông quy định thời hạn dài hơn.
 địa chỉliênbáo mờilac củahọp phải có tên, địa chỉtrụ sởchính;mã sốdoanh nghiệp; tén,~ ~~ —
 với cốđông, thời gian, địa điểm hop và những yêu cầukhác đối l người dựhợp. 77 ee aa °
-| 2. Thông báo mời họp được gửi bằng phương thức đểbảo đảm đến được
+2. Thông báo mời họp được gửi bằng phương thức đểbảo đảm đến được
 dia chỉliên lac của cốđông và đăng trên trang thông tin điện tửcủa công ty; 2
 trường hợp công ty xét thấy cần thiết thi đăng báo hang ngày của trung ương
 hoặc địa phương theo quy định của Điều lệcông ty. . .
@@ -741,16 +695,16 @@ quyếta) Chương trình họp, các tài liệusửdung trong cuộc hop vàd�
 [PAGE 19]
 + ^ . 89
 
-b) Phiếu biểu quyết. |
+b) Phiếu biểu quyết.
 4. Trường hợp công ty có trang thông tin điện tử, việc gửi tài liệu họp kèm
 theo thông báo mời họp quy định tại khoản 3 Điều này có thể thay thé bang việc
 đăng tai lên trang thong tin điện tir của công ty. Truong hợp nay, thông bao mời
-¦ họp phải ghi rõ nơi, cách thức tải tài liệu. có
+họp phải ghi rõ nơi, cách thức tải tài liệu. có
 Điều 144. Thực hiện quyền dựhọp Đại hội đồng cổ đông
 Jd. Cổ đông, người đại diện theo ủy quyền của cổ đông là tổchức có thểtrực
 tiếp tham dựhọp, ủy quyền bang văn ban cho một hoặc một sốcá nhân, tổchức .
 khácdựhọp hoặc dựhọp thông qua một trong các hình thức quy định tại khoản
-3 Diéu này. `
+3 Diéu này.
 2. Việc ủy quyền cho cá nhân, tổchức đại diện dựhop Đại hội đồng cổ
 đông phải lập thành văn bản. Văn bản ủy quyền được lập theo quy định của
 pháp luật vềdân sựvà phải nêu rõ tên cá nhân, tô chức được ủy quyền va số
@@ -761,20 +715,20 @@ lượng cốphan được ủy quyền. Cá nhân, tổchức được ủy quy
 đông trong trường hợp sau day: .
 a) Tham dựvà biểu quyết trực tiếp tại cuộc họp; .
 . b) Ủy quyền cho cá nhân, tổchức khác tham dựvà biểu quyết tại cuộc họp; _. _
-| c) Tham dựvà biểu quyết thông qua hội nghịtrực tuyến, bỏphiếu điện tử
+c) Tham dựvà biểu quyết thông qua hội nghịtrực tuyến, bỏphiếu điện tử
 hoặc hình thức điệntửkhác; lựu đ li c| nee ¶
 d) Gửi phiếu biểu quyết đến cuộc hop thông qua gửi thư, fax, thư điện tử;
 đ) Gửi phiếu biểu quyết bằng phương tiện khác theo quy định trong` Điều lệ
-` công ty. ` .
-`. Điều 145. Điều kiện tiến hành hop Đại hội đồng cổ đông Be
+công ty. ` .
+. Điều 145. Điều kiện tiến hành hop Đại hội đồng cổ đông Be
 1. Cuộc hop Dai hội đồngcd đông được tiến hành khi có sốcổ đông dự—.
 họp đại diện trên 50% tổng sốphiếu biểu quyết; tỷ lệcụ thểdo Điều lệcông ty
 
-2. Trường hợp cuộc hop lần thứnhất không đủđiều kiện tiến hành theo quy . `
+2. Trường hợp cuộc hop lần thứnhất không đủđiều kiện tiến hành theo quy .
 định tại khoản 1 Điều này thì thông báo mời họp lần thứhai phải được gửi trong
 thời han 30 ngày kể từngày dựđịnh hop lần thứnhất, nêu Điều lệcông ty không
 . quy định khác. Cuộc hop Đại hội đồng cổ đông lần thứhai được tiền hành khi có
-| sốcổ đông dựhọp đại diện từ33% tổng sốphiếu biểu quyết trở lên; tỷ lệcụthế |
+sốcổ đông dựhọp đại diện từ33% tổng sốphiếu biểu quyết trở lên; tỷ lệcụthế
 do Điều lệcông ty quy định. | —
 3. Trường hợp cuộc hop lần thứhai không đủđiều kiện tiến hành theo quy.
 định tại khoản 2 Điều này thì thông báo mời họp lần thứba phải được gửi trong
@@ -782,30 +736,28 @@ do Điều lệcông ty quy định. | —
 
 [PAGE 20]
 quy định khác. Cuộc họp Đại hội đồng cổ đông lần thứba được tiến hành không
-phụthuộc vào tổng sốphiếu biểu quyết của các cổ đông dựhọp. ¦
+phụthuộc vào tổng sốphiếu biểu quyết của các cổ đông dựhọp.
 trình 4. Chỉcó Đại hội đồng cổ đông mới có quyền quyết định thay đổi chương
 của họp đã được gửi kèm theo thông báo mời họp theo quy định tại Điều 142 Luật này. oe
 Điều 146. Thểthức tiến hành hop va biểu quyết tại cuộc họp Đại hội
 đồng cổ đông .
 và Trong trường hợp Điều lệcông ty không có quy định khác thì thểthức họp biểu quyết tại cuộc hop Dai hội đồng cốđông được tiến hành như sau:
-| 1. Trước khi khai mạc cuộc họp, phải tiến hành đăng ký cổ đông dựhọp
+1. Trước khi khai mạc cuộc họp, phải tiến hành đăng ký cổ đông dựhọp
 Đại hội đồng cổ đông; ln cô th 7 __
-...... 2, Việc bầu chủtọa, thư ky và ban kiểm phiếu được quy định như sau: |
+...... 2, Việc bầu chủtọa, thư ky và ban kiểm phiếu được quy định như sau:
 Hội a) Chủtịch Hội đồng quản trịlàm chủtọa hoặc ủy quyền cho thành viên đồng quản trịkhác làm chủtọa cuộc họp Đại hội đồng cổ đông do Hội đồng
-` quản trịtriệu tập; trường hợp Chủtịch vắng mặt hoặc tạm thời mất khảnăng làm
+quản trịtriệu tập; trường hợp Chủtịch vắng mặt hoặc tạm thời mất khảnăng làm
 việc thì các thành viên Hội đồng quản trịcòn lại bầu một người trong sốhọlàm
 chủtọa cuộc họp theo nguyên tắc đa số; trường hợp không bầu được người làm
-| chủtọa thì Trưởng Ban kiểm soát điều hành đểĐại hội đồng cổ đông bầu chủ |
-tọa cuộc hop và người có sốphiếu bau cao nhất làm chủtọa cuộc hop; c E . |
+chủtọa thì Trưởng Ban kiểm soát điều hành đểĐại hội đồng cổ đông bầu chủ
+tọa cuộc hop và người có sốphiếu bau cao nhất làm chủtọa cuộc hop; c E .
 họp b)Trừ trường hợp quy định tại điểm akhoản này, người ký tên triệu tập
-họp Đại hội đồng cổ đông điều hànhđểĐại hội đồng cổ đông bầu chủtọa cuộc _: và người có sốphiếu bầu cao nhất làm chủtọa cuộc họp; `
+họp Đại hội đồng cổ đông điều hànhđểĐại hội đồng cổ đông bầu chủtọa cuộc _: và người có sốphiếu bầu cao nhất làm chủtọa cuộc họp;
 ©) Chủtoa cửmột hoặc một sốngười làm thu ky cuộc họp;
-theo d) Đại hội đồng cổ đôngbầu một hoặc một sốngười vào ban kiểm phiếu đề nghịcủa chủtọa cuộc họp; . ¦
-3: Chương trình và nội dung họp phải được Đại hội đồng cổ đông thông |
-
+theo d) Đại hội đồng cổ đôngbầu một hoặc một sốngười vào ban kiểm phiếu đề nghịcủa chủtọa cuộc họp; .
+3: Chương trình và nội dung họp phải được Đại hội đồng cổ đông thông
 đềtrong nội dung chương trình họp; — l . IIIf — .. .
-
-| 4. Chủtọa có quyền thực hiện các biện pháp cần thiết và hợp hành lý.đểđiều .... phản cuộchọp một cách có trậttự,đúngtheo chương trình đãđược thông qua và — ánh được mongmuốncủa đa sốngười dựhọp; — ln
+4. Chủtọa có quyền thực hiện các biện pháp cần thiết và hợp hành lý.đểđiều .... phản cuộchọp một cách có trậttự,đúngtheo chương trình đãđược thông qua và — ánh được mongmuốncủa đa sốngười dựhọp; — ln
 
 ..
 dung 5. Đại hội đồng cổ đông thảo luận và biểu quyết theo từng vấn đềtrong nội. chương trình. Việc biểu quyết được tiến hành bang biểu quyết tán thành,
@@ -816,7 +768,7 @@ mạc vẫn được đăng ký và có quyền tham gia biểu quyết ngay sau
 
 [PAGE 21]
 trong trường hợp này, hiệu lực của những nội dung đã được biểu quyết trước đó
-không thay đổi; |
+không thay đổi;
 7. Người triệu tập họp hoặc chủtọa cuộc hop Đại hội đồng cổ đông có
 quyền sau đây:
 a) Yêu cầu tất cảngười dựhop chịu sựkiểm trahoặc các biện pháp an ninh
@@ -828,51 +780,48 @@ an ninh ra khỏi cuộc hop Đại hội đồng cô đông;
 8. Chủtọa có quyền hoãn cuộc hop Đại hội đồng cổ đông đã có đủsốngười
 đăng ký dựhọp tối đa không quá 03 ngày làm việc ke từngày cuộc họp dựđịnh
 khai mac và chi được hoãn cuộc hop hoặc thay doi địa điểm hop trong trường __
-hợp sau đây: |
+hợp sau đây:
 a) Địa điểm họp không có đủchỗngồi thuận tiện cho tất cảngười dựhọp;
 b) Phương tiện thông tin tại địa điểm họp không bảo đảm cho cổ đông dự _.
-họp tham gia, thảo luận và biểu quyết; _. |
+họp tham gia, thảo luận và biểu quyết; _.
 ©) Có người dựhọp cản trở, gây rối trật tự, có nguy cơ làm cho cuộc họp
 * không được tiến hành một cách công bang và hợp pháp; oo
 9, Trường hợp chủtoa hoan hoặc tam dừng hop Dai hội đồng cổ đông trái với
-quy định tai khoản 8 Điều này, Đại hội dong cổ đông bầu một người khác trong sổ `
+quy định tai khoản 8 Điều này, Đại hội dong cổ đông bầu một người khác trong sổ
 những người dựhọp đểthay thếchủtọa điều hành cuộc họp cho đến lúc kết thúc;
 tất cảnghị quyết được thông qua tại cuộc họp đó đều có hiệu lực thi hành. .
-Điều 147. Hình thức thông qua nghị quyết Đại hội đồng cốđông `
+Điều 147. Hình thức thông qua nghị quyết Đại hội đồng cốđông
 1. Đại hội đồng cổ đông thông qua nghị quyết thuộc thẩm quyền bằng hình
 thức biểu quyết tại cuộc hop hoặc lay ý kiến bang văn ban. .
 2. Trường hợp Điều lệcông ty không có quy định khác thì nghị quyết Đại
 /` hội đồng cổ đông vềcác vấn đềsau đây phải được thông qua băng hình thức
 biểu quyết tại cuộc họp Đại hội đồng cd đông: .
 —. a) Sửa đổi, bổsung nội dung của Điều lệcông ty;
-b) Định hướng phát triển công ty; `
-c) Loai cổphan va tổng sốcổphan của từng loại; |
-| d) Bầu, miễn nhiệm, bãi nhiệm thành viên Hội đồng quảntrịvàBankiểm soát; |
+b) Định hướng phát triển công ty;
+c) Loai cổphan va tổng sốcổphan của từng loại;
+d) Bầu, miễn nhiệm, bãi nhiệm thành viên Hội đồng quảntrịvàBankiểm soát;
 đ) Quyết định đầu tư hoặc bán sốtài sản có giátrịtừ35% tổng giá trịtài
 sản trở lên được ghi trong báo cáo tài chính gần nhất của công ty, trừ trường hợp
 Điều lệcông ty quy định tỷ lệhoặc giá trịkhác; . .
 
 [PAGE 22]
-|
 92 ^
 
 e) Théng qua bao cáo tai chính hang năm; . .
-` g) Tổchức lại, giải thểcông ty.
+g) Tổchức lại, giải thểcông ty.
 Điều 148. Điều kiện đểnghị quyết Đại hội đồng cổ đông được thông qua
 diện 1. Nghị quyết vềnội dung sau đây được thông qua nếu được sốcổ đông đại từ65% tổng sốphiếu biểu quyết trở lên của tất cảcổ đông dựhọp tán
-| thành, trừ trường hợp quy định tại các khoản 3, 4 và 6 Điều nay; tỷ lệcụthé do
-Điều lệcông ty quy định: ` ¦
-
+thành, trừ trường hợp quy định tại các khoản 3, 4 và 6 Điều nay; tỷ lệcụthé do
+Điều lệcông ty quy định: `
 .
-| a) Loại cổ phần và tổngsốcổ phần của từng loại;. . | c
+a) Loại cổ phần và tổngsốcổ phần của từng loại;. . | c
 b) Thay đổi ngành, nghềvà lĩnh vực kinh doanh;
 c) Thay đổi cơ cấu tổchức quan lý công ty; -
 d) Dy án dau tư hoặc bán tai sản có gid trịtừ35% tổng gid trịtài sản tro lên
-
-| được ghi trong báo cáo tài chính gần nhất của công ty, trừ trường hợp Điều lệ
+được ghi trong báo cáo tài chính gần nhất của công ty, trừ trường hợp Điều lệ
 công ty quy định ty lệhoặc giá trịkhác; .
 đ) Tổchức lại, giải thểcông ty;
-©) Vấn đềkhác do Điều lệcông ty quy định. . |
+©) Vấn đềkhác do Điều lệcông ty quy định. .
 tổng 2. Các nghị quyết được thông qua khi được sốcổ đông sở hữu trên 50% _
 địnhtạicácsốphiếukhoảnbiểu 1,quyết3, 4 củavà 6tấtĐiềucảcốđôngnày; tỷ lệcụ thểdodựhọp tán thành,Điều lệcôngtrừ trườngty quyhợpđịnh.quy :
 3. Trừ trường hợp Điều lệcông ty có quy định khác, việcbiểu quyết bầu __
@@ -881,8 +830,7 @@ bau dồn phiếu, theo đó mỗi cổ đông có tổng sốphiếu biểu quy
 tong sốcổphan sở hữu nhân với sốthành viên được bầu của Hội đồng quản trị
 hoặcbầu Ban kiểm soát và cổ đông có quyền dồn hết hoặc một phần tổng sốphiếu _
 của minh cho một hocmộtsốứngcửviên. Người trúng cửthành viên Hội — —
-
-| đồng quản trịhoặc Kiểm soát viên được xác định theo sốphiếu bầu tính từcao
+đồng quản trịhoặc Kiểm soát viên được xác định theo sốphiếu bầu tính từcao
 xuông thấp, bắt đầu từứng cửviên có sốphiếu bầu cao nhất cho đến khi đủsố
 thành viên quy định tại Điều lệcông ty. Trường hợp có từ02 ứng cửviên trở lên
 đạt cùng sốphiếu bầu như nhau cho thành viên cuối cùng của Hội đồng quản trị
@@ -890,13 +838,13 @@ thành viên quy định tại Điều lệcông ty. Trường hợp có từ02 
 bầu ngang nhau hoặc lựa chọntheo tiêu chí quy định tại quy chếbầu cửhoặc __:
 Điều lệcông ty. | .
 bản 4. Trường hợp thông qua nghị quyết dưới hình thức lấy ý kiến bằng văn ` :
-hữu thì nghị quyết Đại hội đồng cốđông được thông qua nếu được sốcổ đông sở |
+hữu thì nghị quyết Đại hội đồng cốđông được thông qua nếu được sốcổ đông sở
 tán trên 50% tổng sốphiếu biểu quyết của tất cảcổ đông có quyền biểu quyết thành; tỷ lệcụthé do Điều lệcông ty quy định. BỊ
 5. Nghị quyết Đại hội đồng cổ đông phải được thông báo đến cổ đông có
 quyền dựhọp Đại hội dong cô đông trong thời han 15 ngày kể từngày thông
 
 [PAGE 23]
-tố n 93 |
+tố n 93
 qua; trường hợp công ty có trang thông tin điện tử, việc gửi nghị quyết có thể
 thay thếbằng việc đăng tải lên trang thông tin điện tửcủa công ty.
 6. Nghị quyết Đại hội đồng cổ đông vềnội dung làm thay đổi bất lợi quyền
@@ -913,36 +861,33 @@ thức lay ý kiến cổ đông bằng văn bản đểthông qua nghị quyế
 1. Hội đồng quản trịcó quyền lấy ý kiến cổ đông bằng văn bản đểthông .
 qua nghị quyết Đại hội đồng cổ đông khi xét thấy cần thiết vì lợi ích của công
 ty, trừ trường hợp quy định tại khoản 2 Điều 147 của Luật này;
-| 2. Hội đồng quản trịchuẩn bịphiếu lấy ý kiến, dựthảo nghị quyết Đại hội
+2. Hội đồng quản trịchuẩn bịphiếu lấy ý kiến, dựthảo nghị quyết Đại hội
 đồng cổ đông, các tài liệu giải trình dựthảo nghị quyết và gửi đến tất cảcốđông
 có quyền biểu quyết chậm nhất là 10 ngày trước thời hạn phải gửi lại phiếu lay ý
 .. kiến, nếu Điều lệcông ty không quy định thời hạn khác dài hơn. Việc lập danh :.
 sách cổ đông gửi phiếu lay ý kiến thực hiện theo quy định tại khoản 1 và khoản
 2 Điều 141 của Luật này. Yêu cầu và cách thức gửi phiếu lay ý kiện và tài liệu
-kèm theo thực hiện theo quy định tại Điều 143 của Luật này; |
+kèm theo thực hiện theo quy định tại Điều 143 của Luật này;
 . ...—3, Phiếu lấy ý kiến phải bao gồm các nội dung chủyếu sau đây: __ _. _.
-a) Tên, địa chỉtrụ sởchính,mã sốdoanh nghiệp; `
-| b) Mục dich lấyý kién; : | 20 000 |
+a) Tên, địa chỉtrụ sởchính,mã sốdoanh nghiệp;
+b) Mục dich lấyý kién; : | 20 000
 c) Họ, tên, dia chỉliên lac, quốc tịch, sốgiấy tờpháp lý của cá nhân đối với _
-` cổ đông là cá nhân; tên, mã sốdoanh nghiệp hoặc sốgiấy tờpháp lý của tổchức, _:
-dia chi trụ sởchính đối với cd đông là tổchức hoặc họ, tên, địa chỉliên lạc, quốc `
+cổ đông là cá nhân; tên, mã sốdoanh nghiệp hoặc sốgiấy tờpháp lý của tổchức, _:
+dia chi trụ sởchính đối với cd đông là tổchức hoặc họ, tên, địa chỉliên lạc, quốc
 tịch, sốgiấy tờpháp ly của cá nhân đối với đại diện của cổ đông là tổchức; số __:
 lượng cổphan của từng loai và sốphiếu biểu quyết của cổ đông;
 —. d) Vấn đềcần lấy ý kiến đểthông qua; h cu c
-đ) Phương án biểu quyết bao gồm tán thành, không tán thành và không| có |
-
-|
-| ý kien; | |
+đ) Phương án biểu quyết bao gồm tán thành, không tán thành và không| có
+ý kien; |
 e) Thời han phải gửi vềcông ty phiếu lấy ý kiến đã được trảlời;
 g) Họ, tên, chữ ký của Chủtịch Hội đồng quản trị;
 
 [PAGE 24]
-| 94 | | tu
+94 | | tu
 gửi 4. Cổ đông có thểgửi phiếu lấy ý kiến đã trảlời đến công ty bằng hình thức thư, fax hoặc thư điện tửtheo quy định sau đây: . .
 . a) Trường hợp gửi thư, phiếu lấy ý kiến đã được trảlời phải có chữ ký của
-
-| cổ đông là cá nhân, của người đại diện theo ủy quyền hoặc người đại diện theo
-pháp luật của cốđông là tổchức. Phiếu lay ý kiến gửi vềcông ty phải được `
+cổ đông là cá nhân, của người đại diện theo ủy quyền hoặc người đại diện theo
+pháp luật của cốđông là tổchức. Phiếu lay ý kiến gửi vềcông ty phải được
 đựng trong phong bì dán kín và không ai được quyền mởtrước khi kiểm phiếu;
 phải b) Trường hợp gửi fax hoặc thư điện tử, phiếu lấy ý kiến gửi vềcông ty được giữbí mật đến thời điểm kiểm phiếu; I
 c) Các phiếu lấy ý kiến gửi vềcông ty sau thời hạn đã xác định tại nội dung
@@ -957,31 +902,29 @@ a) Tên, địa chỉtrụ sởchính, mã sốdoanh nghiệp;
 b) Mục đích và các vấn đềcần lấy ý kiến đểthông quanghị quyết; =
 —... ©) Sốcỗđông vớitổng sốphiếu biểu quyết đãtham giabiểu quyết, trong đó. _
 phân biệt sốphiếu biểu quyết hợp lệvà sốphiếu biểu quyết không hợp lệvà
-phương thức gửi phiếu biểu quyết, kèm theo phụlục danh sáchIm cốđông tham gia `
+phương thức gửi phiếu biểu quyết, kèm theo phụlục danh sáchIm cốđông tham gia
 biểu quyết; . ` . | l . H
-
-|
 
 . d) Tổng sốphiếu tán thành, không tán thành và không có ý kiến đối với
 từngvấn đề; _: R ` B III
 
 . đ) Vấn đềđã được thông qua và tỷ lệbiểu quyết thông qua tương ứng;
 ©) Họ, tên, chữ ký của Chủtịch Hội đồng quản trị, người giám sát kiểm —
-| phiếu và người kiểm phiếu. I \ lũng B
-| ` Các thành viên Hội đồng quản trị, người kiểm phiếu và người giám sát —
+phiếu và người kiểm phiếu. I \ lũng B
+` Các thành viên Hội đồng quản trị, người kiểm phiếu và người giám sát —
 
 —... kiếm phiếu phải liên đới chịu trách nhiệm vềtính trung thực, chính xác của biên —
 —.. bản kiémphiếu; liên đới chịu trách nhiém vềcác thiệt hại phát sinh từcác quyết
 định được thông qua do kiểm phiếu không trung thực, không chính xác;
-| thời 6. Biên bản kiểm phiếu và nghị quyết phải được gửi đến các cổ đông trong | hạn 15 ngày kể từngày kết thúc kiém phiếu. Trường hợp công ty có trang
-| thông tin điện tử, việc gửi biên bản kiểm phiếu và nghị quyết có thểthay thế
+thời 6. Biên bản kiểm phiếu và nghị quyết phải được gửi đến các cổ đông trong | hạn 15 ngày kể từngày kết thúc kiém phiếu. Trường hợp công ty có trang
+thông tin điện tử, việc gửi biên bản kiểm phiếu và nghị quyết có thểthay thế
 băng việc đăng tải lên trang thông tin điện tửcủa công ty;
 
 [PAGE 25]
 + . 95
 
 7. Phiếu lấy ý kiến đã được trảlời, biên bản kiểm phiếu, nghị quyết đã
-`.. được thông qua và tài liệu có liên quan gửi kèm theo phiếu lay ý kién được lưu
+.. được thông qua và tài liệu có liên quan gửi kèm theo phiếu lay ý kién được lưu
 _ giữtại trụ sởchính của công ty;
 8. Nghị quyết được thông qua theo hình thức lấy ý kiến cổ đông bằng văn
 ban có giá trịnhư nghị quyết được thông qua tại cuộc họp Đại hội đồng cổ đông.
@@ -996,19 +939,17 @@ b) Thời gian và địa điểm hop Đại hội đồng cổ đông; : hội
 
 d) Họ, tên chủtọa và thư ký; ¦ .
 
-|
 đ) Tóm tit diễn biến cuộc họp và các ý kiến phát biểu tại Đại hội đồng cổ
-đông vềtừng vấn đềtrong nội dung chương trình họp; `
+đông vềtừng vấn đềtrong nội dung chương trình họp;
 . e) Sốcổ đông và tổng sốphiếu biểu quyết của các cổ đông dựhọp, phụlục
-
-| danh sách đăng ký cổ đông, đại diện cổ đông dựhọp với sốcổ phần và sốphiêu` —,
-` bau tương ứng; |
+danh sách đăng ký cổ đông, đại diện cổ đông dựhọp với sốcổ phần và sốphiêu` —,
+bau tương ứng;
 g) Tổng sốphiếu biểu quyết đối với từng vấn đềbiểu quyết, trong đó ghi rõ
 ... phương thức biểu quyết, tong sốphiếu hợp lệ, không hợp lệ, tán thành, không :
 tán thành va không có ý kiến; tỷ lệtương ứng trên tong sốphiếu biểu quyết của
 -- cốđông dựhọp; . . .
 h) Các vấn đềđã được thông qua và tỷ lệphiếu biểu quyết thông qua
-:. tương ứng; | |
+:. tương ứng; |
 ñi i) Họ, tên, chữ ký của chủtọa và thư ký.
 Trường hợp chủtọa, thư ký từchối ký biên bản họp thì biên bản này có
 hiệu lực nếu được tất cảthành viên khác của Hội đồng quản trịthamdựhọp ký
@@ -1036,28 +977,27 @@ thông báo mời họp phải được lưu giữtại trụ sởchính của c
 Điều 151. Yêu cầu hủy bỏnghị quyết Đại hội đồng cổ đông
 Dai Trong thời hạn 90 ngày kể từngày nhận được nghị quyết hoặc biên bảnhọp
 cổ đông,hội đồngcổ đông,cođôngnhómhoặccổ đôngbiên bảnquykếtđịnhquảkiểmtại khoảnphiếu2 Điềulấy 115ý kiếncủaDaiLuậthộinàyđồngcó
-` quyền yêu câu Tòa án hoặc Trọng tài xem xét, hủy bỏnghị quyết hoặc một phan
-nội dung nghị quyết Đại hội đồng cổ đông trong các trường hợp sau đây: |
+quyền yêu câu Tòa án hoặc Trọng tài xem xét, hủy bỏnghị quyết hoặc một phan
+nội dung nghị quyết Đại hội đồng cổ đông trong các trường hợp sau đây:
 vi 1. Trình tự, thủ tục triệutập họp và ra quyết định của Đại hội đồng cổ đông | phạm nghiêm trọng quy định của Luật này và Điều lệcông ty, trừ trường hợp
 quy định tại khoản2 Điều 152 của Luật này; ___ ..,........ __.
 —. 2. Nội dung nghị quyết vi phạmpháp luậthoặcĐiều lệcéngty.. ___.
-Điều 152. Hiệu lực của nghị quyết Đại hội đồng cổ đông —__` ` |
+Điều 152. Hiệu lực của nghị quyết Đại hội đồng cổ đông —__` `
 1. Nghị quyết Đại hội đồngcổ đông có hiệu lực kể từngày được thôngqua ___
 :. hoặc từthời điểm có hiệu lực ghi tai nghị quyết đó.
 phan 2. Nghị quyết Đại hội đồng cổ đông được thông qua bằng 100% tổng sốcổ 7 có quyền biểu quyết là hợp pháp và có hiệu lực ngay cảkhi trình tự, thủ
-` tục triệu tập họp và thông qua nghị quyếtđó vi phạm quy định của Luật này và
+tục triệu tập họp và thông qua nghị quyếtđó vi phạm quy định của Luật này và
 Điều lệcông ty: B H IT 45 14T 11 HII .
 3. Trường hợp có cổ đông, nhóm cổ đông yêu cầu Tòa án hoặc Trọng tài
 . hủy bỏnghị quyết Đại hội đồng cổ đông theo quy định tại Điều 151 của Luật
 T này, nghị quyết đó vẫn có hiệu lực thi hành cho đến khiquyếtđịnh hủy bỏnghị___
 quyết đó của Tòa án, Trọng tài có hiệu lực, trừ trường hợp áp dụng biện pháp
-
-| khẩn cấp tạm thoi theo quyết định của co quan có thẩm quyền. —
+khẩn cấp tạm thoi theo quyết định của co quan có thẩm quyền. —
 Điều 153. Hội đồng quản trị
 «1. Hội đồng quản tri là cơ quan quan lý công ty, có toàn quyền nhân danh
 công ty dé quyết định, thực hiện quyền va nghĩa vụ của công ty, trừcác quyền
 và nghĩa vụthuộc thẩm quyền của Đại hội đồng cốđộng.
-| 2. Hội đồng quản trịcó quyền và nghĩa vụsau đây:
+2. Hội đồng quản trịcó quyền và nghĩa vụsau đây:
 
 [PAGE 27]
 * ^ | 97
@@ -1069,15 +1009,14 @@ doanh hang năm của công ty;
 b) Kiến nghịloại cổ phần và tổng sốcổ phần được quyền` chào bán của
 từng loại;
 
-|
 c) Quyết định bán cổ phần chưa bán trong phạm vi sốcổ phần được quyền
 . chao bán của từng loai; quyết định huy động thêm vốn theo hình thứckhác;
 d) Quyết định giá bán cổ phần và trái phiếu của công ty;
 đ) Quyết định mua lại cổ phần theo quy định tại khoản 1 và khoản 2 Điều
-133 của Luật này; `
+133 của Luật này;
 e) Quyết định phương án đầu tư và dựán đầu tư trong thẩm quyền và giới
-| hạn theo quy định của pháp luật; | . . .
-| g) Quyết định giải pháp phát triển thị trường, tiếp thịvà công nghệ;
+hạn theo quy định của pháp luật; | . . .
+g) Quyết định giải pháp phát triển thị trường, tiếp thịvà công nghệ;
 h) Thông qua hợp đồng mua, bán, vay, cho vay và hợp đồng, giao dịch
 khác có giá trịtừ35% tổng giá trịtài sản trở lên được ghi trong báo cáo tài chính
 gần nhất của công ty, trừ trường hợp Điều lệcông ty có quy định tỷ lệhoặc giá
@@ -1089,26 +1028,23 @@ nhiệm, ký kết hợp đồng, chấm dứt hợp đồng đối với Giám 
 đốc và người quản lý quan trọng khác do Điều lệcông ty quy định; quyết định
 tiền lương, thù lao, thưởng và lợi ích khác của những người quản lý đó; cử
 người đại. diện theo ủy quyền tham gia Hội đồng thành viên hoặc Đại hội đồng
-| cổ đông ởcông ty khác, quyết định | mức thù lao| và quyền lợi khác | của những
+cổ đông ởcông ty khác, quyết định | mức thù lao| và quyền lợi khác | của những
 người đó;
 k) Giám sát, chỉđạo Giám đốc hoặc Tổng giám đốc và người quản lý khác
-trong điều hành công việc kinh doanh hang ngày của công ty; |
-` 1) Quyết định cơ cấu tổchức, quy chếquản lý nội bộcủa công ty, quyết _
+trong điều hành công việc kinh doanh hang ngày của công ty;
+1) Quyết định cơ cấu tổchức, quy chếquản lý nội bộcủa công ty, quyết _
 . định thành lập công ty con, chi nhánh, văn phòng đại diện và việc góp von, mua
-n cổphan của doanh nghiệp khác; l |
-| m) Duyệt chương trình, nội dung tài liệu phục vụhọp Đại hội đồng cổ
-`. đông, triệu tập hop Đại hội đồng cổ đông hoặc lấy ý kiến dé Đại hội dong| cô
-| đông thông qua nghị quyết; họ . ln
+n cổphan của doanh nghiệp khác; l
+m) Duyệt chương trình, nội dung tài liệu phục vụhọp Đại hội đồng cổ
+. đông, triệu tập hop Đại hội đồng cổ đông hoặc lấy ý kiến dé Đại hội dong| cô
+đông thông qua nghị quyết; họ . ln
 n) Trình báo cáo tài chính hằng năm lên Đại hội đồng cổ đông;
-` 0) Kiếnnghịmức cổtức được trả; quyết định thời hạn và thủ tục trảcổtức
+0) Kiếnnghịmức cổtức được trả; quyết định thời hạn và thủ tục trảcổtức
 hoặc xửlý lỗphát sinh trong quá trình kinh doanh; . l
 —.. p) Kiến nghịviệc tổchức lại, giải thểcông ty; yêu cầu phá sản công ty;
 
 [PAGE 28]
-98 | |
-
-|
-
+98 |
 . q) Quyền và nghĩa vụkhác theo quy định của Luật này và Điều lệcông ty.
 cuộc 3. Hộiđồng quảntrịthông qua nghị quyết, quyết định bằng biểu quyết tại
 định. họp, lay ý kiến bang văn bản hoặc hình thức.khác do Điều lệcông ty quy Mỗi thành viên Hội đồng quan trịcó một phiêu biểu quyết.
@@ -1123,7 +1059,7 @@ quyết định nói trên. .
 1. Hội đồng quản trịcó từ03 đến 11 thành viên. Điều lệcông ty quy định
 
 .
-. cụthé số lượng thành viên Hội đồng quản trị. ` ` |
+. cụthé số lượng thành viên Hội đồng quản trị. ` `
 _ 2, Nhiệm ky của thành viên Hội đồng quản trịkhông quá 05 năm vàcó thể
 được bầu lại với sốnhiệm kỳkhông hạn chế. Một cá nhân chỉđược bầu làm
 thành viên độc lập Hội đồng quản trịcủa một công ty không quá 02 nhiệm000 kỳ .
@@ -1135,10 +1071,10 @@ h Ti | liên tục.
 thì Trườnghợp tất cảthành viên Hội đồng quản trịcùng kếtthúc nhiệm kỳ_
 các thành viên đó tiếp tục là thành viên Hội đồng quản trịcho đến khi có .
 thành viên mới được bầu thay thềvà tiếp quản công việc, trừ trường hợp Điều lệ _
-công ty cóquy định khác. | |
-| chức 4. Điều lệcông ty quy định cụ thểsố lượng, quyền, nghĩa vụ, cách thức tổ
+công ty cóquy định khác. |
+chức 4. Điều lệcông ty quy định cụ thểsố lượng, quyền, nghĩa vụ, cách thức tổ
 và phối hợp hoatđộng của các thành viên độc lập Hội đồng quản trị.
-| Điều 155. Cơ cấutổchức, tiêu chuẩn và điều kiện làm thành viên Hội _
+Điều 155. Cơ cấutổchức, tiêu chuẩn và điều kiện làm thành viên Hội _
 
 a) Không thuộc đối tượng quy định tại khoản 2 Điều 17 của Luật này; ........... ..
 b) Có trình độchuyên môn, kinh nghiệm trong quản trịkinh doanh hoặc
@@ -1155,7 +1091,7 @@ người có quan hệgia đình của Giám đốc, Tổng giám đốc và ng�
 * ^ 99 .
 
 của công ty; của người quản lý, người có thẩm quyền bổnhiệm người quản lý
-công ty me. |
+công ty me.
 2. Trừ trường hợp pháp luật vềchứng khoan có quy định khác, thành viên
 . độc lập Hội đồng quản trịtheo quy định tại điểm b khoản 1 Điều 137 của Luật . .
 này phải có các tiêu chuẩn và điều kiện sau đây:.
@@ -1167,8 +1103,7 @@ khoản phụcấp mà thành viên Hội đồng quản trịđược hưởng 
 c) Không phải là người có vợhoặc chồng, bốđẻ, bốnuôi, me dé, mẹnuôi,
 . con đẻ, con nuôi, anh ruột, chịruột, em ruột là cốđông lớn của công ty; là người
 quản lý của công ty hoặc công ty con của công ty; _ . l
-
-¦ ... d) Không phải là người trực tiếp hoặc gián tiếp sở hữu ít nhất 01% tổng số
+... d) Không phải là người trực tiếp hoặc gián tiếp sở hữu ít nhất 01% tổng số
 cốphần có quyền biểu quyết của công ty; _
 _ đ) Không phải là người đã từng làm thành viên Hội đồng quản trị, Ban
 kiểm soát của công ty ít nhất trong 05 năm liền trước đó, trừ trường hợp được bo
@@ -1184,21 +1119,21 @@ lập Hội đồng quản trịtrong thời hạn 06 tháng kể từngày nh�
 của thành viên độc lập Hội đồng quản trịcó liên quan.
 Điều 156. Cha tịch Hội đồng quan tri
 1. Chi tịch Hội đồng quan tri do Hội đồng quan tri bau, miễn nhiệm, bãi:
-| nhiệm trong sốcác thành viên Hội đồng quản trị. . .
+nhiệm trong sốcác thành viên Hội đồng quản trị. . .
 2. Chủtịch Hội đồng quản trịcông ty đại chúng và công ty cổ phần quy
 định tại điểm b khoản 1 Điều 88 của Luật này không được kiêm Giám đốc hoặc
-Tổng giám đốc. . . |
+Tổng giám đốc. . .
 3. Chủtịch Hội đồng quản trịcó quyền và nghĩa vụsau đây:
 a) Lập chương trình, kếhoạch hoạt động củaHội đồng quản trị;
-` b) Chuẩn bịchương trình, nội dung, tài liệu phục vụcuộc họp; triệu tập,
+b) Chuẩn bịchương trình, nội dung, tài liệu phục vụcuộc họp; triệu tập,
 chủtrì và làm chủtọa cuộc họp Hội đồng quản trị;
 .. ©) Tổchức việc thông qua nghị quyết, quyết định của Hội đồng quản trị; _
 
 [PAGE 30]
 d) Giám sát quá trình tổchức thực hiện các nghị quyết, quyết định của Hội
 . đồng quản tri; . :
-đ) Chủtọa cuộc hop Đại hội đồng cổ đông; | |
-©) Quyền và nghĩa vụkhác theo quy định của Luật này và Điều lệcông ty. |
+đ) Chủtọa cuộc hop Đại hội đồng cổ đông; |
+©) Quyền và nghĩa vụkhác theo quy định của Luật này và Điều lệcông ty.
 hiện 4. Trường hợp Chủtịch Hội đồng quản trịvắng mặt hoặc không thểthực
 viên được nhiệm vụ của mình thì phải ủy quyền bang văn ban cho một thành khác thực hiện quyền và nghĩa vụ của Chủtịch Hội đồng quản trịtheo
 nguyên tac quy định tại Điều lệcông ty. Trường hợp không có người được ủy
@@ -1217,32 +1152,31 @@ hãn công ty. Thư ký công ty có quyền và nghĩa vụsau đây:
 b) Hỗtrợthành viên Hội đồng quan trịtrong việc thực hiện quyền và nghĩa
 vụđược giao; Bt đu t .
 
-. |
+.
 c) HỗtrợHội đồng quản trịtrong áp dụng và thực hiện nguyên tắc quản trị
 
 .. hợp đ) Hỗtrợcông ty.trong xây dựng quan hệcổ đông và bảo vệquyền, lợi ích pháp của cổ đông; việc tuân thủnghĩa vụcung.cấp thông tin, công khai hóa .. .....
-thông tinvà thủ tục hành chính; | |
+thông tinvà thủ tục hành chính; |
 . ñã đ) Quyền và nghĩa vụkhác theo quy định tai Điều lệcông ty. ¦ ` Î
 Điều 157. Cuộc họp Hội đồng quản trị ¦ .
 1. Chủtịch Hội đồng quản trịđược bầu trong cuộc họp đầu tiên của Hội _.
-| đồng quản trịtrong thời hạn 07 ngày làm việc kể từngày kết thúc bầu cửHội
+đồng quản trịtrong thời hạn 07 ngày làm việc kể từngày kết thúc bầu cửHội
 . | dong quản trịđó. Cuộc họp này do thành viên có sốphiéu bau cao nhat hoặcty
 : lệphiêu bau cao nhất triệu tập và chủtrì. Trường hợp có nhiều hơn một thành
-` viên có sốphiếu bầu hoặc tỷ lệphiếu bầu cao nhất và ngang nhau thì các thành
+viên có sốphiếu bầu hoặc tỷ lệphiếu bầu cao nhất và ngang nhau thì các thành
 viên bầu theo nguyên tặc đa sốđểchọn 01 người trong sốhọtriệu tập họp Hội
 đồng quản trị. _ .
 2. Hội đồng quản trịhọp ít nhất mỗi quý một | lần và có thểhọp bất thường.
 
 [PAGE 31]
 + * 101
-
-` 3. Chủtịch Hội đồng quản trịtriệu tập họp Hội đồng quản trịtrong trường
-hợp sau đây: `
+3. Chủtịch Hội đồng quản trịtriệu tập họp Hội đồng quản trịtrong trường
+hợp sau đây:
 a) Có đề nghịcủa Ban kiểm soát hoặc thành viên độc lập Hội đồng quản trị;
 b) Có đề nghịcủa Giám đốc hoặc Tổng giám đốc hoặc ít nhất 05 người
 quản lý khác; .
-c) Có đề nghịcủa ít nhất 02 thành viên Hội đồng quản trị; |
-d) Trường hợp khác do Điều lệcông ty quy định. `
+c) Có đề nghịcủa ít nhất 02 thành viên Hội đồng quản trị;
+d) Trường hợp khác do Điều lệcông ty quy định.
 4. Đề nghịquy định tại khoản 3 Điều này phải được lập thành văn bản,
 trongđó nêu rõ mục dich, vấn dé cần thao luận và quyết định thuộc thẩm quyền
 của Hội đồng quản trị.
@@ -1251,20 +1185,18 @@ thời han 07 ngày làm việc kể từngày nhận được đề nghịquy �
 . Điều này. Trường hợp không triệu tap họp Hội đồng quản tri theo đề nghịthi
 . Chủtịch Hội đồng quản trịphải chịu trách nhiệm vềnhững thiệt hại xảy ra đối với công ty; người đề nghịcó quyền thay thé Chủtịch Hội dong quản trịtriệu _
 tập họp Hội đồng quản trị. .
-
-|
-`. 6. Chủtịch Hội đồng quản trịhoặc người triệu tập họp Hội đồng quản trị
+. 6. Chủtịch Hội đồng quản trịhoặc người triệu tập họp Hội đồng quản trị
 . phải gửi thông báo mời hop chậm nhất là 03 ngày làm việc trước ngày họp nếu
 Điều lệcông ty không có quy định khác. Thông báo mời họp phải xác định cụ .
-| thểthời gian và địa điểm họp, chương trình, các vấn đềthảo luận và quyết định. _:
+thểthời gian và địa điểm họp, chương trình, các vấn đềthảo luận và quyết định. _:
 Kèm theo thông báo mời họp phải có tài| liệu sửdụng tại cuộc hop và phiêu` biểu
-| “quyết của thành viên.
-Thông báo mời họp Hội đồng quản trịcó thểgửi bằng giấy mời, điện thoại, |
+“quyết của thành viên.
+Thông báo mời họp Hội đồng quản trịcó thểgửi bằng giấy mời, điện thoại,
 fax, phương tiện điện tửhoặc phương thức khác do Điều lệcông ty quy định và
 bảo đảm đến được địa chỉliên lạc của từng thành viên Hội đồng| quản trịđược
 đăng ký tại công ty. .
-| 7. Chủtịch Hội đồng quản trịhoặc người triệu tập gửi thông báo mời họp
-` và các tài liệu kèm theo đền các Kiểm soát viên như đối với các thành viên Hội
+7. Chủtịch Hội đồng quản trịhoặc người triệu tập gửi thông báo mời họp
+và các tài liệu kèm theo đền các Kiểm soát viên như đối với các thành viên Hội
 đồng quản trị. | có
 Kiểm soát viên có quyền dựcác cuộc họp Hội đồng quản trị; có quyền thảo
 luận nhưng không được biểu quyết.
@@ -1276,29 +1208,28 @@ hợp Điều lệcông ty quy định thời hạn khác ngăn hơn. Trường 
 họp được tiến hành nếu có hơn một nửa sốthành viên Hội đồng quản trịdựhọp.
 
 [PAGE 32]
-|
 — . 102 _. ^
 hop trong9. ThànhtrườngviênhợpHộisauđồngday:quản trịđược coi là tham dựvà biểu; quyết tại cuộc
 a) Tham du va biéu quyét truc tiép tai cudc hop; ln
 b) Ủy quyền cho người khác đến dựhọp và biểu quyết theo quy định tại
 khoản 11 Điều này; tị cu
-... c) Tham dựvà biểu quyết thông qua hội nghịtrực tuyến, bỏphiếu điện tử |
+... c) Tham dựvà biểu quyết thông qua hội nghịtrực tuyến, bỏphiếu điện tử
 hoặc hình thức điện tửkhác;
-` — d) Gửi phiếu biểu quyết đến:cuộc họp thông qua thư, fax, thư điện tử; — |
+— d) Gửi phiếu biểu quyết đến:cuộc họp thông qua thư, fax, thư điện tử; —
 công đ)ty.Gửi phiếu biểu quyết bằng phương tiện khác theo quy định trong Điều lệ
-`. 10. Trường hợp gửi phiếu biểu quyết đến cuộc họp thông qua thư, phiếu
+. 10. Trường hợp gửi phiếu biểu quyết đến cuộc họp thông qua thư, phiếu
 biểu quyết phải đựng trong phong bi dán kín va phải được chuyển đến Chủtịch
 Hội đồng quản trịchậm nhất là 01 giờtrước khi khai mạc. Phiếu biểu quyết chỉ
 được mởtrước sựchứng kiến của tất cảnhững người dựhọp.
 có 11. Thành viên phải tham dựđầy đủcác cuộc họp Hội đồng quản trị. Thành
 viên được ủy quyền cho người khác dựhọp và biểu quyết nếu được đa sốthành
 viên Hội đồng quản trịchấp thuận.
-| t
+t
 _ 12, Trừ trường hợp Điều lệcông ty có quy định tỷ lệkhác cao hơn, nghị
 viênquyết, quyết định của Hội đồng quảntrịđược thông qua nếu được đa sốthành
 dựhọp tán thành; trường hợp sốphiếu ngang nhau thì quyết định cuối cùng BỊ
-thuộc vềphíacó ý kiến của Chủtịch Hội đồng quảntrị. . _____._ |
-| Điều 158. Biên bản họp Hội đồng quản trị |
+thuộc vềphíacó ý kiến của Chủtịch Hội đồng quảntrị. . _____._
+Điều 158. Biên bản họp Hội đồng quản trị
 ghi 1. Các cuộc hop Hội đồng quan tri phải được ghi biên bản và có thểghi âm,.:. .....
 có và lưu giữdưới hình thức điệntửkhác. Biên bản phải lập bằng tiếng Việt và thểlập thêm bằng tiếng nước ngoài, bao gồm các nội dung chủyếu sau đây::
 a) Tên, địa chỉtrụ sởchính, mã sốdoanh nghiệp; = = “:
@@ -1307,7 +1238,7 @@ b) Thời gian, địa điểm họp; ___: . ln | .
 . d) Họ, tên từng thành viên dựhọp hoặc người được ủy quyền dựhọp và .
 
 : cách thức dựhọp; họ, tên các thành viên không dựhọp và lý do;
-` đ) Vấn đềđược thảo luận và biểu quyết tại cuộc họp; _. .
+đ) Vấn đềđược thảo luận và biểu quyết tại cuộc họp; _. .
 biến ©) Tóm tắt phát biểu ý kiến của từng thành viên dựhọp theo trình tựdiễn của cuộc họp; sy có
 g) Kết quảbiểu quyết trong đó ghi rõ những thành viên tán thành, không
 . tán thành và không có ý kiến; + .
@@ -1316,28 +1247,28 @@ g) Kết quảbiểu quyết trong đó ghi rõ những thành viên tán thành
 +^ . 103 .
 
 h) Vấn đềđã được thông qua và tỷ lệbiểu quyết thông qua tương ứng;
-i) Họ, tên, chữ ký chủtọa và người ghi biên bản, trừ trường hợp quy định |
+i) Họ, tên, chữ ký chủtọa và người ghi biên bản, trừ trường hợp quy định
 tại khoản 2 Điều này. .
 2. Trường hợp chủtọa, người ghi biên ban từchối ký biên bản hop nhưng
 nếu được tất cảthành viên khác của Hội đồng quan trịtham dựhọp ky và có day
 đủnội dung theo quy định tại các điểm a, b, c, d, đ, e, g và h khoan| 1 Điều nay
 
 . thì biên bản này có hiệu lực.
-` 3. Chủtọa, người ghi biên bản và những người ký tên trong biên bản phải
+3. Chủtọa, người ghi biên bản và những người ký tên trong biên bản phải
 chịu trách nhiệm vềtính trung thực và chính xác của nội dung biên bản họp Hội
 đồng quản trị. . có
-4. Biên bản họp Hội đồng quản trịvà tài liệu sửdụng trong cuộc họp` phải `
+4. Biên bản họp Hội đồng quản trịvà tài liệu sửdụng trong cuộc họp` phải
 được lưu giữtại trụ sởchính của công ty.
 5. Biên bản lập bằng tiếng Việt và bằng tiếng nước ngoài có hiệu lực pháp:
 lý như nhau. Trường hợp có sựkhác nhau vềnội dung giữa biên bản băng tiếng
-| Việt va bằng tiếng nước ngoài thì nội dung trong biên ban bang cótiếng Việt được |
+Việt va bằng tiếng nước ngoài thì nội dung trong biên ban bang cótiếng Việt được
 áp.dụng.
 Điều 159. Quyền được cung cấp thông tin của thành viên Hội đồng _
 quản trị . lg .
 1. Thành viên Hội đồng quản trịcó quyền yêu cầu Giám đốc, Phó giám đốc _
 hoặc Tổng giám đốc, Phó Tổng giám đốc, người quản lý khác trong công ty
 .. cung cấp thông tin, tài liệu vềtình hình tài chính, hoạt động kinh doanh của
-công ty và của đơn vịtrong công ty.. . |
+công ty và của đơn vịtrong công ty.. .
 2. Người quản lý được yêu cầu phải cung cấp kịp thời, đầy đủvà chính xác
 thông tin, tài liệu theo yêu cầu của thành viên Hội đồng quản trị. Trình tự, thủ
 . tục yêu cầu và cung cấp thông tin do Điều lệcông ty quy định. l
@@ -1347,12 +1278,11 @@ thông tin, tài liệu theo yêu cầu của thành viên Hội đồng quản 
 trường hợp sau đây: ©,
 a) Khôngcó đủtiêu chuẩn và. điều kiện theo quy định tại Điều 155 của
 
-|
-.... Luật này; _: |
-| b) Có đơn từchức và được chấp thuận; ` .
+.... Luật này; _:
+b) Có đơn từchức và được chấp thuận; ` .
 h c) Trường hợp khác quy định tại Điều lệcông ty.
 2. Đại hội đồng cổ đông bãi nhiệm thành viên Hội đồng quản trịtrong
-trường hợp sau đây: |
+trường hợp sau đây:
 
 [PAGE 34]
 . có | 104 _ . lg
@@ -1362,21 +1292,21 @@ b) Trường hợp khác quy định tại Điều lệcông ty.
 3. Khi xét thấy cần thiết, Đại hội đồng cổ đông quyết định thay thếthành
 
 . viên Hội đồng quản trị; miễn nhiệm, bãi nhiệm thành viên Hội đồng quản trị
-ngoài trường hợp quy định tại khoản 1 và khoản 2 Điều này. |
+ngoài trường hợp quy định tại khoản 1 và khoản 2 Điều này.
 4. Hội đồng quản trịphải triệu tập họp Đại hội đồng cổ đông đểbầu bổ
 sung thành viên Hội đồng quản trịtrong trường hợp sau đây: họ có BI
 định a) Sốthành viên Hội đồng quản trịbịgiảm quá một phần ba so với sốquy _
 Đại tại Điều lệcông ty. Trường hợp này, Hội đồng quản trịphải triệu tập họp _ :: hội đồng cổ đông trong thời hạn60 ngày kể từngày sốthành viên bịgiảm _
 
 ..... b) Số lượng thành viên độc lập Hội đồng quan trịgiảm xuống, không bảo .
-đảm tỷ lệtheo quy định tại điểm b khoản 1 Điều 137 của Luật này; `
+đảm tỷ lệtheo quy định tại điểm b khoản 1 Điều 137 của Luật này;
 c) Trừ trường hợp quy định tại điểm a và điểm b khoản này, Đại hội đồng
 :. cô đông bau thành viên mới thay thé thành viên Hội đồng quản trịđã bịmiễn
 nhiệm, bãi nhiệm tại cuộc hop gần nhất. __
-Điều 161. Ủy ban kiếm toán _ ““`“`¦`__ ln học |
+Điều 161. Ủy ban kiếm toán _ ““`“`¦`__ ln học
 ban 1. Uy ban kiểm toán là coquanchuyên môn thuộc Hội đồng quản trị. Ủy ... ... kiểm toán có từ02 thành viên trở lên. Chủtịch Uy.ban kiểm toan phải là ......
 thành viên độc lập Hội đồng quản trị. Các thành viên khác của Uy ban kiếm toán
-phải là thành viên Hội đồng quản trịkhông điều hành. `
+phải là thành viên Hội đồng quản trịkhông điều hành.
 ý 2. Ủyban kiểm toán thông qua quyết địnhbằng biểu quyết tại cuộc họp, lấy kiến bằng văn bản hoặc hình thức khác do Điều lệcông ty hoặc quy chếhoạt
 —. động Ủy ban kiểm toán quý định. Mỗi thành viên Ủy ban kiểm toán có một “__:
 phiếu biểu quyết. Trừ trường hợp Điều lệcông ty hoặc quy chếhoat động Uy `“
@@ -1384,11 +1314,10 @@ ban kiếm toán có quy định tỷ lệkhác cao hơn, quyết định của 
 phiếuđược thôngqua nếu đượcđa sốthành viên dựhọp tánthành; trường hợpsố“ ~~
 Ủy ngang nhau thì quyết định cuối cùng thuộc vềphía có ý kiến của Chủtịch ban kiếm toán.. .::... oe —. cee ee Mộ H EE EN L
 ln 3. Ủy ban kiểm toán có quyền và nghĩa vụsau đây:
-a) Giám sát tính trung thực của báo cáo tài chính của công ty và công bố |
-
-. chính thức liên quan đến kết quảtài chính của công ty; |
+a) Giám sát tính trung thực của báo cáo tài chính của công ty và công bố
+. chính thức liên quan đến kết quảtài chính của công ty;
 b) Rà soát hệthống kiểm soát nội bộvà quản lý rủi ro;
-Hội ©) Rà soát giao dịch với người có liên quan thuộc thẩm quyền phê duyệt của |
+Hội ©) Rà soát giao dịch với người có liên quan thuộc thẩm quyền phê duyệt của
 giao đồng quản trịhoặc Đại hội đồng cổ đông và đưa ra khuyến nghịvềnhững dịch cần có phê duyệt của Hội đồng quản trịhoặc Đại hội đồng cổ đông; .
 
 [PAGE 35]
@@ -1405,38 +1334,36 @@ g) Giám sát nhằm bao đảm công ty tuân thủquy định của pháp lu�
 cầu của cơ quan quản lý và quy định nội bộkhác của công ty.
 —. Điều 162. Giám đốc, Tổng giám đốc công ty
 1. Hội đồng quản trịbổnhiệm một thành viên Hội đồng quản trịhoặc thuê .
-| người khác làm Giám đốc hoặc Tổng giám đốc. l
+người khác làm Giám đốc hoặc Tổng giám đốc. l
 2, Giám đốc hoặc Tổng giám đốc là người điều hành công việc kinh doanh
 hằng ngày của công ty; chịu sựgiám sát của Hội đồng quản trị; chịu trách nhiệm
 trước Hội đồng quản trịvà trước pháp luật vềviệc thực hiện quyền, nghĩa vụ
 được giao.
-| Nhiệm ky của Giám đốc hoặc Tổng giám đốc không quá 05 năm va có thể
+Nhiệm ky của Giám đốc hoặc Tổng giám đốc không quá 05 năm va có thể
 ….... được bốnhiệm lại với sốnhiệm kỳkhông hạn chế. . ỉ
-. | 3, Giám đốc hoặc Tổng giám đốc có quyền và nghĩa vụsau đây: có |
+. | 3, Giám đốc hoặc Tổng giám đốc có quyền và nghĩa vụsau đây: có
 a) Quyết định các vấn đềliên quan đến công việc kinh doanh hằng ngày
 của công ty mà không thuộc thẩm quyền của Hội đồng quản trị; tụ | ln
-b) Tổchức thực hiện các nghị quyết, quyết định của Hội đồng quản trị; `
+b) Tổchức thực hiện các nghị quyết, quyết định của Hội đồng quản trị;
 ©) Tổchức thực hiện kếhoạch kinh doanh và phương án đầu tư của công ty;
 d) Kiến nghịphương án cơ cấu tổchức, quy chếquản lý nội bộcủa công ty;
-`. đ) Bổnhiệm, miễn nhiệm, bãi nhiệm các chức danh quản lý trong công ty,
-trừcác chức danh thuộc thẩm quyền của Hội đồng quản trị; 0 |
+. đ) Bổnhiệm, miễn nhiệm, bãi nhiệm các chức danh quản lý trong công ty,
+trừcác chức danh thuộc thẩm quyền của Hội đồng quản trị; 0
 e) Quyết định tiền lương và lợi ích khác đối với người lao động trong công
-ty, kểcảngười quản lý thuộc thẩm quyện bồnhiệm của Giám đốc hoặc Tổng|
-giám doc; ` |
+ty, kểcảngười quản lý thuộc thẩm quyện bồnhiệm của Giám đốc hoặc Tổng
+giám doc; `
 g) Tuyển dụng lao động;
-l ~ h) Kiến nghịphương án trảcổtức hoặc xửlý 16 trong kinh doanh; |
-| i) Quyền và nghĩa vụkhác theo quy định của pháp luật, Điều lệcông ty và
+l ~ h) Kiến nghịphương án trảcổtức hoặc xửlý 16 trong kinh doanh;
+i) Quyền và nghĩa vụkhác theo quy định của pháp luật, Điều lệcông ty và
 nghị quyết, quyết định của Hội đồng quản trị. ln
-` 4. Giám đốc hoặc Tổng giám đốc phải điều hành công việc kinh doanh .
+4. Giám đốc hoặc Tổng giám đốc phải điều hành công việc kinh doanh .
 hằng ngày của công ty theo đúng quy định của pháp luật, Điều lệcông ty, hợp
 
 [PAGE 36]
-|
-
 106 ^.
 
 đồng lao động ký với công ty và nghị quyết, quyết định của Hội đồng quản trị..
-`. Trường hợp điều hành trái với quy định tại khoản này mà gây thiệt hại cho công
+. Trường hợp điều hành trái với quy định tại khoản này mà gây thiệt hại cho công
 ty thì Giám đốc hoặc Tông giám đốc phải chịu trách nhiệm trước pháp luật và
 — phải boi thường thiệt hai cho công ty.
 điểm 5. Đối với công ty đại chúng, doanh nghiệp nhà nước theo quy định tại
@@ -1445,68 +1372,61 @@ giám theo quy định tại khoản 1 Điều 88 của Luật này thì Giám �
 a) Không thuộc đối tượng quy định tại khoản 2 Điều 17 của Luật này;
 b) Không được là người có quan hệgia đình của người quản lý doanh _:
 nghiệp, Kiểm soát viên của công ty và công ty mẹ; người đại diện phần vốn nhà
-| nước,©)người đại diện phanvốn củadoanh nghiệptại công tyvàcông tymẹ;... …... . Có trình độchuyên môn, kinh nghiệm trong quản trịkinh doanh của
+nước,©)người đại diện phanvốn củadoanh nghiệptại công tyvàcông tymẹ;... …... . Có trình độchuyên môn, kinh nghiệm trong quản trịkinh doanh của
 . công ty.
 __ Điều 163. Tiền lương, thù lao, thưởng và lợi ích khác của thành viên
-Hội đồng quan tri, Giám đốc, Tổng Giám đốc __ . |
+Hội đồng quan tri, Giám đốc, Tổng Giám đốc __ .
 trảlương,1. Côngthưởngty có choquyềnGiámtrảthùđốc lao,hoặcthưởngTổng chogiámthànhđốc viênvà ngườiHội đồngquản quảnlý kháctri,
-theo kết quảvà hiệu quảkinh doanh. | `
+theo kết quảvà hiệu quảkinh doanh. |
 lao, 2. Trường hợp Điều lệcông ty không có quy định khác thì tiền lương, thù thưởng và lợi ích khác của thành viên Hội dong quan trị, Giám đốc hoặc
-
-| Tổng giám đốc được trảtheo quy định sau đây: .
-¦ a) Thành viên Hội đồng quản trịđược hưởng thù lao công việc và thưởng. _.
+Tổng giám đốc được trảtheo quy định sau đây: .
+a) Thành viên Hội đồng quản trịđược hưởng thù lao công việc và thưởng. _.
 Thù lao công việc được tính theo sốngày công cần thiết hoàn thành nhiệm vụ
 của thành viên Hội đồng quản trịvà mức thù lao mỗi ngày. Hội đồng quản trịdự
 - tính mức tht lao cho từng thành viên theo nguyên tac nhất tri. Tổng mức thủlao ....
 và thưởng của Hội đồng quản trịdo Đại hội dong co đôngquyết họp định tại cuộc . ___ thường niên; | a 441411 HN
-| b) Thành viên Hội đồng quản trịđược thanh toán chi phí ăn; ở, đi lại vàchi
+b) Thành viên Hội đồng quản trịđược thanh toán chi phí ăn; ở, đi lại vàchi
 phi hợp lý khác khi thực hiện nhiệmvụđược:giao; > ^ +x7:‹ 07 7 >>—cr ae aero lưu
 c) Giám đốc hoặc Tổng giám đốc được trảlương và thưởng. Tiền lương và
-thưởng của Giám đốc hoặc Tông giám đốc do Hội đồng quản trịquyết định. ~ |
+thưởng của Giám đốc hoặc Tông giám đốc do Hội đồng quản trịquyết định. ~
 hoặc 3. Thù lao của từng thành viên Hội đồng quản trị, tiền lương của Giám đốc của Tổng giám đốc và người quản lý khác được tính vào chi phí kinh doanh
 the công ty theo quy định của pháp luật vềthuếthu nhập doanh nghiệp, được
 bao hiện thành mục riêng trong báo cáo tai chính hằng năm của công ty và phải cáo Đại hội đồng cổ đông tại cuộc họp thường niên.
 
 [PAGE 37]
 +) ` 107
-
-| |
-
 . Điều 164. Công khai các lợi ích liên quan
 Trường hợp Điều lệcông ty không có quy định khác chặt chẽhơn, việc công
-khai lợi ích và người có liên quan của công ty thực hiện theo quy định sau đây: |
+khai lợi ích và người có liên quan của công ty thực hiện theo quy định sau đây:
 1. Công ty phải tập hợp và cập nhật danh sách những người có liên quan ..
-` của công ty theo quy định tại khoản 23 Điều 4 của Luật nay và các hop dong,
-giao dich tương ứng của ho với cong ty; - . |
+của công ty theo quy định tại khoản 23 Điều 4 của Luật nay và các hop dong,
+giao dich tương ứng của ho với cong ty; - .
 2, Thành viên Hội đồng quản trị, Kiểm soát viên, Giám đốc hoặc Tổng
 giám đốc và người quản lý khác của công ty phải kê khai cho công ty vềcác lợi .
-ích liên quan của minh, bao gồm: | |
-a) Tén, ma sốdoanh nghiệp, dia chi tru sởchính, ngành, nghềkinh doanh `
+ích liên quan của minh, bao gồm: |
+a) Tén, ma sốdoanh nghiệp, dia chi tru sởchính, ngành, nghềkinh doanh
 của doanh nghiệp mà họlàm chủhoặc sở hữu phân vốn góp hoặc cổ phần; tỷ lệ __
-—. và thời điểm làm chủ, sở hữu phần vốn góp hoặc cốphần đó; __: ¦
-
-¦ —. b) Tên, mã sốdoanh nghiệp, địa chi trụ sởchính, ngành, nghềkinh doanh
+—. và thời điểm làm chủ, sở hữu phần vốn góp hoặc cốphần đó; __:
+—. b) Tên, mã sốdoanh nghiệp, địa chi trụ sởchính, ngành, nghềkinh doanh
 của doanh nghiệp mà những người có liên quan của họlàm chủ, cùng sở hữu
+.
 
-`.
-
-|
 hoặc sở hữu riêng phần vốn góp hoặc cổphan trên 10% vốn điều lệ;
 3. Việc kê khai quy định tại khoản 2 Điều này phải được thực hiện trong —
 thời hạn 07 ngày làm việc kể từngày phát sinh lợi ích liên quan; việc stra doi, bố
 . sung phải được thông báo với công ty trong thời hạn 07 ngày làm việc kể từ _ .
-ngày có sửa đối, bốsung tương ứng; __: |
-` :_*._._—4, Việc lưu giữ, công khai, xem xét, trích lục, sao chép danh sách người có
+ngày có sửa đối, bốsung tương ứng; __:
+:_*._._—4, Việc lưu giữ, công khai, xem xét, trích lục, sao chép danh sách người có
 . liên quan và lợi ích có liên quan được kê khai quy định tại khoản 1 và khoản 2
 :.... Điềunày được thực hiện như sau: . hú tu c 0
-| a) Công ty phải thông báo danh sách người có liên quan và lợi íchcó liên
-| ‘quan cho Đại hội đồng cốđông tại cuộc hop thường niên; . `
-| b) Danh sách người có liên quan và lợi ích có liên quan được lưu giữtại trụ cụ
+a) Công ty phải thông báo danh sách người có liên quan và lợi íchcó liên
+‘quan cho Đại hội đồng cốđông tại cuộc hop thường niên; .
+b) Danh sách người có liên quan và lợi ích có liên quan được lưu giữtại trụ cụ
 sởchính của doanh nghiệp; trường hợp can thiết có the lưu giữmột phần hoặc
 toan bộnội dung danh sách nói trên tại các chi nhánh của công ty;
 . [Ng c) Cổ đông, đại diện theo ủy quyền của cổ đông, thành viên Hội đồng quản
 tri, Ban kiểm soát, Giám đốc hoặc Tổng giám đốc và người quản lý khác có
-` quyền xem xét, trích lục và sao chép một phần hoặc toàn bộnội dung kê khai, tị
+quyền xem xét, trích lục và sao chép một phần hoặc toàn bộnội dung kê khai, tị
 d) Công ty phải tạo điều kiện đểnhững người quy định tại điểm c khoản __
 này tiếp cận, xem xét, trích lục, sao chép danh sách người có liên quan và lợi ích
 . có liên quan một cách nhanh nhất, thuậnlợi nhất; không được ngăn cản, gây khó
@@ -1515,30 +1435,25 @@ sao chép nội dung kê khai người có liên quan và lợi ích có liên q
 . hiện theo quy định tại Điều lệcông ty; | .
 
 [PAGE 38]
-|
-
-108 . ` | |
+108 . ` |
 cá 5. Thành viên Hội đồng quan trị, Giám đốc hoặc Tổng giám đốc nhân danh nhân hoặc nhân danh người khác đểthực hiện công việc dưới mọi hình thức
 trong phạm vi công việc kinh doanh của công ty đều phải giải trình bản chất, nội _
 dung của công việc đó trước Hội đồng quan trị, Ban kiếm soát va chỉđược thực
 hiện khi được đa sốthành viên còn lại của Hội đồng quản trịchấp thuận; nếu
 
 . ` thực hiện mà không khai báo hoặc không được sựchấp thuận của Hội đồng quản
-| trịthì tất cảthu nhập có được từhoạt động đó thuộc vềcông ty.
-Điều 165. Trách nhiệm của người quản lý công ty ¦
+trịthì tất cảthu nhập có được từhoạt động đó thuộc vềcông ty.
+Điều 165. Trách nhiệm của người quản lý công ty
 quản 1. Thành viên Hội đồng quản trị, Giám đốc hoặc Tổng giám đốc và người lý khác có trách nhiệm sau đây: oe
 a) Thực hiện quyền va nghĩa vu được giao theo quy định của Luật này, quy | địnhkháccô của pháp luật có liên quan, Điều lệcông ty, nghị quyết Đại hội đồng
-
-| đông;
+đông;
 .
 tot b) Thực hiện quyền và nghĩa vụđược giao một cách trung thực,| cẩn trọng, `,
-nhật nham bao đảm lợi ích hợp pháp tối da của công ty; |
-
-|
-©) Trung thành với lợi ich của công ty và cổ đông; không lạm dụng địa vị, |
-` chức vụvà sửdụng thông tin, bí quyết, cơ hội kinh doanh, tai sản khác của công _
-ty dé tư lợi hoặc phục vụlợi ích của tổchức, cá nhân khác; `
-| d) Thông báo kịp thời, day đủ, chính xác cho công ty vềnội dung quy định _
+nhật nham bao đảm lợi ích hợp pháp tối da của công ty;
+©) Trung thành với lợi ich của công ty và cổ đông; không lạm dụng địa vị,
+chức vụvà sửdụng thông tin, bí quyết, cơ hội kinh doanh, tai sản khác của công _
+ty dé tư lợi hoặc phục vụlợi ích của tổchức, cá nhân khác;
+d) Thông báo kịp thời, day đủ, chính xác cho công ty vềnội dung quy định _
 tại khoan 2 Điều 164 của Luật này; “` —~““ .:~r [77 nh nh > et38ec Tr? 18735878 0 Pi? men.
 đ) Trách nhiệm khác theo quy định của Luật này và Điều lệcông ty. .
 quản 2. Thành viên Hội đồng quản trị, Giảm đốc hoặc Tổng giám đốc và người _ lý khác vi phạm quy định tại khoản 1 Điều này chịu trách nhiệm cá nhân
@@ -1552,12 +1467,11 @@ l đốc, Tổng giám đốc —. — lã III III S N . ln tu HN .
 : có 1. Cổ đông, nhóm cổ đông sở hữu ítnhất01% tổng sốcổ phần phổ thông —
 quyền tựmìnhhoặcnhân danh công tykhởi kiện trách nhiệm cá nhân, trách
 . nhiệm liên đới đối với các thành viên Hội đồng quản trị, Giám đốc hoặc Tổng
-
-| giám đốc dé yêu cầu hoàn trảlợi ich hoặc bồi thường thiệt hai cho công ty hoặc _.
-người khác trong trường hợp sau đây: == _: nỉ 7 `
-OS a) Vi phạm trách nhiệm của người quan ly công ty theo quy định tại Điều `
+giám đốc dé yêu cầu hoàn trảlợi ich hoặc bồi thường thiệt hai cho công ty hoặc _.
+người khác trong trường hợp sau đây: == _: nỉ 7
+OS a) Vi phạm trách nhiệm của người quan ly công ty theo quy định tại Điều
 165 của Luật này; *
-. b) Không thực hiện, thực hiện không đầy đủ, thực hiện không kịp thời hoặc |
+. b) Không thực hiện, thực hiện không đầy đủ, thực hiện không kịp thời hoặc
 hãi thực hiện trái với quy định của pháp luật hoặc Điều lệcông ty, nghị quyết, quyết
 định của Hội đồng quản trịđối với quyền và nghĩa vụđược giao;
 
@@ -1565,32 +1479,30 @@ hãi thực hiện trái với quy định của pháp luật hoặc Điều l�
 . c) Lạm dụng địa vị, chức vụvà sửdụng thông tin, bí quyết, cơ hội kinh _.
 doanh, tài sản khác của công ty đểtư lợi hoc phục vụlợi ích của tổchức, cá :
 
-|
-d) Trường hợp khác theo quy định của pháp luật và Điều lệcông ty. .`
-| 2. Trinh tự, thủ tục khởi kiện thực hiện theo quỳđịnh của pháp luật vềtố __
+d) Trường hợp khác theo quy định của pháp luật và Điều lệcông ty. .
+2. Trinh tự, thủ tục khởi kiện thực hiện theo quỳđịnh của pháp luật vềtố __
 . tung dân sự. Chi phí khởi kiện trong trường hợp cổ đông, nhóm cổ đông khởi _.
 kiện nhân danh công ty được tính vào chi phí của công ty, trừ trường hợp bịbác
-. yêu cầu khởi kiện. | . |
-| 3. Cổ đông, nhóm cổ đông theo quy định tại Điều này có quyền xem xét,
+. yêu cầu khởi kiện. | .
+3. Cổ đông, nhóm cổ đông theo quy định tại Điều này có quyền xem xét,
 tra cứu, trích lục thông tin cần thiết theo quyết định của Tòa án, Trọng tài trước
 . hoặc trong quá trình khởi kiện. .
 Điều 167. Chấp thuận hợp đồng, giao dịch giữa công ty với người có
-. liên quan `
+. liên quan
 1. Đại hội đồng cổ đông hoặc Hội đồng quản trịchấp thuận hợp đồng, giao
 . dịch giữa công ty với người có liên quan sau đây: ¦ ln
 a) Cổ đông, người đại diện theo ủy quyền của cổ đông là tổchức sở hữu
 trên 10% tổng sốcổ phần phổ thông của công ty và người có liên quan của họ; :
 
-|
-b) Thành viên Hội đồng quản trị, Giám đốc hoặc Tổng giám đốc và người |
-| ln . có liên quan của họ; hóc |
-` c) Doanh nghiệp mà thành viên Hội đồng quản trị, Kiểm soát viên, Giám
+b) Thành viên Hội đồng quản trị, Giám đốc hoặc Tổng giám đốc và người
+ln . có liên quan của họ; hóc
+c) Doanh nghiệp mà thành viên Hội đồng quản trị, Kiểm soát viên, Giám
 đốc hoặc Tổng giám đốc và người quản lý khác của công ty phải ke khai theo
-| quy định tai khoan 2—Điều 164 của Luật này. — .
+quy định tai khoan 2—Điều 164 của Luật này. — .
 ae 2. Hội đồng quan tri chấp thuận các hợp đồng, giao dịch theo quy định
 . khoản 1 Điều này và có giá trịnhỏhơn 35% tổng giá trịtài sản của doanh
 nghiệp ghi trong báo cáo tài chính gần nhất hoặc một tỷ lệhoặc giá trịkhác nhỏ
-| hơn theo quy định tại Điều lệcông ty: Trường hợp này, người đại diện công ty
+hơn theo quy định tại Điều lệcông ty: Trường hợp này, người đại diện công ty
 :. ky hợp đồng, giao dịch phải thông báo cho thành viên Hội đồng quan trị, Kiểm
 soát viên vềcác đối tượng có liên quan đối với hợp đồng, giao. dịch đó và gửi
 
@@ -1602,23 +1514,20 @@ ngày nhận được thông báo, trừ trường hợp Điều lệcông ty qu
 hợp đồng, giao dịch không có quyền biểu quyết. __
 3. Đại hội đồng cổ đông chấp thuận hợp đồng, giao dịch sau đây:
 a) Hợp đồng, giao dịch khác ngoài hợp đồng, giao dịch quy định tại khoản
-2 Điều này; |
+2 Điều này;
 
 [PAGE 40]
-| |
-| 110
-
-| _
-
-| b) Hợp đồng, giao dịch vay, cho vay, bán tài sản có giá trịlớn hơn 10%
-| `. tổng giá trịtài sản của doanh nghiệp ghi trong báo cáo tài chính gần nhất giữa
-. công ty và cổ đông sở hữu từ51% tổng sốcổ phần có quyền biểu quyết trở lên `
+110
+_
+b) Hợp đồng, giao dịch vay, cho vay, bán tài sản có giá trịlớn hơn 10%
+`. tổng giá trịtài sản của doanh nghiệp ghi trong báo cáo tài chính gần nhất giữa
+. công ty và cổ đông sở hữu từ51% tổng sốcổ phần có quyền biểu quyết trở lên
 . hoặc người có liên quan của cổ đông đó.
 5 4. Trường hợp chấp thuận hợp đồng, giao dịch theo quy định tại khoản 3
 Điều này, người đại diện công ty ký hợp đồng, giao dịch phải thông báo cho Hội
 . đồng quản trịvà Kiểm soát viên vềđối tượng có liên quan đối với hợp đồng,
 . giao dịch đó và gửi kèm theo dựthảo hợp đồng hoặc thông báo nội dung chủ ^
-yếu của giao dịch. Hội đồng quản trịtrình dựthảo hợp đồng, giao dịch hoặc giải `
+yếu của giao dịch. Hội đồng quản trịtrình dựthảo hợp đồng, giao dịch hoặc giải
 trình vềnội dung chủyếu của hợp đồng, giao dịch tại cuộc họp Đại hội đồng cổ
 có đông hoặc lấy ý kiến cổ đông bằng văn bản. Trường hợp này, cổ đông có lợi ích
 liên quan đến các bên trong hợp đồng, giao dịch không cóquyền biểu quyết; hop.
@@ -1626,58 +1535,56 @@ a đồng, giao dịch được chấp thuận theo quy định tại khoản 1 
 . . của Luật này, trừ trường hợp Điều lệcông ty có quy định khác.
 tó 5. Hợp đồng, giao dịch bịvô hiệu theo quyết định của Tòa án và xửlý theo ..
 hị u quy định của pháp luật khi được ký kết không đúng với quy định tại Điều này;
-người ký kết hợp đồng, giao dịch, cổ đông, thành viên Hội đồng quản trịhoặc _. |
+người ký kết hợp đồng, giao dịch, cổ đông, thành viên Hội đồng quản trịhoặc _.
 Giám đốc hoặc Tổng giám đốc có liên quanphải liên đới bồi thường thiệt hại.
 phát sinh, hoàn trảcho công ty khoản lợi thu được từviệc thực hiện hợp đồng, ỉ
 . giao dịch đó..“ ;: 17c [T1 Ten ranướn 5 78n n 98. H Ỷ ơ + 00 ở cũ [NN
 6. Công ty phải công khai hợp đồng, giao dịch có liên quan theo quy định
 :.. của pháp luậtcó liên quan. ln oo Bãi HH cơ
-Điều 168. Ban kiểm soát `
-: 1. Ban kiểm soát có từ03 đến 05 Kiểm soát viên. Nhiệm kỳcủa Kiểm soát _. |
+Điều 168. Ban kiểm soát
+: 1. Ban kiểm soát có từ03 đến 05 Kiểm soát viên. Nhiệm kỳcủa Kiểm soát _.
 viên không quá 05 năm vàcó thểđược bầu lại với sốnhiệm kỳkhông hạn chế... :
-| |
-` 2. Trưởng Ban kiểm soát do Ban kiểm soát bầu trong sốcác Kiểm soát tu
+2. Trưởng Ban kiểm soát do Ban kiểm soát bầu trong sốcác Kiểm soát tu
 viên; việc bầu, miễn nhiệm, bãi nhiệm theo nguyên tắc đa số. Quyền và nghĩa vụ .
 của Trưởng Ban kiểm soát do Điều lệcông ty quy định. Ban kiểm soát phải có .
 . hon một nửa sốKiểm soát viên thường trú tại Việt Nam. Trưởng Ban kiểm soát --- ..
-. phải có bằng tốt nghiệp đại học trở lên thuộc một trong các chuyên ngành kinh |
+. phải có bằng tốt nghiệp đại học trở lên thuộc một trong các chuyên ngành kinh
 . tế, tài chính, kếtoán, kiểm toán, luật, quan trịkinh doanh hoặc chuyên ngành có __
-liên quan đến hoạt động kinh doanh của doanh nghiệp, trừ trường hợp Điều lệ ¦
+liên quan đến hoạt động kinh doanh của doanh nghiệp, trừ trường hợp Điều lệ
 Fã công ty có quy định tiêu chuẩn khác cao hơn. ` a
 3. Trường hợp Kiểm soát viên có cing thời điểm kết thúc nhiệm kỳmà
 . Kiểm soát viên nhiệm kỳmới chưa được bầu thì Kiểm soát viên đã hết nhiệm kỳ _...
 ...... vẫn tiếp tục thực hiện quyền và nghĩa vụcho đến khi Kiểm soát viên nhiệm kỳ oY
-` mới được bau va nhận nhiệm vụ. __
+mới được bau va nhận nhiệm vụ. __
 
 [PAGE 41]
 ^
 
 + | 111
 
-Điều 169. Tiêu chuẩn va điều kiện của Kiểm soát viên |
-¦ 1. Kiểm soát viên phải có các tiêu chuẩn và điều kiện sau đây:
-10100000 a) Không thuộc đối tượng theo quy định tại khoản 2 Điều 17 của Luật này; |
+Điều 169. Tiêu chuẩn va điều kiện của Kiểm soát viên
+1. Kiểm soát viên phải có các tiêu chuẩn và điều kiện sau đây:
+10100000 a) Không thuộc đối tượng theo quy định tại khoản 2 Điều 17 của Luật này;
 b) Được đào tạo một trong các chuyên ngành vềkinh tế, tài chính, kếtoán,
 . kiểm toán, luật, quản trịkinh doanh hoặc chuyên ngành phù hợp với hoạt động
 kinh doanh của doanh nghiệp; .
-| c) Không phải là người có quan hệgia đình của thành viên Hội đồng quản
-ỉ trị, Giám đốc hoặc Tổng giám đốc và người quản lý khác; |
-| d) Không phải là người quan ly công ty; không nhất thiết phải là cổ đông
+c) Không phải là người có quan hệgia đình của thành viên Hội đồng quản
+ỉ trị, Giám đốc hoặc Tổng giám đốc và người quản lý khác;
+d) Không phải là người quan ly công ty; không nhất thiết phải là cổ đông
 hoặc người lao động của công ty, trừ trường hợp Điều lệcông ty có quy định khác; ::
-. đ) Tiêu chuẩn và điều kiện khác theo quy định khác| của pháp luật có liên`
-` quan và Điều lệcông ty. B .
+. đ) Tiêu chuẩn và điều kiện khác theo quy định khác| của pháp luật có liên
+quan và Điều lệcông ty. B .
 . 2. Ngoài các tiêu chuẩn, điều kiện quy định tại khoản 1 Điều này, Kiểm soát
-` viên công ty đại chúng, doanh nghiệp nhà nước theo quy định tại điểm b khoản 1
+viên công ty đại chúng, doanh nghiệp nhà nước theo quy định tại điểm b khoản 1
 . Điều 88 của Luật này không được là người có quan hệgia đình của người quản :
 lý doanh nghiệp của công ty và công ty mẹ; người đại diện phần vốn của doanh
 nghiệp, người đại diện phần vốn nhà nước tại công ty mẹvà tại công ty. .
-` Điều 170. Quyền và nghĩa vụ của Ban kiếm soát |
+Điều 170. Quyền và nghĩa vụ của Ban kiếm soát
 có, 1. Ban kiểm soát thực hiện giám sát Hội đồng quản trị, Giám đốc hoặc
 — Tổng giám đốc trong việc quản lý và điều hành công ty.
-2. Kiểm tra tính hop ly, hợp pháp, tính trung thực va mức độcẩn trọng | |
+2. Kiểm tra tính hop ly, hợp pháp, tính trung thực va mức độcẩn trọng |
 . trong quản lý, điều hành hoạt động kinh doanh; tính hệthong, nhất quán và phù
-
-| . hợp của công tác ké toán, thong kê và lập báo cáo tài chính. `
+. hợp của công tác ké toán, thong kê và lập báo cáo tài chính.
 3. Thẩm định tính đầy đủ, hợp pháp và trung thực của báo cáo tình hình
 kinh doanh, bdo cdo tài chính hang năm va 06 thang của công ty, bao cao đánh
 gid công tác quan ly của Hội dong quan tri va trình bdo cáo thầm định tai cuộc —
@@ -1686,20 +1593,19 @@ có liên quan thuộc thẩm quyền phê duyệt của Hội đồng quản tr
 đồng cổ đông va đưa ra khuyến nghịvềhop dong, giao dịch cần có phê duyệt
 của Hội đồng quan trịhoặc Dai hội đồng cổ đông.
 . 4. Rà soát, kiểm tra và đánh giá hiệu lực và hiệu quảcủa hệthống kiểm
-soát nội bộ, kiểm toán nội bộ, quản lý rủi ro và cảnh báo sớm của công ty. `
+soát nội bộ, kiểm toán nội bộ, quản lý rủi ro và cảnh báo sớm của công ty.
 5. Xem xét sổkếtoán, ghi chép kếtoán và tài liệu khác của công ty, công
 việc quản lý, điều hành hoạt động của công ty khi xét thấy cần thiết hoặc theo
-| nghị quyết Đại hội đồng cô đông hoặc theo yêu cầu của cổ đông hoặc nhóm cô
+nghị quyết Đại hội đồng cô đông hoặc theo yêu cầu của cổ đông hoặc nhóm cô
 đông quy định tại khoản 2 Điều 115 của Luật này.
 6. Khi có yêu cầu của cổ đông hoặc nhóm cổ đông quy định tại khoản 2
 Điều 115 của Luật này, Ban kiểm soát thực hiện kiểm tra trong thời hạn 07 ngày
 
 [PAGE 42]
-112 ` `
-
+112 `
 làm việc kể từngày nhận được yêu cầu. Trong thời hạn 15 ngày kể từngày kết
 
-. thúc kiểm tra, Ban kiểm soát phải báo cáo vềnhững vấn đềđược yêu cầu kiểm |
+. thúc kiểm tra, Ban kiểm soát phải báo cáo vềnhững vấn đềđược yêu cầu kiểm
 tra đến Hội đồng quan tri và cổ đông hoặc nhóm cổ đông có yêu cầu. Việc kiểm .
 
 _ tra của Ban kiếm soát quy định tai khoan nay không được cản trởhoạt động bình
@@ -1708,30 +1614,27 @@ doanh của công ty.
 doi, 7. Kiến nghịHội đồng quản trịhoặc Đại hội đồng cổ đông biện pháp sửa | ` bồsung, cải tiến co cấu tổchức quản lý, giám sát và điều hành hoạt động
 
 .
-. kinh doanh của công ty. | `
+. kinh doanh của công ty. |
 8. Khi phát hiện có thành viên Hội đồng quản trị, Giám đốc hoặc Tổng _
-| . giám đốc vi phạm quy định tại Điều 165 của Luật này phải thông báo ngay bằng
+. giám đốc vi phạm quy định tại Điều 165 của Luật này phải thông báo ngay bằng
 văn bản cho Hội đồng quản trị, yêu cầu người có hành vi vi phạm cham dứt .
-| ln hành vi vi phạm và có giải pháp khắc phục hau qua *ohm cc lg
+ln hành vi vi phạm và có giải pháp khắc phục hau qua *ohm cc lg
 9. Tham dựvà tham gia thảo luận tại các cuộc họp Đại hội đồng cổ đông, _
-¦ Hội đồng quản trịvà các cuộc họp khác của công ty.
+Hội đồng quản trịvà các cuộc họp khác của công ty.
 R ln
-hiện 10. Sửdụng tư vấn độc lập, bộphận kiểm toán nội bộcủa công ty đểthực nhiệm vụđược giao. (00000 C `
-tị 07 11. Ban kiểm soát có thểtham khảo ý kiến của Hội đồng quản trịtrước khi |
-trình bao cáo, kết luậnvà kiến nghịlên Đại hội đồng cổ đông. _ | |
-
-| 12. Quyền và nghĩa vụkhác theo quy định của Luật này, Điều lệcông ty và
+hiện 10. Sửdụng tư vấn độc lập, bộphận kiểm toán nội bộcủa công ty đểthực nhiệm vụđược giao. (00000 C
+tị 07 11. Ban kiểm soát có thểtham khảo ý kiến của Hội đồng quản trịtrước khi
+trình bao cáo, kết luậnvà kiến nghịlên Đại hội đồng cổ đông. _ |
+12. Quyền và nghĩa vụkhác theo quy định của Luật này, Điều lệcông ty và
 — nghị quyết Đại hội đồng cổ đông. .
 . Điều 171. Quyền đượccủng cấp thông tin của Ban kiểm soát —
-| theo 1. Tài liệu và thông tin phải được gửi đến Kiểm soát viên cùng thời điểm và phương thức như đối với thành viên Hội đồng quản trị, bao gồm: ~ — m ©
-| a) Thông báo mời họp, phiếu lấy ý kiến thành viên Hội đồng quảntrịvàtài
+theo 1. Tài liệu và thông tin phải được gửi đến Kiểm soát viên cùng thời điểm và phương thức như đối với thành viên Hội đồng quản trị, bao gồm: ~ — m ©
+a) Thông báo mời họp, phiếu lấy ý kiến thành viên Hội đồng quảntrịvàtài
 liệukèm theo; “^^: ch hỉ ct zh n 9ệ8n He: m 5 8 Z‹e C r m: 88 có li
-. b) Nghị quyết, quyết định và biên ban hop của Đại hội đồngcổ đông, Hội — |
+. b) Nghị quyết, quyết định và biên ban hop của Đại hội đồngcổ đông, Hội —
 :. đồng quản trị; —. 7
 ©) Bao cáo của Giám đốchoặc Tổng giám đốc trình Hội đồng quản trịhoặc
 tai liệu khác do công ty phat hành. hóc ó a .
-
-|
 
 : —. 2, Kiểm soát viên có quyền tiếp cận hồ sơ, tài liệu của công ty lưu giữtại ln
 
@@ -1739,7 +1642,7 @@ _ trụ sởchính, chi nhánh và địa điểm khác; có quyền đến đ�
 người quản lý và nhân viên của công ty trong giờlàm việc. _ 2
 2 3. Hội đồng quản trị, thành viên Hội đồng quản trị, Giám đốc hoặc Tổng
 . giám đốc, người quản lý khác phải cung cap day đủ, chính xác, kịp thời thông c
-` tin, tài liệu vềcông tác quản lý, điều hành và hoạt động kinh doanh của công ty .`
+tin, tài liệu vềcông tác quản lý, điều hành và hoạt động kinh doanh của công ty .
 theo yêu cau của Kiểm soát viên hoặc Ban kiểm soát.
 
 .
@@ -1748,7 +1651,7 @@ theo yêu cau của Kiểm soát viên hoặc Ban kiểm soát.
 +“ 113
 
 Điều 172. Tiền lương, thù lao, thưởng và lợi ích khác của Kiếm soát viên
-| Trường hợp Điều lệcông ty không có quy định khác thì tiền lương, thù lao,
+Trường hợp Điều lệcông ty không có quy định khác thì tiền lương, thù lao,
 thưởng và lợi ích khác của Kiểm soát viên được thực hiện theo quy định sau đây:
 1. Kiểm soát viên được trảtiền lương, thù lao, thưởng và lợi ích khác theo
 quyết định của Đại hội đồng cổ đông. Đại hội đồng cổ đông quyết định tong
@@ -1756,15 +1659,15 @@ mức tiền lương, thù lao, thưởng, lợi ích khác và ngân sách ho�
 của Ban kiểm soát; .
 2. Kiểm soát viên được thanh toán chi phí ăn, ở, đi lại, chi phí sửdụng dịch
 vụtư vấn độc lập với mức hợp lý. Tổng mức thù lao và chi phí này không vượt
-| quá tổng ngân sách hoat động hang năm cua Ban kiểm soát đã được Đại hội đồng
+quá tổng ngân sách hoat động hang năm cua Ban kiểm soát đã được Đại hội đồng
 . cổ đông chấp thuận, trừ trường hợp Đại hội đồng cốđông có quyết định khác;
-| 3. Tiền lương và chỉphí hoạt động của Ban kiểm soát được tính vào chi phí R
+3. Tiền lương và chỉphí hoạt động của Ban kiểm soát được tính vào chi phí R
 kinh doanh của công ty theo quy định của pháp luật vềthuếthu nhập doanh :
 nghiệp, quy định khác của pháp luật có liên quan và phải được lập thành mục
 riêng trong bao cao tài chính hang năm của công ty. .
-có Điều 173.. Trách nhiệm của Kiểm soát viên lg |
+có Điều 173.. Trách nhiệm của Kiểm soát viên lg
 1. Tuân thủđúng pháp luật, Điều lệcông ty, nghị quyết Đại hội đồng cổ
-đông và đạo đức nghềnghiệp trong thực hiện quyền và nghĩa vụđược giao. . `
+đông và đạo đức nghềnghiệp trong thực hiện quyền và nghĩa vụđược giao. .
 2. Thực hiện quyền và nghĩa vụđược giao một cách trung thực, cẩn trọng,
 tốt nhất nhằm bảo đảm lợi ích hợp pháp tối đa của công ty. | NN
 3. Trung thành với lợi ích của công ty và cổ đông; không lạm dụng địa vị,
@@ -1780,43 +1683,40 @@ soát viên có được do vi phạm phải hoàn trảcho công ty.
 6. Trường hợp phát hiện có Kiểm soát viên vi phạm trong thực hiện quyền
 và nghĩa vụđược giao thì phải thông bao bằng văn bản đến Ban kiểm soát; yêu
 . cầu người có hành vi vi phạm chấm dứt hành vi vi phạm và khắc phục hậu quả. .
-`. Điều 174. Miễn nhiệm, bãi nhiệm Kiếm soát viên (00000000 |
-1. Đại hội đồng cổ đông miễn nhiệm Kiểm soát viên trong trường hợp sau đây: |
+. Điều 174. Miễn nhiệm, bãi nhiệm Kiếm soát viên (00000000
+1. Đại hội đồng cổ đông miễn nhiệm Kiểm soát viên trong trường hợp sau đây:
 a) Không còn đủtiêu chuẩn và điều kiện làm Kiểm soát viên theo quy định
-tại Điều 169 của Luật này; |
-b) Có đơn từchức và được chấp thuận; |
+tại Điều 169 của Luật này;
+b) Có đơn từchức và được chấp thuận;
 
 [PAGE 44]
 lự 114 ^
-
-|
 
 ©) Trường hợp khác do Điều lệcông ty quy định. Î
 2. Đại hội đồng cổ đông bãi nhiệm Kiểm soát viên trong trường hợp sau đây: _ .
 22 a) Không hoàn thành nhiệm vụ, công việc được phân công; *
 b) Không thực hiện quyền và nghĩa vụ của mình trong 06 tháng liên tục, trừ .
-trường hợp bat kha kháng; |
+trường hợp bat kha kháng;
 theo c) Vi phạm nhiều lần, vi phạm nghiêm trọng nghĩa vụ của Kiểm soát viên quy định của Luật này và Điều lệcông ty;
-ln d) Trường hợp khác theo nghị quyết Đại hội đồng cổ đông. |
+ln d) Trường hợp khác theo nghị quyết Đại hội đồng cổ đông.
 Điều 175. Trình báo cáo hằng năm .
 .. 1. Kết thúc năm tài chính, Hội đồng quan trịphải trình Đại hội đồng cổ
 đông bdo cáo sau đây:... .... .
 a) Báo cáo kết quảkinh doanh của công ty; B \
-—... b) Báo edo tài chính; |
+—... b) Báo edo tài chính;
 ©) Báo cáo đánh giá công tác quan lý, điều hành công ty;
-
-| d) Báo. cáo thẩm định của Ban kiểm soát. . 7 a
+d) Báo. cáo thẩm định của Ban kiểm soát. . 7 a
 tài 2. Đối vớicông ty cổ phầnmapháp luật yêu cầu phải kiểm toán thì báo cáo
-hội chínhhang năm của công ty cổ phần phải được kiểm toán trước khi trình Đại dong cổ đông xem xét, thông qua. | |
+hội chínhhang năm của công ty cổ phần phải được kiểm toán trước khi trình Đại dong cổ đông xem xét, thông qua. |
 Ban 3. Báo cáo quy định tai các điểma,bvac khöản 1 Điềunày phải được gửi đến _ kiểm soát dé thẩm định chậm nhất là 30 ngày trước ngày khai mạc cuộc hop =
 . Đại hội đồng cổ đông thường niên nếu Điều lệcông ty không có quy định khác.
 l 4. Bao cáo quy định tại các khoản 1, 2 và 3 Điều này, bdo cdo thẩm định °
 côngcủa Ban kiểm soát va bdo cdo kiểm todn phải được lưuBiữtai trụ sởchínhcủa ```.
 đông ty chậm nhất là 10 ngày trước ngày khai mạc cuộc hop Đại hội đồng cổ thường niên nếu Điều lệcông ty không quy định thời hạn khác dài hơn.. đông Cổ __..__.. sở hữu cổ phần của công ty liên tục ít nhất 01 năm có quyền tựmình hoặc
-| cùng với luật sư, kếtoán viên, kiểm toán viên có chứng chỉhành nghềtrực tiếp _.
+cùng với luật sư, kếtoán viên, kiểm toán viên có chứng chỉhành nghềtrực tiếp _.
 xem xét bao cáo quy định tại Điều này. .. —. . đ g HN búi cũ
-` Điều 176. Công khai thông tin ln `
-| 1. Công ty cổ phần phải gửi báo cáo tài chính hằng năm đã được Đại hội
+Điều 176. Công khai thông tin ln
+1. Công ty cổ phần phải gửi báo cáo tài chính hằng năm đã được Đại hội
 đồng cổ đông thông qua đến cơ quan nhà nước có thầm quyền theo quy định của _
 pháp luật vềké toán và quy định khác của pháp luật có liên quan.
 sau 2. Công ty cổ phần công bốtrên trang thông tin điện tửcủa mình thông tin đây:
@@ -1825,14 +1725,10 @@ a) Điều lệcông ty;
 [PAGE 45]
 +“ 115
 
-|
-
 b) Sơ yếu lý lịch, trình độhọc vấn và kinh nghiệm nghềnghiệp của các
 thành viên Hội đồng quản trị, Kiểm soát viên, Giám đốc hoặc Tổng giám đốc `.
 7 công ty;
-©) Bao cao tai chính hang năm đã được Dai hội đồng cổ đông thông qua; `
-
-|
+©) Bao cao tai chính hang năm đã được Dai hội đồng cổ đông thông qua;
 . d) Báo cáo đánh giá kết quảhoạt động hằng năm của Hội đồng quản trịvà
 ü Ban kiếm soát.
 3. Công ty cổ phần không phải là công ty niêm yết phải thông báo cho Cơ
@@ -1842,52 +1738,49 @@ Hộchiếu, dia chỉliên lạc, sốcổ phần và loại cổ phần của 
 oo nước ngoài; tên, mã sốdoanh nghiệp, địa chỉtrụ sởchính, sốcổ phần và loại cổ
 . phần của cổ đông là tổchức nước ngoài và họ, tên, quốc tịch, sốHộchiếu, địa
 chỉliên lạc người đại diện theo ủy quyền của cổ đông là tổchức nước ngoài.
-| 4. Công ty dai chúng thực hiện công bố, công khai thông tin theo quy định
+4. Công ty dai chúng thực hiện công bố, công khai thông tin theo quy định
 . của pháp luật vềchứng khoán. Công ty cổ phần theo quy định tại điểm b khoản .
 1 Điều 88 công bố, công khai thông tin theo quy định tại các điểm a, c, đ và g
 khoản 1 Điều 109 và Điều 110 của Luật này. n IN
 
 00
-
-| | Chương VI Oo
-ln CÔNG TY HỢP DANH |
-. Điều 177. Công ty hợp danh . C C | |
-| 1. Công ty hợp danh là doanh nghiệp, trong đó:
+| Chương VI Oo
+ln CÔNG TY HỢP DANH
+. Điều 177. Công ty hợp danh . C C |
+1. Công ty hợp danh là doanh nghiệp, trong đó:
 ©.“ a) Phải có ítnhất 02 thành viên là chủ sở hữu chung của công ty, cùng nhau
 kinh doanh dưới một tên chung (sau đây gọi là thành viên hợp danh). Ngoài các :
-`... thành viên hợp danh, công ty có thểcó thêm thành viên góp vốn; . . h
+... thành viên hợp danh, công ty có thểcó thêm thành viên góp vốn; . . h
 b) Thành viên hợp danh phải là cá nhân, chịu trách nhiệm bằng toàn bộtài
-10000000 sản của mình vềcác nghĩa vụ của công ty; `
+10000000 sản của mình vềcác nghĩa vụ của công ty;
 c) Thành viên góp vốn là tổchức, cá nhân và chỉchịu trách nhiệm vềcác
 “khoản nợcủa công ty trong phạm vi sốvốn đã cam kết góp vào công ty.
-` 2. Công ty hợp danh có tư cách pháp nhân kể từngày được cấp Giấy chứng
-nhận đăng ký doanh nghiệp. . c. `
+2. Công ty hợp danh có tư cách pháp nhân kể từngày được cấp Giấy chứng
+nhận đăng ký doanh nghiệp. . c.
 . 3. Công ty hợp danh không được phát hành bất kỳloại chứng khoán nào.
 .. Điều 178. Thực hiện góp vốn và cấp giấy chứng nhận phần vốn góp
 1. Thành viên hợp danh và thành viên góp vốn phải góp đủvà đúng hạn số
-| vốn đã cam kết. _ . | L0
+vốn đã cam kết. _ . | L0
 
 [PAGE 46]
-` B 116
+B 116
 
 Lũ
 
 . 2. Thành viên hợp danh không góp đủvà đúng hạn sốvốn đã cam kết gây
-thiệt hại cho công ty phải chịu trách nhiệm bồi thường thiệt hai cho công ty.. | |
+thiệt hại cho công ty phải chịu trách nhiệm bồi thường thiệt hai cho công ty.. |
 cam 3. Trường hợp có thành viên góp vốn không góp đủvà đúng hạn sốvốn đã kết thì sốvốn chưa góp đủđược coi là khoản nợcủa thành viên đó đối với
 . công ty; trong trường hợp này, thành viên góp vốn có liên quan có thểbịkhai
 trừkhỏi công ty theo quyết định của Hội đồng thành viên.
-| 4. Tại thời điểm góp đủsốvốn đã cam kết, thành viên được cấp giấy chứng _
-| nhận phần vốn góp: Giấy chứng nhận phần vốn góp phải bao gồm các nội dung
-..... chủyếu sau đây: _. . |
-
+4. Tại thời điểm góp đủsốvốn đã cam kết, thành viên được cấp giấy chứng _
+nhận phần vốn góp: Giấy chứng nhận phần vốn góp phải bao gồm các nội dung
+..... chủyếu sau đây: _. .
 có
 a) Tên, mã sốdoanh nghiệp, địa chỉtrụ sởchính của công ty; _
 
-`
 . b)Vốn điều lệcủa công ty; _ c : C 7 | có
-| ©) Tên, địa chỉliên lạc, quốc tịch, sốgiấy tờpháp lý của cá nhân đối với
-` thành viên là cá nhân; tên, mã sốdoanh nghiệp hoặc sốgiấy tờpháp lý của tổ
+©) Tên, địa chỉliên lạc, quốc tịch, sốgiấy tờpháp lý của cá nhân đối với
+thành viên là cá nhân; tên, mã sốdoanh nghiệp hoặc sốgiấy tờpháp lý của tổ
 chức, địa chỉtrụ sởchính đối với thành viên là tổchức; loại thành viên;
 Î d) Giá trịphần vốn góp và loại tài sản góp vốn của thành viên; __ B
 đ) Sốvà ngày cấp giấy chứng nhận phần vốn gop;
@@ -1895,14 +1788,13 @@ chức, địa chỉtrụ sởchính đối với thành viên là tổchức; l
 . 8) Họ, tên,chữ ký củangườisở hữu giấy chứng nhận phần vốn góp và của —.
 các thành viên hợp danh của công tỷ.. _ * ` . ` .
 . 5. Trường hợpgiấy chứng nhận phần vốn góp bịmất, bịhưhỏng hoặc bị..
-hủy hoại dưới hình thức khác, thành viên được công ty cấp lại giấy chứng nhận `
+hủy hoại dưới hình thức khác, thành viên được công ty cấp lại giấy chứng nhận
 phan von góp. : lg
 —...| Điều 179. Tài san của công ty hợp danh lữ .
 
 . Tài sản của công ty hợp danh bao gồm: _... B I . 2
 * 1. Tài sản góp vốn của các thành viên đã được chuyển quyền sở hữu cho =
-
-| | 2. Tai san tao lap duoc mang tén công ty; © nhọn z sựDm
+| 2. Tai san tao lap duoc mang tén công ty; © nhọn z sựDm
 
 .
 . 3. Tài sản thu được từhoat động kinh doanh do thành viên hợp danh thực
@@ -1925,56 +1817,52 @@ ch 7 117
 _
 . 2. Thành viên hợp danh không được nhân danh cá nhân hoặc nhân danh
 . người khác kinh doanh cùng ngành, nghềkinh doanh của công ty đểtư lợi hoặc _
-| phụcvụlợi ích củatổchức, cá nhân khác. | `
+phụcvụlợi ích củatổchức, cá nhân khác. |
 3. Thành viên hợp danh không được chuyển một phần hoặc toàn bộphần _.
 vốn góp của mình tại công ty cho tổchức, cá nhân khác nếu không được sựchấp
-thuận của các thành viên hợp danh còn lại. * |
-| Điều 181. Quyền và nghĩa vụ của thành viên hợp danh _ |
-| 1. Thành viên hợp danh có quyền sau đây:
+thuận của các thành viên hợp danh còn lại. *
+Điều 181. Quyền và nghĩa vụ của thành viên hợp danh _
+1. Thành viên hợp danh có quyền sau đây:
 a) Tham gia họp, thảo luận và biểu quyết vềcác vấn đềcủa công ty; mỗi
 thành viên hợp danh có một phiếu biểu quyết hoặc có sốphiếu biểu quyết khác _.
-`quy định tại Điều lệcông ty; oo . — `
+quy định tại Điều lệcông ty; oo . —
 b) Nhân danh công ty kinh doanh các ngành, nghềkinh doanh của công ty; —
 đàm phán và ký kết hợp đồng, giao dịch hoặc giao ước với những điều kiện mà
-thành viên hợp danh đó cho là có lợi nhất cho công ty; |
-| ©) Sửdụng tài sản của công ty đểkinh doanh các ngành, nghềkinh doanh
+thành viên hợp danh đó cho là có lợi nhất cho công ty;
+©) Sửdụng tài sản của công ty đểkinh doanh các ngành, nghềkinh doanh
 của công ty; trường hợp ứng trước tiền của mình đểkinh doanh cho công ty thì _:
 có quyền yêu cầu công ty hoàn trảlại cảsốtiền gốc và lãi theo lãi suất thị
-trường trên sốtiền gốc đã ứng trước; _: 7 ¦ đ `
-
+trường trên sốtiền gốc đã ứng trước; _: 7 ¦ đ
 —
 d) Yêu cầu công ty bù đắp thiệt hại từhoat động kinh doanh trong phạm vi
 nhiệm vụđược phân công nếu thiệt hại đó xảy ra không phải do sai sót cá nhân
-| của thành viên đó; _
+của thành viên đó; _
 đ) Yêu cầu công ty, thành viên hợp danh khác cung cấp thông tin vềtình
 ln hình kinh doanh của công ty; kiểm tra tài sản, sổkếtoánvà tài liệu khác của
-công ty khi thấy cần thiết; |
-. e) Được chia lợi nhuận tương ứng với tỷ lệphần vốn góp hoặc theo thỏa |
-
-| |
+công ty khi thấy cần thiết;
+. e) Được chia lợi nhuận tương ứng với tỷ lệphần vốn góp hoặc theo thỏa
 —. thuận quy định tại Điều lệcông ty; .
 g) Khi công ty giải thểhoặc phá sản, được chia giá trịtài sản còn lại tương
 ứng theo tỷ lệphần vốn góp vào công ty nếu Điều lệcông ty không quy định
-. một tỷ lệkhác; 2 [II ` 2 `
+. một tỷ lệkhác; 2 [II ` 2
 h) Trường hợp thành viên hợp danh chết thì người thừa kếcủa thành viên
 
 kị 00 được hưởng phần giá trịtài sản tại công ty sau khi đã trừđi phần nợvà nghĩa vụ .
 tài sản khác thuộc trách nhiệm của thành viên đó. Người thừa kếcó thểtrởthành
 thành viên hợp danh nếu được Hội đồng thành viên chấp thuận; _.
-| i) Quyền khác theo quy định của Luật nay va Điều lệcông ty. |
+i) Quyền khác theo quy định của Luật nay va Điều lệcông ty.
 
 [PAGE 48]
 118 có | ^
 
 2. Thành viên hợp danh có nghĩa vụsau đây:
-Î a) Tiến hành quản lý và thực hiện hoạt động kinh doanh một cách:trung . |
+Î a) Tiến hành quản lý và thực hiện hoạt động kinh doanh một cách:trung .
 thực, cần trọng và tốt nhất nhằm bảo đảm lợi ich hợp pháp tối da cho công ty; . .
-` b) Tiến hành quản lý và thực hiện hoạt động kinh doanh theo đúng quy
+b) Tiến hành quản lý và thực hiện hoạt động kinh doanh theo đúng quy
 định của pháp luật, Điều lệcông ty và nghị quyết, quyết định của Hội đồng
 —.. thành viên; nếu làm trái quy định tại điểm này, gây thiệt hại cho cộng ty thì phải
 chịu trách nhiệm bồi thường thiệt hại;
 
-|
 c) Không được sửdụng tài sản của công ty đểtư lợi hoặc phục vụlợi ích
 . của tổchức, cá nhân khác;
 
@@ -1982,33 +1870,31 @@ ___
 
 .
 _ d) Hoan trảcho công ty sốtiền, tài sản đã nhận và bồi thường thiệt hại gây ___.
-ra đổi với công ty trong trường hợp nhân danh công ty, nhân danh cá nhân hoặc üố`
-nhân danh người khác đểnhận tiền hoặc tài sản khác từhoạt động kinh doanh |
+ra đổi với công ty trong trường hợp nhân danh công ty, nhân danh cá nhân hoặc üố
+nhân danh người khác đểnhận tiền hoặc tài sản khác từhoạt động kinh doanh
 của công tymà không đem nộp cho công ty; ————.—.—.—————————————————.———.—————.— ——>...— — —
-` đ) Liên đới chịu trách nhiệm thanh toán hết sốnợcòn lai của công ty nếu _.
+đ) Liên đới chịu trách nhiệm thanh toán hết sốnợcòn lai của công ty nếu _.
 . tài sản của công ty không đủđểtrang trải sốnợcủa công ty;
 
 .
-
-| .©) Chịu khoản lỗtương ứng với phần vốn góp vào công ty hoặc theo thỏa |
+.©) Chịu khoản lỗtương ứng với phần vốn góp vào công ty hoặc theo thỏa
 thuận quy định tại Điều lệcông ty trong trường hợp công ty kinh doanh bịlỗ;
-| g) Định kỳhằng tháng báo cáo trung thực, chính xác bằng văn bản tình B
+g) Định kỳhằng tháng báo cáo trung thực, chính xác bằng văn bản tình B
 hình và kết quảkinh doanh của mình với. công ty; cung cấp thông tin vềtình. — . _:
 hình và kết quảkinh doanh của mình cho thành viên có yêu cầu;
-| . h) Nghĩa vụkhác theo quy định của Luật này và Điều lệcông ty. . ln |
-| Điều 182. Hội đồng thành viên | củ
+. h) Nghĩa vụkhác theo quy định của Luật này và Điều lệcông ty. . ln
+Điều 182. Hội đồng thành viên | củ
 một 1. Hội đồng thành viên bao gồm tất cảthành viên. Hội đồng thành viên bầu —`————— ° thành viên hợp danh làm Chủtịch Hội đồng thành viên, đồng thời kiêm Giám. — lg
-| đốc hoặc.Tong giám đốc công tynếu Điều lệcông tykhông có quy định khác. Phim: 00 viên— “2, Thành viên hợp danhcó quyền yêu cầu triệu tập họp Hội đồng thành —: | đểthảo luận và quyết định công việc kinh doanh của công ty. Thành viên .
+đốc hoặc.Tong giám đốc công tynếu Điều lệcông tykhông có quy định khác. Phim: 00 viên— “2, Thành viên hợp danhcó quyền yêu cầu triệu tập họp Hội đồng thành —: | đểthảo luận và quyết định công việc kinh doanh của công ty. Thành viên .
 yêu câu triệu tập họp phải chuẩn bịnội dung, chương trình và tài liệu họp.. cô
 “ 3. Hội đồng thành viên có quyền quyết định tất cảcông việc kinh doanh —
 của công ty. Nếu Điều lệcông ty không quy định thì quyết định các vấn đềsau ñi
 đây phải được ít nhất ba phần tư tổng sốthành viên hợp danh tán thành: —
-` a) Định hướng, chiến lược phát triển công ty; . ` |
-
+a) Định hướng, chiến lược phát triển công ty; . `
 có lãi “_. b) Sửa đổi, bd sung Điều lệcông ty; .
 ©) Tiếp nhận thêm thành viên mới; ›
-|` d) Chấp thuận thành viên hợp danh rút khỏi công ty hoặc quyết định khai _.
-— trừthành viên; trí >ơHH‹ ` ` `
+d) Chấp thuận thành viên hợp danh rút khỏi công ty hoặc quyết định khai _.
+— trừthành viên; trí >ơHH‹ ` `
 
 [PAGE 49]
 Nại 119 .
@@ -2024,9 +1910,9 @@ sốlợi nhuận chia cho từng thành viên;
 1) Quyết định giải thể; yêu cầu phá sản công ty. _
 4. Quyết định vềvấn đềkhác không quy định tại khoản 3 Điều này được
 . thông qua nếu được ít nhất hai phan ba tong sốthành viên hợp danh tán thành; tỷ
-lệcụthé do Điều lệcông ty quy định. : lẽ |
+lệcụthé do Điều lệcông ty quy định. : lẽ
 5. Quyền tham gia biểu quyết của thành viên góp vốn được thực hiệntheo
-. quy định của Luật này và Điều lệcông ty. |
+. quy định của Luật này và Điều lệcông ty.
 Điều 183. Triệu tập họp Hội đồng thành viên
 1. Chủtịch Hội đồng thành viên có thểtriệu tập họp Hội đồng thành viên
 khi xét thấy cần thiết hoặc theo yêu cầu của thành viên hợp danh. Trường hợp
@@ -2034,128 +1920,112 @@ Chủtịch Hội đồng thành viên không triệu tập hop theo yêu cau c�
 
 . . hợp danh thì thành viên đó triệu tập họp Hội đồng thành viên.
 2. Thông báo mời họp Hội đồng thành viên có thểgửi bằng giấy mời, điện
-` thoại, fax, phương tiện điện tửhoặc phương thức khác do Điều lệcông ty quy
+thoại, fax, phương tiện điện tửhoặc phương thức khác do Điều lệcông ty quy
 định. Thông báo mời họp phải nêu rõ mục đích, yêu cau và nội dung họp, _
 . chương trình và địa điểm họp, tên thành viên yêu cau triệu tập hop. lg
 Các tài liệu thảo luận được sửdụng đểquyết định các vấn đềquy định tại
 
 .
-
-| : khoản 3 Điều 182 của Luật này phải được gửi trước đến tất cảthành viên; thời
+: khoản 3 Điều 182 của Luật này phải được gửi trước đến tất cảthành viên; thời
 hạn gửi trước do Điều lệcông ty quy định.
 . 3. Chủtịch Hội đồng thành viên hoặc thành viên yêu cầu triệu tập họp chủ
-` toa cuộc hợp. Cuộc họp Hội đồng thành viên phải được ghi biên| bản, bao gồm
+toa cuộc hợp. Cuộc họp Hội đồng thành viên phải được ghi biên| bản, bao gồm
 
 .
 
-. các nội dung chủyếu sau day: N II — |
+. các nội dung chủyếu sau day: N II —
 a) Tên, mã sốdoanh nghiệp, địa chỉtrụ sởchính; *
 b) Thời gian, địa điểm họp; c .
 . c) Mục dich, chương trình và nội dung họp; .
 d) Họ, tên chủtọa, thành viên dựhọp;
-| đ) Ý kiến của thành viên dựhop; hóc
+đ) Ý kiến của thành viên dựhop; hóc
 
-|
 e) Nghị quyết, quyết định được thông qua, sốthành viên tán thành, không có
 tán thành, không có ý kiến và nội dung cơ bản của nghị quyết, quyết định đó;
 
 [PAGE 50]
-|
 120 ^
-
-|
 
 g) Họ, tên, chữ ký của các thành viên dựhọp.
 
-— Điều 184. Điều hành kinh doanh của công ty hợp danh |
+— Điều 184. Điều hành kinh doanh của công ty hợp danh
 , _ 1. Các thành viên hợp danh là người đại diện theo pháp luật của công ty và
 tô chức điều hành hoạt động kinh doanh hăng ngày của công ty. Mọi hạn chếđối —
 với thành viên hợp danh trong thực hiện công việc kinh doanh hang ngày của
 công ty chỉcó hiệu lực đối với bên thứba khi người đó được biết vềhạn chếđó.
 2. Trong điều hành hoạt động kinh doanh của công phân ty, thành viên hợp danh công nhau đảm nhiệm các chức danh quan lý và kiếm soát công ty. . .
 Khi một sốhoặc tất cảthành viên hợp danh cùng thực hiện một sốcông việc ___
-—. kinh doanh thì quyết định được thông qua theo nguyên tắc đa sốchấp thuận. _: |
+—. kinh doanh thì quyết định được thông qua theo nguyên tắc đa sốchấp thuận. _:
 Hoạt động do thành viên hợp danh thực hiện ngoài phạm vi hoạt động kinh
-
-| doanh của công ty đều không thuộc trách nhiệm của công ty, trừ trường hợp
-hoat động đó đã được các thành viên còn lại chấp thuận. _ . C |
+doanh của công ty đều không thuộc trách nhiệm của công ty, trừ trường hợp
+hoat động đó đã được các thành viên còn lại chấp thuận. _ . C
 3. Công ty có thểmởmột hoặc một sốtài khoản tại ngân hàng. Hội đồng
 thành viên chỉđịnh thành viên được ủy quyền gửi và rút tiền từcác tài khoản đó.
-| 4. Chủtịch Hội đồng thành viên, Giám đốc hoặc Tổng giám đốc có các
+4. Chủtịch Hội đồng thành viên, Giám đốc hoặc Tổng giám đốc có các
 nghĩa vụsau đây: — ã II 2 NN
 a) Quản lý và điều hànhcông việc kinh doanh hằng ngày của công ty với tư °
-
-|
-` cách là thành viên hợpdanh; _._.._.....__.__._...__..—.._._.._.. oe 8 ủ0
-của b)Trigu tậpvà tổchức họp Hội đồng thành viên; ký nghị quyết, quyết định _ Hội đồng thành viên; `
-| c) Phân công, phối hợp công việc kinh doanh giữa các thành viên hợp danh;
-` d) Tổchức sắp xếp, lưu giữđầy đủvà trung thực sổkếtoán, hóa đơn, |
+cách là thành viên hợpdanh; _._.._.....__.__._...__..—.._._.._.. oe 8 ủ0
+của b)Trigu tậpvà tổchức họp Hội đồng thành viên; ký nghị quyết, quyết định _ Hội đồng thành viên;
+c) Phân công, phối hợp công việc kinh doanh giữa các thành viên hợp danh;
+d) Tổchức sắp xếp, lưu giữđầy đủvà trung thực sổkếtoán, hóa đơn,
 chứng từvà các tài liệu khác của công ty theo quy định của pháp luật;
 nguyên. đ) Đạidiệnchocông ty với tư cách người yêu cầu giải quyết việcdân sự, ___
 đại đơn, bịđơn, người có quyền lợi, nghĩa vụliên quantrước Trọng tài, Tòaán; __ diện cho công ty thực hiệnquyền, nghĩa vụkhác theo quy định của pháp luật; . ~“
-e) Nghĩa vụkhác do Điều lệcông ty quy định. | |
+e) Nghĩa vụkhác do Điều lệcông ty quy định. |
 Điều 185. Chấm dứttư cách thành viên hợp danh ... __... one
 — 1, Thanh viên hợp danh bi chấm dứt tu cách trong trường hợp sau đây:
-
-` `. a) Tựnguyện rút vốn khỏi công ty; .
-| khăn b) Chết, mất tích, bịhan chếhoặc mất năng lực hànhvi dan su,| có khó | trong nhận thức, làm chủhành vi; .
-©) Bịkhai trừkhỏi công ty; |
+`. a) Tựnguyện rút vốn khỏi công ty; .
+khăn b) Chết, mất tích, bịhan chếhoặc mất năng lực hànhvi dan su,| có khó | trong nhận thức, làm chủhành vi; .
+©) Bịkhai trừkhỏi công ty;
 việc d) Chấp hành hình phạt tù hoặc bịTòa án cấm hành nghềhoặc làm công . nhất định theo quy định của pháp luật; ` học ơi
 
 [PAGE 51]
 đ) Trường hợp khác do Điều lệcông ty quy định.
 . 2, Thành viên hợp danh có quyền rút vốn khỏi công ty nếu được Hội đồng
-` thành viên chấp thuận. Trường hợp này, thành viên muốn rút vốn khỏi công ty
+thành viên chấp thuận. Trường hợp này, thành viên muốn rút vốn khỏi công ty
 . phải thông báo bằng văn bản yêu cầu rút vốn chậm nhất là 06 tháng trước ngày __
 lã rút vốn; chỉđược rút vốn vào thời điểm kết thúc năm tài chính và báo cáo| tài
 chính của năm tài chính đó đã được thông qua.
-| 3. Thành viên hợp danh bịkhai trừkhỏi công ty trong trường hợp sau đây:
+3. Thành viên hợp danh bịkhai trừkhỏi công ty trong trường hợp sau đây:
 . a) Không có khảnăng góp vốn hoặc không góp vốn như đã cam kết sau khi
 . .. công ty đã có yêu cầu lần thứhai; — .
 * b) Vi phạm quy định tại Điều 180 của Luật này;
 ©) Tiến hành công việc kinh doanh không trung thực, không cẩn trọng hoặc
-
-|
-| có hành vi không thích hợp khác gây thiệt hại nghiêm trọng đến lợi ích của công .
+có hành vi không thích hợp khác gây thiệt hại nghiêm trọng đến lợi ích của công .
 ty và thành viên khác;
-| d) Không thực hiện đúng nghĩa vụ của thành viên hợp danh.
-4. Trường hợp chấm dứt tư cách thành viên của thành viên bịhạn chếhoặc |
+d) Không thực hiện đúng nghĩa vụ của thành viên hợp danh.
+4. Trường hợp chấm dứt tư cách thành viên của thành viên bịhạn chếhoặc
 mất năng lực hành vi dân sự, có khó khăn trong nhận thức, làm chủhành vi thì
 phần vốn góp của thành viên đó được hoàn trảcông bằng và thỏa đáng.
 100000 5. Trong thời hạn 02 năm kể từngày chấm dứttư cách thành viên hợp danh — _.
 theo quy định tại các điểm a, c, d và đ khoản 1 Điều này thì người đó vẫn phải
 liên đới chịu trách nhiệm bằng toàn bộtài sản của mình đối với các khoản nợ
 của công ty đã phát sinh trước ngày chấm dứt tư cách thành viên. .
-¦ 6. Sau khi chấm dứt tư cách thành viên hợp danh, nếu tên của thành viênđó . .
+6. Sau khi chấm dứt tư cách thành viên hợp danh, nếu tên của thành viênđó . .
 đã được sửdụng thành một phần hoặc toàn bộtên công ty thì người đó hoặc .
 người thừa kế, người đại diện theo pháp luật của họcó quyền yêu cầu công ty _
 chấm dứt việc sửdụng tên đó.
 Điều 186. Tiếp nhận thành viên mới —
-| 1. Công ty có thểtiếp nhận thêm thành viên hợp danh hoặc thành viên góp
+1. Công ty có thểtiếp nhận thêm thành viên hợp danh hoặc thành viên góp
 vốn; việc tiếp nhận thành viên mới của công ty phải được Hội đồng thành viên
-. chấp thuận. . . `
-
-`
+. chấp thuận. . .
 2, Thành viên hợp danh hoặc thành viên góp vốn phải nộp đủsốvốn cam .
 .. kết góp vào công ty trong thời han 15 ngày kể từngày được chấp thuận, trừ
-`. trường hợp Hội đồng thành viên quyết định thời hạn khác.
+. trường hợp Hội đồng thành viên quyết định thời hạn khác.
 
-|
 3. Thành viên hợp danh mới phải cùng liên đới chịu trách nhiệm bang toàn
 bộtài sản của mình đối với các khoản nợvà nghĩa vụtai sản khác của công ty,
 trừ trường hợp thành viên đó và các thành viên còn lại có thỏa thuận khác.
 
 [PAGE 52]
-|
-l 122 | |
-
+l 122 |
 Điều 187. Quyền và nghĩa vụ của thành viên góp vốn
 1. Thành viên góp vốn có quyền sau đây: | ln
 sửa a) Tham gia họp, thảo luận và biểu quyết tại Hội đồng thành viên vềviệc .. đổi, bổsung Điều lệcông ty, sửa đổi, bo sung các quyền và nghĩa vụ của
 thành viên góp vốn, vềtổchức lại, giải thé công ty và nội dung khác của Điều lệ
 công ty có liên quan trực tiếp đến quyền và nghĩa vụ của họ; .
-| b) Được chia lợi nhuận hằng năm tương ứng với tỷ lệphần vốn góp trong
-| vốn điều lệcủa công ty;
+b) Được chia lợi nhuận hằng năm tương ứng với tỷ lệphần vốn góp trong
+vốn điều lệcủa công ty;
 câu ©) Được cung cấpbáo cdo tài chính hằng năm của công ty; cóquyềnyêu___.ln
 Chủtịch Hội đồng thành viên, thành viên hợp danh cung cấp day đủvà
 trung thực thông tin vềtình hình và kết quảkinh doanh của công ty; xem xét số _.
@@ -2165,26 +2035,21 @@ kểtoán, biên bản, hợp đồng, giao dich, hồso và tai liệu khác c�
 . ngành, nghềkinh doanh của công ty;
 ©) Định doat phần vốn góp của minh bằng cách đểthừa kế, tặng cho, thế
 chap, cam cốvà các hình thức khác theo quy định của pháp luật và Điều lệcông
-| ty; trường hợp chết thì người thừa kếthay thếthành viên đã chết trởthành thành
-viên góp vốn của công ty; `
+ty; trường hợp chết thì người thừa kếthay thếthành viên đã chết trởthành thành
+viên góp vốn của công ty;
 g) Được chia một phần giá trịtài sản còn lại của công ty tướngứng
 lệphan vốn góp trong vốn điều lệcông ty khi công ty giải thé hoặc phá sản;với— tỷ~~ —:
 * h) Quyén khác theo quy định của Luật này và Điều lệcông ty. |.
-| 2, Thành viên góp vốn cónghĩa vụsau đây: ___ Hãn HIỆNH E UINNA
-
-| a) Chịu trách nhiệm vềcác khoản nợvà nghĩa vụtài sản khác của công ty
+2, Thành viên góp vốn cónghĩa vụsau đây: ___ Hãn HIỆNH E UINNA
+a) Chịu trách nhiệm vềcác khoản nợvà nghĩa vụtài sản khác của công ty
 trong phạm vi sốvốn đã cam kết góp; ___ | HU ©. .
-b) Không được tham gia quản lýcông ty, không được tiến hành công việc . |
+b) Không được tham gia quản lýcông ty, không được tiến hành công việc .
 . kinh doanh nhân danh céng ty; lữ. ee ees c
-` _ ©) Tuân thủĐiều lệcông ty, nghị quyết và quyết định của Hội đồng thành viên; |
+_ ©) Tuân thủĐiều lệcông ty, nghị quyết và quyết định của Hội đồng thành viên;
 d) Nghĩa vụkhác theo quy định của Luật nay và Điều lệcông ty. connie . Bo
-
-|
-| Chương VII | — |
-| DOANH NGHIEP TU NHAN |
-Điều 188. Doanh nghiệp tư nhân ỉ |
-
-|
+Chương VII | —
+DOANH NGHIEP TU NHAN
+Điều 188. Doanh nghiệp tư nhân ỉ
 trách 1. Doanh nghiệp tư nhân là doanh nghiệp do một cá nhân làm chủvà tựchịu Lũ
 nhiệm bang toan bộtai sản của mình vềmọi hoạt động của doanh nghiệp. ln
 2. Doanh nghiệp tư nhân khôngđược phát hành bất kỳloại chứng khoán nào.
@@ -2198,30 +2063,30 @@ hợp danh của công ty hợp danh.
 __ 4, Doanh nghiệp tu nhân không được quyền góp vốn thành lập hoặc mua cổ
 phan, phan von gop trong công ty hợp danh, công ty trách nhiệm hữu hạn hoac
 công ty cô phần.
-Điều 189. Vốn đầu tư của chi doanh nghiệp tư nhân |
+Điều 189. Vốn đầu tư của chi doanh nghiệp tư nhân
 1. Vốn đầu tư của chủdoanh nghiệp tư nhân do chủdoanh nghiệp tựđăng
 ký. Chủdoanh nghiệp tư nhân có nghĩa vụđăng ký chính xác tongso von dau
 tu, trong đó nêu rõ sốvon bang Dong Việt Nam, ngoai tệtựdo chuyển đổi, vàng
-| va tài sản khác; đối với vốn bang tài sản khác còn phải ghi rõ loai tài sản, số
+va tài sản khác; đối với vốn bang tài sản khác còn phải ghi rõ loai tài sản, số
 lượng và giá trịcòn lại của mỗi loại tài sản.
 2. Toan bộvốn và tài sản kểcảvốn vay và tài sản thuê được sửdụngvao .
-hoạt động kinh doanh của doanh nghiệp phải được ghi chép đây đủvào sốkế |
+hoạt động kinh doanh của doanh nghiệp phải được ghi chép đây đủvào sốkế
 toán và báo cáo tài chính của doanh nghiệp theo quy định của pháp luật.
-| 3. Trong quá trình hoạt động, chủdoanh nghiệp tư nhân có quyền tăng hoặc
-| giảm vốn đầu tư của mình vào hoạt động kinh doanh của doanh nghiệp. Việc
+3. Trong quá trình hoạt động, chủdoanh nghiệp tư nhân có quyền tăng hoặc
+giảm vốn đầu tư của mình vào hoạt động kinh doanh của doanh nghiệp. Việc
 tăng hoặc giảm von đầu tư của chủdoanh nghiệp tư nhân phải được ghi chép
 đầy đủvào sổkếtoán. Trường hợp giảm vốn dau tư xuống thấp hon von dau tu
-đã đăng ký thi chủdoanh nghiệp tu nhân chi được giảm von sau khi đã đăng ký |
-` với Cơ quan đăng ký kinh doanh. l NN
-Điều 190. Quản lý doanh nghiệp tư nhân |
+đã đăng ký thi chủdoanh nghiệp tu nhân chi được giảm von sau khi đã đăng ký
+với Cơ quan đăng ký kinh doanh. l NN
+Điều 190. Quản lý doanh nghiệp tư nhân
 1. Chủdoanh nghiệp tư nhân có toàn quyền quyết định đối với tất cảhoạt
 động kinh doanh của doanh nghiệp tư nhân, việc sửdụng lợi nhuận sau khi đã
-nộp thuếvà thực hiện nghĩa vụtài chính khác theo quy định của pháp luật. |
-2. Chủdoanh nghiệp tư nhân có thểtrực tiếp hoặc thuê người khác làm `
+nộp thuếvà thực hiện nghĩa vụtài chính khác theo quy định của pháp luật.
+2. Chủdoanh nghiệp tư nhân có thểtrực tiếp hoặc thuê người khác làm
 Giám đốc hoặc Tổng giám đốc đểquản lý, điều hành hoạt động kinh doanh;
 trường hợp nay, chủdoanh nghiệp tu nhân van phải chịu trách nhiệm ve mọi _:
 hoạt động kinh doanh của doanh nghiệp tư nhân.
-| 3. Chủdoanh nghiệp tư nhân là người đại diện theo pháp luật, đại diện cho
+3. Chủdoanh nghiệp tư nhân là người đại diện theo pháp luật, đại diện cho
 doanh nghiệp tư nhân với tư cách người yêu cầu giải quyết việc dân sự, nguyên
 đơn, bịđơn, người có quyền lợi, nghĩa vụliên quan trước Trọng tài, Tòa án, đại
 diện cho doanh nghiệp tư nhân thực hiện quyền và nghĩa vụkhác theo quy định
@@ -2235,24 +2100,20 @@ hạn 03 ngày làm việc kể từngày hợp đồng cho thuê có hiệu l�
 [PAGE 54]
 124 lệ
 
-|
 cho thuê, chủdoanh nghiệp tư nhân vẫn phải chịu trách nhiệm trước pháp luật .
-với tư cách là chủ sở hữu doanh nghiệp tư nhân. Quyền, nghĩa vụvà trách nhiệm `
+với tư cách là chủ sở hữu doanh nghiệp tư nhân. Quyền, nghĩa vụvà trách nhiệm
 của chủ sở hữu và người thuê đối với hoat động kinh doanh của doanh nghiệp tự
 nhân được quy định trong hợp đồng cho thuê.
-— Điều 192. Bán doanh nghiệp tư nhân Oo |
-
-|
+— Điều 192. Bán doanh nghiệp tư nhân Oo
 cho cá1. nhân,Chủdoanhtổchứcnghiệpkhác. tư nhân có quyền bán doanh nghiệp tư nhân của mình
 chịu 2. Sau khi bán doanh nghiệp tư nhân, chủdoanh nghiệp tư nhân vẫn phải
 nhân trách nhiệm vềcác khoản nợvà nghĩa vụtài sản khác của doanh nghiệp tư
 hợp phát sinh trong thời gian trước ngày chuyển giao doanh nghiệp, trừ trường| chủdoanh nghiệp tư nhân, người mua và chủnợcủa doanh nghiệp tư nhân
 có thỏa thuận khác. _._._........._...__... 1001011000. 0000re
-| _ 3. Chu doanh nghiệp tu nhân, người mua doanh nghiệp tu nhân phải tuân
-thủquy định của pháp luật vềlao động. |
+_ 3. Chu doanh nghiệp tu nhân, người mua doanh nghiệp tu nhân phải tuân
+thủquy định của pháp luật vềlao động.
 4. Người mua doanh nghiệp tư nhân phải đăng ký thay đổi chủdoanh
 
-|
 nghiệp tư nhân theo quy định của Luật này. .
 
 . Điều 193. Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _
@@ -2263,23 +2124,21 @@ phạt 1. Trường hợp chủdoanh nghiệp tư nhân bịtạm giam, đang ch
 2. Trường hợp chủdoanh nghiệp tư nhân chết thì người thừa kếhoặc một
 trong những người thừa kếtheo di chúc hoặc theo pháp luật là chủdoanh nghiệp __
 tư nhân theo thỏa thuận giữa những người thừa kế. Trường hợp những người
-thừathé kềkhông thỏa thuận được thi đăng ký chuyển đối thành công ty hoặc giải _ . doanh nghiệp tư nhân đó. . |
-
+thừathé kềkhông thỏa thuận được thi đăng ký chuyển đối thành công ty hoặc giải _ . doanh nghiệp tư nhân đó. .
 _ 3. Trường hợp chủdoanh nghiệp tu nhân chết mà không có ngườithừa ko
 người thừa ké từchối nhận thừa kếhoặc bịtruất quyền thừa ké thi tài sản của: chủdoanh nghiệp tư nhân được xửlý theo quy định của pháp luật vềdân sự. —
 hành 4. Trườnghợp chủdoanh nghiệp tửnhân bịhạn chếhoặc ruất nănglực —
-vụ củavichủdoanhdân sự, cónghiệpkhó khăntư nhântrongđượcnhậnthựcthức,hiệnlàmthôngchủhànhqua vingườithì quyềnđại diện.và nghĩa `
+vụ củavichủdoanhdân sự, cónghiệpkhó khăntư nhântrongđượcnhậnthựcthức,hiệnlàmthôngchủhànhqua vingườithì quyềnđại diện.và nghĩa
 làm 5. Trường hợp chủdoanh nghiệp tư nhân bịTòa án cấm hành nghềhoặc công việc nhất định thuộc phạm vi ngành, nghềkinh doanh của doanh
 nghiệp thì chủdoanh nghiệp tư nhân tạm ngừng, chấm dứt kinh doanh ngành,
-nghềcó liên quan theo quyết định của Tòa án hoặc chuyển nhượng doanh `
+nghềcó liên quan theo quyết định của Tòa án hoặc chuyển nhượng doanh
 nghiệp tư nhân cho cá nhân, tổchức khác.
 
 .
 
 [PAGE 55]
 Chương VIII
-. NHOM CONG TY |
-
+. NHOM CONG TY
 Điều 194. Tập đoàn kinh tế, tổng công ty
 1. Tập đoàn kinh tế, tổng công ty thuộc các thành phần kinhtếlà nhóm
 công ty có môi quan hệvới nhauthông qua sở hữu cổphan, phan von góp hoặc
@@ -2287,12 +2146,12 @@ công ty có môi quan hệvới nhauthông qua sở hữu cổphan, phan von g�
 nghiệp, không có tư cách pháp nhân, không phải đăng ký thành lập theo quy
 . định của Luật này.
 2. Tập đoàn kinh tế, tổng công ty có công tymẹ, công ty con và các công ty
-| thành viên khác. Công ty mẹ, công ty con va môi công ty thanh vién trong tap
+thành viên khác. Công ty mẹ, công ty con va môi công ty thanh vién trong tap
 doan kinh tế, tổng công ty có quyền va nghĩa vụ của doanh nghiệp| độc lập theo
 
 ln quy định của pháp luật. .
-| Điều 195. Công ty me, công ty con I II |
-1. Một công ty được coi là công ty mẹcủa công ty khác nếu thuộc một |
+Điều 195. Công ty me, công ty con I II
+1. Một công ty được coi là công ty mẹcủa công ty khác nếu thuộc một
 trong các trường hợp sau đây:
 a) Sở hữu trên 50% vốn điều lệhoặc tổng sốcổ phần phổ thông của công ty đó;
 b) Có quyền trực tiếp hoặc gián tiếp quyết định bổnhiệm đa sốhoặc tất cả
@@ -2300,18 +2159,16 @@ b) Có quyền trực tiếp hoặc gián tiếp quyết định bổnhiệm đa
 ©) Có quyền quyết định việc sửa đổi, bổsung Điều lệcủa công ty đó.
 l 2. Công ty con không được đầu tư mua cổ phần, góp vốn vào công ty mẹ.
 Các công ty con của cùng một công ty mẹkhông được đồng thời cùng góp von,
-mua cốphan dé sở hữu chéo lần nhau. lã B — |
+mua cốphan dé sở hữu chéo lần nhau. lã B —
 . 3. Các công ty con có cùng một công ty mẹlà doanh nghiệpcó sở hữu ít
 nhất 65% vốn nhà nước không được cùng nhau góp vốn, mua cổphan của doanh
 nghiệp khác hoặc đềthành lập doanh nghiệp mới theo quy định của Luật này.
 ln 4. Chính phủquy định chi tiết khoản 2 và khoản 3 Điều này. _ 7
 Điều 196. Quyền, nghĩa vu va trách nhiệm của công ty me đối với công
 
-`
-
 . . . Î ty con
 1. Tùy thuộc vào loại hình pháp lý của công ty con, công ty mẹthực hiện
-quyền và nghĩa vụ của mình với tư cách là thành viên, chủ sở hữu hoặc cổ đông |
+quyền và nghĩa vụ của mình với tư cách là thành viên, chủ sở hữu hoặc cổ đông
 trong quan hệvới công ty con theo quy định tương ứng của Luật này và quy
 định khác của pháp luật có liên quan.
 2. Hợp đồng, giao dịch và quan hệkhác giữa công ty mẹvà công ty con
@@ -2322,10 +2179,10 @@ thành viên hoặc cổ đông và buộc công ty con phải thực hiện ho�
 doanh trái với thông lệkinh doanh bình thường hoặc thực hiện hoạt động không __
 
 [PAGE 56]
-| 126 có Tủ
+126 có Tủ
 
 sinh lợi mà không đền bù hợp lý trong năm tài chính có liên quan, gây thiệt hại
-| :. cho công ty con thi công ty mẹphải chịu trách nhiệm vềthiệt hại đó.
+:. cho công ty con thi công ty mẹphải chịu trách nhiệm vềthiệt hại đó.
 4. Người quản lý công ty mẹchịu trách nhiệm vềviệc can thiệp buộc công
 . ty con thực hiện hoạt động kinh doanh theo quy định tại khoản 3 Điều này phải
 liên đới cùng công ty mẹchịu trách nhiệm vềthiệt hại đó. —
@@ -2334,7 +2191,7 @@ khoảnđiều 3 Điều này thì chủnợhoặc thành viên, cổ đông có
 con lệcủa công ty con có quyền nhân danh chính mình hoặc nhân danh công ty . yêu cau công ty mẹđền bù thiệt hại cho công ty con..— — _. .
 công 6.Trường hợp hoạt động kinh doanh theo quy định tại khoản 3 Điều này do ty con thực hiện đem lại lợi ích cho công ty con khác của cùng một công ty
 mẹlợi thì công ty con được hưởng lợi phải liên đới cùng công ty mẹhoàn trảkhoản . được hưởng cho công ty con bịthiệt hại.
-| Điều 197. Báo cáo tài chính của công ty mẹ, công ty con ` vui
+Điều 197. Báo cáo tài chính của công ty mẹ, công ty con ` vui
 định 1. Vào thời điểm kết thúc năm tài chính; ngoài báo cáo vàtài liệu theo quy của pháp luật, công ty mẹcòn phải lập các báo cáo sau đây: —
 vềkếtoán;a) Báo cáo° tài chính. hợpnhấtCe củaN 44công 44ty me theoHỊN quyEE địnhHÌNH của Rpháp luật ___
 ty con;b) Báo__ cáo tổng hợp kết quảkinh| doanh hằng năm của công ty mẹvà công
@@ -2371,7 +2228,7 @@ lập báo cáo tổng hợp vềmua, bán và giao dịch khác với công ty 
 Chương IX | .
 TO CHỨC LẠI, GIẢI THE VA PHA SẢN DOANH NGHIỆP
 
-Điều 198. Chia công ty `
+Điều 198. Chia công ty
 1. Công ty trách nhiệm hữu hạn, công ty cổ phần có thểchia các tài sản,
 quyền và nghĩa vụ, thành viên, cổ đông của công ty hiện có (sau đây gọi là công
 ty bịchia) đểthành lập hai hoặc nhiều công ty mới. —
@@ -2380,7 +2237,7 @@ ty bịchia) đểthành lập hai hoặc nhiều công ty mới. —
 a) Hội đồng thành viên, chủ sở hữu công ty hoặc Đại hội đồng cổ đông của
 công ty bịchia thông qua nghị quyết, quyết định chia công ty theo quy định của . .
 Luật này và Điều lệcông ty. Nghị quyết, quyết định chia công ty phải gồm các .
-` nội dung chủyếu sau: tên, địa chỉtrụ sởchính của công ty bịchia, tên các công _.
+nội dung chủyếu sau: tên, địa chỉtrụ sởchính của công ty bịchia, tên các công _.
 ty sẽthành lập; nguyên tắc, cách thức và thủ tục chia tài sản công ty; phương án
 sửdụng lao động; cách thức phân chia, thời hạn và thủ tục chuyển đối phần vốn
 góp, cổ phần, trái phiếu của công ty bịchia sang các công ty mới thành lập;
@@ -2392,20 +2249,17 @@ b) Thành viên, chủ sở hữu công ty hoặc cổ đông của công ty m�
 . thành lập thông qua Điều lệ, bầu hoặc bổnhiệm Chủtịch Hội đồng thành viên, .
 Chủtịch công ty, Hội đồng quản trị, Giám đốc hoặc Tổng giám đốc và tiền hành
 đăng ký doanh nghiệp theo quy định của Luật này. Trong trường hợp này, hồ sơ
-`. đăng ký doanh nghiệp đối với công ty mới phải kèm theo nghị quyết, quyết định
+. đăng ký doanh nghiệp đối với công ty mới phải kèm theo nghị quyết, quyết định
 chia công ty quy định tại điểm a khoản này. .
 3. Số lượng thành viên, cổ đông và số lượng, tỷ lệsở hữu cổ phần, phần
-vốn góp của thành viên, cốđông và vốn điều lệcủa các công ty mới sẽđược ghi |
+vốn góp của thành viên, cốđông và vốn điều lệcủa các công ty mới sẽđược ghi
 tương ứng với cách thức phân chia, chuyển đối phan von gop, cổ phần của công
 ty bịchia sang các công ty mới theo nghị quyết, quyết định chia công ty. .
 4. Công ty bịchia chấm dứt tồn tại sau khi các công ty. mới được cấp Giấy
-| chứng nhận đăng ký doanh nghiệp. Các công ty mới phải cùng liên đới chịu _
+chứng nhận đăng ký doanh nghiệp. Các công ty mới phải cùng liên đới chịu _
 
 [PAGE 58]
-128 |
-
-|
-
+128
 trách nhiệm vềnghĩa vụ, các khoản nợchưa thanh toán, hợp đồng lao động và
 nghĩa. vụtài sản khác của công ty bịchia hoặc thỏa thuận với chủnợ, khách
 
@@ -2413,31 +2267,31 @@ nghĩa. vụtài sản khác của công ty bịchia hoặc thỏa thuận với
 Các công ty mới đương nhiên kếthừa toàn bộquyền, nghĩa vụvà lợi ích hợp
 pháp được phân chia theo nghị quyết, quyết định chia công ty.
 chia 5. Cơ quan đăng ký kinh doanh cập nhật tinh trạng pháp lý của công ty bị
-| trong Cơ sởdữliệu quốc gia vềđăng ký doanh nghiệp khi cấp Giấy chứng
+trong Cơ sởdữliệu quốc gia vềđăng ký doanh nghiệp khi cấp Giấy chứng
 —.. nhận đăng ký doanh nghiệp cho các công ty mới. Trường hợp công ty mới có địa
 chỉtrụ sởchính ngoài tỉnh, thành phốtrực thuộc trung ương nơi công ty bịchia .
-.. có trụ sởchính thì Cơ quan đăng ký kinh doanh nơi đặt trụ sởchính của công ty |
+.. có trụ sởchính thì Cơ quan đăng ký kinh doanh nơi đặt trụ sởchính của công ty
 mới phải thông báo việc đăng ký doanh nghiệp đối với công ty mới cho Cơ quan
 dang ký kinh doanh nơi công ty bịchia đặt trụ sởchính đểcập nhật tình trạng
 pháp lý của công ty bịchia trên Cơ sởdữliệu quốc gia vềđăng ký doanh nghiệp. l
-Điều 199. Tách công ty | | |
+Điều 199. Tách công ty | |
 chuyển1. Công ty trách nhiệm hữu hạn, công ty cổ phần có thểtách bằng cách—
 có một phần tài sản, quyền, nghĩa vụ, thành viên, cổ đông của công ty hiện (sau đây gọi là công ty bịtách) đểthành lập một hoặc một sốcông ty trách
 nhiệm hữu hạn, công ty cổ phần mới (sau đây gọi làcông ty được tách) mà
 
-ln không chấm dứt tồn tại của công ty bịtách. __ IN |
+ln không chấm dứt tồn tại của công ty bịtách. __ IN
 đông_ 2. Công ty bịtách phải đăng ký thay đổi vốn điều lệ; số lượng thành viên; cổ““. — tương ứng với phần vốn góp, cổ phần và số lượng thành viên, cổ đông giảm
 xuống (nếu có); đồng thời đăng ký doanh nghiệp đối với các công tyđượctách. _... ..... —
 . 3. Thủ tục tách công ty trách nhiệm hữu hạn và công ty cổ phần được quy
-định như sau: | |
+định như sau: |
 công a) Hội đồng thành viên, chủ sở hữu công ty hoặc Đại hội đồng cổ đông của `:
 Luật ty bịtách thông qua nghị quyết, quyết định tách công ty theo quy định của
 nội này và Điều lệcông ty. Nghị quyết, quyết định tách công ty phải gồm các —. : důng chủyếu sau: tên, địa chỉtrụ sởchính của công ty bịtách; tên công ty
 được tách sẽthành lập; phương án sửdụng lao động; cách thức tách công ty; giá
 trịtài sản, quyền và nghĩa vụđược chuyển từcông ty bịtách sang công ty được
 tách; thời hạn thực hiện tách công ty. Nghị quyết, quyết định tách công ty phải __
-được gửi đến tất cảchủnợvà thông báo cho người lao động biết trong thời hạn `
-15 ngày kể từngày ra quyết định hoặc thông qua nghị quyết; l |
+được gửi đến tất cảchủnợvà thông báo cho người lao động biết trong thời hạn
+15 ngày kể từngày ra quyết định hoặc thông qua nghị quyết; l
 b) Các thành viên, chủ sở hữu công ty hoặc cổ đông của công ty được tách
 thông qua Điều lệ, bầu hoặc bổnhiệm Chủtịch Hội đồng thành viên, Chủtịch —
 công ty, Hội đồng quản trị, Giám đốc hoặc Tổng giám đốc và tiến hành đăng ký _.
@@ -2450,53 +2304,51 @@ t ô 129
 cùng liên đới chịu trách nhiệm vềcác nghĩa vụ, các khoản nợchưa thanh toán,
 hợp đồng lao động và nghĩa vụtài sản khác của công ty bịtách, trừ trường hợp
 công ty bịtách, công ty được tách, chủnợ, khách hàng và người lao động của
-công ty bịtách có thỏa thuận khác. Các công ty được tách đương nhiên kếthừa |
+công ty bịtách có thỏa thuận khác. Các công ty được tách đương nhiên kếthừa
 toàn bộquyền, nghĩa vụvà lợi ích hợp pháp được phân chia theo nghị quyết,
 quyết định tách công ty.
-Điều 200. Hợp nhất công ty |
+Điều 200. Hợp nhất công ty
 1. Hai hoặc một sốcông ty (sau day gọi là công ty bi hop nhất) có thể hợp
 nhất thành một công ty mới (sau đây gọi là công ty hợp nhất), đồng thời chấm —
 dứt tồn tại của các công ty bịhợp nhất.
-| 2. Thủ tục hợp nhất công ty được quy định như sau:
-a) Công ty bịhợp nhất chuẩn bịhợp đồng hợp nhất, dựthảo Điều lệcông ty |
+2. Thủ tục hợp nhất công ty được quy định như sau:
+a) Công ty bịhợp nhất chuẩn bịhợp đồng hợp nhất, dựthảo Điều lệcông ty
 hợp nhất. Hợp đồng hợp nhất phải gồm các nội dung chủyếu sau: tên, địa chỉtrụ
 sởchính của công ty bịhợp nhất; tên, địa chỉtrụ sởchính của công ty hợp nhất; .
 —.. thủ tục va điều kiện hợp nhất; phương án sửdung lao động; thời han, thủ tục va
-điều kiện chuyển đổi tài sản, chuyển đổi phần vốn góp, cổ phần, trái phiếu của |
+điều kiện chuyển đổi tài sản, chuyển đổi phần vốn góp, cổ phần, trái phiếu của
 công ty bịhợp nhất thành phần vốn góp, cốphần, trái phiêu của công ty hợp
-nhất; thời hạn thực hiện hợp nhất; ` 2 `
+nhất; thời hạn thực hiện hợp nhất; ` 2
 b) Các thành viên, chủ sở hữu công ty hoặc cổ đông của công ty bịhợp
-` nhất thông qua hợp đồng hợp nhất, Điều lệcông ty hợp nhất, bầu hoặc bổnhiệm _:
+nhất thông qua hợp đồng hợp nhất, Điều lệcông ty hợp nhất, bầu hoặc bổnhiệm _:
 Chủtịch Hội đồng thành viên, Chủtịch công ty, Hội đồng quan trị, Giám đốc —
 hoặc Tổng giám đốc công ty hợp nhất và tiến hành đăng ký doanh nghiệp đối
 với công ty hợp nhất theo quy định của Luật này. Hợp đồng hợp nhất phải được
 gửi đến các chủnợvà thông báo cho người lao động biết trong thời hạn 15 ngày
 kể từngày thông qua. _: | | ln .
-| 3. Công ty bi hop nhất phải bio đảm tuân thi quy định của Luật Cạnh tranh
-vềhợp nhất công ty. . . . . . |
+3. Công ty bi hop nhất phải bio đảm tuân thi quy định của Luật Cạnh tranh
+vềhợp nhất công ty. . . . . .
 4. Sau khi công ty hợp nhất đăng ký doanh nghiệp, công ty bịhợp nhất
 ~~ chấm dirt tồn tại; công ty hợp nhất được hưởng quyền và lợi ích hợp pháp, chịu
 trách nhiệm vềcác nghĩa vụ, các khoản nợchưa thanh toán, hợp đồng lao động
 và các nghĩa vụtài sản khác của các công ty bịhợp nhất. Công ty hợp nhất
 đương nhiên kếthừa toàn bộquyền, nghĩa vụvà lợi ích hợp pháp của các công
-ty bịhợp nhất theo hợp đồng hợp nhất công ty. | `
+ty bịhợp nhất theo hợp đồng hợp nhất công ty. |
 5. Cơ quan đăng ký kinh doanh cập nhật tình trạng pháp lý của công ty bị
 hợp nhất trên Cơ sởdữliệu quốc gia vềđăng ký doanh nghiệp khi cấp Giấy
 chứng nhận đăng ký doanh nghiệp cho công ty hợp nhất. Trường hợp công ty bị
 hợp nhất có địa chỉtrụ sởchính ngoài tỉnh, thành phốtrực thuộc trung ương nơi
 
 [PAGE 60]
-|
-
-| 130 tíu
+130 tíu
 
 công ty hợp nhất đặt trụ sởchính thì Cơ quan đăng ký kinh doanh nơi công ty
 hợp nhất đặt trụ sởchính phải thông báo việc đăng ký doanh nghiệp cho Cơ
 quan đăng ký kinh doanh nơi công ty bịhợp nhất đặt trụ sởchính đểcập nhật
-` . tình trạng pháp lý của công ty bịhợp nhất trên Cơ sởdữliệu quốc gia vềđăng
+. tình trạng pháp lý của công ty bịhợp nhất trên Cơ sởdữliệu quốc gia vềđăng
 ký doanh nghiệp. . .
 ln Điều 201. Sáp nhập công ty
-| 1. Một hoặc một sốcông ty (sau đây gọi là công ty bịsáp nhập) có thểsáp
+1. Một hoặc một sốcông ty (sau đây gọi là công ty bịsáp nhập) có thểsáp
 nhập vào một công ty khác (sau đây gọi là công ty nhận sáp nhập) bằng cách .
 chuyển toàn bộtài sản, quyền, nghĩa vụvà lợi ích hợp pháp sang công ty nhận
 sáp nhập, đồng thời chấm dứt sựtồn tại của công ty bịsáp nhập. ln t
@@ -2504,22 +2356,22 @@ sáp nhập, đồng thời chấm dứt sựtồn tại của công ty bịsáp
 . a) Các công ty liên quan chuẩn bịhợp đồng sáp nhập và dựthảo Điều lệ
 . công ty nhận sáp nhập. Hợp đồng sáp nhập phải gồm các nội dung chủyếu sau:
 tên, địa chỉtrụ sởchính của công ty nhận sáp nhập; tên, địa chỉtrụ sởchính của
-cáchcông ty bịsáp nhập; thủ tục và điều kiện sáp nhập; phương án sửdụng lao động; |
+cáchcông ty bịsáp nhập; thủ tục và điều kiện sáp nhập; phương án sửdụng lao động;
 góp, thức, thủ tục, thời hạn và điều kiện chuyển đổi tài sản, chuyển đổi phần vốn
 trai cổ phần, trái phiếu của công ty bịsáp nhập thành phần vốn góp, cổphan, phiéu của công ty nhận sáp nhập; thời han thực hiện sáp nhập; | .
-b) Cac, thành viên, chủ sở hữu công ty hoặc các cổ đông của các công ty. |
+b) Cac, thành viên, chủ sở hữu công ty hoặc các cổ đông của các công ty.
 . liên quanthông qua hợp đồng sáp nhập, Điều lệcông ty nhận sáp nhập và tiến
-` — hành dang ky doanh nghiệp công ty nhận sáp nhập theo quy định của Luật này.
+— hành dang ky doanh nghiệp công ty nhận sáp nhập theo quy định của Luật này.
 Hợp đồng sáp nhập phải được gửi đến tất cảchủnợvà thông báo cho người lao
 động biết trong thời hạn 15 ngày kể từngày thông qua; .
-nhập c) Sau khi công ty nhận sáp nhập đăng ký doanh nghiệp, công ty bịsáp |
+nhập c) Sau khi công ty nhận sáp nhập đăng ký doanh nghiệp, công ty bịsáp
 hợp chấm dứt tồn tại; công ty nhận sáp nhập đượchưởng. các quyền và lợi ích pháp, chịu trách nhiệm vềcác nghĩa vụ, các khoản nợchưa thanh toán, hợp
-đồng lao động và nghĩa vụtài sản khác của công ty bịsáp nhập. Các công ty `
+đồng lao động và nghĩa vụtài sản khác của công ty bịsáp nhập. Các công ty
 nhậncủa sáp nhập đương nhiên kếthừa toàn bộquyền, nghĩa vụ,và lợi ích hợp pháp _: các công ty bịsáp nhập theo hợp đồng sáp nhập.
 *.... 3. Các công ty thực hiện việc sáp nhập phải bảo đảm tuân thủquy định của
 Luật Cạnh tranh vềsáp nhập công ty.
 4. Co quan đăng ký kinh doanh tiến hành cập nhật tinh trạng pháp lý của :
-` công ty bịsáp nhập trên Cơ sởdữliệu quốc gia vềdang ky doanh nghiệp và :
+công ty bịsáp nhập trên Cơ sởdữliệu quốc gia vềdang ky doanh nghiệp và :
 thực hiện thay đổi nội dung đăng ký doanh nghiệp cho công ty nhận sáp nhập. .
 Trường hợp công ty bịsáp nhập có địa chỉtrụ sở. chính ngoài tỉnh, thành phố .
 trực thuộc trung ương nơi công ty nhận sáp nhập đặt trụ sởchính thi Cơ quan Î
@@ -2542,12 +2394,12 @@ b) Chuyển đổi thành công ty cổ phần bằng cách huy động thêm t�
 . nhân khác góp von;
 . c) Chuyén đổi thành công ty cổ phần bằng cách bán toàn bộhoặc một phần
 phần vốn góp cho một hoặc một sốtổchức, cá nhân khác; .
-| d) Kết hợp phương thức quy định tại các| điểm a, b và ckhoản này| và các `
-phương thức khác. `
-| 3. Công ty phải đăng ký chuyển đổi công ty với Cơ quan đăng ký kinh |
+d) Kết hợp phương thức quy định tại các| điểm a, b và ckhoản này| và các
+phương thức khác.
+3. Công ty phải đăng ký chuyển đổi công ty với Cơ quan đăng ký kinh
 doanh trong thời hạn 10 ngày kể từngày hoàn thành việc chuyên. đối. Trong thời
 hạn 03 ngày làm việc ké từngày nhận hồ sơ chuyển đổi, Cơ quan đăng ký kinh
-` doanh cấp lại Giấy chứng nhận đăng ký doanh nghiệp và cập nhật tinh trạng :
+doanh cấp lại Giấy chứng nhận đăng ký doanh nghiệp và cập nhật tinh trạng :
 pháp lý của công ty trên Cơ sởdữliệu quốc gia vềđăng ký doanh nghiệp.
 4. Công ty chuyển đổi đương nhiên kếthừa toàn bộquyền và lợi ích hợp
 pháp, chịu trách nhiệm vềcác khoản nợ, gồm cảnợthuế, hợp đồng lao động và
@@ -2558,15 +2410,14 @@ hạn một thành viên | . ` . ln .
 một thành viên theo phương thức sau đây: —
 a) Một cổ đông nhận chuyển nhượng toàn bộcổ phần tương ứng của tất cả
 cô đông còn lại; . | .
-`.. b) Một tổchức hoặc cá nhân không phải là cổ đông nhận chuyển nhượng
-| toàn bộsốco phân của tất cảcổ đông của công ty; Î .
-lự ©) Công ty chi con lai 01 cổdong. ln |
-ln 2. Việc chuyển nhượng hoặc nhận góp vốn đầu tư quy định tại khoản 1 |
+.. b) Một tổchức hoặc cá nhân không phải là cổ đông nhận chuyển nhượng
+toàn bộsốco phân của tất cảcổ đông của công ty; Î .
+lự ©) Công ty chi con lai 01 cổdong. ln
+ln 2. Việc chuyển nhượng hoặc nhận góp vốn đầu tư quy định tại khoản 1
 s Điều này phải thực hiện theo giá thị trường, giá được định theo phương pháp tài
 sản, phương pháp dòng tiền chiết khẩu hoặc phương pháp khác.
 
 [PAGE 62]
-|
 132 rị
 
 hoàn 3. Trong thời hạn 15 ngày kể từngày công ty chỉcòn lại một cổ đông hoặc thành việc chuyển nhượng cổphan theo quy dinh tai diém a va diém b
@@ -2579,8 +2430,8 @@ quốc gia vềđăng ký doanh nghiệp.
 . —. 4. Công ty chuyển đổi đương nhiên kếthừa toàn bộquyền và lợi ích hợp
 pháp, chịu trách nhiệm vềcác khoản ng, gồm cảnợthuế, hợp đồng lao động va
 nghĩa vụkhác của công ty được chuyển đối. NN `—
-Điều 204. Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln `
-haiok Công ty cổphan có thểchuyểnđổi thành công ty trách nhiệm hữu hạn ___ | thành viên trở lên theo phương thức sau đây:. |
+Điều 204. Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln
+haiok Công ty cổphan có thểchuyểnđổi thành công ty trách nhiệm hữu hạn ___ | thành viên trở lên theo phương thức sau đây:.
 a) Chuyển đổithành công ty trách nhiệm hữu hạn hai thành viên trở lên mà _:
 không huy động thêm hoặc chuyển nhượng cổ phần cho tổchức, cá nhân khác;
 dong b) Chuyển đổi thành công ty trách nhiệm hữu hạn hai thành viên trở lên P thời huy động thêm tổchức,cá nhân khác góp vốn; __. . B
@@ -2596,19 +2447,18 @@ hạndoanh trong thời hạn 10 ngày kể từngày hoan thanh-viéc chuyển 
 ly của công ty trên Co sé dữliệu quốc gia vềđăng ký doanh nghiệp.
 pháp,3. Công ty chuyểnđổi đương nhiên kếthừatoànbộquyền và lợi ich hợp` chịu trách nhiệm vềcác khoản nợ, gồm cảnợthuế, hợp đồng lao động và __
 nghĩa vụkhác của công ty được chuyển đổi. | | :
-hữu Diéu205. Chuyển đổi doanh nghiệp tư nhân thành công ty trách nhiệm _:: hạn, công ty c6 phan, công ty hợp danh ~ a
+Điều 205. Chuyển đổi doanh nghiệp tư nhân thành công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh
 hạn, 1. Doanh nghiệp tu nhân có thể chuyển đổi thành công ty trách nhiệm hữu _ công ty cổ phần hoặc công ty hợp danh theo quyết định của chủdoanh cư
 nghiệp tư nhân nếu đáp ứng đủcác điều kiện sau đây: lệ
 
 [PAGE 63]
 tị“ 133
-
-| . a) Doanh nghiệp được chuyển đổi phải có đủcác điều kiện theo quy định
+. a) Doanh nghiệp được chuyển đổi phải có đủcác điều kiện theo quy định
 tại khoản 1 Điều 27 của Luật này; .
 b) Chủdoanh nghiệp tư nhân cam kết bằng văn bản chịu trách nhiệm cá
 nhân bằng toàn bộtài sản của mình đối với tất cảkhoản nợchưa thanh toán và
 cam kết thanh toán đủsốnợkhi đến hạn; __.
-. ©) Chủdoanh nghiệp tư nhân có thỏa thuận bằng văn bản với các bên của ¦
+. ©) Chủdoanh nghiệp tư nhân có thỏa thuận bằng văn bản với các bên của
 hợp đồng chưa thanh lý vềviệc công ty được chuyển đổi tiếp nhận và tiếp tục
 thực hiện các hợp đồng đó; | .
 d) Chủdoanh nghiệp tư nhân cam kết bằng văn bản hoặc có thỏa thuận .
@@ -2617,7 +2467,7 @@ bằng văn bản với các thành viên góp vốn khác vềviệc tiếp nh�
 2. Trong thời hạn 03 ngày làm việc kể từngày nhận hồ sơ, Co quan đăng :
 ký kinh doanh xem xét và cấp Giấy chứng nhận đăng ký doanh nghiệp nếu có đủ
 điều kiện quy định tại khoản 1 Điều này và cập nhật tình trạng pháp lý của
-doanh nghiệp trên Cơ sởdữliệu quốc gia vềđăng ký doanh nghiệp. —. . `
+doanh nghiệp trên Cơ sởdữliệu quốc gia vềđăng ký doanh nghiệp. —. .
 3. Céng ty duge chuyén đổi đương nhiên kếthừa quyền, nghĩa vụ của
 doanh nghiệp tư nhân kể từngày được cấp Giấy chứng nhận đăng ký doanh
 nghiệp. Chủdoanh nghiệp tư nhân chịu trách nhiệm cá nhân bằng toàn bộtài sản —
@@ -2639,38 +2489,35 @@ b) Tạm ngừng kinh doanh theo yêu cầu của cơ quan có liên quan theo q
 có liên quan; . .
 
 [PAGE 64]
-134 |
-
+134
 ©) Đình chỉhoạt động, chấm ditt kinh doanh một, một sốngành, nghềkinh ——
 — doanh hoặc trong một sốlĩnh vực theo quyết định của Tòa án. ln
 . 3. Trong thời gian tạm ngừng kinh doanh, doanh nghiệp phải nộp đủsố
-thuế, bao hiểm xã hội, bao hiểm y tế, bảo hiểm thất nghiệp còn nợ; tiếp tục |
+thuế, bao hiểm xã hội, bao hiểm y tế, bảo hiểm thất nghiệp còn nợ; tiếp tục
 . thanh toán các khoản nợ, hoàn thành việc thực hiện hợp đồng đã ký với khách
 hàng và người lao động, trừ trường hợp doanh nghiệp, chủnợ, khách hàng và
 người lao độngcó thỏa thuậnkhác.
 có 4. Chính phủquy định chi tiết trình tự, thủ tục phối hợp giữa Cơ quan đăng
 ký kinh doanh và cơ quan nhà nước có thẩm quyền trong trường hợp quy định _:
-| tại khoản 2 Điều này. = | B Lọ
+tại khoản 2 Điều này. = | B Lọ
 Điều 207. Các trường hợp và điều kiện giải thểdoanh nghiệp
-1. Doanh nghiệp bịgiải thểtrong trường hợp sau đây: |
+1. Doanh nghiệp bịgiải thểtrong trường hợp sau đây:
 a) Kết thúc thời hạn hoạt động đã ghi trong Điều lệcông ty mà không có _:
-| quyết định gia hạn; B `
-
-|
+quyết định gia hạn; B
 . b) Theo nghị quyết, quyết định của chủdoanh nghiệp đối với doanh nghiệp _.
 tư nhân, của Hội đồng thành viên đối với công tyhợp danh, của Hội đồng thành _.
 viên, chủ sở hữu công ty đối với công ty trách nhiệm hữu hạn, của Đại hội đồng
 
 .
-— cổ đông đối vớicông ty cổ phần; —_ | |
+— cổ đông đối vớicông ty cổ phần; —_ |
 ©) Công ty không còn đủsố lượng thành viên tối thiểu theo quy định của
 hìnhLuật này trong thời hạn 06 tháng liên tục mà không làmthủ tục chuyển đổi loại __ r doanh nghiệp; _ .—..—_—¦— __ . uuu2 1mm 787 1 Ởmm TS mi] s 10 7 sT( 71 111 1078010300
-| d) Bịthu hồi Giấy chứng nhận đăng ký doanh nghiệp, trừ trường hợp Luật
+d) Bịthu hồi Giấy chứng nhận đăng ký doanh nghiệp, trừ trường hợp Luật
 Quản lý thuếcó quy định khác.
 . R
-| 2. Doanh nghiệp chỉđược giải thểkhi bảo đảm thanh toán hết. các khoản s
+2. Doanh nghiệp chỉđược giải thểkhi bảo đảm thanh toán hết. các khoản s
 nợ, nghĩa vụtài sản khác và không trong quá trình giải quyết tranh chấp tại Tòa __.
-| án hoặc Trọng tài. Người quản lý. có liên quan và doanh nghiệp quy định tại _...
+án hoặc Trọng tài. Người quản lý. có liên quan và doanh nghiệp quy định tại _...
 điểm d khoản 1 Điều này cùng liên đới chịu trách nhiệm vềcác khoản nợcủa _.
 doanh nghiệp. . ..... . | ` Rì
 
@@ -2684,11 +2531,10 @@ khoản| 1 Điều 207 của Luật này được thực hiện theo quy định
 [PAGE 65]
 + ô 135
 
-b) Lý do giải thể; |
+b) Lý do giải thể;
 c) Thời han, thủ tục thanh ly hop đồng và thanh toán các khoản nợcủa
 doanh nghiệp;
-
-| | d) Phương án xửlý cácnghĩa vụphát sinhtừhợp đồng lao động;
+| d) Phương án xửlý cácnghĩa vụphát sinhtừhợp đồng lao động;
 đ) Họ, tên, chữ ký của chủdoanh nghiệp tư nhân, chủ sở hữu công ty, Chủ
 tịch Hội đồng thành viên, Chủtịch Hội đồng quản trị; —
 2. Chủdoanh nghiệp tư nhân, Hội đồng thành viên hoặc chủ sở hữu công
@@ -2704,19 +2550,19 @@ Trường hợp doanh nghiệp còn nghĩa vụtài chính chưa thanh toán th�
 chủnợ, người có quyền, nghĩa vụvà lợi ích có liên quan. Phương án giải quyết
 nợphải có tên, địa chỉcủa chủnợ; sốnợ, thời hạn, địa điểm và phương thức
 thanh toán sốnợđó; cách thức và thời hạn giải quyếtkhiếu nại của chủnợ; _ ln
-| 4. Cơ quan đăng ký kinh doanh phải thông báo tình trạng doanh nghiệp |
+4. Cơ quan đăng ký kinh doanh phải thông báo tình trạng doanh nghiệp
 đang làm thủ tục giải thểtrên Cổng thông tin quốc gia vềđăng ký doanh nghiệp
-` ngay sau khi nhận được nghị quyết, quyết định giải thểcủa doanh nghiệp. Kèm
+ngay sau khi nhận được nghị quyết, quyết định giải thểcủa doanh nghiệp. Kèm
 theo thông báo phải đăng tải nghị quyết, quyết định giải thểvà phương án giải
-quyết nợ(nếu có); R |
+quyết nợ(nếu có); R
 5. Các khoản nợcủa doanh nghiệp được thanh toán theo thứtựưu tiên sau đây:
 a) Các khoản nợlượng, trợcấp thôi việc, bao hiểm xã hội, bao hiểm y tế,
 bảo hiểm thất nghiệp theo quy định của pháp luật và các quyền lợi khác của .
 người lao động theo thỏa ước lao động tập thểvà hợp đồng lao động đã ký kết;
 b) Nợthuế; C ln
-` c) Cac khoan nợkhác; . a |
+c) Cac khoan nợkhác; . a
 6. Sau khi đã thanh toán chi phí giải thểdoanh nghiệp và các khoản nợ,
-| phần còn lại chia cho chủdoanh nghiệp tư nhân, các thành viên, cổđộng hoặc
+phần còn lại chia cho chủdoanh nghiệp tư nhân, các thành viên, cổđộng hoặc
 chủ sở hữu công ty theo tỷ lệsở hữu phần vốn góp, cổ phần;
 
 [PAGE 66]
@@ -2727,16 +2573,16 @@ thể 8. Sau thời hạn 180 ngày kể từngày nhận được nghị quyế
 thể theo quy định tại khoản 3 Điều này mà không nhận được ý kiến vềviệc giải ln
 05 từdoanh nghiệp hoặc phản đối của bên có liên quan bằng văn bản hoặc trong ngày làm việc kể từngày nhận hồ sơ giải thể, Cơ quan đăng ký kinh doanh
 cập nhật tình trạng pháp lý của doanh nghiệp trên Cơ sởdữliệu quốc gia về
-đăng ký doanh nghiệp; _: `
+đăng ký doanh nghiệp; _:
 9. Chính phủquy định chi tiết vềtrình tự, thủ tục giải thểdoanh nghiệp.
 Điều 209. Giải thểdoanh nghiệp trong trường hợp bi thu hồi Giấy
 chứng nhận đăng ký doanh nghiệp hoặc theo quyết định của Tòa án
-| Việc giải thểdoanh nghiệp trong trường hợp bịthu hồi Giấy chứng nhận .
+Việc giải thểdoanh nghiệp trong trường hợp bịthu hồi Giấy chứng nhận .
 đăng ký doanh nghiệp hoặc theo quyết định của Tòa án được thực hiện theo
-trình tự, thủ tục sau đây: ee `
+trình tự, thủ tục sau đây: ee
 1. Cơ quan đăng ký kinh doanh phải thông báo tình trạng doanh nghiệp
 đang làm thủ tục giải thểtrên Cổng thông tin quốc gia vềđăng ky doanh nghiệp —
-| : đồng thời với việc ra quyết định thu hồi Giấy chứng nhận đăng ký doanh nghiệp
+: đồng thời với việc ra quyết định thu hồi Giấy chứng nhận đăng ký doanh nghiệp
 hoặc ngay sau khi nhận được quyết định giải thểcủa luật. Tòaán đã có hiệu lực pháp —: .
 đăng Kèmký doanhtheonghiệpthông hoặcbáo phảiquyếtđăngđịnh tảicủaquyếtTòa ánđịnh thu hồi Giấy chứng nhận ___ đã có hiệu lực pháp luật;. ..........
 2. Trong thời hạn 10 ngày kể từngày nhận được quyết định thu hồi Giấy
@@ -2749,7 +2595,7 @@ phải được niêm yết công khai tại trụ sởchính, chi nhánh, văn 
 
 . doanh nghiệp. Đối với trường hợp pháp luật yêu cầu phải đăng báo thì nghị... __.
 quyết, quyết định giải thểdoanh nghiệp phải được đăng ít nhất trên 01 tờbdo in ..
-| hoặc báo điện tửtrong 03 sốliên tiếp.
+hoặc báo điện tửtrong 03 sốliên tiếp.
 
 _... dong Trường hợp doanh nghiệp còn nghĩa vụtài chính chưa thanh toán thì phải 7 thời gửi kèm. theo nghị quyết, quyết định giải thé của doanh nghiệp,
 phương án giải quyết nợđến các chủnợ, người có quyền lợi và nghĩa vụcó liên
@@ -2763,8 +2609,8 @@ lị.. oe | «
 + ^ 137
 
 3. Việc thanh toán các khoản nợcủa doanh nghiệp được thực hiện theo quy
-| ~
-| định tại khoản 5 Điều 208 của Luật này; |
+~
+định tại khoản 5 Điều 208 của Luật này;
 Se 4. Người đại diện theo pháp luật của doanh nghiệp gửi hồ sơ giải thểdoanh
 nghiệp cho Cơ quan đăng ký kinh doanh trong thời hạn 05 ngày làm việckể từ
 ngày thanh toán hết các khoản nợcủa doanh nghiệp;
@@ -2774,37 +2620,37 @@ phản đối của bên có liên quan bang van ban hoặc trong05 ngày làm v
 ngày nhận hồ sơ giải thể, Cơ quan đăng ký kinh doanh cập nhật tình trạng pháp
 lý của doanh nghiệp trên Cơ sởdữliệu quốc gia vềđăng ký doanh nghiệp;
 6. Người quản lý công ty có liên quan phải chịu trách nhiệm cá nhân vềthiệt
-| hại do việc không thực hiện hoặc không thực hiện đúng quy định tại Điểu này. |
-Điều 210. Hồ sơ giải thếdoanh nghiệp | |
-1. Hồ sơ giải thểdoanh nghiệp bao gồm giấy tờsau đây: |
-a) Thông báo vềgiải thểdoanh nghiệp; |
+hại do việc không thực hiện hoặc không thực hiện đúng quy định tại Điểu này.
+Điều 210. Hồ sơ giải thếdoanh nghiệp |
+1. Hồ sơ giải thểdoanh nghiệp bao gồm giấy tờsau đây:
+a) Thông báo vềgiải thểdoanh nghiệp;
 b) Báo cáo thanh ly tài sản doanh nghiệp; danh sách chủng và sốnợđã
 thanh toán, gồm cảthanh toán hết các khoản nợvềthuếvà nợtiền đóng bảo
 hiểm xã hội, bao hiểm y tề, bao hiểm thất nghiệp cho người lao động sau khi
 ; quyết định giải thé doanh nghiệp (nều có). . | .
-2. Thành viên Hội đồng quan trịcông ty cổ phần, thành viên Hội đồng |
+2. Thành viên Hội đồng quan trịcông ty cổ phần, thành viên Hội đồng
 . — thành viên công ty trách nhiệm hữu hạn, chủ sở hữu công ty, chủdoanh nghiệp
-tư nhân, Giám đốc hoặc Tổng giám đốc, thành viên hợp danh, người đại diện |
+tư nhân, Giám đốc hoặc Tổng giám đốc, thành viên hợp danh, người đại diện
 . theo pháp luật của doanh nghiệp chịu trách nhiệm vềtính trung thực, chính xác
-`... của hồso giải thé doanh nghiệp. | ln
+... của hồso giải thé doanh nghiệp. | ln
 . 3, Trường hợp hồ sơ giải thểkhông chính xác, giảmao, những người quy
-. định tai khoản 2 Điều này phải liên đới chịu trách nhiệm thanh toán quyền lợi |
+. định tai khoản 2 Điều này phải liên đới chịu trách nhiệm thanh toán quyền lợi
 của người lao động chưa được giải quyết, số. thuếchưa nộp, sốnợkhác chưa
-` thanh toán và chịu trách nhiệm cá nhân trước pháp luật vềnhững hệquảphát
+thanh toán và chịu trách nhiệm cá nhân trước pháp luật vềnhững hệquảphát
 sinh trong thời hạn 05 năm kể từngày nộp hồ sơ giải thểdoanh nghiệp đến Cơ :
 . quan đăng ký kinh doanh. .
 Điều 211. Các hoat động bịcấm ké từ khi có quyếtđịnh giải thé
 1. Kể từ khi có quyết định giải thểdoanh nghiệp, doanh nghiệp, người quản
 lý doanh nghiệp bịnghiêm cấm thực hiện các hoạt động sau đây:
 a) Cất giấu, tẩu tán tài sản; .
-b) Từbỏhoặc giảm bớt quyền đòi nợ; |
+b) Từbỏhoặc giảm bớt quyền đòi nợ;
 
 [PAGE 68]
 bằng c)tàiChuyểnsản của cácdoanhkhoannghiệp;nợkhông có bảo đảm thành các khoản nợcó| bảo đảm
-| d) Ký kết hợp đồng mới, trừ trường hợp đểthực hiện giải thểdoanh nghiệp;
+d) Ký kết hợp đồng mới, trừ trường hợp đểthực hiện giải thểdoanh nghiệp;
 —.. đ) Cầm cố, thé chấp, tặng cho, cho thuê tài sản; ln
 ©) Chấm dứt thực hiện hợp đồng đã có hiệu lực; —
-g) Huy động vốn dưới mọi hình thức. — |
+g) Huy động vốn dưới mọi hình thức. —
 2. Tùy theo tính chất và mức độvi phạm, cá nhân có hành vi vi phạm quy
 định tại khoản 1 Điều này có thểbịxửphạt vi phạm hành chính hoặc bịtruy cứu _
 
@@ -2814,16 +2660,15 @@ g) Huy động vốn dưới mọi hình thức. — |
 _ 1. Doanh nghiép bi thu hdi Giấy chứng nhận đăng ký doanh nghiệp trong
 trường hợp sau đây: ——— —. —... ..... 3. +8 36003 0000030001 3 1010010001
 a) Nội dung kê khai trong hồso đăng ký doanh nghiệp là giảmao;
-(00000000 b) Doanh nghiệp do những người bịcấm thành lập doanh nghiệp theo quy |
+(00000000 b) Doanh nghiệp do những người bịcấm thành lập doanh nghiệp theo quy
 định tại khoản 2 Điều 17 của Luật này thành lập; ñ
 
 .
 ©) Doanh nghiệp ngừng hoat động kinh doanh 01 năm mà không thông bdo
 : với Cơ quan đăng ký kinh doanhvà cơ quan thuế; _. | N HINN
-
-| d)Doanh nghiệp không gửi báo cáo theo quy định tại điểm c khoản 1 Điều
+d)Doanh nghiệp không gửi báo cáo theo quy định tại điểm c khoản 1 Điều
 216 của Luật này đến Cơ quan đăng ký kinh doanh trong thời hạn 06 tháng kể từ
-ngày hết hạn gửi báo cáo hoặc có yêu cầu bằng văn bản; `
+ngày hết hạn gửi báo cáo hoặc có yêu cầu bằng văn bản;
 đ) Trường hợp khác theo quyết định của Tòa án, đề nghịcủa cơ quan có
 . thẩm quyền theo quy định của luật. .
 Î 2. Chính phủquy định trình tự, thủ tục thu hồi Giấy chứng nhận đăng ký . _...
@@ -2831,70 +2676,56 @@ doanh nghiệp.
 Điều 213. Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa
 điểm kinh doanh — lữ . .
 
-|
 được 1. Chi nhánh, vănphòng đại diện, địa điểm kinh doanh của doanh nghiệp chấm dứt hoạt động theo quyết định của chính doanh nghiệp đó hoặc theo
 . quyết định thu hồi Giấy chứng nhận đăng ký hoạt động chi nhánh, văn phòng
--đại diện của cơ quan nhà nước có thẩm quyền. |
+-đại diện của cơ quan nhà nước có thẩm quyền.
 . 2. Người đại diện theo pháp luật của doanh nghiệp và người đứng đầu chi 6
 nhánh, văn phòng đại diện bịchấm dứt hoạt động liên đới chịu trách nhiệm về
 tính trung thực và chính xác của hồ sơ chấm dứt hoạt động chi nhánh, văn phòng
-. đại diện, địa điểm kinh doanh. |
+. đại diện, địa điểm kinh doanh.
 
 [PAGE 69]
-|
 l 139
 
 3. Doanh nghiệp có chi nhánh đã chấm dứt hoạt động chịu trách nhiệm thực
 hiện các hợp đồng, thanh toán các khoản nợ, gồm cảnợthuếcủa chi nhánh và
 tiếp tục sửdụng lao động hoặc giải quyết đủquyền lợi hợp pháp cho người lao
 động đã làm việc tại chi nhánh theo quy định của pháp luật.
-. 4. Chính phủquy định chi tiết Điều này. — | |
+. 4. Chính phủquy định chi tiết Điều này. — |
 Điều 214. Phá sản doanh nghiệp
 
-|
 Việc phá sản doanh nghiệp được thực hiện theo quy định của pháp luật về
 phá sản.
 
 Chương X ln
 ĐIỀU KHOÁN THIHÀNH
 
-|
 Điều 215. Trách nhiệm các cơ quan quản lý nhà nước .
 
-|
 1. Chính phủthống nhất quản lý nhà nước đối với doanh nghiệp.
 — 2. Bộ, cơ quan ngang Bộchịu trách nhiệm trước Chính phủvềviệc thực
 hiện nhiệm vụđược phân công trong quản lý nhà nước đối với doanh nghiệp.
 
-`
-
 . 3, Uy ban nhân dân cấp tỉnh thực hiện| quản ly nha nước đối với doanh .
-nghiệp trong phạm vi địa phương. |
-lã 4. Bộ, cơ quan ngang Bộvà cơ quan có liên quan,Uy ban nhân dan cap |
-tỉnh, trong phạm vi nhiệm vụ, quyền hạn được phân công, chịu trách nhiệm thiết |
-
-|
+nghiệp trong phạm vi địa phương.
+lã 4. Bộ, cơ quan ngang Bộvà cơ quan có liên quan,Uy ban nhân dan cap
+tỉnh, trong phạm vi nhiệm vụ, quyền hạn được phân công, chịu trách nhiệm thiết
 lập kết nối, liên thông và chia sẻthông tin với Cơ sởdữliệu quốc gia vềđăng` ký
 doanh nghiệp các thông tin sau đây:
-a) Thông tin vềgiấy phép kinh doanh, giấy chứng nhận đủđiều kiện kinh |
+a) Thông tin vềgiấy phép kinh doanh, giấy chứng nhận đủđiều kiện kinh
 doanh, chứng chi hành nghề, giấy chứng nhận hoặc văn bản chấp thuận vềđiều
 kiện kinh doanh đã cấp cho doanh nghiệp và quyết định xửphạt đối với hành vi _.
-vi phạm hành chính của doanh nghiệp; | |
+vi phạm hành chính của doanh nghiệp; |
 . b) Thông tin vềtình hình hoạt động và nộp thuếcủa doanh nghiệp từbáo
-cáo thuế; báo cáo tài chính của doanh nghiệp; _ | |
+cáo thuế; báo cáo tài chính của doanh nghiệp; _ |
+c) Phối hợp, chia sé thông tin__ vé tinh hinh hoat dong doanh nghiép đểnang
 
-| c) Phối hợp, chia sé thông tin__ vé tinh hinh hoat dong doanh nghiép đểnang
-
-¦
 cao hiệu lực quan ly nhà nước.
-. 5. Chính pha quy định chi tiết Điều này. | | . `
-Điều 216. Cơ quan đăng ký kinh doanh | | |
-
-| 1. Co quan dang ky kinh doanh có nhiệm vu, quyền han sau day:
+. 5. Chính pha quy định chi tiết Điều này. | | .
+Điều 216. Cơ quan đăng ký kinh doanh | |
+1. Co quan dang ky kinh doanh có nhiệm vu, quyền han sau day:
 a) Giải quyết việc đăng ký doanh nghiệp và cấp Giấy chứng nhận đăng ký
 doanh nghiệp theo quy định của pháp luật;
-
-|
 
 [PAGE 70]
 140 có lệ
@@ -2902,38 +2733,34 @@ b) Phối hợp xây dựng, quản lý Hệthống thông tin quốc gia vềđ
 doanh nghiệp; công khai, cung cấp thông tin cho cơ quan nhà nước, tổchức và
 cá nhân có yêu cầu theo quy định của pháp luật; . .
 . c) Yêu cầu doanh nghiệp bdo cdo vềviệc tuân thủquy định của Luật này khi
-
-| xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụbáo cáo của doanh nghiệp; _:
+xét thấy cần thiết; đôn đốc việc thực hiện nghĩa vụbáo cáo của doanh nghiệp; _:
 —. đ) Trực tiếp hoặc đề nghịcơ quan nhà nước có thẩm quyền kiểm tra, giám
-sát doanh nghiệp theo nội dung trong hồ sơ đăng ký doanh nghiệp; . |
-` đ) Chịu trách nhiệm vềtính hợp lệcủa hồ sơ đăng ký doanh nghiệp, không
+sát doanh nghiệp theo nội dung trong hồ sơ đăng ký doanh nghiệp; .
+đ) Chịu trách nhiệm vềtính hợp lệcủa hồ sơ đăng ký doanh nghiệp, không
 chịu trách nhiệm vềnhững vi phạm của doanh nghiệp xảy ra trước và sau khi
 . đăng ký doanh nghiệp;
 
 .
 Giấy ©) Xửlý vi phạm quy định của pháp luật vềđăng ký doanh nghiệp; thu hồi
-giải chứng nhận đăng ký doanh nghiệp và yêu cầu doanh nghiệp làm thủ tục | thểtheo quy định của Luật này; |
-
-|
-của g) Nhiệm vụ, quyền hạn khác theo quy định của Luật này và quy định khác pháp luật có liên quan. `
-
+giải chứng nhận đăng ký doanh nghiệp và yêu cầu doanh nghiệp làm thủ tục | thểtheo quy định của Luật này;
+của g) Nhiệm vụ, quyền hạn khác theo quy định của Luật này và quy định khác pháp luật có liên quan.
 .
 2. Chính phủquỹđịnhhệthống tổchức Cơ quan đăng ký kinh doanh. _
-| —. Điều 217. Điềukhoảnthịhành | |
-| 1. Luật này cớhiệu lực thi hànhtừngày 01 tháng 01 năm 2021. — — u
+—. Điều 217. Điềukhoảnthịhành |
+1. Luật này cớhiệu lực thi hànhtừngày 01 tháng 01 năm 2021. — — u
 2. Luật Doanhñě†iiệpsố68/2014/QH13 hết hiệu lực kể từngày Luật này —
 . có hiệu lực thi hành. — _ l BỊ I ln
 do 3. Thay thếcụm Tử“doanh nghiệp nhà nước“ bằng cụm từ“doanh nghiệp _ | Nhà nước nắm giữ100% vốn điều lệ“ quy định tại điểm m khoản 1 Điều 35
 và điểm k khoản 1 Điều 37 của Luật Ngân sách nhà nước số83/2015/QH13;
-bổsungđiểm a khoảnmột sốđiều3 Điều theo23 củaLuậtLuậtsố35/2018/QH14;Thủy lợi số08/2017/QH14điểm b khoảnđã 2đượcĐiềusửa74 đổi,của |
+bổsungđiểm a khoảnmột sốđiều3 Điều theo23 củaLuậtLuậtsố35/2018/QH14;Thủy lợi số08/2017/QH14điểm b khoảnđã 2đượcĐiềusửa74 đổi,của
 :. Bộluật Tốtung dân sựsố92/2015/QH13 đã được sửa đổi, bổsung một sốđiều __.
 theo Luật số45/2019/QH14; điểm a khoản 2 Điều 43 của Luật Quản lý, sửdụng
 vũ khí, vật liệu nổvà công cụhỗtrợsố14/2017/QH14 đã được sửa đổi, bổsung
-— một sốđiều theo Luật số50/2019/QH14; Điều 19 của Luật Té cáo số |
+— một sốđiều theo Luật số50/2019/QH14; Điều 19 của Luật Té cáo số
 —.©25/2018/QH14; các điều 3, 20, 30, 34, 39 va 61 của Luật Phòng, chống tham
 nhũng số36/2018/QH14. | 200 .
 4. Chính phủquy định việc đăng ký và hoạt động của hộkinh doanh. . ln
-chức 5. Căn cứvào quy định của Luật này, Chính phủquy định chi tiết việc tổ. . quản lý và hoạt động của doanh nghiệp nhà nước trực tiếp phục vụquốc `
+chức 5. Căn cứvào quy định của Luật này, Chính phủquy định chi tiết việc tổ. . quản lý và hoạt động của doanh nghiệp nhà nước trực tiếp phục vụquốc
 phòng, an ninh hoặc kết hợp kinh tếvới quốc phòng, an ninh. lg
 
 [PAGE 71]
@@ -2943,28 +2770,25 @@ ws
 .
 
 Điều 218. Quy định chuyển tiếp .
-1. Các công ty không có cổ phần hoặc phần vốn góp do Nhà nước nắm giữ |
+1. Các công ty không có cổ phần hoặc phần vốn góp do Nhà nước nắm giữ
 thực hiện góp vốn, mua cổ phần trước ngày 01 tháng 7 năm 2015 không phải _ _
 thực hiện theo quy định tại khoản 2 Điều 195 của Luật này nhưng không được
-tăng tỷ lệsở hữu chéo. |
+tăng tỷ lệsở hữu chéo.
 2. Đối tượng là người quản lý doanh nghiệp, Kiểm soát viên và người đại diện theo ủy quyền mà không đáp ứng đủtiêu chuẩn, điều kiện quy định tại
 điểm b khoản 5 Điều 14, khoản 3 Điều 64, khoản 3 Điều 93, khoản 3 Điều 101,
 các điểm a, b và c khoản 3 Điều 103, điểm d khoản 1 Điều 155, điểm b khoản 5
 Điều 162 và khoản 2 Điều 169 của Luật này được tiếp tục thực hiện nhiệm vụ
-đến hết thời gian còn lại của nhiệm kỳ. _. |
-
+đến hết thời gian còn lại của nhiệm kỳ. _.
 ^ .
 
-Luật này được Quốc hội nước Cộng hòa xã hội chủnghĩa ViệtNam khóa XIV, |
+Luật này được Quốc hội nước Cộng hòa xã hội chủnghĩa ViệtNam khóa XIV,
 kỳhop thứ9 thông qua ngày 17 tháng 6 năm 2020. _ tị cũ
 
-|
-CHỦTỊCH QUOC HỘI |
+CHỦTỊCH QUOC HỘI
 . Đã ky: Nguyễn ThịKim Ngân _
 VĂNPHÒNG _ SAO Y BAN CHINE
 CHU TỊCH NƯỚC Hà Nội, ngày. thống6 năm 2020
 Số: 06 /SY-VPCIN OER 0 PHÓ CHU NHIỆM
+fx (fie } —
 
-| fx (fie } —
-
-4 , Phám Thanh Hà `
+4 , Phám Thanh Hà
