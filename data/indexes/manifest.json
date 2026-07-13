@@ -1,0 +1,15 @@
+{
+  "built_at": "2026-07-13T07:18:27.325197+00:00",
+  "dense_index": {
+    "collection_name": "law_chunks",
+    "persist_dir": "H:\\portCV\\vietnamese-enterprise-law-rag\\data\\chroma_db",
+    "model_name": "intfloat/multilingual-e5-base",
+    "dimension": 768,
+    "chunk_count": 218
+  },
+  "bm25_index": {
+    "index_path": "H:\\portCV\\vietnamese-enterprise-law-rag\\data\\indexes\\bm25_index.pkl",
+    "doc_count": 218,
+    "avg_tokens_per_doc": 309.3
+  }
+}

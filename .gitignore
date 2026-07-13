@@ -206,6 +206,11 @@ tempCodeRunnerFile.py
 # Ruff stuff:
 .ruff_cache/
 
+# Generated vector and retrieval indexes
+data/chroma_db/
+data/indexes/*.pkl
+data/indexes/manifest.json
+
 # PyPI configuration file
 .pypirc
 
