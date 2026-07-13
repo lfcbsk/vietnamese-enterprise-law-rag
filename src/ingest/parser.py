@@ -369,6 +369,7 @@ class VietnameseLawParser:
         value = re.sub(r"\W+", "_", value)
 
         return value.strip("_")
+    @staticmethod
     def _normalize_line_for_parsing(raw_line: str) -> str:
         line = re.sub(r"\s+", " ", raw_line).strip()
 

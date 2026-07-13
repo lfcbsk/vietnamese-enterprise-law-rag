@@ -1,0 +1,36 @@
+[project]
+name = "vietnamese-enterprise-law-rag"
+version = "0.1.0"
+description = "RAG cho văn bản pháp luật doanh nghiệp Việt Nam"
+requires-python = ">=3.10"
+dependencies = [
+    # Ingest
+    "pymupdf>=1.24",
+    # Embedding + vector DB (Bước 6-7)
+    "sentence-transformers>=3.0",
+    "torch>=2.2",
+    "chromadb>=0.5",
+    # BM25 keyword index (Bước 8)
+    "rank-bm25>=0.2.2",
+    # API
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29",
+    "pydantic>=2.6",
+    "pydantic-settings>=2.2",
+    # Config / env
+    "python-dotenv>=1.0",
+    "pyyaml>=6.0",
+    # LLM orchestration (dùng ở bước sinh câu trả lời)
+    "langchain>=0.2",
+    "langchain-core>=0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

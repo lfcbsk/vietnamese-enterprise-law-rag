@@ -6,11 +6,17 @@ import sys
 from collections import Counter
 from pathlib import Path
 
+
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
+# Support both `python -m src.ingest.run` and `python src/ingest/run.py`.
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
+
 from src.ingest.parser import VietnameseLawParser
 from src.ingest.pdf_loader import PDFLoader
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = PROJECT_ROOT / "data"
 OUTPUT_PATH = DATA_DIR / "law_chunks.json"
 
