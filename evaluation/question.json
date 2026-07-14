@@ -1,0 +1,398 @@
+[
+  {
+    "id": "qa_001",
+    "source_situation_label": 1,
+    "question": "Trong doanh nghiệp, các hành vi nào bị nghiêm cấm theo quy định của pháp luật?",
+    "answer": "Theo Điều 16 Luật Doanh nghiệp, các hành vi bị cấm gồm cản trở hoặc nhũng nhiễu việc đăng ký và hoạt động doanh nghiệp; cản trở chủ sở hữu, thành viên, cổ đông thực hiện quyền; kinh doanh không đăng ký; kê khai giả mạo hoặc không chính xác; kê khai khống vốn; kinh doanh trái điều kiện pháp luật; lừa đảo, rửa tiền và tài trợ khủng bố.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 16"}],
+    "category": "general_provisions"
+  },
+  {
+    "id": "qa_002",
+    "source_situation_label": 2,
+    "question": "Doanh nghiệp có những quyền gì?",
+    "answer": "Theo Điều 7 Luật Doanh nghiệp, doanh nghiệp được tự do và tự chủ kinh doanh; lựa chọn hình thức tổ chức, ngành nghề, thị trường và phương thức huy động vốn; xuất nhập khẩu; tuyển dụng lao động; ứng dụng khoa học công nghệ; quản lý tài sản; khiếu nại, tham gia tố tụng và thực hiện các quyền hợp pháp khác.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 7"}],
+    "category": "general_provisions"
+  },
+  {
+    "id": "qa_003",
+    "source_situation_label": 3,
+    "question": "Chế độ lưu giữ tài liệu trong doanh nghiệp được quy định như thế nào?",
+    "answer": "Theo Điều 11 Luật Doanh nghiệp, tùy loại hình, doanh nghiệp phải lưu Điều lệ, sổ thành viên hoặc cổ đông, hồ sơ tài sản, biên bản và quyết định, tài liệu kế toán, báo cáo tài chính cùng các tài liệu liên quan. Tài liệu được lưu tại trụ sở chính hoặc địa điểm do Điều lệ quy định trong thời hạn luật định.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 11"}],
+    "category": "general_provisions"
+  },
+  {
+    "id": "qa_004",
+    "source_situation_label": 4,
+    "question": "Nghĩa vụ của doanh nghiệp được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 8 Luật Doanh nghiệp, doanh nghiệp phải duy trì điều kiện kinh doanh; thực hiện đăng ký, công khai và báo cáo; bảo đảm thông tin kê khai trung thực; tổ chức kế toán, nộp thuế; bảo vệ quyền lợi người lao động; thực hiện nghĩa vụ về thông tin chủ sở hữu hưởng lợi và các nghĩa vụ pháp luật khác.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 8"}],
+    "category": "general_provisions"
+  },
+  {
+    "id": "qa_005",
+    "source_situation_label": 5,
+    "question": "Người đại diện theo pháp luật của doanh nghiệp được quy định như thế nào?",
+    "answer": "Theo Điều 12 Luật Doanh nghiệp, người đại diện theo pháp luật là cá nhân nhân danh doanh nghiệp thực hiện quyền, nghĩa vụ từ giao dịch và tham gia tố tụng. Công ty trách nhiệm hữu hạn và công ty cổ phần có thể có một hoặc nhiều người đại diện, nhưng phải luôn có ít nhất một người cư trú tại Việt Nam.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 12"}],
+    "category": "legal_representative"
+  },
+  {
+    "id": "qa_006",
+    "source_situation_label": 6,
+    "question": "Trách nhiệm của người đại diện theo pháp luật của doanh nghiệp được quy định như thế nào?",
+    "answer": "Theo Điều 13 Luật Doanh nghiệp, người đại diện phải thực hiện nhiệm vụ trung thực, cẩn trọng, trung thành với lợi ích doanh nghiệp; không lợi dụng chức vụ, thông tin hoặc tài sản để tư lợi; và phải thông báo đầy đủ lợi ích liên quan. Người vi phạm phải chịu trách nhiệm cá nhân đối với thiệt hại gây ra.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 13"}],
+    "category": "legal_representative"
+  },
+  {
+    "id": "qa_007",
+    "source_situation_label": 7,
+    "question": "Hợp đồng trước đăng ký doanh nghiệp được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 18 Luật Doanh nghiệp, người thành lập được ký hợp đồng phục vụ việc thành lập và hoạt động trước hoặc trong quá trình đăng ký. Nếu doanh nghiệp được cấp đăng ký, doanh nghiệp tiếp tục thực hiện hoặc nhận chuyển giao quyền, nghĩa vụ; nếu không được cấp, người ký và những người cùng thành lập phải chịu trách nhiệm theo luật.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 18"}],
+    "category": "enterprise_establishment"
+  },
+  {
+    "id": "qa_008",
+    "source_situation_label": 8,
+    "question": "Hồ sơ đăng ký thành lập công ty hợp danh gồm những giấy tờ gì?",
+    "answer": "Theo Điều 20 Luật Doanh nghiệp, hồ sơ gồm giấy đề nghị đăng ký doanh nghiệp, Điều lệ công ty, danh sách thành viên và chủ sở hữu hưởng lợi nếu có, bản sao giấy tờ pháp lý của thành viên và bản sao Giấy chứng nhận đăng ký đầu tư đối với nhà đầu tư nước ngoài thuộc trường hợp luật định.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 20"}],
+    "category": "enterprise_registration"
+  },
+  {
+    "id": "qa_009",
+    "source_situation_label": 9,
+    "question": "Giấy đề nghị đăng ký doanh nghiệp phải có những nội dung gì?",
+    "answer": "Theo Điều 23 Luật Doanh nghiệp, giấy đề nghị phải thể hiện tên và trụ sở doanh nghiệp, ngành nghề, vốn, thông tin cổ phần nếu có, thông tin thuế, lao động dự kiến, thông tin và chữ ký của chủ thể có thẩm quyền, người đại diện theo pháp luật và thông tin chủ sở hữu hưởng lợi nếu có.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 23"}],
+    "category": "enterprise_registration"
+  },
+  {
+    "id": "qa_010",
+    "source_situation_label": 10,
+    "question": "Việc đặt tên doanh nghiệp được quy định như thế nào?",
+    "answer": "Theo Điều 37 Luật Doanh nghiệp, tên tiếng Việt gồm loại hình doanh nghiệp và tên riêng. Tên riêng sử dụng chữ cái tiếng Việt, F, J, Z, W, chữ số và ký hiệu; tên phải được gắn tại các địa điểm hoạt động và thể hiện trên giấy tờ giao dịch, hồ sơ, tài liệu và ấn phẩm của doanh nghiệp.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 37"}],
+    "category": "enterprise_name"
+  },
+  {
+    "id": "qa_011",
+    "source_situation_label": 11,
+    "question": "Những điều cấm trong đặt tên doanh nghiệp được quy định như thế nào?",
+    "answer": "Theo Điều 38 Luật Doanh nghiệp, không được đặt tên trùng hoặc gây nhầm lẫn với doanh nghiệp đã đăng ký; không được dùng tên cơ quan nhà nước, lực lượng vũ trang hay tổ chức chính trị, xã hội nếu chưa được chấp thuận; và không được dùng từ ngữ, ký hiệu trái lịch sử, văn hóa, đạo đức hoặc thuần phong mỹ tục.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 38"}],
+    "category": "enterprise_name"
+  },
+  {
+    "id": "qa_012",
+    "source_situation_label": 12,
+    "question": "Việc đăng ký hoạt động chi nhánh, văn phòng đại diện và thông báo địa điểm kinh doanh được thực hiện như thế nào?",
+    "answer": "Theo Điều 45 Luật Doanh nghiệp, doanh nghiệp gửi hồ sơ đăng ký chi nhánh hoặc văn phòng đại diện đến cơ quan đăng ký kinh doanh nơi đặt đơn vị. Cơ quan xử lý hồ sơ trong 3 ngày làm việc. Thay đổi nội dung đăng ký và việc lập địa điểm kinh doanh phải được đăng ký hoặc thông báo trong thời hạn 10 ngày.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 45"}],
+    "category": "dependent_units"
+  },
+  {
+    "id": "qa_013",
+    "source_situation_label": 13,
+    "question": "Chi nhánh, văn phòng đại diện và địa điểm kinh doanh của doanh nghiệp được quy định như thế nào?",
+    "answer": "Theo Điều 44 Luật Doanh nghiệp, chi nhánh là đơn vị phụ thuộc có thể thực hiện toàn bộ hoặc một phần chức năng kinh doanh; văn phòng đại diện chỉ đại diện theo ủy quyền và không kinh doanh; địa điểm kinh doanh là nơi doanh nghiệp tiến hành hoạt động kinh doanh cụ thể.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 44"}],
+    "category": "dependent_units"
+  },
+  {
+    "id": "qa_014",
+    "source_situation_label": 14,
+    "question": "Việc góp vốn thành lập công ty trách nhiệm hữu hạn hai thành viên trở lên được quy định như thế nào?",
+    "answer": "Theo Điều 47 Luật Doanh nghiệp, thành viên phải góp đủ và đúng loại tài sản đã cam kết trong 90 ngày từ ngày được cấp đăng ký, không tính một số thời gian vận chuyển và thủ tục. Nếu không góp đủ, quyền thành viên và vốn điều lệ được xử lý theo số vốn thực góp, đồng thời công ty phải đăng ký điều chỉnh đúng hạn.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 47"}],
+    "category": "multi_member_llc"
+  },
+  {
+    "id": "qa_015",
+    "source_situation_label": 15,
+    "question": "Sổ đăng ký thành viên của công ty trách nhiệm hữu hạn hai thành viên trở lên được quy định như thế nào?",
+    "answer": "Theo Điều 48 Luật Doanh nghiệp, công ty phải lập sổ đăng ký thành viên ngay sau khi được cấp đăng ký doanh nghiệp. Sổ có thể bằng giấy hoặc dữ liệu điện tử, phải ghi thông tin công ty, thành viên, phần vốn góp và giấy chứng nhận phần vốn góp; được cập nhật kịp thời và lưu tại trụ sở chính.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 48"}],
+    "category": "multi_member_llc"
+  },
+  {
+    "id": "qa_016",
+    "source_situation_label": 16,
+    "question": "Công ty trách nhiệm hữu hạn một thành viên được quy định như thế nào?",
+    "answer": "Theo Điều 74 Luật Doanh nghiệp, đây là doanh nghiệp do một tổ chức hoặc cá nhân sở hữu; chủ sở hữu chịu trách nhiệm trong phạm vi vốn điều lệ. Công ty có tư cách pháp nhân từ ngày được cấp đăng ký, không được phát hành cổ phần trừ trường hợp chuyển đổi và có thể phát hành trái phiếu theo luật.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 74"}],
+    "category": "single_member_llc"
+  },
+  {
+    "id": "qa_017",
+    "source_situation_label": 17,
+    "question": "Việc tăng vốn điều lệ của công ty trách nhiệm hữu hạn một thành viên được quy định như thế nào?",
+    "answer": "Theo khoản 1 và 2 Điều 87 Luật Doanh nghiệp, công ty tăng vốn bằng việc chủ sở hữu góp thêm hoặc huy động vốn của người khác. Nếu huy động thêm người góp vốn, công ty phải tổ chức lại theo loại hình công ty trách nhiệm hữu hạn hai thành viên trở lên hoặc công ty cổ phần và thực hiện thủ tục đăng ký tương ứng.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 87"}],
+    "category": "single_member_llc"
+  },
+  {
+    "id": "qa_018",
+    "source_situation_label": 18,
+    "question": "Việc tăng, giảm vốn điều lệ của công ty trách nhiệm hữu hạn hai thành viên trở lên được quy định như thế nào?",
+    "answer": "Theo Điều 68 Luật Doanh nghiệp, công ty có thể tăng vốn bằng tăng phần góp của thành viên hoặc tiếp nhận thành viên mới. Công ty chỉ được giảm vốn trong các trường hợp luật định như hoàn trả một phần vốn sau thời gian hoạt động và bảo đảm thanh toán, mua lại phần vốn góp hoặc điều chỉnh theo vốn thực góp.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 68"}],
+    "category": "multi_member_llc"
+  },
+  {
+    "id": "qa_019",
+    "source_situation_label": 18,
+    "source_numbering_note": "PDF in nhầm Tình huống 19 thành Tình huống 18.",
+    "question": "Giám đốc, Tổng giám đốc doanh nghiệp nhà nước phải đáp ứng tiêu chuẩn và điều kiện nào?",
+    "answer": "Theo Điều 101 Luật Doanh nghiệp, người giữ chức vụ phải không thuộc đối tượng bị cấm, có chuyên môn và kinh nghiệm phù hợp, không có quan hệ gia đình với các chức danh quản lý chủ chốt được liệt kê, chưa từng bị cách chức tại doanh nghiệp nhà nước, không kiêm nhiệm ở doanh nghiệp khác và đáp ứng Điều lệ công ty.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 101"}],
+    "category": "state_owned_enterprise"
+  },
+  {
+    "id": "qa_020",
+    "source_situation_label": 20,
+    "question": "Công ty cổ phần được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 111 Luật Doanh nghiệp, vốn điều lệ của công ty cổ phần được chia thành cổ phần; có ít nhất 3 cổ đông và không giới hạn tối đa; cổ đông chịu trách nhiệm trong phạm vi vốn góp và về nguyên tắc được tự do chuyển nhượng. Công ty có tư cách pháp nhân và được phát hành cổ phần, trái phiếu, chứng khoán khác.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 111"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_021",
+    "source_situation_label": 21,
+    "question": "Trong công ty cổ phần có những loại cổ phần nào?",
+    "answer": "Theo Điều 114 Luật Doanh nghiệp, công ty phải có cổ phần phổ thông và có thể có cổ phần ưu đãi cổ tức, ưu đãi hoàn lại, ưu đãi biểu quyết hoặc loại ưu đãi khác. Cổ phần phổ thông không chuyển thành cổ phần ưu đãi, còn cổ phần ưu đãi có thể chuyển thành cổ phần phổ thông theo nghị quyết của Đại hội đồng cổ đông.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 114"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_022",
+    "source_situation_label": 22,
+    "question": "Vốn của công ty cổ phần được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 112 Luật Doanh nghiệp, vốn điều lệ là tổng mệnh giá cổ phần các loại đã bán; khi đăng ký thành lập là tổng mệnh giá cổ phần đã được đăng ký mua. Điều luật cũng phân biệt cổ phần đã bán, được quyền chào bán và chưa bán, đồng thời quy định những trường hợp công ty được giảm vốn điều lệ.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 112"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_023",
+    "source_situation_label": 23,
+    "question": "Việc chào bán cổ phần của công ty cổ phần được thực hiện như thế nào?",
+    "answer": "Theo Điều 123 Luật Doanh nghiệp, chào bán cổ phần là tăng số lượng hoặc loại cổ phần được quyền chào bán để tăng vốn điều lệ. Việc chào bán có thể dành cho cổ đông hiện hữu, chào bán riêng lẻ hoặc ra công chúng; công ty đăng ký thay đổi vốn điều lệ trong 10 ngày sau khi hoàn thành đợt bán.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 123"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_024",
+    "source_situation_label": 24,
+    "question": "Điều kiện tiến hành họp Đại hội đồng cổ đông được quy định như thế nào?",
+    "answer": "Theo Điều 145 Luật Doanh nghiệp, lần họp thứ nhất cần số cổ đông đại diện trên 50% tổng phiếu biểu quyết; lần hai cần từ 33%; lần ba được tiến hành không phụ thuộc tổng phiếu của người dự họp. Điều lệ có thể quy định tỷ lệ cụ thể trong giới hạn luật định.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 145"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_025",
+    "source_situation_label": 25,
+    "question": "Việc mời họp Đại hội đồng cổ đông được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 143 Luật Doanh nghiệp, thông báo phải được gửi đến mọi cổ đông có quyền dự họp chậm nhất 21 ngày trước ngày khai mạc, trừ khi Điều lệ quy định lâu hơn. Thông báo phải nêu đủ thông tin cuộc họp và kèm chương trình, tài liệu, dự thảo nghị quyết cùng phiếu biểu quyết hoặc chỉ rõ cách truy cập tài liệu điện tử.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 143"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_026",
+    "source_situation_label": 26,
+    "question": "Nhiệm kỳ và số lượng thành viên Hội đồng quản trị của công ty cổ phần được quy định như thế nào?",
+    "answer": "Theo Điều 154 Luật Doanh nghiệp, Hội đồng quản trị có từ 3 đến 11 thành viên. Nhiệm kỳ mỗi thành viên không quá 5 năm và có thể được bầu lại không giới hạn; riêng thành viên độc lập của một công ty không quá 2 nhiệm kỳ liên tục.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 154"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_027",
+    "source_situation_label": 27,
+    "question": "Ban kiểm soát trong công ty cổ phần được quy định như thế nào?",
+    "answer": "Theo Điều 168 Luật Doanh nghiệp, Ban kiểm soát có từ 3 đến 5 Kiểm soát viên, nhiệm kỳ không quá 5 năm và có thể được bầu lại. Ban bầu Trưởng ban theo đa số, phải có hơn một nửa Kiểm soát viên thường trú tại Việt Nam và Trưởng ban phải đáp ứng trình độ chuyên môn luật định.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 168"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_028",
+    "source_situation_label": 28,
+    "source_numbering_note": "Tiêu đề không có dấu chấm nên dễ bị bộ tách văn bản bỏ sót.",
+    "question": "Việc công khai thông tin của công ty cổ phần được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 176 Luật Doanh nghiệp, công ty cổ phần phải gửi báo cáo tài chính năm đã được thông qua cho cơ quan có thẩm quyền và công bố các thông tin luật định trên trang điện tử. Một số thông tin về cổ đông nước ngoài phải được thông báo cho cơ quan đăng ký kinh doanh trong 3 ngày làm việc khi phát sinh hoặc thay đổi.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 176"}],
+    "category": "joint_stock_company"
+  },
+  {
+    "id": "qa_029",
+    "source_situation_label": 29,
+    "question": "Công ty hợp danh được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 177 Luật Doanh nghiệp, công ty hợp danh có ít nhất 2 thành viên hợp danh là cá nhân, cùng kinh doanh và chịu trách nhiệm bằng toàn bộ tài sản; có thể có thành viên góp vốn chịu trách nhiệm trong phạm vi vốn cam kết. Công ty có tư cách pháp nhân và không được phát hành chứng khoán.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 177"}],
+    "category": "partnership"
+  },
+  {
+    "id": "qa_030",
+    "source_situation_label": 30,
+    "question": "Tài sản của công ty hợp danh bao gồm những gì?",
+    "answer": "Theo Điều 179 Luật Doanh nghiệp, tài sản của công ty hợp danh gồm tài sản góp vốn đã chuyển quyền sở hữu; tài sản tạo lập mang tên công ty; tài sản thu được từ hoạt động do thành viên hợp danh thực hiện nhân danh công ty hoặc nhân danh cá nhân trong trường hợp luật định; và tài sản hợp pháp khác.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 179"}],
+    "category": "partnership"
+  },
+  {
+    "id": "qa_031",
+    "source_situation_label": 31,
+    "question": "Việc tiếp nhận thành viên mới của công ty hợp danh được quy định như thế nào?",
+    "answer": "Theo Điều 186 Luật Doanh nghiệp, việc tiếp nhận thành viên hợp danh hoặc thành viên góp vốn mới phải được Hội đồng thành viên chấp thuận. Người mới phải góp đủ vốn trong 15 ngày, trừ khi có quyết định khác; thành viên hợp danh mới về nguyên tắc liên đới chịu trách nhiệm bằng toàn bộ tài sản đối với nghĩa vụ của công ty.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 186"}],
+    "category": "partnership"
+  },
+  {
+    "id": "qa_032",
+    "source_situation_label": 32,
+    "question": "Doanh nghiệp tư nhân được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 188 Luật Doanh nghiệp, doanh nghiệp tư nhân do một cá nhân làm chủ và chủ chịu trách nhiệm bằng toàn bộ tài sản. Doanh nghiệp không được phát hành chứng khoán hoặc góp vốn, mua cổ phần trong doanh nghiệp khác; mỗi cá nhân chỉ được thành lập một doanh nghiệp tư nhân và chịu các hạn chế kiêm nhiệm luật định.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 188"}],
+    "category": "sole_proprietorship"
+  },
+  {
+    "id": "qa_033",
+    "source_situation_label": 33,
+    "question": "Việc quản lý doanh nghiệp tư nhân được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 190 Luật Doanh nghiệp, chủ doanh nghiệp tư nhân toàn quyền quyết định hoạt động và sử dụng lợi nhuận sau nghĩa vụ tài chính. Chủ có thể trực tiếp hoặc thuê Giám đốc, Tổng giám đốc nhưng vẫn chịu trách nhiệm về mọi hoạt động; đồng thời là người đại diện theo pháp luật của doanh nghiệp.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 190"}],
+    "category": "sole_proprietorship"
+  },
+  {
+    "id": "qa_034",
+    "source_situation_label": 34,
+    "question": "Việc bán doanh nghiệp tư nhân được quy định như thế nào?",
+    "answer": "Theo Điều 192 Luật Doanh nghiệp, chủ doanh nghiệp được bán doanh nghiệp cho cá nhân hoặc tổ chức khác. Chủ cũ vẫn chịu trách nhiệm với nợ và nghĩa vụ phát sinh trước ngày chuyển giao nếu các bên và chủ nợ không có thỏa thuận khác; các bên phải tuân thủ pháp luật lao động và người mua phải đăng ký thay đổi chủ doanh nghiệp.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 192"}],
+    "category": "sole_proprietorship"
+  },
+  {
+    "id": "qa_035",
+    "source_situation_label": 35,
+    "question": "Công ty mẹ, công ty con được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 195 Luật Doanh nghiệp, một công ty là công ty mẹ khi sở hữu trên 50% vốn hoặc cổ phần phổ thông, có quyền quyết định đa số nhân sự quản lý chủ chốt hoặc sửa đổi Điều lệ của công ty khác. Công ty con không được góp vốn hoặc mua cổ phần công ty mẹ và bị hạn chế sở hữu chéo theo luật.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 195"}],
+    "category": "corporate_group"
+  },
+  {
+    "id": "qa_036",
+    "source_situation_label": 36,
+    "question": "Việc lập báo cáo tài chính của công ty mẹ, công ty con được quy định như thế nào?",
+    "answer": "Theo Điều 197 Luật Doanh nghiệp, cuối năm tài chính công ty mẹ phải lập báo cáo tài chính hợp nhất, báo cáo tổng hợp kết quả kinh doanh và báo cáo tổng hợp quản lý, điều hành. Công ty con có trách nhiệm cung cấp thông tin cần thiết, còn người lập báo cáo chịu trách nhiệm về tính chính xác của nội dung.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 197"}],
+    "category": "corporate_group"
+  },
+  {
+    "id": "qa_037",
+    "source_situation_label": 37,
+    "question": "Việc hợp nhất công ty được quy định như thế nào?",
+    "answer": "Theo Điều 200 Luật Doanh nghiệp, hai hoặc nhiều công ty có thể hợp nhất thành công ty mới và chấm dứt tồn tại của các công ty bị hợp nhất. Các bên phải lập hợp đồng, dự thảo Điều lệ, thông qua và thông báo theo thủ tục luật định; công ty mới kế thừa quyền, nghĩa vụ, nợ, hợp đồng lao động và trách nhiệm tài sản.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 200"}],
+    "category": "reorganization"
+  },
+  {
+    "id": "qa_038",
+    "source_situation_label": 38,
+    "question": "Việc chuyển đổi công ty trách nhiệm hữu hạn thành công ty cổ phần được quy định như thế nào?",
+    "answer": "Theo Điều 202 Luật Doanh nghiệp, công ty trách nhiệm hữu hạn có thể chuyển đổi mà không huy động thêm vốn, bằng cách huy động người góp vốn mới, bán phần vốn góp hoặc kết hợp các phương thức. Công ty phải đăng ký chuyển đổi đúng hạn và công ty sau chuyển đổi kế thừa toàn bộ quyền, nghĩa vụ, nợ và hợp đồng lao động.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 202"}],
+    "category": "reorganization"
+  },
+  {
+    "id": "qa_039",
+    "source_situation_label": 39,
+    "question": "Việc giải thể doanh nghiệp được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 207 Luật Doanh nghiệp, doanh nghiệp có thể giải thể khi hết thời hạn hoạt động, theo quyết định của chủ thể có thẩm quyền, không còn đủ thành viên tối thiểu trong 6 tháng mà không chuyển đổi, hoặc bị thu hồi đăng ký. Doanh nghiệp chỉ được giải thể sau khi thanh toán hết nợ, nghĩa vụ và không đang tranh chấp tại Tòa án hoặc Trọng tài.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 207"}],
+    "category": "dissolution"
+  },
+  {
+    "id": "qa_040",
+    "source_situation_label": 40,
+    "question": "Hồ sơ giải thể doanh nghiệp gồm những giấy tờ gì?",
+    "answer": "Theo Điều 210 Luật Doanh nghiệp, hồ sơ gồm thông báo giải thể, báo cáo thanh lý tài sản, danh sách chủ nợ và các khoản nợ đã thanh toán, bao gồm nghĩa vụ thuế và bảo hiểm cho người lao động nếu có. Những người quản lý, chủ sở hữu và người đại diện liên quan chịu trách nhiệm về tính trung thực, chính xác của hồ sơ.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 210"}],
+    "category": "dissolution"
+  },
+  {
+    "id": "qa_041",
+    "source_situation_label": 41,
+    "question": "Doanh nghiệp bị thu hồi Giấy chứng nhận đăng ký doanh nghiệp trong những trường hợp nào?",
+    "answer": "Theo khoản 1 Điều 212 Luật Doanh nghiệp, các trường hợp gồm hồ sơ đăng ký có nội dung giả mạo; doanh nghiệp do người bị cấm thành lập; ngừng kinh doanh một năm mà không thông báo; không gửi báo cáo theo yêu cầu trong thời hạn luật định; hoặc trường hợp khác theo quyết định của Tòa án hay đề nghị của cơ quan có thẩm quyền.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 212"}],
+    "category": "registration_revocation"
+  },
+  {
+    "id": "qa_042",
+    "source_situation_label": 42,
+    "question": "Phần vốn góp trong các trường hợp đặc biệt của công ty trách nhiệm hữu hạn hai thành viên trở lên được xử lý như thế nào?",
+    "answer": "Theo Điều 53 Luật Doanh nghiệp, khi thành viên chết, mất tích, bị hạn chế năng lực, tặng cho, dùng vốn góp trả nợ hoặc thuộc trường hợp đặc biệt khác, quyền và phần vốn được xử lý thông qua người thừa kế, người quản lý tài sản, người đại diện, mua lại hoặc chuyển nhượng theo từng điều kiện cụ thể của luật.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 53"}],
+    "category": "multi_member_llc"
+  },
+  {
+    "id": "qa_043",
+    "source_situation_label": 43,
+    "question": "Những tổ chức, cá nhân nào không có quyền thành lập và quản lý doanh nghiệp?",
+    "answer": "Theo khoản 2 Điều 17 Luật Doanh nghiệp, nhóm bị cấm gồm cơ quan sử dụng tài sản nhà nước để thu lợi riêng; một số cán bộ, công chức, viên chức và người trong lực lượng vũ trang; người chưa thành niên hoặc bị hạn chế năng lực; người đang bị truy cứu, giam giữ, chấp hành hình phạt hoặc bị cấm; cùng tổ chức bị cấm kinh doanh theo luật.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 17"}],
+    "category": "enterprise_establishment"
+  },
+  {
+    "id": "qa_044",
+    "source_situation_label": 44,
+    "duplicate_of": "qa_031",
+    "question": "Việc tiếp nhận thành viên mới của công ty hợp danh được quy định như thế nào?",
+    "answer": "Theo Điều 186 Luật Doanh nghiệp, thành viên mới phải được Hội đồng thành viên chấp thuận và góp đủ vốn cam kết trong thời hạn luật định hoặc thời hạn khác do Hội đồng quyết định. Thành viên hợp danh mới chịu trách nhiệm liên đới bằng toàn bộ tài sản, trừ khi có thỏa thuận hợp pháp khác.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 186"}],
+    "category": "partnership",
+    "enabled_for_aggregate_metrics": false
+  },
+  {
+    "id": "qa_045",
+    "source_situation_label": 45,
+    "question": "Tập đoàn kinh tế, tổng công ty trong nhóm công ty được pháp luật quy định như thế nào?",
+    "answer": "Theo Điều 194 Luật Doanh nghiệp, tập đoàn kinh tế và tổng công ty là nhóm công ty liên kết qua sở hữu hoặc quan hệ khác, không phải một loại hình doanh nghiệp, không có tư cách pháp nhân và không phải đăng ký thành lập. Mỗi công ty mẹ, công ty con và thành viên vẫn có quyền, nghĩa vụ độc lập.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 194"}],
+    "category": "corporate_group"
+  },
+  {
+    "id": "qa_046",
+    "source_situation_label": 46,
+    "question": "Việc chia công ty được pháp luật doanh nghiệp quy định như thế nào?",
+    "answer": "Theo Điều 198 Luật Doanh nghiệp, công ty trách nhiệm hữu hạn hoặc công ty cổ phần có thể chia tài sản, quyền, nghĩa vụ, thành viên hoặc cổ đông để lập hai hay nhiều công ty mới. Việc chia phải được thông qua, thông báo và đăng ký theo thủ tục; các công ty mới cùng chịu trách nhiệm với nghĩa vụ của công ty bị chia theo luật.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 198"}],
+    "category": "reorganization"
+  },
+  {
+    "id": "qa_047",
+    "source_situation_label": 47,
+    "question": "Thủ tục tách công ty trách nhiệm hữu hạn và công ty cổ phần được quy định như thế nào?",
+    "answer": "Theo khoản 3 Điều 199 Luật Doanh nghiệp, chủ thể có thẩm quyền của công ty bị tách phải thông qua nghị quyết hoặc quyết định tách, gửi cho chủ nợ và thông báo người lao động trong 15 ngày. Thành viên, chủ sở hữu hoặc cổ đông của công ty mới thông qua Điều lệ, bầu nhân sự và đăng ký doanh nghiệp theo luật.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 199"}],
+    "category": "reorganization"
+  },
+  {
+    "id": "qa_048",
+    "source_situation_label": 48,
+    "question": "Việc chuyển đổi công ty cổ phần thành công ty trách nhiệm hữu hạn một thành viên được quy định như thế nào?",
+    "answer": "Theo Điều 203 Luật Doanh nghiệp, việc chuyển đổi có thể xảy ra khi một cổ đông nhận toàn bộ cổ phần còn lại, một người không phải cổ đông nhận toàn bộ cổ phần, hoặc công ty chỉ còn một cổ đông. Công ty đăng ký chuyển đổi trong 15 ngày và công ty mới kế thừa toàn bộ quyền, nghĩa vụ, nợ và hợp đồng.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 203"}],
+    "category": "reorganization"
+  },
+  {
+    "id": "qa_049",
+    "source_situation_label": 49,
+    "question": "Cơ quan đăng ký kinh doanh có nhiệm vụ và quyền hạn gì?",
+    "answer": "Theo Điều 216 Luật Doanh nghiệp, cơ quan đăng ký kinh doanh giải quyết đăng ký và cấp giấy chứng nhận; quản lý, công khai hệ thống thông tin; yêu cầu báo cáo; kiểm tra, giám sát; xử lý vi phạm và thu hồi giấy chứng nhận theo thẩm quyền. Cơ quan còn lưu giữ thông tin chủ sở hữu hưởng lợi theo thời hạn luật định.",
+    "relevant_articles": [{"law_id": "59/2020/QH14", "article": "Điều 216"}],
+    "category": "business_registration_authority"
+  }
+]
