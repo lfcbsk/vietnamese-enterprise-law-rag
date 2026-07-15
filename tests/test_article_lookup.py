@@ -1,5 +1,7 @@
 from types import SimpleNamespace
 
+from langchain_core.messages import AIMessage, HumanMessage
+
 from src.api.services.rag_engine import RAGEngine
 from src.retrieval.article_lookup import (
     ArticleLookup,
@@ -101,3 +103,41 @@ def test_rag_engine_skips_hybrid_when_direct_lookup_succeeds() -> None:
 
     assert response["sources"][0]["article"] == "Điều 111"
     assert "Điều 111. Công ty cổ phần" in response["context"]
+
+
+def test_structural_follow_up_reuses_previous_article_without_llm() -> None:
+    engine = object.__new__(RAGEngine)
+
+    response = engine._rewrite_query(
+        {
+            "messages": [
+                HumanMessage(content="Điều 111 quy định gì?"),
+                AIMessage(content="Điều 111 quy định về công ty cổ phần."),
+                HumanMessage(content="Khoản 2 nói gì?"),
+            ],
+            "standalone_query": "Điều 111 quy định gì?",
+            "sources": [{"article": "Điều 111"}],
+        }
+    )
+
+    assert response == {
+        "standalone_query": "Khoản 2 nói gì? (thuộc Điều 111)"
+    }
+
+
+def test_semantic_follow_up_does_not_force_previous_article() -> None:
+    engine = object.__new__(RAGEngine)
+
+    response = engine._rewrite_query(
+        {
+            "messages": [
+                HumanMessage(content="Điều 111 quy định gì?"),
+                AIMessage(content="Điều 111 quy định về công ty cổ phần."),
+                HumanMessage(content="Vậy quyền cổ đông thì sao?"),
+            ],
+            "standalone_query": "Điều 111 quy định gì?",
+            "sources": [{"article": "Điều 111"}],
+        }
+    )
+
+    assert response == {"standalone_query": "Vậy quyền cổ đông thì sao?"}

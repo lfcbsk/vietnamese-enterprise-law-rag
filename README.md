@@ -80,15 +80,16 @@ flowchart TD
 Luồng xử lý một câu hỏi:
 
 1. FastAPI nhận câu hỏi và `conversation_id`.
-2. Ở lượt đầu, câu hỏi được dùng trực tiếp. Từ lượt sau, LangGraph dùng các tin
-   nhắn gần nhất để viết lại câu hỏi thành câu độc lập.
+2. Câu hỏi được chuẩn hóa cục bộ. Với follow-up cấu trúc như `Khoản 2 thì sao?`,
+   hệ thống bổ sung số điều từ nguồn của lượt trước mà không gọi thêm LLM.
 3. Nếu câu hỏi chứa `Điều N`, hệ thống lấy đúng chunk từ
    `data/law_chunks.json` và bỏ qua Dense/BM25.
 4. Nếu không có số điều, hệ thống chạy Dense và BM25, hợp nhất kết quả bằng
    weighted RRF rồi rerank theo tiêu đề điều luật.
 5. Các chunk tốt nhất được dựng thành context có điều, tiêu đề, file nguồn và
    trang nguồn.
-6. Gemini chỉ dựa trên context và lịch sử gần nhất để sinh câu trả lời.
+6. Gemini dựa trên context và lịch sử gần nhất để sinh câu trả lời; mỗi lượt
+   chat chỉ gọi Gemini một lần nhằm tiết kiệm quota.
 7. API trả về câu trả lời, standalone query và danh sách nguồn; trạng thái hội
    thoại được lưu trong SQLite.
 

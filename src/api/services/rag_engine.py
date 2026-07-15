@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from typing import Any
 
 from langchain_core.language_models.chat_models import (
@@ -24,14 +25,19 @@ from src.generation.context_builder import (
 )
 from src.generation.prompts import (
     LEGAL_SYSTEM_PROMPT,
-    QUERY_REWRITE_PROMPT,
 )
 from src.memory.checkpointer import (
     create_sqlite_checkpointer,
 )
 from src.retrieval import HybridRetriever
-from src.retrieval.article_lookup import ArticleLookup
+from src.retrieval.article_lookup import ArticleLookup, extract_article_numbers
 from src.retrieval.title_reranker import rerank_by_title
+
+
+_STRUCTURAL_FOLLOW_UP = re.compile(
+    r"\b(khoản|điểm|điều này|quy định này|nội dung này|nó)\b",
+    re.IGNORECASE,
+)
 
 
 class RAGState(MessagesState):
@@ -107,37 +113,29 @@ class RAGEngine:
             human_messages[-1].content
         )
 
-        # Câu hỏi đầu tiên đã độc lập, không cần gọi LLM
-        # thêm một lần để rewrite.
-        if len(human_messages) == 1:
-            return {
-                "standalone_query": str(
-                    current_question
-                )
-            }
+        query = str(current_question).strip()
 
-        recent_messages = messages[-8:]
-
-        history = "\n".join(
-            f"{message.type}: {message.content}"
-            for message in recent_messages
-        )
-
-        rewrite_message = HumanMessage(
-            content=QUERY_REWRITE_PROMPT.format(
-                history=history
+        # Không gọi LLM để rewrite: mỗi lượt hội thoại chỉ nên tốn một request
+        # Gemini ở bước generate. Với follow-up cấu trúc như "Khoản 2 thì sao?",
+        # dùng Điều đã retrieve ở lượt trước để tạo query độc lập cục bộ.
+        if (
+            len(human_messages) > 1
+            and not extract_article_numbers(query)
+            and _STRUCTURAL_FOLLOW_UP.search(query)
+        ):
+            previous_sources = state.get("sources", [])
+            previous_article = next(
+                (
+                    str(source["article"]).strip()
+                    for source in previous_sources
+                    if source.get("article")
+                ),
+                "",
             )
-        )
+            if previous_article:
+                query = f"{query} (thuộc {previous_article})"
 
-        response = self.llm.invoke(
-            [rewrite_message]
-        )
-
-        return {
-            "standalone_query": str(
-                response.content
-            ).strip()
-        }
+        return {"standalone_query": query}
 
     def _retrieve(
         self,

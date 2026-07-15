@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import re
 from uuid import uuid4
 
 from fastapi import (
@@ -15,6 +16,24 @@ from src.api.schemas.chat import (
 )
 
 logger = logging.getLogger(__name__)
+
+
+def _safe_error_reason(error: Exception) -> str | None:
+    if type(error).__name__ != "ChatGoogleGenerativeAIError":
+        return None
+
+    reason = " ".join(str(error).split())
+    reason = re.sub(r"AIza[\w-]+", "[API key đã ẩn]", reason)
+    return reason[:500]
+
+
+def _error_status_code(error: Exception) -> int:
+    message = str(error).upper()
+    if "RESOURCE_EXHAUSTED" in message or "429" in message:
+        return 429
+    if type(error).__name__ in {"ConnectError", "TimeoutException"}:
+        return 503
+    return 500
 
 router = APIRouter(
     prefix="/chat",
@@ -44,6 +63,8 @@ def chat(
     except Exception as error:
         error_id = str(uuid4())
         error_type = type(error).__name__
+        safe_reason = _safe_error_reason(error)
+        status_code = _error_status_code(error)
         logger.exception(
             "Chat request failed "
             "[error_id=%s error_type=%s conversation_id=%s]",
@@ -52,10 +73,11 @@ def chat(
             conversation_id,
         )
         raise HTTPException(
-            status_code=500,
+            status_code=status_code,
             detail=(
                 "Không thể xử lý câu hỏi. "
                 f"Loại lỗi: {error_type}. "
+                f"{f'Nguyên nhân: {safe_reason}. ' if safe_reason else ''}"
                 f"Mã lỗi: {error_id}."
             ),
         ) from error

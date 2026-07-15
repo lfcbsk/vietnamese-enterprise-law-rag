@@ -12,16 +12,3 @@ Yêu cầu bắt buộc:
 CONTEXT:
 {context}
 """.strip()
-
-
-QUERY_REWRITE_PROMPT = """
-Dựa trên lịch sử hội thoại, hãy viết lại câu hỏi cuối thành
-một câu hỏi độc lập, đầy đủ ngữ cảnh để tìm kiếm văn bản luật.
-
-Chỉ trả về câu hỏi đã viết lại.
-Không trả lời câu hỏi.
-Không thêm giải thích.
-
-LỊCH SỬ:
-{history}
-""".strip()
