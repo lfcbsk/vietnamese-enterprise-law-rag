@@ -1,13 +1,13 @@
 from __future__ import annotations
 
-from langchain_openai import ChatOpenAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 from src.api.config import Settings
 
 
 def create_llm(
     settings: Settings,
-) -> ChatOpenAI:
+) -> ChatGoogleGenerativeAI:
     kwargs = {
         "model": settings.llm_model,
         "api_key": (
@@ -21,4 +21,4 @@ def create_llm(
     if settings.llm_base_url:
         kwargs["base_url"] = settings.llm_base_url
 
-    return ChatOpenAI(**kwargs)
+    return ChatGoogleGenerativeAI(**kwargs)

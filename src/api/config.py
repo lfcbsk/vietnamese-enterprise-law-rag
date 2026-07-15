@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     )
 
     llm_api_key: SecretStr
-    llm_model: str = "gpt-4.1-mini"
+    llm_model: str = "gemini-2.5-flash"
     llm_base_url: str | None = None
     llm_temperature: float = 0.0
 
