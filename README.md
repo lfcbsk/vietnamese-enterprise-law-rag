@@ -194,6 +194,18 @@ uv run python -m src.indexing.build_indexes --skip-bm25
 Khi đổi dữ liệu nguồn, model embedding hoặc tên collection, cần build lại index
 trước khi chạy API.
 
+### Luồng tra cứu điều luật
+
+Backend tự chọn cách retrieval theo câu hỏi:
+
+- Nếu câu hỏi nêu rõ số điều, ví dụ `Điều 111`, `Khoản 2 Điều 17` hoặc
+  `dieu 168`, hệ thống lấy trực tiếp chunk tương ứng từ `data/law_chunks.json`.
+  Nhánh này không chạy dense retrieval hoặc BM25.
+- Nếu câu hỏi không nêu số điều, hoặc số điều chưa có trong dữ liệu, hệ thống
+  tiếp tục dùng Dense + BM25, hybrid fusion và title reranker như bình thường.
+- Có thể hỏi nhiều điều trong một câu, ví dụ `So sánh Điều 111 với Điều 120`;
+  kết quả được giữ theo thứ tự xuất hiện trong câu hỏi.
+
 ## 5. Chạy ứng dụng
 
 Cần mở hai terminal tại thư mục gốc dự án.

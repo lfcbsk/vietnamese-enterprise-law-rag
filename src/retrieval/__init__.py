@@ -5,6 +5,7 @@ from typing import Any
 from src.retrieval.schema import RetrievalResult
 
 __all__ = [
+    "ArticleLookup",
     "BM25Retriever",
     "DenseRetriever",
     "HybridRetriever",
@@ -14,6 +15,10 @@ __all__ = [
 
 def __getattr__(name: str) -> Any:
     """Lazy import để schema/fusion không bắt buộc load model và vector DB."""
+    if name == "ArticleLookup":
+        from src.retrieval.article_lookup import ArticleLookup
+
+        return ArticleLookup
     if name == "BM25Retriever":
         from src.retrieval.bm25_retriever import BM25Retriever
 

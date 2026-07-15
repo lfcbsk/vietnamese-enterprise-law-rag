@@ -30,6 +30,7 @@ from src.memory.checkpointer import (
     create_sqlite_checkpointer,
 )
 from src.retrieval import HybridRetriever
+from src.retrieval.article_lookup import ArticleLookup
 from src.retrieval.title_reranker import rerank_by_title
 
 
@@ -46,10 +47,12 @@ class RAGEngine:
         llm: BaseChatModel,
         retriever: HybridRetriever,
         settings: Settings,
+        article_lookup: ArticleLookup | None = None,
     ) -> None:
         self.llm = llm
         self.retriever = retriever
         self.settings = settings
+        self.article_lookup = article_lookup or ArticleLookup()
 
         (
             self.checkpointer,
@@ -140,16 +143,25 @@ class RAGEngine:
         self,
         state: RAGState,
     ) -> dict[str, Any]:
-        candidates = self.retriever.search(
-            state["standalone_query"],
-            top_k=self.settings.rag_candidate_k,
-            candidate_k=self.settings.rag_candidate_k,
-        )
-        results = rerank_by_title(
-            state["standalone_query"],
-            candidates,
+        query = state["standalone_query"]
+        results = self.article_lookup.search(
+            query,
             top_k=self.settings.rag_top_k,
         )
+
+        # Chỉ chạy retrieval tốn tài nguyên khi câu hỏi không nêu số điều
+        # hợp lệ hoặc số điều được hỏi chưa có trong dữ liệu ingestion.
+        if not results:
+            candidates = self.retriever.search(
+                query,
+                top_k=self.settings.rag_candidate_k,
+                candidate_k=self.settings.rag_candidate_k,
+            )
+            results = rerank_by_title(
+                query,
+                candidates,
+                top_k=self.settings.rag_top_k,
+            )
 
         return {
             "context": build_context(results),
