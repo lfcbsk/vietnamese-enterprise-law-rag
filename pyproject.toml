@@ -2,37 +2,40 @@
 name = "vietnamese-enterprise-law-rag"
 version = "0.1.0"
 description = "RAG cho văn bản pháp luật doanh nghiệp Việt Nam"
-requires-python = ">=3.10"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
 dependencies = [
-    # Ingest
-    "pymupdf>=1.24",
-    # Embedding + vector DB (Bước 6-7)
-    "sentence-transformers>=3.0",
-    "torch>=2.2",
-    "chromadb>=0.5",
-    # BM25 keyword index (Bước 8)
-    "rank-bm25>=0.2.2",
-    # API
-    "fastapi>=0.110",
-    "uvicorn[standard]>=0.29",
-    "pydantic>=2.6",
-    "pydantic-settings>=2.2",
-    # Config / env
-    "python-dotenv>=1.0",
-    "pyyaml>=6.0",
-    # LLM orchestration (dùng ở bước sinh câu trả lời)
-    "langchain>=0.2",
-    "langchain-core>=0.2",
-    "langchain-openai>=1.3.5",
-    "langgraph>=1.2.9",
-    "langgraph-checkpoint-sqlite>=3.1.0",
-    "langchain-google-genai>=4.2.7",
+    # Đọc PDF và OCR
+    "pymupdf==1.28.0",
+
+    # Embedding, dense index và BM25 index
+    "chromadb==1.5.9",
+    "rank-bm25==0.2.2",
+    "sentence-transformers==5.6.0",
+    "torch==2.13.0",
+
+    # API và cấu hình
+    "fastapi==0.139.0",
+    "pydantic==2.13.4",
+    "pydantic-settings==2.14.2",
+    "python-dotenv==1.2.2",
+    "uvicorn[standard]==0.51.0",
+
+    # RAG, Gemini và SQLite checkpointer
+    "langchain-core==1.4.9",
+    "langchain-google-genai==4.2.7",
+    "langgraph==1.2.9",
+    "langgraph-checkpoint-sqlite==3.1.0",
+
+    # Giao diện Streamlit
+    "requests==2.34.2",
+    "streamlit==1.59.2",
 ]
 
 [dependency-groups]
 dev = [
-    "pytest>=8.0",
-    "ruff>=0.4",
+    "pytest==9.1.1",
+    "ruff==0.15.21",
 ]
 
 [build-system]
