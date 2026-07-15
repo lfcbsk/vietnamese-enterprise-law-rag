@@ -43,15 +43,19 @@ def chat(
         return ChatResponse(**result)
     except Exception as error:
         error_id = str(uuid4())
+        error_type = type(error).__name__
         logger.exception(
-            "Chat request failed [error_id=%s conversation_id=%s]",
+            "Chat request failed "
+            "[error_id=%s error_type=%s conversation_id=%s]",
             error_id,
+            error_type,
             conversation_id,
         )
         raise HTTPException(
             status_code=500,
             detail=(
                 "Không thể xử lý câu hỏi. "
-                f"Kiểm tra log backend với mã lỗi {error_id}."
+                f"Loại lỗi: {error_type}. "
+                f"Mã lỗi: {error_id}."
             ),
         ) from error

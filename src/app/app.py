@@ -4,8 +4,11 @@ import os
 
 import requests
 import streamlit as st
+from dotenv import load_dotenv
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000")
+load_dotenv()
+
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000").rstrip("/")
 
 
 st.set_page_config(
@@ -45,6 +48,22 @@ def call_chat_api(
     return response.json()
 
 
+@st.cache_data(ttl=5, show_spinner=False)
+def check_api_health(api_url: str) -> tuple[bool, str]:
+    try:
+        response = requests.get(
+            f"{api_url}/health",
+            timeout=5,
+        )
+        response.raise_for_status()
+        payload = response.json()
+        if payload.get("status") != "ok":
+            return False, f"Phản hồi không hợp lệ: {payload}"
+        return True, "Backend đang hoạt động"
+    except (requests.RequestException, ValueError) as error:
+        return False, str(error)
+
+
 def get_api_error_detail(error: requests.RequestException) -> str:
     response = error.response
     if response is None:
@@ -55,11 +74,20 @@ def get_api_error_detail(error: requests.RequestException) -> str:
     except (requests.JSONDecodeError, ValueError):
         detail = None
 
-    return str(detail or error)
+    message = str(detail or error)
+    return f"{message} (HTTP {response.status_code}, URL: {response.url})"
 
 
 with st.sidebar:
     st.subheader("Phiên hội thoại")
+
+    st.caption("Backend API")
+    st.code(API_URL, language=None)
+    backend_ready, backend_status = check_api_health(API_URL)
+    if backend_ready:
+        st.success(backend_status)
+    else:
+        st.error(f"Không kết nối được backend: {backend_status}")
 
     if st.button("Tạo cuộc hội thoại mới", use_container_width=True):
         st.session_state.messages = []

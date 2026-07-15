@@ -46,5 +46,16 @@ app = FastAPI(
     lifespan=lifespan,
 )
 
+
+@app.get("/", tags=["system"])
+def root() -> dict[str, str]:
+    return {
+        "name": "Vietnamese Enterprise Law RAG",
+        "health": "/health",
+        "docs": "/docs",
+        "chat": "POST /chat",
+    }
+
+
 app.include_router(health_router)
 app.include_router(chat_router)

@@ -669,6 +669,39 @@ uv run python -m src.indexing.ensure_indexes
 Sau đó khởi động lại Uvicorn. Frontend sẽ hiển thị `detail` và mã lỗi do backend
 trả về để đối chiếu với log.
 
+Nếu lỗi hiển thị `ConnectError`, kiểm tra các biến proxy trong terminal:
+
+```powershell
+Get-ChildItem Env:HTTP_PROXY,Env:HTTPS_PROXY,Env:ALL_PROXY `
+    -ErrorAction SilentlyContinue
+```
+
+Nếu chúng trỏ đến proxy không còn hoạt động, xóa khỏi terminal hiện tại rồi
+khởi động lại backend:
+
+```powershell
+Remove-Item Env:HTTP_PROXY -ErrorAction SilentlyContinue
+Remove-Item Env:HTTPS_PROXY -ErrorAction SilentlyContinue
+Remove-Item Env:ALL_PROXY -ErrorAction SilentlyContinue
+
+uv run uvicorn src.api.main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+Nếu mạng công ty bắt buộc dùng proxy, không xóa các biến này; thay bằng địa chỉ
+proxy đúng và kiểm tra proxy cho phép truy cập Google Gemini và Hugging Face.
+
+### Backend thoát khi tải model Hugging Face
+
+Embedder ưu tiên model đã có trong cache local và chỉ kết nối Hugging Face khi
+cache chưa tồn tại. Ở lần chạy đầu tiên, cần Internet để tải model bằng lệnh:
+
+```powershell
+uv run python -m src.indexing.ensure_indexes
+```
+
+Sau khi model và index đã được tạo, backend có thể nạp embedding model từ cache
+mà không cần gửi request kiểm tra phiên bản lên Hugging Face.
+
 ### Không tìm thấy Dense hoặc BM25 index
 
 ```powershell

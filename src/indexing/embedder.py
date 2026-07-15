@@ -38,14 +38,25 @@ class LawEmbedder:
 
     def __init__(self, config: EmbedderConfig | None = None) -> None:
         self.config = config or EmbedderConfig()
-        self._model = SentenceTransformer(
-            self.config.model_name,
-            device=self.config.device,
-        )
+        self._model = self._load_model()
         self._is_e5 = any(
             marker in self.config.model_name.lower()
             for marker in _E5_FAMILY_PREFIXES
         )
+
+    def _load_model(self) -> SentenceTransformer:
+        """Ưu tiên cache local, chỉ kết nối Hugging Face khi model chưa có."""
+        try:
+            return SentenceTransformer(
+                self.config.model_name,
+                device=self.config.device,
+                local_files_only=True,
+            )
+        except OSError:
+            return SentenceTransformer(
+                self.config.model_name,
+                device=self.config.device,
+            )
 
     @property
     def dimension(self) -> int:
