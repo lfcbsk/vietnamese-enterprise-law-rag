@@ -45,6 +45,19 @@ def call_chat_api(
     return response.json()
 
 
+def get_api_error_detail(error: requests.RequestException) -> str:
+    response = error.response
+    if response is None:
+        return str(error)
+
+    try:
+        detail = response.json().get("detail")
+    except (requests.JSONDecodeError, ValueError):
+        detail = None
+
+    return str(detail or error)
+
+
 with st.sidebar:
     st.subheader("Phiên hội thoại")
 
@@ -146,8 +159,8 @@ if question:
 
             except requests.RequestException as exc:
                 error_message = (
-                    "Không thể kết nối tới backend: "
-                    f"{exc}"
+                    "Backend không thể xử lý yêu cầu: "
+                    f"{get_api_error_detail(exc)}"
                 )
                 st.error(error_message)
                 st.session_state.messages.append(
