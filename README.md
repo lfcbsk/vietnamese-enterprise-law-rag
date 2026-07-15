@@ -30,6 +30,7 @@ Project cung cấp:
 - [Chạy bằng Docker](#chạy-bằng-docker)
 - [Cấu hình](#cấu-hình)
 - [Test và đánh giá retrieval](#test-và-đánh-giá-retrieval)
+- [Kết quả evaluation](#kết-quả-evaluation)
 - [CI](#ci)
 - [Xử lý lỗi thường gặp](#xử-lý-lỗi-thường-gặp)
 
@@ -129,7 +130,7 @@ lexical trở nên vô ích. Với trọng số nhỏ `0.1`, BM25 đóng vai tr�
 sung: không lấn át semantic search nhưng giúp sửa một số lỗi xếp hạng của Dense.
 Trên bộ evaluation hiện tại, Hybrid giữ nguyên `Hit@1` của Dense nhưng tăng
 `Hit@3`, `Hit@5`, `Recall@5` và `MRR`; bảng số liệu chi tiết nằm ở phần
-[Kết quả hiện tại](#kết-quả-hiện-tại).
+[Kết quả evaluation](#kết-quả-evaluation).
 
 ## Cấu trúc project
 
@@ -591,7 +592,7 @@ uv run python -m evaluation.eval_retrieval `
 Các metric gồm `Hit@1`, `Hit@3`, `Hit@5`, `Recall@5` và `MRR`. Kết quả chi
 tiết được ghi vào `evaluation/outputs/retrieval_<retriever>.json`.
 
-### Kết quả hiện tại
+### Kết quả evaluation
 
 Snapshot trong `evaluation/outputs/` được đánh giá trên `49` câu hỏi có điều
 luật kỳ vọng, với `top_k=5`:
