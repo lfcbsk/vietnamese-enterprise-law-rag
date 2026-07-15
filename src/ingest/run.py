@@ -13,8 +13,12 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
-from src.ingest.parser import VietnameseLawParser
-from src.ingest.pdf_loader import PDFLoader
+from src.ingest.parser import VietnameseLawParser  # noqa: E402
+from src.ingest.pdf_loader import PDFLoader  # noqa: E402
+from src.ingest.segment_fix import (  # noqa: E402
+    build_syllable_dict,
+    fix_text,
+)
 
 
 DATA_DIR = PROJECT_ROOT / "data"
@@ -76,7 +80,7 @@ def run_ingestion(*, force_ocr: bool = False) -> None:
         law_name="Luật Doanh nghiệp 2020"
     )
 
-    all_chunks: list[dict] = []
+    loaded_documents: list[tuple[str, str]] = []
 
     for pdf_file in pdf_files:
         source = pdf_file.name
@@ -102,10 +106,27 @@ def run_ingestion(*, force_ocr: bool = False) -> None:
             f"{len(raw_text)} characters"
         )
 
-        chunks = parser.parse(
+        loaded_documents.append((source, raw_text))
+
+    syllable_frequency = build_syllable_dict(
+        [text for _, text in loaded_documents]
+    )
+    all_chunks: list[dict] = []
+
+    for source, raw_text in loaded_documents:
+        fixed_text, segment_changes = fix_text(
             raw_text,
-            source=source,
+            syllable_frequency,
         )
+
+        print(
+            f"Segment fix ({source}): "
+            f"{len(segment_changes)} token(s)"
+        )
+        for before, after in segment_changes[:10]:
+            print(f"  {before!r} -> {after!r}")
+
+        chunks = parser.parse(fixed_text, source=source)
 
         print(
             f"Extracted: {len(chunks)} chunks"

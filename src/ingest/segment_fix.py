@@ -1,125 +1,173 @@
-"""
-Sửa lỗi OCR dính từ (tổchức -> tổ chức, vềviệc -> về việc) bằng cách tự học
-từ điển âm tiết từ chính corpus, thay vì liệt kê tay từng cặp từ.
+"""Sửa thận trọng các âm tiết tiếng Việt bị OCR dính liền nhau."""
 
-Ý tưởng:
-1. Chạy qua toàn bộ text đã clean (sau PDFLoader.clean_text hiện tại), tách
-   theo khoảng trắng có sẵn -> phần lớn token là ĐÚNG (vì OCR chỉ lỗi cục bộ).
-2. Token ngắn (<=7 ký tự, đúng hình thái âm tiết tiếng Việt) xuất hiện lặp
-   lại nhiều lần -> coi là "âm tiết hợp lệ", đưa vào từ điển kèm tần suất.
-3. Với token dài bất thường (>7 ký tự, không có trong từ điển) -> chạy DP
-   (word segmentation kiểu Viterbi) để tách thành chuỗi âm tiết hợp lệ có
-   tần suất cao nhất. Nếu tách được phủ kín toàn bộ token -> thay bằng bản
-   có dấu cách. Nếu không tách được -> để nguyên, in ra để review thủ công.
-
-Cách dùng:
-    python segment_fix.py data/ocr/59.signed.txt data/ocr/59tiep.txt
-
-In ra bảng "trước -> sau" cho từng token đã sửa, để bạn review trước khi
-áp dụng vào pipeline thật (tích hợp vào PDFLoader.clean_text).
-"""
 from __future__ import annotations
 
+import math
 import re
 import sys
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
-VOWELS = "aàáảãạăằắẳẵặâầấẩẫậeèéẻẽẹêềếểễệiìíỉĩịoòóỏõọôồốổỗộơờớởỡợuùúủũụưừứửữựyỳýỷỹỵ"
-WORD_RE = re.compile(r"[a-zA-ZđĐ" + VOWELS + VOWELS.upper() + r"]+")
+VOWELS = (
+    "aàáảãạăằắẳẵặâầấẩẫậ"
+    "eèéẻẽẹêềếểễệ"
+    "iìíỉĩị"
+    "oòóỏõọôồốổỗộơờớởỡợ"
+    "uùúủũụưừứửữự"
+    "yỳýỷỹỵ"
+)
+ACCENTED_LETTERS = VOWELS.replace("a", "").replace("e", "").replace(
+    "i", ""
+).replace("o", "").replace("u", "").replace("y", "")
 
-MAX_SYLLABLE_LEN = 7  # âm tiết tiếng Việt hiếm khi dài hơn 7 ký tự (nghiêng/nguyễn...)
-MIN_SYLLABLE_LEN = 2  # bỏ token 1 ký tự: tiếng Việt gần như không có từ 1 chữ cái đứng riêng
-MIN_FREQ_TO_TRUST = 3  # token ngắn phải xuất hiện >=3 lần mới coi là "biết chắc"
+WORD_RE = re.compile(
+    r"[a-zA-ZđĐ" + VOWELS + VOWELS.upper() + r"]+"
+)
+ACCENTED_RE = re.compile(
+    "[" + ACCENTED_LETTERS + "đĐ" + "]"
+)
+BASE_VOWEL_GROUP_RE = re.compile(r"[aeiouy]+")
 
-HAS_DIACRITIC = re.compile("[" + VOWELS + "đĐ" + "]")
+MAX_SYLLABLE_LEN = 8
+MIN_SYLLABLE_LEN = 2
+MIN_FREQ_TO_TRUST = 3
 
-# Một số âm tiết chức năng cực phổ biến, luôn tin dù tần suất thấp trong 1 văn bản nhỏ.
+# Các âm tiết pháp lý thường gặp được dùng làm prior. Chúng vẫn phải ghép
+# thành phương án ít mảnh nhất, nên "doanh" không bị tách thành "do anh".
 SEED_SYLLABLES = {
-    "và", "là", "có", "không", "của", "về", "các", "này", "đó", "cho",
-    "theo", "tại", "trong", "với", "một", "những", "được", "khi", "để",
-    "đã", "từ", "như", "thì", "trên", "hoặc", "nếu", "do", "bị", "tổ",
-    "chức", "việc", "đó", "đông", "phần", "cổ", "ty", "công", "doanh",
-    "nghiệp", "vốn", "góp", "tài", "sản", "nghĩa", "vụ", "quyền",
+    "ai", "anh", "ban", "bị", "các", "cho", "chủ", "chức", "có",
+    "cổ", "công", "của", "do", "doanh", "dụng", "đã", "để", "đó",
+    "đông", "được", "góp", "hoặc", "khi", "không", "là", "luật",
+    "một", "nghiệp", "nghĩa", "này", "nếu", "như", "những", "phần",
+    "quyền", "sản", "sổ", "sử", "tài", "tại", "theo", "thì", "tổ",
+    "trên", "trong", "từ", "ty", "việc", "và", "về", "vốn", "vụ",
+    "với",
 }
 
 
+def _plain_text(text: str) -> str:
+    normalized = unicodedata.normalize("NFD", text.lower())
+    return "".join(
+        char
+        for char in normalized
+        if unicodedata.category(char) != "Mn"
+    ).replace("đ", "d")
+
+
+def _vowel_group_count(token: str) -> int:
+    """Đếm cụm nguyên âm; một âm tiết Việt hợp lệ thường có đúng một cụm."""
+    return len(BASE_VOWEL_GROUP_RE.findall(_plain_text(token)))
+
+
 def build_syllable_dict(texts: list[str]) -> Counter[str]:
-    freq: Counter[str] = Counter()
+    """Học âm tiết từ corpus nhưng loại token có dấu hiệu nhiều từ bị dính."""
+    frequency: Counter[str] = Counter()
+
     for text in texts:
-        for tok in WORD_RE.findall(text.lower()):
-            if MIN_SYLLABLE_LEN <= len(tok) <= MAX_SYLLABLE_LEN:
-                freq[tok] += 1
-    for s in SEED_SYLLABLES:
-        freq[s] += 1000  # ưu tiên cao, không bị loại vì tần suất thấp
-    return freq
-
-
-def segment_token(token: str, freq: Counter[str]) -> list[str] | None:
-    """DP: tìm cách tách token thành chuỗi âm tiết hợp lệ có tổng log-freq cao nhất.
-    Trả về None nếu không tách được phủ kín toàn bộ token."""
-    n = len(token)
-    # best[i] = (score, split) tốt nhất để tách token[:i]
-    best: list[tuple[float, list[str]] | None] = [None] * (n + 1)
-    best[0] = (0.0, [])
-
-    for i in range(1, n + 1):
-        for j in range(max(0, i - MAX_SYLLABLE_LEN), i):
-            if best[j] is None:
+        for token in WORD_RE.findall(text.lower()):
+            if not MIN_SYLLABLE_LEN <= len(token) <= MAX_SYLLABLE_LEN:
                 continue
-            piece = token[j:i]
-            count = freq.get(piece)
-            if count is None or count < MIN_FREQ_TO_TRUST:
+            if _vowel_group_count(token) != 1:
                 continue
-            import math
-            score = best[j][0] + math.log(count)
-            candidate = (score, best[j][1] + [piece])
-            if best[i] is None or candidate[0] > best[i][0]:
-                best[i] = candidate
+            frequency[token] += 1
 
-    return best[n][1] if best[n] is not None else None
+    for syllable in SEED_SYLLABLES:
+        frequency[syllable] += 1000
+
+    return frequency
 
 
-def fix_text(text: str, freq: Counter[str]) -> tuple[str, list[tuple[str, str]]]:
+def segment_token(
+    token: str,
+    frequency: Counter[str],
+) -> list[str] | None:
+    """Tách token bằng DP, ưu tiên ít mảnh rồi mới xét tần suất corpus."""
+    length = len(token)
+    best: list[tuple[int, float, list[str]] | None] = [
+        None
+    ] * (length + 1)
+    best[0] = (0, 0.0, [])
+
+    for end in range(1, length + 1):
+        for start in range(max(0, end - MAX_SYLLABLE_LEN), end):
+            previous = best[start]
+            if previous is None:
+                continue
+
+            piece = token[start:end]
+            count = frequency.get(piece, 0)
+            if count < MIN_FREQ_TO_TRUST:
+                continue
+            if _vowel_group_count(piece) != 1:
+                continue
+
+            candidate = (
+                previous[0] + 1,
+                previous[1] + math.log(count),
+                previous[2] + [piece],
+            )
+            current = best[end]
+            if (
+                current is None
+                or candidate[0] < current[0]
+                or (
+                    candidate[0] == current[0]
+                    and candidate[1] > current[1]
+                )
+            ):
+                best[end] = candidate
+
+    result = best[length]
+    if result is None or result[0] < 2:
+        return None
+    return result[2]
+
+
+def fix_text(
+    text: str,
+    frequency: Counter[str],
+) -> tuple[str, list[tuple[str, str]]]:
+    """Thêm khoảng trắng cho token dính; không sửa ký tự hay dấu tiếng Việt."""
     changes: list[tuple[str, str]] = []
 
-    def repl(m: re.Match[str]) -> str:
-        token = m.group(0)
-        if len(token) <= MAX_SYLLABLE_LEN:
-            return token  # đã là 1 âm tiết bình thường, không đụng vào
-        # Chuỗi dài toàn ký tự Latin không dấu (email, domain, header rác
-        # kiểu "thongtinchinhphu") không phải từ tiếng Việt bị dính - đây là
-        # rác cần loại bỏ ở bước khác, KHÔNG được tách âm tiết ở đây vì sẽ
-        # tạo ra chuỗi vô nghĩa.
-        if len(token) > 10 and not HAS_DIACRITIC.search(token):
+    def replace(match: re.Match[str]) -> str:
+        token = match.group(0)
+
+        # Một cụm nguyên âm là dấu hiệu của một âm tiết đơn, không được tách.
+        if _vowel_group_count(token) < 2:
             return token
-        low = token.lower()
-        pieces = segment_token(low, freq)
-        if not pieces or len(pieces) < 2:
+
+        # Chuỗi dài hoàn toàn không dấu thường là URL/header rác. Giữ nguyên để
+        # bước làm sạch chuyên biệt xử lý, tránh tạo câu giả có vẻ hợp lệ.
+        if len(token) > 10 and not ACCENTED_RE.search(token):
             return token
-        # An toàn: không chấp nhận mảnh 1 ký tự trong kết quả tách (dấu hiệu
-        # của việc dictionary bị nhiễm từ rác 1 chữ cái).
-        if any(len(p) < MIN_SYLLABLE_LEN for p in pieces):
+
+        pieces = segment_token(token.lower(), frequency)
+        if pieces is None:
             return token
-        # khôi phục hoa/thường của chữ cái đầu
+
         fixed = " ".join(pieces)
         if token[0].isupper():
             fixed = fixed[0].upper() + fixed[1:]
+
+        if fixed.lower() == token.lower():
+            return token
+
         changes.append((token, fixed))
         return fixed
 
-    fixed_text = WORD_RE.sub(repl, text)
-    return fixed_text, changes
+    return WORD_RE.sub(replace, text), changes
 
 
 def main(paths: list[str]) -> None:
-    texts = [Path(p).read_text(encoding="utf-8") for p in paths]
-    freq = build_syllable_dict(texts)
-    print(f"Từ điển âm tiết học được: {len(freq)} mục\n")
+    texts = [Path(path).read_text(encoding="utf-8") for path in paths]
+    frequency = build_syllable_dict(texts)
+    print(f"Từ điển âm tiết học được: {len(frequency)} mục\n")
 
-    for p, text in zip(paths, texts):
-        fixed, changes = fix_text(text, freq)
-        print(f"=== {p}: {len(changes)} token được tách lại ===")
+    for path, text in zip(paths, texts, strict=True):
+        _, changes = fix_text(text, frequency)
+        print(f"=== {path}: {len(changes)} token được tách lại ===")
         for before, after in changes[:60]:
             print(f"  {before!r:30s} -> {after!r}")
         if len(changes) > 60:
@@ -128,4 +176,7 @@ def main(paths: list[str]) -> None:
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:] or ["data/ocr/59.signed.txt", "data/ocr/59tiep.txt"])
+    main(
+        sys.argv[1:]
+        or ["data/ocr/59.signed.txt", "data/ocr/59tiep.txt"]
+    )

@@ -101,7 +101,7 @@ LLM_BASE_URL=
 LLM_TEMPERATURE=0
 
 RAG_TOP_K=5
-RAG_CANDIDATE_K=20
+RAG_CANDIDATE_K=40
 
 CHAT_DB_PATH=data/chat/checkpoints.sqlite
 
@@ -139,8 +139,9 @@ Repository đã có PDF trong `data/` và OCR cache trong `data/ocr/`. Để t�
 uv run python -m src.ingest.run
 ```
 
-Pipeline sẽ đọc mọi PDF trong `data/`, ưu tiên OCR cache, làm sạch văn bản, tách
-theo Chương/Điều, kiểm tra chunk rỗng hoặc ID trùng và ghi kết quả vào
+Pipeline sẽ đọc mọi PDF trong `data/`, ưu tiên OCR cache, làm sạch văn bản, học
+từ điển âm tiết từ toàn bộ corpus để tách thận trọng các từ OCR bị dính, sau đó
+tách theo Chương/Điều, kiểm tra chunk rỗng hoặc ID trùng và ghi kết quả vào
 `data/law_chunks.json`.
 
 ### OCR lại toàn bộ PDF
@@ -306,3 +307,16 @@ cài ở vị trí tùy chỉnh, rồi chạy lại `tesseract --list-langs`.
 `docker-compose.yaml` hiện chưa có nội dung và repository chưa có Dockerfile, vì
 vậy dự án chưa hỗ trợ chạy bằng Docker Compose. Dùng quy trình `uv` ở trên cho đến
 khi cấu hình container được bổ sung.
+
+## CI tự động
+
+GitHub Actions workflow tại `.github/workflows/ci.yml` tự chạy khi push hoặc mở
+pull request. Workflow kiểm tra lockfile, Ruff, compile, unit test, tái tạo chunks
+từ OCR cache, kiểm tra output ingestion và quality gate BM25 (`Hit@5 >= 0.65`).
+
+Job hybrid đầy đủ chạy lúc 02:00 UTC mỗi thứ Hai (09:00 giờ Việt Nam) hoặc khi
+chọn **Run workflow** trên GitHub Actions. Job này build lại ChromaDB/BM25 và yêu
+cầu hybrid retrieval đạt `Hit@5 >= 0.90`.
+
+Workflow hiện là CI kiểm tra chất lượng. Dự án chưa cấu hình bước CD/deploy vì
+chưa có môi trường triển khai hoặc container image đích.

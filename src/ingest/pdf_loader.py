@@ -398,7 +398,7 @@ class PDFLoader:
                 # phải là chữ để không tác động tới số hoặc dấu câu.
                 text = re.sub(
                     rf"(?i)({left})(?={right})",
-                    rf"\1 ",
+                    r"\1 ",
                     text,
                 )
 

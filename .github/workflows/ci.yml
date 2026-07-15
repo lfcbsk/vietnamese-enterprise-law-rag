@@ -1,0 +1,113 @@
+name: CI
+
+"on":
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    # 02:00 UTC mỗi thứ Hai (09:00 giờ Việt Nam).
+    - cron: "0 2 * * 1"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHONUTF8: "1"
+  HF_HUB_DISABLE_TELEMETRY: "1"
+  TOKENIZERS_PARALLELISM: "false"
+  ANONYMIZED_TELEMETRY: "false"
+
+jobs:
+  quality-and-logic:
+    name: Quality and logic checks
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Install uv and Python 3.12
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Install project dependencies
+        run: uv sync --frozen --dev
+
+      - name: Verify lock file
+        run: uv lock --check
+
+      - name: Run Ruff
+        run: uv run --frozen ruff check .
+
+      - name: Compile Python sources
+        run: uv run --frozen python -m compileall -q src evaluation tests
+
+      - name: Run unit and logic tests
+        run: uv run --frozen pytest -p no:cacheprovider
+
+      - name: Install OCR runtime
+        run: |
+          sudo apt-get update
+          sudo apt-get install --yes tesseract-ocr tesseract-ocr-vie
+
+      - name: Rebuild chunks from OCR cache
+        run: uv run --frozen python -m src.ingest.run
+
+      - name: Verify deterministic ingestion output
+        run: git diff --exit-code -- data/law_chunks.json
+
+      - name: Build BM25 index
+        run: uv run --frozen python -m src.indexing.build_bm25_index
+
+      - name: Check BM25 retrieval quality
+        run: >-
+          uv run --frozen python -m evaluation.eval_retrieval
+          --retriever bm25
+          --top-k 5
+          --min-hit-at-5 0.65
+
+  scheduled-hybrid-retrieval:
+    name: Full hybrid retrieval check
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    needs: quality-and-logic
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Install uv and Python 3.12
+        uses: astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b # v8.1.0
+        with:
+          python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+
+      - name: Cache Hugging Face models
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: huggingface-multilingual-e5-base-v1
+
+      - name: Install project dependencies
+        run: uv sync --frozen --dev
+
+      - name: Build dense and BM25 indexes
+        run: uv run --frozen python -m src.indexing.build_indexes
+
+      - name: Check hybrid retrieval quality
+        run: >-
+          uv run --frozen python -m evaluation.eval_retrieval
+          --retriever hybrid
+          --top-k 5
+          --candidate-k 40
+          --min-hit-at-5 0.90

@@ -49,7 +49,7 @@ class LawEmbedder:
 
     @property
     def dimension(self) -> int:
-        return self._model.get_sentence_embedding_dimension()
+        return self._model.get_embedding_dimension()
 
     def encode_passages(self, texts: Iterable[str]) -> list[list[float]]:
         texts = list(texts)

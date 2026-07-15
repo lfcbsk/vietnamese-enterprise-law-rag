@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 from statistics import mean
 from typing import Any
@@ -17,6 +18,7 @@ from src.retrieval import (
     DenseRetriever,
     HybridRetriever,
 )
+from src.retrieval.title_reranker import rerank_by_title
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 QUESTIONS_PATH = PROJECT_ROOT / "evaluation" / "questions.json"
@@ -54,7 +56,7 @@ def create_retriever(
 def evaluate(
     retriever_name: str,
     top_k: int = 5,
-    candidate_k: int = 20,
+    candidate_k: int = 40,
     dense_weight: float = 0.9,
     bm25_weight: float = 0.1,
 ) -> dict[str, Any]:
@@ -81,10 +83,15 @@ def evaluate(
             continue
 
         if retriever_name == "hybrid":
-            results = retriever.search(
+            candidates = retriever.search(
                 question["question"],
-                top_k=top_k,
+                top_k=candidate_k,
                 candidate_k=candidate_k,
+            )
+            results = rerank_by_title(
+                question["question"],
+                candidates,
+                top_k=top_k,
             )
         else:
             results = retriever.search(
@@ -158,6 +165,9 @@ def evaluate(
 
 
 def main() -> None:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
+
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--retriever",
@@ -167,8 +177,23 @@ def main() -> None:
     parser.add_argument("--dense-weight", type=float, default=0.9)
     parser.add_argument("--bm25-weight", type=float, default=0.1)
     parser.add_argument("--top-k", type=int, default=5)
-    parser.add_argument("--candidate-k", type=int, default=20)
+    parser.add_argument("--candidate-k", type=int, default=40)
+    parser.add_argument(
+        "--min-hit-at-5",
+        type=float,
+        default=None,
+        help=(
+            "Trả mã lỗi nếu hit@5 thấp hơn ngưỡng; "
+            "dùng cho quality gate trong CI."
+        ),
+    )
     args = parser.parse_args()
+
+    if (
+        args.min_hit_at_5 is not None
+        and not 0 <= args.min_hit_at_5 <= 1
+    ):
+        parser.error("--min-hit-at-5 phải nằm trong khoảng [0, 1]")
 
     report = evaluate(
         retriever_name=args.retriever,
@@ -198,6 +223,16 @@ def main() -> None:
         indent=2,
     ))
     print(f"Đã lưu kết quả tại: {output_path}")
+
+    if (
+        args.min_hit_at_5 is not None
+        and report["summary"]["hit_at_5"] < args.min_hit_at_5
+    ):
+        raise SystemExit(
+            "Retrieval quality gate failed: "
+            f"hit@5={report['summary']['hit_at_5']:.4f} < "
+            f"{args.min_hit_at_5:.4f}"
+        )
 
 
 if __name__ == "__main__":

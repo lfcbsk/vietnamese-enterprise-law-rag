@@ -23,7 +23,7 @@ class Settings(BaseSettings):
     llm_temperature: float = 0.0
 
     rag_top_k: int = 5
-    rag_candidate_k: int = 20
+    rag_candidate_k: int = 40
 
     chat_db_path: Path = Path(
         "data/chat/checkpoints.sqlite"

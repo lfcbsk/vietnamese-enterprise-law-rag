@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import sqlite3
 from typing import Any
 
 from langchain_core.language_models.chat_models import (
@@ -143,11 +142,13 @@ class RAGEngine:
     ) -> dict[str, Any]:
         candidates = self.retriever.search(
             state["standalone_query"],
-            top_k=self.settings.rag_candidate_k,      # lấy nhiều ứng viên, vd 40
+            top_k=self.settings.rag_candidate_k,
             candidate_k=self.settings.rag_candidate_k,
         )
         results = rerank_by_title(
-            state["standalone_query"], candidates, top_k=self.settings.rag_top_k
+            state["standalone_query"],
+            candidates,
+            top_k=self.settings.rag_top_k,
         )
 
         return {

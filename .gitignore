@@ -61,6 +61,11 @@ local_settings.py
 db.sqlite3
 db.sqlite3-journal
 
+# Runtime chat checkpoints (không commit lịch sử hội thoại/SQLite lock files)
+data/chat/*.sqlite
+data/chat/*.sqlite-shm
+data/chat/*.sqlite-wal
+
 # Flask stuff:
 instance/
 .webassets-cache
