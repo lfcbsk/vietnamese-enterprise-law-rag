@@ -111,3 +111,15 @@ jobs:
           --top-k 5
           --candidate-k 40
           --min-hit-at-5 0.90
+
+  docker-build:
+    name: Docker build check
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+
+      - name: Build application image
+        run: docker build --tag vietnamese-enterprise-law-rag:ci .
