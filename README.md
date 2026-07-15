@@ -304,9 +304,49 @@ cài ở vị trí tùy chỉnh, rồi chạy lại `tesseract --list-langs`.
 
 ## Docker
 
-`docker-compose.yaml` hiện chưa có nội dung và repository chưa có Dockerfile, vì
-vậy dự án chưa hỗ trợ chạy bằng Docker Compose. Dùng quy trình `uv` ở trên cho đến
-khi cấu hình container được bổ sung.
+Dự án có một image dùng chung cho indexer, FastAPI và Streamlit. Đảm bảo `.env`
+đã có Gemini API key, Docker Desktop/Engine đang chạy, sau đó thực hiện:
+
+```powershell
+docker compose build
+docker compose up
+```
+
+Ở lần chạy đầu, service `indexer` tự tải model embedding và tạo ChromaDB/BM25 nếu
+index chưa tồn tại hoặc không còn khớp `law_chunks.json`. Các lần sau index hợp lệ
+sẽ được dùng lại. Dữ liệu được bind từ `./data`, còn model Hugging Face được cache
+trong named volume `huggingface-cache`.
+
+Sau khi các service healthy, truy cập:
+
+- Streamlit: <http://127.0.0.1:8501>
+- FastAPI: <http://127.0.0.1:8000>
+- Swagger: <http://127.0.0.1:8000/docs>
+
+Chạy nền và xem log:
+
+```powershell
+docker compose up --detach
+docker compose logs --follow
+```
+
+Dừng container mà vẫn giữ index/cache:
+
+```powershell
+docker compose down
+```
+
+Sau khi thay PDF, OCR cache, `law_chunks.json` hoặc model embedding, chạy lại
+indexer rồi khởi động lại API:
+
+```powershell
+docker compose run --rm indexer
+docker compose restart api
+```
+
+Dockerfile không đưa `.env`, chat database hoặc index sinh ra vào image. Không
+commit API key vào repository. Chỉ container API nhận toàn bộ `.env`; frontend
+chỉ nhận địa chỉ nội bộ `API_URL`.
 
 ## CI tự động
 
