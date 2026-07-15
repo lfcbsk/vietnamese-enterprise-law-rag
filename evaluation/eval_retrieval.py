@@ -28,7 +28,12 @@ def load_questions() -> list[dict[str, Any]]:
         return json.load(file)
 
 
-def create_retriever(name: str) -> Any:
+def create_retriever(
+    name: str,
+    *,
+    dense_weight: float = 0.9,
+    bm25_weight: float = 0.1,
+) -> Any:
     if name == "bm25":
         return BM25Retriever()
 
@@ -36,7 +41,12 @@ def create_retriever(name: str) -> Any:
         return DenseRetriever()
 
     if name == "hybrid":
-        return HybridRetriever()
+        return HybridRetriever(
+            source_weights={
+                "dense": dense_weight,
+                "bm25": bm25_weight,
+            }
+        )
 
     raise ValueError(f"Retriever không hợp lệ: {name}")
 
@@ -45,9 +55,20 @@ def evaluate(
     retriever_name: str,
     top_k: int = 5,
     candidate_k: int = 20,
+    dense_weight: float = 0.9,
+    bm25_weight: float = 0.1,
 ) -> dict[str, Any]:
+    if dense_weight < 0 or bm25_weight < 0:
+        raise ValueError("Trọng số retrieval phải lớn hơn hoặc bằng 0")
+    if dense_weight == 0 and bm25_weight == 0:
+        raise ValueError("Phải có ít nhất một trọng số retrieval lớn hơn 0")
+
     questions = load_questions()
-    retriever = create_retriever(retriever_name)
+    retriever = create_retriever(
+        retriever_name,
+        dense_weight=dense_weight,
+        bm25_weight=bm25_weight,
+    )
 
     details: list[dict[str, Any]] = []
 
@@ -126,6 +147,10 @@ def evaluate(
         "mrr": mean(item["reciprocal_rank"] for item in details),
     }
 
+    if retriever_name == "hybrid":
+        summary["dense_weight"] = dense_weight
+        summary["bm25_weight"] = bm25_weight
+
     return {
         "summary": summary,
         "details": details,
@@ -139,6 +164,8 @@ def main() -> None:
         choices=["bm25", "dense", "hybrid"],
         default="hybrid",
     )
+    parser.add_argument("--dense-weight", type=float, default=0.9)
+    parser.add_argument("--bm25-weight", type=float, default=0.1)
     parser.add_argument("--top-k", type=int, default=5)
     parser.add_argument("--candidate-k", type=int, default=20)
     args = parser.parse_args()
@@ -147,6 +174,8 @@ def main() -> None:
         retriever_name=args.retriever,
         top_k=args.top_k,
         candidate_k=args.candidate_k,
+        dense_weight=args.dense_weight,
+        bm25_weight=args.bm25_weight,
     )
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)

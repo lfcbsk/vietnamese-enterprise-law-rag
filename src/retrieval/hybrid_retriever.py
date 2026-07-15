@@ -8,12 +8,23 @@ from src.retrieval.fusion import reciprocal_rank_fusion
 from src.retrieval.schema import RetrievalResult
 
 
+DEFAULT_SOURCE_WEIGHTS = {
+    "dense": 0.9,
+    "bm25": 0.1,
+}
+
+
 class Retriever(Protocol):
-    def search(self, query: str, top_k: int = 20, **kwargs: Any) -> list[RetrievalResult]: ...
+    def search(
+        self,
+        query: str,
+        top_k: int = 20,
+        **kwargs: Any,
+    ) -> list[RetrievalResult]: ...
 
 
 class HybridRetriever:
-    """Kết hợp lexical BM25 và semantic dense retrieval bằng RRF."""
+    """Kết hợp lexical BM25 và semantic dense retrieval bằng weighted RRF."""
 
     def __init__(
         self,
@@ -26,7 +37,11 @@ class HybridRetriever:
         self.bm25 = bm25_retriever or BM25Retriever()
         self.dense = dense_retriever or DenseRetriever()
         self.rrf_k = rrf_k
-        self.source_weights = source_weights
+        self.source_weights = (
+            dict(source_weights)
+            if source_weights is not None
+            else dict(DEFAULT_SOURCE_WEIGHTS)
+        )
 
     def search(
         self,

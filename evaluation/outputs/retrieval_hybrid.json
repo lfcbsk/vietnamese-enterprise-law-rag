@@ -4,11 +4,13 @@
     "question_count": 49,
     "top_k": 5,
     "candidate_k": 20,
-    "hit_at_1": 0.5714285714285714,
-    "hit_at_3": 0.7755102040816326,
-    "hit_at_5": 0.8775510204081632,
-    "recall_at_5": 0.8775510204081632,
-    "mrr": 0.6857142857142857
+    "hit_at_1": 0.6530612244897959,
+    "hit_at_3": 0.8571428571428571,
+    "hit_at_5": 0.9387755102040817,
+    "recall_at_5": 0.9387755102040817,
+    "mrr": 0.7656462585034014,
+    "dense_weight": 0.9,
+    "bm25_weight": 0.1
   },
   "details": [
     {
@@ -27,15 +29,15 @@
           "chunk_id": "59_signed_điều_16",
           "article": "Điều 16",
           "article_title": "Các hành vi bịnghiêm cấm",
-          "score": 0.031054405392392875,
+          "score": 0.0160086663456909,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_193",
-          "article": "Điều 193",
-          "article_title": "Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _",
-          "score": 0.03021353930031804,
+          "chunk_id": "59_signed_điều_8",
+          "article": "Điều 8",
+          "article_title": "Nghĩa vụ của doanh nghiệp",
+          "score": 0.01504481434058899,
           "source": "hybrid"
         },
         {
@@ -43,23 +45,23 @@
           "chunk_id": "59tiep_điều_119",
           "article": "Điều 119",
           "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
-          "score": 0.029631255487269532,
+          "score": 0.01490342405618964,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_8",
-          "article": "Điều 8",
-          "article_title": "Nghĩa vụ của doanh nghiệp",
-          "score": 0.029236022193768675,
+          "chunk_id": "59tiep_điều_211",
+          "article": "Điều 211",
+          "article_title": "Các hoat động bịcấm ké từ khi có quyếtđịnh giải thé",
+          "score": 0.014754098360655738,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_17",
-          "article": "Điều 17",
-          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
-          "score": 0.028693528693528692,
+          "chunk_id": "59tiep_điều_193",
+          "article": "Điều 193",
+          "article_title": "Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _",
+          "score": 0.014288959563834622,
           "source": "hybrid"
         }
       ],
@@ -85,7 +87,7 @@
           "chunk_id": "59tiep_điều_190",
           "article": "Điều 190",
           "article_title": "Quản lý doanh nghiệp tư nhân",
-          "score": 0.030886196246139225,
+          "score": 0.01620337372297458,
           "source": "hybrid"
         },
         {
@@ -93,39 +95,39 @@
           "chunk_id": "59tiep_điều_191",
           "article": "Điều 191",
           "article_title": "Cho thuê doanh nghiệp tư nhân",
-          "score": 0.027912386121341344,
+          "score": 0.014731537119596821,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_4",
-          "article": "Điều 4",
-          "article_title": "Giải thích từngữ",
-          "score": 0.025158227848101268,
+          "chunk_id": "59_signed_điều_7",
+          "article": "Điều 7",
+          "article_title": "Quyền của doanh nghiệp —",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_193",
-          "article": "Điều 193",
-          "article_title": "Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _",
-          "score": 0.01639344262295082,
+          "chunk_id": "59tiep_điều_188",
+          "article": "Điều 188",
+          "article_title": "Doanh nghiệp tư nhân ỉ",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_7",
-          "article": "Điều 7",
-          "article_title": "Quyền của doanh nghiệp —",
-          "score": 0.016129032258064516,
+          "chunk_id": "59tiep_điều_159",
+          "article": "Điều 159",
+          "article_title": "Quyền được cung cấp thông tin của thành viên Hội đồng _",
+          "score": 0.0140625,
           "source": "hybrid"
         }
       ],
       "hit_at_1": 0.0,
-      "hit_at_3": 0.0,
+      "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.2
+      "reciprocal_rank": 0.3333333333333333
     },
     {
       "id": "qa_003",
@@ -143,47 +145,47 @@
           "chunk_id": "59_signed_điều_33",
           "article": "Điều 33",
           "article_title": "Cung cấp thông tin vềnội dung đăng ký doanh nghiệp",
-          "score": 0.03225806451612903,
+          "score": 0.016129032258064516,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_171",
-          "article": "Điều 171",
-          "article_title": "Quyền đượccủng cấp thông tin của Ban kiểm soát —",
-          "score": 0.030158730158730156,
+          "chunk_id": "59_signed_điều_11",
+          "article": "Điều 11",
+          "article_title": "Chếđộlưu giữtài liệu của doanh nghiệp",
+          "score": 0.016052799659357037,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_43",
-          "article": "Điều 43",
-          "article_title": "Dấu của doanh nghiệp",
-          "score": 0.029877369007803793,
+          "chunk_id": "59tiep_điều_171",
+          "article": "Điều 171",
+          "article_title": "Quyền đượccủng cấp thông tin của Ban kiểm soát —",
+          "score": 0.015714285714285715,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_164",
-          "article": "Điều 164",
-          "article_title": "Công khai các lợi ích liên quan",
-          "score": 0.029551337359792925,
+          "chunk_id": "59_signed_điều_43",
+          "article": "Điều 43",
+          "article_title": "Dấu của doanh nghiệp",
+          "score": 0.015295429208472686,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_11",
-          "article": "Điều 11",
-          "article_title": "Chếđộlưu giữtài liệu của doanh nghiệp",
-          "score": 0.02938045560996381,
+          "chunk_id": "59_signed_điều_89",
+          "article": "Điều 89",
+          "article_title": "Áp dụng quy định đối với doanh nghiệp nhà nước .",
+          "score": 0.015006226650062267,
           "source": "hybrid"
         }
       ],
       "hit_at_1": 0.0,
-      "hit_at_3": 0.0,
+      "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.2
+      "reciprocal_rank": 0.5
     },
     {
       "id": "qa_004",
@@ -201,15 +203,15 @@
           "chunk_id": "59_signed_điều_9",
           "article": "Điều 9",
           "article_title": "Quyền và nghĩa vụ của doanh nghiệp cung ứng sản phẩm, dịch",
-          "score": 0.031099324975891997,
+          "score": 0.016224686595949854,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_10",
-          "article": "Điều 10",
-          "article_title": "Tiêu chí, quyền và nghĩa vụ của doanh nghiệp xã hội .",
-          "score": 0.03007688828584351,
+          "chunk_id": "59_signed_điều_8",
+          "article": "Điều 8",
+          "article_title": "Nghĩa vụ của doanh nghiệp",
+          "score": 0.015766129032258065,
           "source": "hybrid"
         },
         {
@@ -217,31 +219,31 @@
           "chunk_id": "59tiep_điều_216",
           "article": "Điều 216",
           "article_title": "Cơ quan đăng ký kinh doanh",
-          "score": 0.029083245521601686,
+          "score": 0.015216016859852476,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_12",
-          "article": "Điều 12",
-          "article_title": "Người đại diện theo pháp luật của doanh nghiệp —",
-          "score": 0.02878726010616578,
+          "chunk_id": "59_signed_điều_10",
+          "article": "Điều 10",
+          "article_title": "Tiêu chí, quyền và nghĩa vụ của doanh nghiệp xã hội .",
+          "score": 0.014947987336047037,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_8",
-          "article": "Điều 8",
-          "article_title": "Nghĩa vụ của doanh nghiệp",
-          "score": 0.028629032258064516,
+          "chunk_id": "59_signed_điều_50",
+          "article": "Điều 50",
+          "article_title": "Nghĩa vụ của thành viên Hội đồng thành viên",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
       "hit_at_1": 0.0,
-      "hit_at_3": 0.0,
+      "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.2
+      "reciprocal_rank": 0.5
     },
     {
       "id": "qa_005",
@@ -256,50 +258,50 @@
       "retrieved": [
         {
           "rank": 1,
-          "chunk_id": "59_signed_điều_12",
-          "article": "Điều 12",
-          "article_title": "Người đại diện theo pháp luật của doanh nghiệp —",
-          "score": 0.03252247488101534,
+          "chunk_id": "59_signed_điều_13",
+          "article": "Điều 13",
+          "article_title": "Trách nhiệm của người đại diện theo pháp luật của doanh nghiệp",
+          "score": 0.016269249875807253,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_13",
-          "article": "Điều 13",
-          "article_title": "Trách nhiệm của người đại diện theo pháp luật của doanh nghiệp",
-          "score": 0.031544957774465976,
+          "chunk_id": "59_signed_điều_12",
+          "article": "Điều 12",
+          "article_title": "Người đại diện theo pháp luật của doanh nghiệp —",
+          "score": 0.016155473294553146,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_169",
-          "article": "Điều 169",
-          "article_title": "Tiêu chuẩn va điều kiện của Kiểm soát viên",
-          "score": 0.030621785881252923,
+          "chunk_id": "59_signed_điều_14",
+          "article": "Điều 14",
+          "article_title": "Người đại diện theo ủy quyền của chủ sở hữu, thành viên, cổ đông công ty là t6 chức : .",
+          "score": 0.01543236301369863,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_213",
-          "article": "Điều 213",
-          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
-          "score": 0.02976190476190476,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.01490342405618964,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_17",
-          "article": "Điều 17",
-          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
-          "score": 0.029631255487269532,
+          "chunk_id": "59tiep_điều_169",
+          "article": "Điều 169",
+          "article_title": "Tiêu chuẩn va điều kiện của Kiểm soát viên",
+          "score": 0.014656381486676019,
           "source": "hybrid"
         }
       ],
-      "hit_at_1": 1.0,
+      "hit_at_1": 0.0,
       "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 1.0
+      "reciprocal_rank": 0.5
     },
     {
       "id": "qa_006",
@@ -314,26 +316,26 @@
       "retrieved": [
         {
           "rank": 1,
-          "chunk_id": "59_signed_điều_12",
-          "article": "Điều 12",
-          "article_title": "Người đại diện theo pháp luật của doanh nghiệp —",
-          "score": 0.03252247488101534,
+          "chunk_id": "59_signed_điều_13",
+          "article": "Điều 13",
+          "article_title": "Trách nhiệm của người đại diện theo pháp luật của doanh nghiệp",
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_13",
-          "article": "Điều 13",
-          "article_title": "Trách nhiệm của người đại diện theo pháp luật của doanh nghiệp",
-          "score": 0.03252247488101534,
+          "chunk_id": "59_signed_điều_12",
+          "article": "Điều 12",
+          "article_title": "Người đại diện theo pháp luật của doanh nghiệp —",
+          "score": 0.016155473294553146,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_213",
-          "article": "Điều 213",
-          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
-          "score": 0.029957522915269395,
+          "chunk_id": "59_signed_điều_14",
+          "article": "Điều 14",
+          "article_title": "Người đại diện theo ủy quyền của chủ sở hữu, thành viên, cổ đông công ty là t6 chức : .",
+          "score": 0.014969696969696971,
           "source": "hybrid"
         },
         {
@@ -341,23 +343,23 @@
           "chunk_id": "59_signed_điều_71",
           "article": "Điều 71",
           "article_title": "Trách nhiệm của Chủtịch Hội đồng thành viên, Giám đốc,",
-          "score": 0.029631255487269532,
+          "score": 0.014727831431079894,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_17",
-          "article": "Điều 17",
-          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
-          "score": 0.028594771241830064,
+          "chunk_id": "59_signed_điều_15",
+          "article": "Điều 15",
+          "article_title": "Trách nhiệm của người đại diện theo ủy quyền của chú sở",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
-      "hit_at_1": 0.0,
+      "hit_at_1": 1.0,
       "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.5
+      "reciprocal_rank": 1.0
     },
     {
       "id": "qa_007",
@@ -375,23 +377,23 @@
           "chunk_id": "59_signed_điều_18",
           "article": "Điều 18",
           "article_title": "Hợp đồng trước đăng ký doanh nghiệp",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_200",
-          "article": "Điều 200",
-          "article_title": "Hợp nhất công ty",
-          "score": 0.03021353930031804,
+          "chunk_id": "59_signed_điều_27",
+          "article": "Điều 27",
+          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.015161943319838058,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_27",
-          "article": "Điều 27",
-          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
-          "score": 0.02854251012145749,
+          "chunk_id": "59_signed_điều_20",
+          "article": "Điều 20",
+          "article_title": "Hồ sơ đăng ký công ty hợp danh",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
@@ -399,15 +401,15 @@
           "chunk_id": "59tiep_điều_216",
           "article": "Điều 216",
           "article_title": "Cơ quan đăng ký kinh doanh",
-          "score": 0.026992753623188405,
+          "score": 0.014293478260869566,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_206",
-          "article": "Điều 206",
-          "article_title": "Tạm ngừng, đình chỉhoạt động, chấm dứt kinh doanh",
-          "score": 0.02668564312399929,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.014288959563834622,
           "source": "hybrid"
         }
       ],
@@ -433,7 +435,7 @@
           "chunk_id": "59_signed_điều_20",
           "article": "Điều 20",
           "article_title": "Hồ sơ đăng ký công ty hợp danh",
-          "score": 0.032018442622950824,
+          "score": 0.01631659836065574,
           "source": "hybrid"
         },
         {
@@ -441,7 +443,7 @@
           "chunk_id": "59_signed_điều_28",
           "article": "Điều 28",
           "article_title": "Nội dung Giấy chứng nhận đăng ký doanh nghiệp",
-          "score": 0.03200204813108039,
+          "score": 0.015898617511520736,
           "source": "hybrid"
         },
         {
@@ -449,23 +451,23 @@
           "chunk_id": "59_signed_điều_21",
           "article": "Điều 21",
           "article_title": "Hồ sơ đăng ký công ty trách nhiệm hữu hạn",
-          "score": 0.030309988518943745,
+          "score": 0.015338691159586682,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_4",
-          "article": "Điều 4",
-          "article_title": "Giải thích từngữ",
-          "score": 0.030158730158730156,
+          "chunk_id": "59_signed_điều_22",
+          "article": "Điều 22",
+          "article_title": "Hồ sơ đăng ký công ty cổphan .",
+          "score": 0.014987714987714989,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_22",
-          "article": "Điều 22",
-          "article_title": "Hồ sơ đăng ký công ty cổphan .",
-          "score": 0.028665028665028666,
+          "chunk_id": "59_signed_điều_32",
+          "article": "Điều 32",
+          "article_title": "Công bốnội dung đăng ký doanh nghiệp",
+          "score": 0.014533995416348358,
           "source": "hybrid"
         }
       ],
@@ -491,31 +493,31 @@
           "chunk_id": "59_signed_điều_23",
           "article": "Điều 23",
           "article_title": "Nội dung giấy đề nghị đăng ký doanh nghiệp",
-          "score": 0.032266458495966696,
+          "score": 0.016341399947957327,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_30",
-          "article": "Điều 30",
-          "article_title": "Đăng ký thay đổi nội dung Giấy chứng nhận đăng ký doanh nghiệp",
-          "score": 0.031544957774465976,
+          "chunk_id": "59_signed_điều_32",
+          "article": "Điều 32",
+          "article_title": "Công bốnội dung đăng ký doanh nghiệp",
+          "score": 0.015824175824175824,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_32",
-          "article": "Điều 32",
-          "article_title": "Công bốnội dung đăng ký doanh nghiệp",
-          "score": 0.03125763125763126,
+          "chunk_id": "59_signed_điều_20",
+          "article": "Điều 20",
+          "article_title": "Hồ sơ đăng ký công ty hợp danh",
+          "score": 0.015814830330959363,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_216",
-          "article": "Điều 216",
-          "article_title": "Cơ quan đăng ký kinh doanh",
-          "score": 0.02964426877470356,
+          "chunk_id": "59_signed_điều_30",
+          "article": "Điều 30",
+          "article_title": "Đăng ký thay đổi nội dung Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.01527570789865872,
           "source": "hybrid"
         },
         {
@@ -523,7 +525,7 @@
           "chunk_id": "59_signed_điều_19",
           "article": "Điều 19",
           "article_title": "Hồso dang ky doanh nghiệp tư nhân __ l",
-          "score": 0.02946912242686891,
+          "score": 0.015254604550379199,
           "source": "hybrid"
         }
       ],
@@ -549,23 +551,23 @@
           "chunk_id": "59_signed_điều_38",
           "article": "Điều 38",
           "article_title": "Những điều cấm trong đặt tên doanh nghiệp",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_27",
-          "article": "Điều 27",
-          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
-          "score": 0.0315136476426799,
+          "chunk_id": "59_signed_điều_37",
+          "article": "Điều 37",
+          "article_title": "Tên doanh nghiệp",
+          "score": 0.015885992045956695,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_37",
-          "article": "Điều 37",
-          "article_title": "Tên doanh nghiệp",
-          "score": 0.029827662395050816,
+          "chunk_id": "59_signed_điều_27",
+          "article": "Điều 27",
+          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.015459057071960299,
           "source": "hybrid"
         },
         {
@@ -573,15 +575,15 @@
           "chunk_id": "59_signed_điều_41",
           "article": "Điều 41",
           "article_title": "Tên trùng và tên gây nhầm lẫn",
-          "score": 0.028612012987012988,
+          "score": 0.0153612012987013,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_42",
-          "article": "Điều 42",
-          "article_title": "Trụ sởchính của doanh nghiệp",
-          "score": 0.027745885954841176,
+          "chunk_id": "59_signed_điều_39",
+          "article": "Điều 39",
+          "article_title": "Tên doanh nghiệp bằng tiếng nước ngoài và tên viết tắt của",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -589,7 +591,7 @@
       "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.3333333333333333
+      "reciprocal_rank": 0.5
     },
     {
       "id": "qa_011",
@@ -607,39 +609,39 @@
           "chunk_id": "59_signed_điều_38",
           "article": "Điều 38",
           "article_title": "Những điều cấm trong đặt tên doanh nghiệp",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_27",
-          "article": "Điều 27",
-          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
-          "score": 0.03055037313432836,
+          "chunk_id": "59_signed_điều_16",
+          "article": "Điều 16",
+          "article_title": "Các hành vi bịnghiêm cấm",
+          "score": 0.01512820512820513,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_16",
-          "article": "Điều 16",
-          "article_title": "Các hành vi bịnghiêm cấm",
-          "score": 0.028205128205128206,
+          "chunk_id": "59_signed_điều_27",
+          "article": "Điều 27",
+          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.014995335820895522,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_188",
-          "article": "Điều 188",
-          "article_title": "Doanh nghiệp tư nhân ỉ",
-          "score": 0.026013513513513515,
+          "chunk_id": "59_signed_điều_39",
+          "article": "Điều 39",
+          "article_title": "Tên doanh nghiệp bằng tiếng nước ngoài và tên viết tắt của",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_39",
-          "article": "Điều 39",
-          "article_title": "Tên doanh nghiệp bằng tiếng nước ngoài và tên viết tắt của",
-          "score": 0.016129032258064516,
+          "chunk_id": "59_signed_điều_41",
+          "article": "Điều 41",
+          "article_title": "Tên trùng và tên gây nhầm lẫn",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -665,31 +667,31 @@
           "chunk_id": "59_signed_điều_45",
           "article": "Điều 45",
           "article_title": "Đăng ký hoạt động chi nhánh, văn phòng đại diện của doanh",
-          "score": 0.03252247488101534,
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_213",
-          "article": "Điều 213",
-          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
-          "score": 0.032018442622950824,
+          "chunk_id": "59_signed_điều_44",
+          "article": "Điều 44",
+          "article_title": "Chi nhánh, văn phòng đại diện và địa điểm kinh doanh của",
+          "score": 0.016103430619559652,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_44",
-          "article": "Điều 44",
-          "article_title": "Chi nhánh, văn phòng đại diện và địa điểm kinh doanh của",
-          "score": 0.03200204813108039,
+          "chunk_id": "59_signed_điều_40",
+          "article": "Điều 40",
+          "article_title": "Tên chi nhánh, văn phòng đại diện và địa điểm kinh doanh",
+          "score": 0.015848214285714285,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_40",
-          "article": "Điều 40",
-          "article_title": "Tên chi nhánh, văn phòng đại diện và địa điểm kinh doanh",
-          "score": 0.03149801587301587,
+          "chunk_id": "59tiep_điều_213",
+          "article": "Điều 213",
+          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
+          "score": 0.01570184426229508,
           "source": "hybrid"
         },
         {
@@ -697,7 +699,7 @@
           "chunk_id": "59_signed_điều_31",
           "article": "Điều 31",
           "article_title": "Thông báo thay đổi nội dung đăng ký doanh nghiệp",
-          "score": 0.02871794871794872,
+          "score": 0.01517948717948718,
           "source": "hybrid"
         }
       ],
@@ -720,10 +722,10 @@
       "retrieved": [
         {
           "rank": 1,
-          "chunk_id": "59tiep_điều_213",
-          "article": "Điều 213",
-          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
-          "score": 0.032266458495966696,
+          "chunk_id": "59_signed_điều_44",
+          "article": "Điều 44",
+          "article_title": "Chi nhánh, văn phòng đại diện và địa điểm kinh doanh của",
+          "score": 0.016292559899117275,
           "source": "hybrid"
         },
         {
@@ -731,15 +733,15 @@
           "chunk_id": "59_signed_điều_40",
           "article": "Điều 40",
           "article_title": "Tên chi nhánh, văn phòng đại diện và địa điểm kinh doanh",
-          "score": 0.03225806451612903,
+          "score": 0.016129032258064516,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_44",
-          "article": "Điều 44",
-          "article_title": "Chi nhánh, văn phòng đại diện và địa điểm kinh doanh của",
-          "score": 0.03177805800756621,
+          "chunk_id": "59tiep_điều_213",
+          "article": "Điều 213",
+          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
+          "score": 0.015925058548009366,
           "source": "hybrid"
         },
         {
@@ -747,7 +749,7 @@
           "chunk_id": "59_signed_điều_45",
           "article": "Điều 45",
           "article_title": "Đăng ký hoạt động chi nhánh, văn phòng đại diện của doanh",
-          "score": 0.03149801587301587,
+          "score": 0.015649801587301587,
           "source": "hybrid"
         },
         {
@@ -755,15 +757,15 @@
           "chunk_id": "59_signed_điều_43",
           "article": "Điều 43",
           "article_title": "Dấu của doanh nghiệp",
-          "score": 0.030776515151515152,
+          "score": 0.015198863636363637,
           "source": "hybrid"
         }
       ],
-      "hit_at_1": 0.0,
+      "hit_at_1": 1.0,
       "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.3333333333333333
+      "reciprocal_rank": 1.0
     },
     {
       "id": "qa_014",
@@ -781,7 +783,7 @@
           "chunk_id": "59_signed_điều_46",
           "article": "Điều 46",
           "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
-          "score": 0.03252247488101534,
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
@@ -789,7 +791,7 @@
           "chunk_id": "59_signed_điều_87",
           "article": "Điều 87",
           "article_title": "Tăng, giảm vốn điều lệ .",
-          "score": 0.03252247488101534,
+          "score": 0.016155473294553146,
           "source": "hybrid"
         },
         {
@@ -797,23 +799,23 @@
           "chunk_id": "59_signed_điều_54",
           "article": "Điều 54",
           "article_title": "Cơ cấu tốchức quản lý công ty",
-          "score": 0.03125763125763126,
+          "score": 0.015824175824175824,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_47",
-          "article": "Điều 47",
-          "article_title": "Góp vốn thành lập công ty và cấp giấy chứng nhận phần vốn góp",
-          "score": 0.030776515151515152,
+          "chunk_id": "59_signed_điều_73",
+          "article": "Điều 73",
+          "article_title": "Công bốthông tin",
+          "score": 0.015413851351351352,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_52",
-          "article": "Điều 52",
-          "article_title": "Chuyển nhượng phần vốn góp",
-          "score": 0.029631255487269532,
+          "chunk_id": "59_signed_điều_47",
+          "article": "Điều 47",
+          "article_title": "Góp vốn thành lập công ty và cấp giấy chứng nhận phần vốn góp",
+          "score": 0.015198863636363637,
           "source": "hybrid"
         }
       ],
@@ -821,7 +823,7 @@
       "hit_at_3": 0.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.25
+      "reciprocal_rank": 0.2
     },
     {
       "id": "qa_015",
@@ -839,15 +841,15 @@
           "chunk_id": "59_signed_điều_46",
           "article": "Điều 46",
           "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_87",
-          "article": "Điều 87",
-          "article_title": "Tăng, giảm vốn điều lệ .",
-          "score": 0.0315136476426799,
+          "chunk_id": "59_signed_điều_73",
+          "article": "Điều 73",
+          "article_title": "Công bốthông tin",
+          "score": 0.015944700460829495,
           "source": "hybrid"
         },
         {
@@ -855,23 +857,23 @@
           "chunk_id": "59_signed_điều_54",
           "article": "Điều 54",
           "article_title": "Cơ cấu tốchức quản lý công ty",
-          "score": 0.03149801587301587,
+          "score": 0.015848214285714285,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_204",
-          "article": "Điều 204",
-          "article_title": "Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln",
-          "score": 0.031024531024531024,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.015459057071960299,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_73",
-          "article": "Điều 73",
-          "article_title": "Công bốthông tin",
-          "score": 0.0304147465437788,
+          "chunk_id": "59tiep_điều_204",
+          "article": "Điều 204",
+          "article_title": "Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln",
+          "score": 0.015223665223665224,
           "source": "hybrid"
         }
       ],
@@ -897,39 +899,39 @@
           "chunk_id": "59_signed_điều_74",
           "article": "Điều 74",
           "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
-          "score": 0.03131881575727918,
+          "score": 0.016246635674088575,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_87",
-          "article": "Điều 87",
-          "article_title": "Tăng, giảm vốn điều lệ .",
-          "score": 0.030090497737556562,
+          "chunk_id": "59_signed_điều_79",
+          "article": "Điều 79",
+          "article_title": "Cơ cấu tổ chức quản lý của công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sở hữu",
+          "score": 0.015395833333333334,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_199",
-          "article": "Điều 199",
-          "article_title": "Tách công ty",
-          "score": 0.0293236301369863,
+          "chunk_id": "59_signed_điều_46",
+          "article": "Điều 46",
+          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
+          "score": 0.015235042735042736,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_46",
-          "article": "Điều 46",
-          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
-          "score": 0.029273504273504274,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.014773755656108598,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_177",
-          "article": "Điều 177",
-          "article_title": "Công ty hợp danh . C C",
-          "score": 0.029030910609857977,
+          "chunk_id": "59_signed_điều_85",
+          "article": "Điều 85",
+          "article_title": "Cơ cấu tổchức quản lý công ty trách nhiệm hữu hạn một",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         }
       ],
@@ -955,15 +957,15 @@
           "chunk_id": "59_signed_điều_87",
           "article": "Điều 87",
           "article_title": "Tăng, giảm vốn điều lệ .",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_68",
-          "article": "Điều 68",
-          "article_title": "Tang, giảm vốn điều lệ— ___ [NN",
-          "score": 0.03128054740957967,
+          "chunk_id": "59_signed_điều_74",
+          "article": "Điều 74",
+          "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
+          "score": 0.015798180314309348,
           "source": "hybrid"
         },
         {
@@ -971,23 +973,23 @@
           "chunk_id": "59_signed_điều_88",
           "article": "Điều 88",
           "article_title": "Doanh nghiệp nhà nước",
-          "score": 0.029877369007803793,
+          "score": 0.015295429208472686,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_74",
-          "article": "Điều 74",
-          "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
-          "score": 0.028949545078577336,
+          "chunk_id": "59_signed_điều_68",
+          "article": "Điều 68",
+          "article_title": "Tang, giảm vốn điều lệ— ___ [NN",
+          "score": 0.01524926686217009,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_49",
-          "article": "Điều 49",
-          "article_title": "Quyền của thành viên Hội đồng thành viên",
-          "score": 0.028782894736842105,
+          "chunk_id": "59_signed_điều_46",
+          "article": "Điều 46",
+          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -1013,7 +1015,7 @@
           "chunk_id": "59_signed_điều_87",
           "article": "Điều 87",
           "article_title": "Tăng, giảm vốn điều lệ .",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -1021,15 +1023,15 @@
           "chunk_id": "59_signed_điều_46",
           "article": "Điều 46",
           "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
-          "score": 0.03200204813108039,
+          "score": 0.016103430619559652,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_68",
-          "article": "Điều 68",
-          "article_title": "Tang, giảm vốn điều lệ— ___ [NN",
-          "score": 0.0315136476426799,
+          "chunk_id": "59_signed_điều_73",
+          "article": "Điều 73",
+          "article_title": "Công bốthông tin",
+          "score": 0.015637065637065635,
           "source": "hybrid"
         },
         {
@@ -1037,23 +1039,23 @@
           "chunk_id": "59_signed_điều_54",
           "article": "Điều 54",
           "article_title": "Cơ cấu tốchức quản lý công ty",
-          "score": 0.03055037313432836,
+          "score": 0.015555037313432836,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_88",
-          "article": "Điều 88",
-          "article_title": "Doanh nghiệp nhà nước",
-          "score": 0.030309988518943745,
+          "chunk_id": "59_signed_điều_68",
+          "article": "Điều 68",
+          "article_title": "Tang, giảm vốn điều lệ— ___ [NN",
+          "score": 0.015459057071960299,
           "source": "hybrid"
         }
       ],
       "hit_at_1": 0.0,
-      "hit_at_3": 1.0,
+      "hit_at_3": 0.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.3333333333333333
+      "reciprocal_rank": 0.2
     },
     {
       "id": "qa_019",
@@ -1071,7 +1073,7 @@
           "chunk_id": "59_signed_điều_64",
           "article": "Điều 64",
           "article_title": "Tiêu chuẩn và điều kiện làm Giám đốc, Tổng giám đốc .",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -1079,7 +1081,7 @@
           "chunk_id": "59_signed_điều_101",
           "article": "Điều 101",
           "article_title": "Tiêu chuẩn, điều kiện của Giám đốc, Tổng giám đốc",
-          "score": 0.03128054740957967,
+          "score": 0.01603128054740958,
           "source": "hybrid"
         },
         {
@@ -1087,7 +1089,7 @@
           "chunk_id": "59_signed_điều_93",
           "article": "Điều 93",
           "article_title": "Tiêu chuẩn và điều kiện của thành viên Hội đồng thành viên",
-          "score": 0.03125763125763126,
+          "score": 0.015824175824175824,
           "source": "hybrid"
         },
         {
@@ -1095,15 +1097,15 @@
           "chunk_id": "59tiep_điều_169",
           "article": "Điều 169",
           "article_title": "Tiêu chuẩn va điều kiện của Kiểm soát viên",
-          "score": 0.03125,
+          "score": 0.015625,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_103",
-          "article": "Điều 103",
-          "article_title": "Ban kiếm soát, Kiểm soát viên",
-          "score": 0.029827662395050816,
+          "chunk_id": "59_signed_điều_102",
+          "article": "Điều 102",
+          "article_title": "Miễnnhiệm,cách chức đối với Giám đốc, Tổng giám đốc và quan lý khác của công ty, Kếtoán trướng _. . (cu",
+          "score": 0.015064935064935066,
           "source": "hybrid"
         }
       ],
@@ -1126,50 +1128,50 @@
       "retrieved": [
         {
           "rank": 1,
-          "chunk_id": "59tiep_điều_127",
-          "article": "Điều 127",
-          "article_title": "Chuyển nhượng cốphần",
-          "score": 0.029857397504456328,
+          "chunk_id": "59tiep_điều_176",
+          "article": "Điều 176",
+          "article_title": "Công khai thông tin ln",
+          "score": 0.015535714285714285,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_124",
-          "article": "Điều 124",
-          "article_title": "Chào bán cổ phần cho cốđông hiện hữu",
-          "score": 0.02928692699490662,
+          "chunk_id": "59_signed_điều_111",
+          "article": "Điều 111",
+          "article_title": "Công ty cổ phần",
+          "score": 0.014754098360655738,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_198",
-          "article": "Điều 198",
-          "article_title": "Chia công ty",
-          "score": 0.029083245521601686,
+          "chunk_id": "59tiep_điều_127",
+          "article": "Điều 127",
+          "article_title": "Chuyển nhượng cốphần",
+          "score": 0.014750445632798573,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_119",
-          "article": "Điều 119",
-          "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
-          "score": 0.02877846790890269,
+          "chunk_id": "59tiep_điều_125",
+          "article": "Điều 125",
+          "article_title": "Chao bán cổ phần riêng lẻ",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_176",
-          "article": "Điều 176",
-          "article_title": "Công khai thông tin ln",
-          "score": 0.028373015873015873,
+          "chunk_id": "59tiep_điều_119",
+          "article": "Điều 119",
+          "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
+          "score": 0.014472049689440995,
           "source": "hybrid"
         }
       ],
       "hit_at_1": 0.0,
-      "hit_at_3": 0.0,
-      "hit_at_5": 0.0,
-      "recall_at_5": 0.0,
-      "reciprocal_rank": 0.0
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5
     },
     {
       "id": "qa_021",
@@ -1187,47 +1189,47 @@
           "chunk_id": "59_signed_điều_111",
           "article": "Điều 111",
           "article_title": "Công ty cổ phần",
-          "score": 0.03047794966520434,
+          "score": 0.016162549064881092,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_24",
-          "article": "Điều 24",
-          "article_title": "Điều lệcông ty .",
-          "score": 0.030017921146953404,
+          "chunk_id": "59_signed_điều_112",
+          "article": "Điều 112",
+          "article_title": "Vốn của công ty cốphần",
+          "score": 0.0153612012987013,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_112",
-          "article": "Điều 112",
-          "article_title": "Vốn của công ty cốphần",
-          "score": 0.028612012987012988,
+          "chunk_id": "59tiep_điều_114",
+          "article": "Điều 114",
+          "article_title": "Các loại cổ phần —",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_121",
-          "article": "Điều 121",
-          "article_title": "Cổphiếu . | | ln",
-          "score": 0.02821939586645469,
+          "chunk_id": "59tiep_điều_123",
+          "article": "Điều 123",
+          "article_title": "Chao bán cé phan",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_133",
-          "article": "Điều 133",
-          "article_title": "Mua lại cổ phần theo quyết định của công ty",
-          "score": 0.027272727272727275,
+          "chunk_id": "59_signed_điều_24",
+          "article": "Điều 24",
+          "article_title": "Điều lệcông ty .",
+          "score": 0.014112903225806453,
           "source": "hybrid"
         }
       ],
       "hit_at_1": 0.0,
-      "hit_at_3": 0.0,
-      "hit_at_5": 0.0,
-      "recall_at_5": 0.0,
-      "reciprocal_rank": 0.0
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.3333333333333333
     },
     {
       "id": "qa_022",
@@ -1245,7 +1247,7 @@
           "chunk_id": "59tiep_điều_119",
           "article": "Điều 119",
           "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
-          "score": 0.0293236301369863,
+          "score": 0.01543236301369863,
           "source": "hybrid"
         },
         {
@@ -1253,39 +1255,39 @@
           "chunk_id": "59tiep_điều_135",
           "article": "Điều 135",
           "article_title": "Trảcổtức",
-          "score": 0.028258706467661692,
+          "score": 0.014766169154228856,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_198",
-          "article": "Điều 198",
-          "article_title": "Chia công ty",
-          "score": 0.027809742999616416,
+          "chunk_id": "59_signed_điều_111",
+          "article": "Điều 111",
+          "article_title": "Công ty cổ phần",
+          "score": 0.014754098360655738,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_111",
-          "article": "Điều 111",
-          "article_title": "Công ty cổ phần",
-          "score": 0.01639344262295082,
+          "chunk_id": "59_signed_điều_112",
+          "article": "Điều 112",
+          "article_title": "Vốn của công ty cốphần",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_187",
-          "article": "Điều 187",
-          "article_title": "Quyền và nghĩa vụ của thành viên góp vốn",
-          "score": 0.01639344262295082,
+          "chunk_id": "59tiep_điều_131",
+          "article": "Điều 131",
+          "article_title": "Mua c6 phan, trái phiếu",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
       "hit_at_1": 0.0,
       "hit_at_3": 0.0,
-      "hit_at_5": 0.0,
-      "recall_at_5": 0.0,
-      "reciprocal_rank": 0.0
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.25
     },
     {
       "id": "qa_023",
@@ -1303,23 +1305,23 @@
           "chunk_id": "59tiep_điều_123",
           "article": "Điều 123",
           "article_title": "Chao bán cé phan",
-          "score": 0.03252247488101534,
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_124",
-          "article": "Điều 124",
-          "article_title": "Chào bán cổ phần cho cốđông hiện hữu",
-          "score": 0.032266458495966696,
+          "chunk_id": "59tiep_điều_125",
+          "article": "Điều 125",
+          "article_title": "Chao bán cổ phần riêng lẻ",
+          "score": 0.016103430619559652,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_125",
-          "article": "Điều 125",
-          "article_title": "Chao bán cổ phần riêng lẻ",
-          "score": 0.03200204813108039,
+          "chunk_id": "59tiep_điều_124",
+          "article": "Điều 124",
+          "article_title": "Chào bán cổ phần cho cốđông hiện hữu",
+          "score": 0.015925058548009366,
           "source": "hybrid"
         },
         {
@@ -1327,7 +1329,7 @@
           "chunk_id": "59tiep_điều_128",
           "article": "Điều 128",
           "article_title": "Chào bán trái phiếu riêng lẻ",
-          "score": 0.03125,
+          "score": 0.015625,
           "source": "hybrid"
         },
         {
@@ -1335,7 +1337,7 @@
           "chunk_id": "59tiep_điều_130",
           "article": "Điều 130",
           "article_title": "Quyết định chào bán trái phiếu riêng lẻ",
-          "score": 0.03076923076923077,
+          "score": 0.015384615384615385,
           "source": "hybrid"
         }
       ],
@@ -1361,31 +1363,31 @@
           "chunk_id": "59tiep_điều_145",
           "article": "Điều 145",
           "article_title": "Điều kiện tiến hành hop Đại hội đồng cổ đông Be",
-          "score": 0.03252247488101534,
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_146",
-          "article": "Điều 146",
-          "article_title": "Thểthức tiến hành hop va biểu quyết tại cuộc họp Đại hội",
-          "score": 0.031746031746031744,
+          "chunk_id": "59tiep_điều_142",
+          "article": "Điều 142",
+          "article_title": "Chương trình và nội dung họp Đại hội đồng cốđông —",
+          "score": 0.015986717267552183,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_142",
-          "article": "Điều 142",
-          "article_title": "Chương trình và nội dung họp Đại hội đồng cốđông —",
-          "score": 0.030834914611005692,
+          "chunk_id": "59tiep_điều_146",
+          "article": "Điều 146",
+          "article_title": "Thểthức tiến hành hop va biểu quyết tại cuộc họp Đại hội",
+          "score": 0.015873015873015872,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_58",
-          "article": "Điều 58",
-          "article_title": "Điều kiện và thểthức tiến hành họp Hội đồng thành viên —",
-          "score": 0.029906956136464335,
+          "chunk_id": "59tiep_điều_152",
+          "article": "Điều 152",
+          "article_title": "Hiệu lực của nghị quyết Đại hội đồng cổ đông —__",
+          "score": 0.015096153846153846,
           "source": "hybrid"
         },
         {
@@ -1393,7 +1395,7 @@
           "chunk_id": "59tiep_điều_140",
           "article": "Điều 140",
           "article_title": "Triệu tập hop Đại hội đồng cổđồng == “[[ z nh lơ",
-          "score": 0.029709507042253523,
+          "score": 0.014238556338028169,
           "source": "hybrid"
         }
       ],
@@ -1416,50 +1418,50 @@
       "retrieved": [
         {
           "rank": 1,
-          "chunk_id": "59tiep_điều_145",
-          "article": "Điều 145",
-          "article_title": "Điều kiện tiến hành hop Đại hội đồng cổ đông Be",
-          "score": 0.032266458495966696,
+          "chunk_id": "59tiep_điều_143",
+          "article": "Điều 143",
+          "article_title": "Mời họp Đại hội đồng cổ đông _ .",
+          "score": 0.016292559899117275,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_143",
-          "article": "Điều 143",
-          "article_title": "Mời họp Đại hội đồng cổ đông _ .",
-          "score": 0.03177805800756621,
+          "chunk_id": "59tiep_điều_145",
+          "article": "Điều 145",
+          "article_title": "Điều kiện tiến hành hop Đại hội đồng cổ đông Be",
+          "score": 0.015925058548009366,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_146",
-          "article": "Điều 146",
-          "article_title": "Thểthức tiến hành hop va biểu quyết tại cuộc họp Đại hội",
-          "score": 0.03125,
+          "chunk_id": "59tiep_điều_142",
+          "article": "Điều 142",
+          "article_title": "Chương trình và nội dung họp Đại hội đồng cốđông —",
+          "score": 0.015885992045956695,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_140",
-          "article": "Điều 140",
-          "article_title": "Triệu tập hop Đại hội đồng cổđồng == “[[ z nh lơ",
-          "score": 0.03036576949620428,
+          "chunk_id": "59tiep_điều_146",
+          "article": "Điều 146",
+          "article_title": "Thểthức tiến hành hop va biểu quyết tại cuộc họp Đại hội",
+          "score": 0.015625,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_58",
-          "article": "Điều 58",
-          "article_title": "Điều kiện và thểthức tiến hành họp Hội đồng thành viên —",
-          "score": 0.029827662395050816,
+          "chunk_id": "59tiep_điều_144",
+          "article": "Điều 144",
+          "article_title": "Thực hiện quyền dựhọp Đại hội đồng cổ đông",
+          "score": 0.01504481434058899,
           "source": "hybrid"
         }
       ],
-      "hit_at_1": 0.0,
+      "hit_at_1": 1.0,
       "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.5
+      "reciprocal_rank": 1.0
     },
     {
       "id": "qa_026",
@@ -1477,7 +1479,7 @@
           "chunk_id": "59tiep_điều_154",
           "article": "Điều 154",
           "article_title": "Nhiệmkỳvà số lượng thành viên Hội đồng quan trị— —.“ :",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -1485,7 +1487,7 @@
           "chunk_id": "59_signed_điều_91",
           "article": "Điều 91",
           "article_title": "Hội đồng thành viên",
-          "score": 0.030798389007344232,
+          "score": 0.01577825159914712,
           "source": "hybrid"
         },
         {
@@ -1493,7 +1495,7 @@
           "chunk_id": "59tiep_điều_157",
           "article": "Điều 157",
           "article_title": "Cuộc họp Hội đồng quản trị ¦ .",
-          "score": 0.029211087420042643,
+          "score": 0.01486140724946695,
           "source": "hybrid"
         },
         {
@@ -1501,15 +1503,15 @@
           "chunk_id": "59tiep_điều_160",
           "article": "Điều 160",
           "article_title": "Miễn nhiệm, bãi nhiệm, thay thếvà bổsung thành viên Hội",
-          "score": 0.02919863597612958,
+          "score": 0.014684569479965898,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_80",
-          "article": "Điều 80",
-          "article_title": "Hội đồng thành viên",
-          "score": 0.028484848484848488,
+          "chunk_id": "59tiep_điều_139",
+          "article": "Điều 139",
+          "article_title": "Cuộc họp Đại hội đồng cổ đông",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         }
       ],
@@ -1535,39 +1537,39 @@
           "chunk_id": "59tiep_điều_170",
           "article": "Điều 170",
           "article_title": "Quyền và nghĩa vụ của Ban kiếm soát",
-          "score": 0.030834914611005692,
+          "score": 0.015986717267552183,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_103",
-          "article": "Điều 103",
-          "article_title": "Ban kiếm soát, Kiểm soát viên",
-          "score": 0.03055037313432836,
+          "chunk_id": "59_signed_điều_79",
+          "article": "Điều 79",
+          "article_title": "Cơ cấu tổ chức quản lý của công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sở hữu",
+          "score": 0.015637065637065635,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_138",
-          "article": "Điều 138",
-          "article_title": "Quyền và nghĩa vụ của Đại hội đồng cốđông",
-          "score": 0.030090497737556562,
+          "chunk_id": "59_signed_điều_103",
+          "article": "Điều 103",
+          "article_title": "Ban kiếm soát, Kiểm soát viên",
+          "score": 0.015555037313432836,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_172",
-          "article": "Điều 172",
-          "article_title": "Tiền lương, thù lao, thưởng và lợi ích khác của Kiếm soát viên",
-          "score": 0.029709507042253523,
+          "chunk_id": "59tiep_điều_169",
+          "article": "Điều 169",
+          "article_title": "Tiêu chuẩn va điều kiện của Kiểm soát viên",
+          "score": 0.015096153846153846,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_79",
-          "article": "Điều 79",
-          "article_title": "Cơ cấu tổ chức quản lý của công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sở hữu",
-          "score": 0.029386529386529386,
+          "chunk_id": "59tiep_điều_138",
+          "article": "Điều 138",
+          "article_title": "Quyền và nghĩa vụ của Đại hội đồng cốđông",
+          "score": 0.014773755656108598,
           "source": "hybrid"
         }
       ],
@@ -1593,23 +1595,23 @@
           "chunk_id": "59tiep_điều_176",
           "article": "Điều 176",
           "article_title": "Công khai thông tin ln",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_32",
-          "article": "Điều 32",
-          "article_title": "Công bốnội dung đăng ký doanh nghiệp",
-          "score": 0.031754032258064516,
+          "chunk_id": "59tiep_điều_119",
+          "article": "Điều 119",
+          "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
+          "score": 0.015756302521008403,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_119",
-          "article": "Điều 119",
-          "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
-          "score": 0.03057889822595705,
+          "chunk_id": "59_signed_điều_32",
+          "article": "Điều 32",
+          "article_title": "Công bốnội dung đăng ký doanh nghiệp",
+          "score": 0.01567540322580645,
           "source": "hybrid"
         },
         {
@@ -1617,15 +1619,15 @@
           "chunk_id": "59tiep_điều_124",
           "article": "Điều 124",
           "article_title": "Chào bán cổ phần cho cốđông hiện hữu",
-          "score": 0.03057889822595705,
+          "score": 0.014822595704948646,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_109",
-          "article": "Điều 109",
-          "article_title": "Công bốthông tin định kỳ",
-          "score": 0.027242401779095628,
+          "chunk_id": "59_signed_điều_73",
+          "article": "Điều 73",
+          "article_title": "Công bốthông tin",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         }
       ],
@@ -1651,39 +1653,39 @@
           "chunk_id": "59tiep_điều_177",
           "article": "Điều 177",
           "article_title": "Công ty hợp danh . C C",
-          "score": 0.03252247488101534,
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_184",
-          "article": "Điều 184",
-          "article_title": "Điều hành kinh doanh của công ty hợp danh",
-          "score": 0.03076923076923077,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.0158494623655914,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_200",
-          "article": "Điều 200",
-          "article_title": "Hợp nhất công ty",
-          "score": 0.02946236559139785,
+          "chunk_id": "59tiep_điều_184",
+          "article": "Điều 184",
+          "article_title": "Điều hành kinh doanh của công ty hợp danh",
+          "score": 0.015384615384615385,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_4",
-          "article": "Điều 4",
-          "article_title": "Giải thích từngữ",
-          "score": 0.028790389395194696,
+          "chunk_id": "59tiep_điều_179",
+          "article": "Điều 179",
+          "article_title": "Tài san của công ty hợp danh lữ .",
+          "score": 0.01458664546899841,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_179",
-          "article": "Điều 179",
-          "article_title": "Tài san của công ty hợp danh lữ .",
-          "score": 0.02821939586645469,
+          "chunk_id": "59_signed_điều_37",
+          "article": "Điều 37",
+          "article_title": "Tên doanh nghiệp",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -1709,23 +1711,23 @@
           "chunk_id": "59tiep_điều_179",
           "article": "Điều 179",
           "article_title": "Tài san của công ty hợp danh lữ .",
-          "score": 0.03252247488101534,
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_24",
-          "article": "Điều 24",
-          "article_title": "Điều lệcông ty .",
-          "score": 0.031544957774465976,
+          "chunk_id": "59tiep_điều_181",
+          "article": "Điều 181",
+          "article_title": "Quyền và nghĩa vụ của thành viên hợp danh _",
+          "score": 0.01560096153846154,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_181",
-          "article": "Điều 181",
-          "article_title": "Quyền và nghĩa vụ của thành viên hợp danh _",
-          "score": 0.031009615384615385,
+          "chunk_id": "59_signed_điều_24",
+          "article": "Điều 24",
+          "article_title": "Điều lệcông ty .",
+          "score": 0.01527570789865872,
           "source": "hybrid"
         },
         {
@@ -1733,15 +1735,15 @@
           "chunk_id": "59_signed_điều_4",
           "article": "Điều 4",
           "article_title": "Giải thích từngữ",
-          "score": 0.03036576949620428,
+          "score": 0.014630779848171153,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_164",
-          "article": "Điều 164",
-          "article_title": "Công khai các lợi ích liên quan",
-          "score": 0.027526395173453996,
+          "chunk_id": "59tiep_điều_177",
+          "article": "Điều 177",
+          "article_title": "Công ty hợp danh . C C",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         }
       ],
@@ -1767,7 +1769,7 @@
           "chunk_id": "59tiep_điều_186",
           "article": "Điều 186",
           "article_title": "Tiếp nhận thành viên mới —",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -1775,31 +1777,31 @@
           "chunk_id": "59tiep_điều_177",
           "article": "Điều 177",
           "article_title": "Công ty hợp danh . C C",
-          "score": 0.0315136476426799,
+          "score": 0.016054590570719604,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_198",
-          "article": "Điều 198",
-          "article_title": "Chia công ty",
-          "score": 0.029513888888888888,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.015601503759398496,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_200",
-          "article": "Điều 200",
-          "article_title": "Hợp nhất công ty",
-          "score": 0.029030910609857977,
+          "chunk_id": "59tiep_điều_184",
+          "article": "Điều 184",
+          "article_title": "Điều hành kinh doanh của công ty hợp danh",
+          "score": 0.014568627450980393,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_184",
-          "article": "Điều 184",
-          "article_title": "Điều hành kinh doanh của công ty hợp danh",
-          "score": 0.02803921568627451,
+          "chunk_id": "59tiep_điều_155",
+          "article": "Điều 155",
+          "article_title": "Cơ cấutổchức, tiêu chuẩn và điều kiện làm thành viên Hội _",
+          "score": 0.014293478260869566,
           "source": "hybrid"
         }
       ],
@@ -1825,39 +1827,39 @@
           "chunk_id": "59tiep_điều_188",
           "article": "Điều 188",
           "article_title": "Doanh nghiệp tư nhân ỉ",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_17",
-          "article": "Điều 17",
-          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
-          "score": 0.029273504273504274,
+          "chunk_id": "59tiep_điều_190",
+          "article": "Điều 190",
+          "article_title": "Quản lý doanh nghiệp tư nhân",
+          "score": 0.015814830330959363,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_190",
-          "article": "Điều 190",
-          "article_title": "Quản lý doanh nghiệp tư nhân",
-          "score": 0.029116045245077504,
+          "chunk_id": "59_signed_điều_7",
+          "article": "Điều 7",
+          "article_title": "Quyền của doanh nghiệp —",
+          "score": 0.014969696969696971,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_7",
-          "article": "Điều 7",
-          "article_title": "Quyền của doanh nghiệp —",
-          "score": 0.028484848484848488,
+          "chunk_id": "59tiep_điều_193",
+          "article": "Điều 193",
+          "article_title": "Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _",
+          "score": 0.014394829612220918,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_193",
-          "article": "Điều 193",
-          "article_title": "Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _",
-          "score": 0.028006267136701922,
+          "chunk_id": "59_signed_điều_19",
+          "article": "Điều 19",
+          "article_title": "Hồso dang ky doanh nghiệp tư nhân __ l",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -1883,23 +1885,23 @@
           "chunk_id": "59tiep_điều_190",
           "article": "Điều 190",
           "article_title": "Quản lý doanh nghiệp tư nhân",
-          "score": 0.032266458495966696,
+          "score": 0.016341399947957327,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59_signed_điều_17",
-          "article": "Điều 17",
-          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
-          "score": 0.03177805800756621,
+          "chunk_id": "59tiep_điều_188",
+          "article": "Điều 188",
+          "article_title": "Doanh nghiệp tư nhân ỉ",
+          "score": 0.0160086663456909,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_188",
-          "article": "Điều 188",
-          "article_title": "Doanh nghiệp tư nhân ỉ",
-          "score": 0.031054405392392875,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.015485498108448929,
           "source": "hybrid"
         },
         {
@@ -1907,15 +1909,15 @@
           "chunk_id": "59tiep_điều_205",
           "article": "Điều 205",
           "article_title": "Chuyển đổi doanh nghiệp tư nhân thành công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh",
-          "score": 0.02821939586645469,
+          "score": 0.01458664546899841,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_4",
-          "article": "Điều 4",
-          "article_title": "Giải thích từngữ",
-          "score": 0.016129032258064516,
+          "chunk_id": "59tiep_điều_191",
+          "article": "Điều 191",
+          "article_title": "Cho thuê doanh nghiệp tư nhân",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -1938,18 +1940,18 @@
       "retrieved": [
         {
           "rank": 1,
-          "chunk_id": "59tiep_điều_188",
-          "article": "Điều 188",
-          "article_title": "Doanh nghiệp tư nhân ỉ",
-          "score": 0.03252247488101534,
+          "chunk_id": "59tiep_điều_192",
+          "article": "Điều 192",
+          "article_title": "Bán doanh nghiệp tư nhân Oo",
+          "score": 0.016341399947957327,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_192",
-          "article": "Điều 192",
-          "article_title": "Bán doanh nghiệp tư nhân Oo",
-          "score": 0.032266458495966696,
+          "chunk_id": "59tiep_điều_188",
+          "article": "Điều 188",
+          "article_title": "Doanh nghiệp tư nhân ỉ",
+          "score": 0.016155473294553146,
           "source": "hybrid"
         },
         {
@@ -1957,7 +1959,7 @@
           "chunk_id": "59tiep_điều_125",
           "article": "Điều 125",
           "article_title": "Chao bán cổ phần riêng lẻ",
-          "score": 0.03076923076923077,
+          "score": 0.015384615384615385,
           "source": "hybrid"
         },
         {
@@ -1965,7 +1967,7 @@
           "chunk_id": "59tiep_điều_205",
           "article": "Điều 205",
           "article_title": "Chuyển đổi doanh nghiệp tư nhân thành công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh",
-          "score": 0.028309409888357256,
+          "score": 0.014952153110047849,
           "source": "hybrid"
         },
         {
@@ -1973,15 +1975,15 @@
           "chunk_id": "59tiep_điều_130",
           "article": "Điều 130",
           "article_title": "Quyết định chào bán trái phiếu riêng lẻ",
-          "score": 0.028006267136701922,
+          "score": 0.014394829612220918,
           "source": "hybrid"
         }
       ],
-      "hit_at_1": 0.0,
+      "hit_at_1": 1.0,
       "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.5
+      "reciprocal_rank": 1.0
     },
     {
       "id": "qa_035",
@@ -1999,39 +2001,39 @@
           "chunk_id": "59tiep_điều_195",
           "article": "Điều 195",
           "article_title": "Công ty me, công ty con I II",
-          "score": 0.032266458495966696,
+          "score": 0.016341399947957327,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_194",
-          "article": "Điều 194",
-          "article_title": "Tập đoàn kinh tế, tổng công ty",
-          "score": 0.03200204813108039,
+          "chunk_id": "59tiep_điều_196",
+          "article": "Điều 196",
+          "article_title": "Quyền, nghĩa vu va trách nhiệm của công ty me đối với công",
+          "score": 0.01603128054740958,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_197",
-          "article": "Điều 197",
-          "article_title": "Báo cáo tài chính của công ty mẹ, công ty con ` vui",
-          "score": 0.03177805800756621,
+          "chunk_id": "59tiep_điều_194",
+          "article": "Điều 194",
+          "article_title": "Tập đoàn kinh tế, tổng công ty",
+          "score": 0.015898617511520736,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_196",
-          "article": "Điều 196",
-          "article_title": "Quyền, nghĩa vu va trách nhiệm của công ty me đối với công",
-          "score": 0.03128054740957967,
+          "chunk_id": "59tiep_điều_155",
+          "article": "Điều 155",
+          "article_title": "Cơ cấutổchức, tiêu chuẩn và điều kiện làm thành viên Hội _",
+          "score": 0.01551177536231884,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_64",
-          "article": "Điều 64",
-          "article_title": "Tiêu chuẩn và điều kiện làm Giám đốc, Tổng giám đốc .",
-          "score": 0.030309988518943745,
+          "chunk_id": "59tiep_điều_197",
+          "article": "Điều 197",
+          "article_title": "Báo cáo tài chính của công ty mẹ, công ty con ` vui",
+          "score": 0.015485498108448929,
           "source": "hybrid"
         }
       ],
@@ -2057,7 +2059,7 @@
           "chunk_id": "59tiep_điều_197",
           "article": "Điều 197",
           "article_title": "Báo cáo tài chính của công ty mẹ, công ty con ` vui",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -2065,7 +2067,7 @@
           "chunk_id": "59tiep_điều_195",
           "article": "Điều 195",
           "article_title": "Công ty me, công ty con I II",
-          "score": 0.03225806451612903,
+          "score": 0.016129032258064516,
           "source": "hybrid"
         },
         {
@@ -2073,7 +2075,7 @@
           "chunk_id": "59tiep_điều_196",
           "article": "Điều 196",
           "article_title": "Quyền, nghĩa vu va trách nhiệm của công ty me đối với công",
-          "score": 0.031024531024531024,
+          "score": 0.0158008658008658,
           "source": "hybrid"
         },
         {
@@ -2081,15 +2083,15 @@
           "chunk_id": "59_signed_điều_109",
           "article": "Điều 109",
           "article_title": "Công bốthông tin định kỳ",
-          "score": 0.0293236301369863,
+          "score": 0.01543236301369863,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_194",
-          "article": "Điều 194",
-          "article_title": "Tập đoàn kinh tế, tổng công ty",
-          "score": 0.029206349206349208,
+          "chunk_id": "59tiep_điều_175",
+          "article": "Điều 175",
+          "article_title": "Trình báo cáo hằng năm .",
+          "score": 0.014714887102946805,
           "source": "hybrid"
         }
       ],
@@ -2115,7 +2117,7 @@
           "chunk_id": "59tiep_điều_200",
           "article": "Điều 200",
           "article_title": "Hợp nhất công ty",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -2123,31 +2125,31 @@
           "chunk_id": "59tiep_điều_177",
           "article": "Điều 177",
           "article_title": "Công ty hợp danh . C C",
-          "score": 0.030776515151515152,
+          "score": 0.015577651515151515,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_198",
-          "article": "Điều 198",
-          "article_title": "Chia công ty",
-          "score": 0.026992753623188405,
+          "chunk_id": "59tiep_điều_195",
+          "article": "Điều 195",
+          "article_title": "Công ty me, công ty con I II",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_187",
-          "article": "Điều 187",
-          "article_title": "Quyền và nghĩa vụ của thành viên góp vốn",
-          "score": 0.016129032258064516,
+          "chunk_id": "59tiep_điều_198",
+          "article": "Điều 198",
+          "article_title": "Chia công ty",
+          "score": 0.014293478260869566,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_195",
-          "article": "Điều 195",
-          "article_title": "Công ty me, công ty con I II",
-          "score": 0.016129032258064516,
+          "chunk_id": "59tiep_điều_186",
+          "article": "Điều 186",
+          "article_title": "Tiếp nhận thành viên mới —",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -2170,34 +2172,34 @@
       "retrieved": [
         {
           "rank": 1,
-          "chunk_id": "59tiep_điều_199",
-          "article": "Điều 199",
-          "article_title": "Tách công ty",
-          "score": 0.032018442622950824,
+          "chunk_id": "59tiep_điều_202",
+          "article": "Điều 202",
+          "article_title": "Chuyển doi công ty trách nhiệm hữu hạn thành công ty cốphần",
+          "score": 0.01631659836065574,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_202",
-          "article": "Điều 202",
-          "article_title": "Chuyển doi công ty trách nhiệm hữu hạn thành công ty cốphần",
-          "score": 0.032018442622950824,
+          "chunk_id": "59tiep_điều_203",
+          "article": "Điều 203",
+          "article_title": "Chuyển đối công ty cốphần thành công ty trách nhiệm hữu",
+          "score": 0.016054590570719604,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_203",
-          "article": "Điều 203",
-          "article_title": "Chuyển đối công ty cốphần thành công ty trách nhiệm hữu",
-          "score": 0.0315136476426799,
+          "chunk_id": "59tiep_điều_204",
+          "article": "Điều 204",
+          "article_title": "Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln",
+          "score": 0.01577825159914712,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_204",
-          "article": "Điều 204",
-          "article_title": "Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln",
-          "score": 0.030798389007344232,
+          "chunk_id": "59tiep_điều_199",
+          "article": "Điều 199",
+          "article_title": "Tách công ty",
+          "score": 0.01570184426229508,
           "source": "hybrid"
         },
         {
@@ -2205,15 +2207,15 @@
           "chunk_id": "59tiep_điều_205",
           "article": "Điều 205",
           "article_title": "Chuyển đổi doanh nghiệp tư nhân thành công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh",
-          "score": 0.030536130536130537,
+          "score": 0.015361305361305361,
           "source": "hybrid"
         }
       ],
-      "hit_at_1": 0.0,
+      "hit_at_1": 1.0,
       "hit_at_3": 1.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.5
+      "reciprocal_rank": 1.0
     },
     {
       "id": "qa_039",
@@ -2231,7 +2233,7 @@
           "chunk_id": "59tiep_điều_208",
           "article": "Điều 208",
           "article_title": "Trình tự, thủ tục giải thé doanh nghiệp —. __... . ` w !.",
-          "score": 0.03200204813108039,
+          "score": 0.015898617511520736,
           "source": "hybrid"
         },
         {
@@ -2239,7 +2241,7 @@
           "chunk_id": "59tiep_điều_209",
           "article": "Điều 209",
           "article_title": "Giải thểdoanh nghiệp trong trường hợp bi thu hồi Giấy",
-          "score": 0.03177805800756621,
+          "score": 0.015485498108448929,
           "source": "hybrid"
         },
         {
@@ -2247,15 +2249,15 @@
           "chunk_id": "59_signed_điều_1",
           "article": "Điều 1",
           "article_title": "Phạm vi điều chỉnh ——— ` Bi t I",
-          "score": 0.030303030303030304,
+          "score": 0.015151515151515152,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_210",
-          "article": "Điều 210",
-          "article_title": "Hồ sơ giải thếdoanh nghiệp",
-          "score": 0.028991596638655463,
+          "chunk_id": "59tiep_điều_211",
+          "article": "Điều 211",
+          "article_title": "Các hoat động bịcấm ké từ khi có quyếtđịnh giải thé",
+          "score": 0.014754098360655738,
           "source": "hybrid"
         },
         {
@@ -2263,7 +2265,7 @@
           "chunk_id": "59tiep_điều_213",
           "article": "Điều 213",
           "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
-          "score": 0.028083267871170464,
+          "score": 0.014748625294579733,
           "source": "hybrid"
         }
       ],
@@ -2289,7 +2291,7 @@
           "chunk_id": "59tiep_điều_210",
           "article": "Điều 210",
           "article_title": "Hồ sơ giải thếdoanh nghiệp",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -2297,7 +2299,7 @@
           "chunk_id": "59tiep_điều_208",
           "article": "Điều 208",
           "article_title": "Trình tự, thủ tục giải thé doanh nghiệp —. __... . ` w !.",
-          "score": 0.03200204813108039,
+          "score": 0.016103430619559652,
           "source": "hybrid"
         },
         {
@@ -2305,7 +2307,7 @@
           "chunk_id": "59tiep_điều_209",
           "article": "Điều 209",
           "article_title": "Giải thểdoanh nghiệp trong trường hợp bi thu hồi Giấy",
-          "score": 0.031754032258064516,
+          "score": 0.01567540322580645,
           "source": "hybrid"
         },
         {
@@ -2313,15 +2315,15 @@
           "chunk_id": "59_signed_điều_20",
           "article": "Điều 20",
           "article_title": "Hồ sơ đăng ký công ty hợp danh",
-          "score": 0.028850145288501453,
+          "score": 0.015006226650062267,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_216",
-          "article": "Điều 216",
-          "article_title": "Cơ quan đăng ký kinh doanh",
-          "score": 0.028258706467661692,
+          "chunk_id": "59_signed_điều_21",
+          "article": "Điều 21",
+          "article_title": "Hồ sơ đăng ký công ty trách nhiệm hữu hạn",
+          "score": 0.014342179559570865,
           "source": "hybrid"
         }
       ],
@@ -2347,7 +2349,7 @@
           "chunk_id": "59tiep_điều_212",
           "article": "Điều 212",
           "article_title": "Thu hồi Giấy chứng nhận đăng ký doanh nghiệp",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -2355,7 +2357,7 @@
           "chunk_id": "59tiep_điều_209",
           "article": "Điều 209",
           "article_title": "Giải thểdoanh nghiệp trong trường hợp bi thu hồi Giấy",
-          "score": 0.03225806451612903,
+          "score": 0.016129032258064516,
           "source": "hybrid"
         },
         {
@@ -2363,23 +2365,23 @@
           "chunk_id": "59tiep_điều_216",
           "article": "Điều 216",
           "article_title": "Cơ quan đăng ký kinh doanh",
-          "score": 0.03149801587301587,
+          "score": 0.015649801587301587,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_207",
-          "article": "Điều 207",
-          "article_title": "Các trường hợp và điều kiện giải thểdoanh nghiệp",
-          "score": 0.030309988518943745,
+          "chunk_id": "59_signed_điều_27",
+          "article": "Điều 27",
+          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.01561904761904762,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_30",
-          "article": "Điều 30",
-          "article_title": "Đăng ký thay đổi nội dung Giấy chứng nhận đăng ký doanh nghiệp",
-          "score": 0.02964426877470356,
+          "chunk_id": "59tiep_điều_207",
+          "article": "Điều 207",
+          "article_title": "Các trường hợp và điều kiện giải thểdoanh nghiệp",
+          "score": 0.015338691159586682,
           "source": "hybrid"
         }
       ],
@@ -2405,7 +2407,7 @@
           "chunk_id": "59_signed_điều_46",
           "article": "Điều 46",
           "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
-          "score": 0.03252247488101534,
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
@@ -2413,7 +2415,7 @@
           "chunk_id": "59_signed_điều_87",
           "article": "Điều 87",
           "article_title": "Tăng, giảm vốn điều lệ .",
-          "score": 0.03252247488101534,
+          "score": 0.016155473294553146,
           "source": "hybrid"
         },
         {
@@ -2421,23 +2423,23 @@
           "chunk_id": "59_signed_điều_47",
           "article": "Điều 47",
           "article_title": "Góp vốn thành lập công ty và cấp giấy chứng nhận phần vốn góp",
-          "score": 0.03076923076923077,
+          "score": 0.015384615384615385,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_53",
-          "article": "Điều 53",
-          "article_title": "Xửlý phần vốn góp trong một sốtrường hợp đặc biệt",
-          "score": 0.03057889822595705,
+          "chunk_id": "59_signed_điều_52",
+          "article": "Điều 52",
+          "article_title": "Chuyển nhượng phần vốn góp",
+          "score": 0.015151515151515152,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_52",
-          "article": "Điều 52",
-          "article_title": "Chuyển nhượng phần vốn góp",
-          "score": 0.030303030303030304,
+          "chunk_id": "59_signed_điều_53",
+          "article": "Điều 53",
+          "article_title": "Xửlý phần vốn góp trong một sốtrường hợp đặc biệt",
+          "score": 0.014822595704948646,
           "source": "hybrid"
         }
       ],
@@ -2445,7 +2447,7 @@
       "hit_at_3": 0.0,
       "hit_at_5": 1.0,
       "recall_at_5": 1.0,
-      "reciprocal_rank": 0.25
+      "reciprocal_rank": 0.2
     },
     {
       "id": "qa_043",
@@ -2463,7 +2465,7 @@
           "chunk_id": "59tiep_điều_188",
           "article": "Điều 188",
           "article_title": "Doanh nghiệp tư nhân ỉ",
-          "score": 0.03252247488101534,
+          "score": 0.01636700158646219,
           "source": "hybrid"
         },
         {
@@ -2471,23 +2473,23 @@
           "chunk_id": "59_signed_điều_17",
           "article": "Điều 17",
           "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
-          "score": 0.032018442622950824,
+          "score": 0.01570184426229508,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_79",
-          "article": "Điều 79",
-          "article_title": "Cơ cấu tổ chức quản lý của công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sở hữu",
-          "score": 0.030158730158730156,
+          "chunk_id": "59tiep_điều_194",
+          "article": "Điều 194",
+          "article_title": "Tập đoàn kinh tế, tổng công ty",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_194",
-          "article": "Điều 194",
-          "article_title": "Tập đoàn kinh tế, tổng công ty",
-          "score": 0.016129032258064516,
+          "chunk_id": "59_signed_điều_79",
+          "article": "Điều 79",
+          "article_title": "Cơ cấu tổ chức quản lý của công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sở hữu",
+          "score": 0.014444444444444444,
           "source": "hybrid"
         },
         {
@@ -2495,7 +2497,7 @@
           "chunk_id": "59tiep_điều_190",
           "article": "Điều 190",
           "article_title": "Quản lý doanh nghiệp tư nhân",
-          "score": 0.015873015873015872,
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -2521,7 +2523,7 @@
           "chunk_id": "59tiep_điều_186",
           "article": "Điều 186",
           "article_title": "Tiếp nhận thành viên mới —",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -2529,31 +2531,31 @@
           "chunk_id": "59tiep_điều_177",
           "article": "Điều 177",
           "article_title": "Công ty hợp danh . C C",
-          "score": 0.0315136476426799,
+          "score": 0.016054590570719604,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_198",
-          "article": "Điều 198",
-          "article_title": "Chia công ty",
-          "score": 0.029513888888888888,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.015601503759398496,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_200",
-          "article": "Điều 200",
-          "article_title": "Hợp nhất công ty",
-          "score": 0.029030910609857977,
+          "chunk_id": "59tiep_điều_184",
+          "article": "Điều 184",
+          "article_title": "Điều hành kinh doanh của công ty hợp danh",
+          "score": 0.014568627450980393,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_184",
-          "article": "Điều 184",
-          "article_title": "Điều hành kinh doanh của công ty hợp danh",
-          "score": 0.02803921568627451,
+          "chunk_id": "59tiep_điều_155",
+          "article": "Điều 155",
+          "article_title": "Cơ cấutổchức, tiêu chuẩn và điều kiện làm thành viên Hội _",
+          "score": 0.014293478260869566,
           "source": "hybrid"
         }
       ],
@@ -2579,7 +2581,7 @@
           "chunk_id": "59tiep_điều_194",
           "article": "Điều 194",
           "article_title": "Tập đoàn kinh tế, tổng công ty",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -2587,31 +2589,31 @@
           "chunk_id": "59_signed_điều_88",
           "article": "Điều 88",
           "article_title": "Doanh nghiệp nhà nước",
-          "score": 0.030834914611005692,
+          "score": 0.014848197343453511,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59tiep_điều_177",
-          "article": "Điều 177",
-          "article_title": "Công ty hợp danh . C C",
-          "score": 0.02819138376017471,
+          "chunk_id": "59_signed_điều_71",
+          "article": "Điều 71",
+          "article_title": "Trách nhiệm của Chủtịch Hội đồng thành viên, Giám đốc,",
+          "score": 0.014698658605705649,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_71",
-          "article": "Điều 71",
-          "article_title": "Trách nhiệm của Chủtịch Hội đồng thành viên, Giám đốc,",
-          "score": 0.027583600982429624,
+          "chunk_id": "59tiep_điều_195",
+          "article": "Điều 195",
+          "article_title": "Công ty me, công ty con I II",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_195",
-          "article": "Điều 195",
-          "article_title": "Công ty me, công ty con I II",
-          "score": 0.016129032258064516,
+          "chunk_id": "59tiep_điều_177",
+          "article": "Điều 177",
+          "article_title": "Công ty hợp danh . C C",
+          "score": 0.014413341274568196,
           "source": "hybrid"
         }
       ],
@@ -2637,7 +2639,7 @@
           "chunk_id": "59tiep_điều_198",
           "article": "Điều 198",
           "article_title": "Chia công ty",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -2645,7 +2647,7 @@
           "chunk_id": "59tiep_điều_199",
           "article": "Điều 199",
           "article_title": "Tách công ty",
-          "score": 0.03149801587301587,
+          "score": 0.015649801587301587,
           "source": "hybrid"
         },
         {
@@ -2653,23 +2655,23 @@
           "chunk_id": "59_signed_điều_111",
           "article": "Điều 111",
           "article_title": "Công ty cổ phần",
-          "score": 0.028991596638655463,
+          "score": 0.014663865546218487,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_200",
-          "article": "Điều 200",
-          "article_title": "Hợp nhất công ty",
-          "score": 0.028370221327967807,
+          "chunk_id": "59_signed_điều_69",
+          "article": "Điều 69",
+          "article_title": "Điều kiện đểchia lợi nhuận",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59tiep_điều_208",
-          "article": "Điều 208",
-          "article_title": "Trình tự, thủ tục giải thé doanh nghiệp —. __... . ` w !.",
-          "score": 0.02651914295749912,
+          "chunk_id": "59tiep_điều_195",
+          "article": "Điều 195",
+          "article_title": "Công ty me, công ty con I II",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         }
       ],
@@ -2695,7 +2697,7 @@
           "chunk_id": "59tiep_điều_199",
           "article": "Điều 199",
           "article_title": "Tách công ty",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
@@ -2703,7 +2705,7 @@
           "chunk_id": "59tiep_điều_198",
           "article": "Điều 198",
           "article_title": "Chia công ty",
-          "score": 0.03225806451612903,
+          "score": 0.016129032258064516,
           "source": "hybrid"
         },
         {
@@ -2711,23 +2713,23 @@
           "chunk_id": "59_signed_điều_87",
           "article": "Điều 87",
           "article_title": "Tăng, giảm vốn điều lệ .",
-          "score": 0.029631255487269532,
+          "score": 0.014727831431079894,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59_signed_điều_77",
-          "article": "Điều 77",
-          "article_title": "Nghĩa vụ của chủ sở hữu công ty",
-          "score": 0.028693528693528692,
+          "chunk_id": "59_signed_điều_74",
+          "article": "Điều 74",
+          "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
+          "score": 0.014285714285714285,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_74",
-          "article": "Điều 74",
-          "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
-          "score": 0.015873015873015872,
+          "chunk_id": "59_signed_điều_46",
+          "article": "Điều 46",
+          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
+          "score": 0.0140625,
           "source": "hybrid"
         }
       ],
@@ -2753,7 +2755,7 @@
           "chunk_id": "59_signed_điều_74",
           "article": "Điều 74",
           "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
-          "score": 0.03131881575727918,
+          "score": 0.016246635674088575,
           "source": "hybrid"
         },
         {
@@ -2761,7 +2763,7 @@
           "chunk_id": "59tiep_điều_203",
           "article": "Điều 203",
           "article_title": "Chuyển đối công ty cốphần thành công ty trách nhiệm hữu",
-          "score": 0.03128054740957967,
+          "score": 0.01603128054740958,
           "source": "hybrid"
         },
         {
@@ -2769,23 +2771,23 @@
           "chunk_id": "59tiep_điều_204",
           "article": "Điều 204",
           "article_title": "Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln",
-          "score": 0.03125763125763126,
+          "score": 0.015824175824175824,
           "source": "hybrid"
         },
         {
           "rank": 4,
-          "chunk_id": "59tiep_điều_199",
-          "article": "Điều 199",
-          "article_title": "Tách công ty",
-          "score": 0.031024531024531024,
+          "chunk_id": "59tiep_điều_202",
+          "article": "Điều 202",
+          "article_title": "Chuyển doi công ty trách nhiệm hữu hạn thành công ty cốphần",
+          "score": 0.01543236301369863,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_87",
-          "article": "Điều 87",
-          "article_title": "Tăng, giảm vốn điều lệ .",
-          "score": 0.030834914611005692,
+          "chunk_id": "59tiep_điều_199",
+          "article": "Điều 199",
+          "article_title": "Tách công ty",
+          "score": 0.015223665223665224,
           "source": "hybrid"
         }
       ],
@@ -2811,23 +2813,23 @@
           "chunk_id": "59tiep_điều_216",
           "article": "Điều 216",
           "article_title": "Cơ quan đăng ký kinh doanh",
-          "score": 0.03278688524590164,
+          "score": 0.01639344262295082,
           "source": "hybrid"
         },
         {
           "rank": 2,
-          "chunk_id": "59tiep_điều_215",
-          "article": "Điều 215",
-          "article_title": "Trách nhiệm các cơ quan quản lý nhà nước .",
-          "score": 0.03076923076923077,
+          "chunk_id": "59_signed_điều_45",
+          "article": "Điều 45",
+          "article_title": "Đăng ký hoạt động chi nhánh, văn phòng đại diện của doanh",
+          "score": 0.015756302521008403,
           "source": "hybrid"
         },
         {
           "rank": 3,
-          "chunk_id": "59_signed_điều_45",
-          "article": "Điều 45",
-          "article_title": "Đăng ký hoạt động chi nhánh, văn phòng đại diện của doanh",
-          "score": 0.03057889822595705,
+          "chunk_id": "59tiep_điều_215",
+          "article": "Điều 215",
+          "article_title": "Trách nhiệm các cơ quan quản lý nhà nước .",
+          "score": 0.015384615384615385,
           "source": "hybrid"
         },
         {
@@ -2835,15 +2837,15 @@
           "chunk_id": "59_signed_điều_30",
           "article": "Điều 30",
           "article_title": "Đăng ký thay đổi nội dung Giấy chứng nhận đăng ký doanh nghiệp",
-          "score": 0.03007688828584351,
+          "score": 0.015128900949796473,
           "source": "hybrid"
         },
         {
           "rank": 5,
-          "chunk_id": "59_signed_điều_17",
-          "article": "Điều 17",
-          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
-          "score": 0.016129032258064516,
+          "chunk_id": "59_signed_điều_33",
+          "article": "Điều 33",
+          "article_title": "Cung cấp thông tin vềnội dung đăng ký doanh nghiệp",
+          "score": 0.014516129032258065,
           "source": "hybrid"
         }
       ],
