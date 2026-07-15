@@ -545,7 +545,7 @@ Các biến trong `.env.example`:
 | `EMBEDDING_BATCH_SIZE` | `16` | Batch size khi sinh embedding |
 | `CHROMA_PERSIST_DIR` | `data/chroma_db` | Thư mục ChromaDB persistent |
 | `CHROMA_COLLECTION_NAME` | `law_chunks` | Tên Chroma collection |
-| `API_URL` | `http://127.0.0.1:8000` | Backend URL mà Streamlit gọi |
+| `BACKEND_URL` | bắt buộc | Backend URL mà Streamlit gọi; local dùng `http://127.0.0.1:8000`, deploy dùng URL public của FastAPI |
 
 Khi đổi `EMBEDDING_MODEL_NAME`, `CHROMA_PERSIST_DIR` hoặc
 `CHROMA_COLLECTION_NAME`, cần build lại dense index.
@@ -728,7 +728,7 @@ gốc repository. Khởi động lại backend sau khi sửa `.env`.
 
 ### Streamlit không kết nối được backend
 
-Kiểm tra <http://127.0.0.1:8000/health>, terminal Uvicorn và giá trị `API_URL`.
+Kiểm tra <http://127.0.0.1:8000/health>, terminal Uvicorn và giá trị `BACKEND_URL`.
 Khi chạy Docker, frontend phải dùng địa chỉ nội bộ `http://api:8000`; Compose đã
 cấu hình sẵn giá trị này.
 
