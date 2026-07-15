@@ -31,6 +31,7 @@ from src.memory.checkpointer import (
     create_sqlite_checkpointer,
 )
 from src.retrieval import HybridRetriever
+from src.retrieval.title_reranker import rerank_by_title
 
 
 class RAGState(MessagesState):
@@ -140,12 +141,13 @@ class RAGEngine:
         self,
         state: RAGState,
     ) -> dict[str, Any]:
-        results = self.retriever.search(
+        candidates = self.retriever.search(
             state["standalone_query"],
-            top_k=self.settings.rag_top_k,
-            candidate_k=(
-                self.settings.rag_candidate_k
-            ),
+            top_k=self.settings.rag_candidate_k,      # lấy nhiều ứng viên, vd 40
+            candidate_k=self.settings.rag_candidate_k,
+        )
+        results = rerank_by_title(
+            state["standalone_query"], candidates, top_k=self.settings.rag_top_k
         )
 
         return {

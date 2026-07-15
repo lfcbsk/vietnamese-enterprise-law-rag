@@ -215,13 +215,16 @@ Thử API bằng PowerShell:
 $body = @{
     question = "Công ty cổ phần cần có ít nhất bao nhiêu cổ đông?"
     conversation_id = $null
-} | ConvertTo-Json
+} | ConvertTo-Json -Compress
+
+# Windows PowerShell 5.1 không luôn gửi chuỗi có dấu bằng UTF-8.
+$utf8Body = [System.Text.Encoding]::UTF8.GetBytes($body)
 
 Invoke-RestMethod `
     -Method Post `
     -Uri http://127.0.0.1:8000/chat `
-    -ContentType "application/json" `
-    -Body $body
+    -ContentType "application/json; charset=utf-8" `
+    -Body $utf8Body
 ```
 
 `conversation_id` có thể để trống ở câu đầu. Dùng lại ID backend trả về để tiếp
