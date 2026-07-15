@@ -62,7 +62,7 @@ services:
       - --server.headless
       - "true"
     environment:
-      BACKEND_URL: http://api:8000
+      API_URL: http://api:8000
     ports:
       - "8501:8501"
     depends_on:

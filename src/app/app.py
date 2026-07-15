@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BACKEND_URL = os.getenv("BACKEND_URL", "").rstrip("/")
+API_URL = os.getenv("API_URL", "http://127.0.0.1:8000").rstrip("/")
 
 
 st.set_page_config(
@@ -16,13 +16,6 @@ st.set_page_config(
     page_icon="⚖️",
     layout="centered",
 )
-
-if not BACKEND_URL:
-    st.error(
-        "Chưa cấu hình BACKEND_URL. Hãy đặt URL public của FastAPI, "
-        "ví dụ https://ten-backend.onrender.com."
-    )
-    st.stop()
 
 st.title("⚖️ Trợ lý Luật Doanh nghiệp Việt Nam")
 st.caption(
@@ -47,7 +40,7 @@ def call_chat_api(
     }
 
     response = requests.post(
-        f"{BACKEND_URL}/chat",
+        f"{API_URL}/chat",
         json=payload,
         timeout=120,
     )
@@ -89,8 +82,8 @@ with st.sidebar:
     st.subheader("Phiên hội thoại")
 
     st.caption("Backend API")
-    st.code(BACKEND_URL, language=None)
-    backend_ready, backend_status = check_api_health(BACKEND_URL)
+    st.code(API_URL, language=None)
+    backend_ready, backend_status = check_api_health(API_URL)
     if backend_ready:
         st.success(backend_status)
     else:
