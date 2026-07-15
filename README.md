@@ -752,6 +752,8 @@ $env:PYTHONIOENCODING = "utf-8"
 ## Giới hạn hiện tại
 
 - Chất lượng câu trả lời phụ thuộc chất lượng OCR và bộ câu hỏi evaluation.
+- Khả năng hỏi đáp còn phụ thuộc billing, request quota và giới hạn token của
+  model LLM đang sử dụng; free tier có thể từ chối request khi vượt hạn mức.
 - Direct lookup hiện tra theo số điều trong corpus; khi bổ sung nhiều bộ luật có
   cùng số điều, cần thêm bước nhận dạng luật/văn bản cụ thể.
 - SQLite phù hợp local/demo; production nhiều worker nên dùng database và
