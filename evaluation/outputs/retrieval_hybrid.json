@@ -1,0 +1,2857 @@
+{
+  "summary": {
+    "retriever": "hybrid",
+    "question_count": 49,
+    "top_k": 5,
+    "candidate_k": 20,
+    "hit_at_1": 0.5714285714285714,
+    "hit_at_3": 0.7755102040816326,
+    "hit_at_5": 0.8775510204081632,
+    "recall_at_5": 0.8775510204081632,
+    "mrr": 0.6857142857142857
+  },
+  "details": [
+    {
+      "id": "qa_001",
+      "question": "Trong doanh nghiệp, các hành vi nào bị nghiêm cấm theo quy định của pháp luật?",
+      "category": "general_provisions",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 16"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_16",
+          "article": "Điều 16",
+          "article_title": "Các hành vi bịnghiêm cấm",
+          "score": 0.031054405392392875,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_193",
+          "article": "Điều 193",
+          "article_title": "Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _",
+          "score": 0.03021353930031804,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_119",
+          "article": "Điều 119",
+          "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
+          "score": 0.029631255487269532,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_8",
+          "article": "Điều 8",
+          "article_title": "Nghĩa vụ của doanh nghiệp",
+          "score": 0.029236022193768675,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.028693528693528692,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_002",
+      "question": "Doanh nghiệp có những quyền gì?",
+      "category": "general_provisions",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 7"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_190",
+          "article": "Điều 190",
+          "article_title": "Quản lý doanh nghiệp tư nhân",
+          "score": 0.030886196246139225,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_191",
+          "article": "Điều 191",
+          "article_title": "Cho thuê doanh nghiệp tư nhân",
+          "score": 0.027912386121341344,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_4",
+          "article": "Điều 4",
+          "article_title": "Giải thích từngữ",
+          "score": 0.025158227848101268,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_193",
+          "article": "Điều 193",
+          "article_title": "Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _",
+          "score": 0.01639344262295082,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_7",
+          "article": "Điều 7",
+          "article_title": "Quyền của doanh nghiệp —",
+          "score": 0.016129032258064516,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "id": "qa_003",
+      "question": "Chế độ lưu giữ tài liệu trong doanh nghiệp được quy định như thế nào?",
+      "category": "general_provisions",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 11"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_33",
+          "article": "Điều 33",
+          "article_title": "Cung cấp thông tin vềnội dung đăng ký doanh nghiệp",
+          "score": 0.03225806451612903,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_171",
+          "article": "Điều 171",
+          "article_title": "Quyền đượccủng cấp thông tin của Ban kiểm soát —",
+          "score": 0.030158730158730156,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_43",
+          "article": "Điều 43",
+          "article_title": "Dấu của doanh nghiệp",
+          "score": 0.029877369007803793,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_164",
+          "article": "Điều 164",
+          "article_title": "Công khai các lợi ích liên quan",
+          "score": 0.029551337359792925,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_11",
+          "article": "Điều 11",
+          "article_title": "Chếđộlưu giữtài liệu của doanh nghiệp",
+          "score": 0.02938045560996381,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "id": "qa_004",
+      "question": "Nghĩa vụ của doanh nghiệp được pháp luật quy định như thế nào?",
+      "category": "general_provisions",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 8"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_9",
+          "article": "Điều 9",
+          "article_title": "Quyền và nghĩa vụ của doanh nghiệp cung ứng sản phẩm, dịch",
+          "score": 0.031099324975891997,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_10",
+          "article": "Điều 10",
+          "article_title": "Tiêu chí, quyền và nghĩa vụ của doanh nghiệp xã hội .",
+          "score": 0.03007688828584351,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_216",
+          "article": "Điều 216",
+          "article_title": "Cơ quan đăng ký kinh doanh",
+          "score": 0.029083245521601686,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_12",
+          "article": "Điều 12",
+          "article_title": "Người đại diện theo pháp luật của doanh nghiệp —",
+          "score": 0.02878726010616578,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_8",
+          "article": "Điều 8",
+          "article_title": "Nghĩa vụ của doanh nghiệp",
+          "score": 0.028629032258064516,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.2
+    },
+    {
+      "id": "qa_005",
+      "question": "Người đại diện theo pháp luật của doanh nghiệp được quy định như thế nào?",
+      "category": "legal_representative",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 12"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_12",
+          "article": "Điều 12",
+          "article_title": "Người đại diện theo pháp luật của doanh nghiệp —",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_13",
+          "article": "Điều 13",
+          "article_title": "Trách nhiệm của người đại diện theo pháp luật của doanh nghiệp",
+          "score": 0.031544957774465976,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_169",
+          "article": "Điều 169",
+          "article_title": "Tiêu chuẩn va điều kiện của Kiểm soát viên",
+          "score": 0.030621785881252923,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_213",
+          "article": "Điều 213",
+          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
+          "score": 0.02976190476190476,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.029631255487269532,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_006",
+      "question": "Trách nhiệm của người đại diện theo pháp luật của doanh nghiệp được quy định như thế nào?",
+      "category": "legal_representative",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 13"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_12",
+          "article": "Điều 12",
+          "article_title": "Người đại diện theo pháp luật của doanh nghiệp —",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_13",
+          "article": "Điều 13",
+          "article_title": "Trách nhiệm của người đại diện theo pháp luật của doanh nghiệp",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_213",
+          "article": "Điều 213",
+          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
+          "score": 0.029957522915269395,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_71",
+          "article": "Điều 71",
+          "article_title": "Trách nhiệm của Chủtịch Hội đồng thành viên, Giám đốc,",
+          "score": 0.029631255487269532,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.028594771241830064,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "qa_007",
+      "question": "Hợp đồng trước đăng ký doanh nghiệp được pháp luật quy định như thế nào?",
+      "category": "enterprise_establishment",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 18"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_18",
+          "article": "Điều 18",
+          "article_title": "Hợp đồng trước đăng ký doanh nghiệp",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.03021353930031804,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_27",
+          "article": "Điều 27",
+          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.02854251012145749,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_216",
+          "article": "Điều 216",
+          "article_title": "Cơ quan đăng ký kinh doanh",
+          "score": 0.026992753623188405,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_206",
+          "article": "Điều 206",
+          "article_title": "Tạm ngừng, đình chỉhoạt động, chấm dứt kinh doanh",
+          "score": 0.02668564312399929,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_008",
+      "question": "Hồ sơ đăng ký thành lập công ty hợp danh gồm những giấy tờ gì?",
+      "category": "enterprise_registration",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 20"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_20",
+          "article": "Điều 20",
+          "article_title": "Hồ sơ đăng ký công ty hợp danh",
+          "score": 0.032018442622950824,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_28",
+          "article": "Điều 28",
+          "article_title": "Nội dung Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.03200204813108039,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_21",
+          "article": "Điều 21",
+          "article_title": "Hồ sơ đăng ký công ty trách nhiệm hữu hạn",
+          "score": 0.030309988518943745,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_4",
+          "article": "Điều 4",
+          "article_title": "Giải thích từngữ",
+          "score": 0.030158730158730156,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_22",
+          "article": "Điều 22",
+          "article_title": "Hồ sơ đăng ký công ty cổphan .",
+          "score": 0.028665028665028666,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_009",
+      "question": "Giấy đề nghị đăng ký doanh nghiệp phải có những nội dung gì?",
+      "category": "enterprise_registration",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 23"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_23",
+          "article": "Điều 23",
+          "article_title": "Nội dung giấy đề nghị đăng ký doanh nghiệp",
+          "score": 0.032266458495966696,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_30",
+          "article": "Điều 30",
+          "article_title": "Đăng ký thay đổi nội dung Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.031544957774465976,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_32",
+          "article": "Điều 32",
+          "article_title": "Công bốnội dung đăng ký doanh nghiệp",
+          "score": 0.03125763125763126,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_216",
+          "article": "Điều 216",
+          "article_title": "Cơ quan đăng ký kinh doanh",
+          "score": 0.02964426877470356,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_19",
+          "article": "Điều 19",
+          "article_title": "Hồso dang ky doanh nghiệp tư nhân __ l",
+          "score": 0.02946912242686891,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_010",
+      "question": "Việc đặt tên doanh nghiệp được quy định như thế nào?",
+      "category": "enterprise_name",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 37"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_38",
+          "article": "Điều 38",
+          "article_title": "Những điều cấm trong đặt tên doanh nghiệp",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_27",
+          "article": "Điều 27",
+          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.0315136476426799,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_37",
+          "article": "Điều 37",
+          "article_title": "Tên doanh nghiệp",
+          "score": 0.029827662395050816,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_41",
+          "article": "Điều 41",
+          "article_title": "Tên trùng và tên gây nhầm lẫn",
+          "score": 0.028612012987012988,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_42",
+          "article": "Điều 42",
+          "article_title": "Trụ sởchính của doanh nghiệp",
+          "score": 0.027745885954841176,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "id": "qa_011",
+      "question": "Những điều cấm trong đặt tên doanh nghiệp được quy định như thế nào?",
+      "category": "enterprise_name",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 38"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_38",
+          "article": "Điều 38",
+          "article_title": "Những điều cấm trong đặt tên doanh nghiệp",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_27",
+          "article": "Điều 27",
+          "article_title": "Cấp Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.03055037313432836,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_16",
+          "article": "Điều 16",
+          "article_title": "Các hành vi bịnghiêm cấm",
+          "score": 0.028205128205128206,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_188",
+          "article": "Điều 188",
+          "article_title": "Doanh nghiệp tư nhân ỉ",
+          "score": 0.026013513513513515,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_39",
+          "article": "Điều 39",
+          "article_title": "Tên doanh nghiệp bằng tiếng nước ngoài và tên viết tắt của",
+          "score": 0.016129032258064516,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_012",
+      "question": "Việc đăng ký hoạt động chi nhánh, văn phòng đại diện và thông báo địa điểm kinh doanh được thực hiện như thế nào?",
+      "category": "dependent_units",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 45"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_45",
+          "article": "Điều 45",
+          "article_title": "Đăng ký hoạt động chi nhánh, văn phòng đại diện của doanh",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_213",
+          "article": "Điều 213",
+          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
+          "score": 0.032018442622950824,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_44",
+          "article": "Điều 44",
+          "article_title": "Chi nhánh, văn phòng đại diện và địa điểm kinh doanh của",
+          "score": 0.03200204813108039,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_40",
+          "article": "Điều 40",
+          "article_title": "Tên chi nhánh, văn phòng đại diện và địa điểm kinh doanh",
+          "score": 0.03149801587301587,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_31",
+          "article": "Điều 31",
+          "article_title": "Thông báo thay đổi nội dung đăng ký doanh nghiệp",
+          "score": 0.02871794871794872,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_013",
+      "question": "Chi nhánh, văn phòng đại diện và địa điểm kinh doanh của doanh nghiệp được quy định như thế nào?",
+      "category": "dependent_units",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 44"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_213",
+          "article": "Điều 213",
+          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
+          "score": 0.032266458495966696,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_40",
+          "article": "Điều 40",
+          "article_title": "Tên chi nhánh, văn phòng đại diện và địa điểm kinh doanh",
+          "score": 0.03225806451612903,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_44",
+          "article": "Điều 44",
+          "article_title": "Chi nhánh, văn phòng đại diện và địa điểm kinh doanh của",
+          "score": 0.03177805800756621,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_45",
+          "article": "Điều 45",
+          "article_title": "Đăng ký hoạt động chi nhánh, văn phòng đại diện của doanh",
+          "score": 0.03149801587301587,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_43",
+          "article": "Điều 43",
+          "article_title": "Dấu của doanh nghiệp",
+          "score": 0.030776515151515152,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "id": "qa_014",
+      "question": "Việc góp vốn thành lập công ty trách nhiệm hữu hạn hai thành viên trở lên được quy định như thế nào?",
+      "category": "multi_member_llc",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 47"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_46",
+          "article": "Điều 46",
+          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_54",
+          "article": "Điều 54",
+          "article_title": "Cơ cấu tốchức quản lý công ty",
+          "score": 0.03125763125763126,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_47",
+          "article": "Điều 47",
+          "article_title": "Góp vốn thành lập công ty và cấp giấy chứng nhận phần vốn góp",
+          "score": 0.030776515151515152,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_52",
+          "article": "Điều 52",
+          "article_title": "Chuyển nhượng phần vốn góp",
+          "score": 0.029631255487269532,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "id": "qa_015",
+      "question": "Sổ đăng ký thành viên của công ty trách nhiệm hữu hạn hai thành viên trở lên được quy định như thế nào?",
+      "category": "multi_member_llc",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 48"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_46",
+          "article": "Điều 46",
+          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.0315136476426799,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_54",
+          "article": "Điều 54",
+          "article_title": "Cơ cấu tốchức quản lý công ty",
+          "score": 0.03149801587301587,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_204",
+          "article": "Điều 204",
+          "article_title": "Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln",
+          "score": 0.031024531024531024,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_73",
+          "article": "Điều 73",
+          "article_title": "Công bốthông tin",
+          "score": 0.0304147465437788,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "qa_016",
+      "question": "Công ty trách nhiệm hữu hạn một thành viên được quy định như thế nào?",
+      "category": "single_member_llc",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 74"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_74",
+          "article": "Điều 74",
+          "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
+          "score": 0.03131881575727918,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.030090497737556562,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_199",
+          "article": "Điều 199",
+          "article_title": "Tách công ty",
+          "score": 0.0293236301369863,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_46",
+          "article": "Điều 46",
+          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
+          "score": 0.029273504273504274,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_177",
+          "article": "Điều 177",
+          "article_title": "Công ty hợp danh . C C",
+          "score": 0.029030910609857977,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_017",
+      "question": "Việc tăng vốn điều lệ của công ty trách nhiệm hữu hạn một thành viên được quy định như thế nào?",
+      "category": "single_member_llc",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 87"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_68",
+          "article": "Điều 68",
+          "article_title": "Tang, giảm vốn điều lệ— ___ [NN",
+          "score": 0.03128054740957967,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_88",
+          "article": "Điều 88",
+          "article_title": "Doanh nghiệp nhà nước",
+          "score": 0.029877369007803793,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_74",
+          "article": "Điều 74",
+          "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
+          "score": 0.028949545078577336,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_49",
+          "article": "Điều 49",
+          "article_title": "Quyền của thành viên Hội đồng thành viên",
+          "score": 0.028782894736842105,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_018",
+      "question": "Việc tăng, giảm vốn điều lệ của công ty trách nhiệm hữu hạn hai thành viên trở lên được quy định như thế nào?",
+      "category": "multi_member_llc",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 68"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_46",
+          "article": "Điều 46",
+          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
+          "score": 0.03200204813108039,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_68",
+          "article": "Điều 68",
+          "article_title": "Tang, giảm vốn điều lệ— ___ [NN",
+          "score": 0.0315136476426799,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_54",
+          "article": "Điều 54",
+          "article_title": "Cơ cấu tốchức quản lý công ty",
+          "score": 0.03055037313432836,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_88",
+          "article": "Điều 88",
+          "article_title": "Doanh nghiệp nhà nước",
+          "score": 0.030309988518943745,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "id": "qa_019",
+      "question": "Giám đốc, Tổng giám đốc doanh nghiệp nhà nước phải đáp ứng tiêu chuẩn và điều kiện nào?",
+      "category": "state_owned_enterprise",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 101"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_64",
+          "article": "Điều 64",
+          "article_title": "Tiêu chuẩn và điều kiện làm Giám đốc, Tổng giám đốc .",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_101",
+          "article": "Điều 101",
+          "article_title": "Tiêu chuẩn, điều kiện của Giám đốc, Tổng giám đốc",
+          "score": 0.03128054740957967,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_93",
+          "article": "Điều 93",
+          "article_title": "Tiêu chuẩn và điều kiện của thành viên Hội đồng thành viên",
+          "score": 0.03125763125763126,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_169",
+          "article": "Điều 169",
+          "article_title": "Tiêu chuẩn va điều kiện của Kiểm soát viên",
+          "score": 0.03125,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_103",
+          "article": "Điều 103",
+          "article_title": "Ban kiếm soát, Kiểm soát viên",
+          "score": 0.029827662395050816,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "qa_020",
+      "question": "Công ty cổ phần được pháp luật quy định như thế nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 111"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_127",
+          "article": "Điều 127",
+          "article_title": "Chuyển nhượng cốphần",
+          "score": 0.029857397504456328,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_124",
+          "article": "Điều 124",
+          "article_title": "Chào bán cổ phần cho cốđông hiện hữu",
+          "score": 0.02928692699490662,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_198",
+          "article": "Điều 198",
+          "article_title": "Chia công ty",
+          "score": 0.029083245521601686,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_119",
+          "article": "Điều 119",
+          "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
+          "score": 0.02877846790890269,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_176",
+          "article": "Điều 176",
+          "article_title": "Công khai thông tin ln",
+          "score": 0.028373015873015873,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "qa_021",
+      "question": "Trong công ty cổ phần có những loại cổ phần nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 114"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_111",
+          "article": "Điều 111",
+          "article_title": "Công ty cổ phần",
+          "score": 0.03047794966520434,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_24",
+          "article": "Điều 24",
+          "article_title": "Điều lệcông ty .",
+          "score": 0.030017921146953404,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_112",
+          "article": "Điều 112",
+          "article_title": "Vốn của công ty cốphần",
+          "score": 0.028612012987012988,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_121",
+          "article": "Điều 121",
+          "article_title": "Cổphiếu . | | ln",
+          "score": 0.02821939586645469,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_133",
+          "article": "Điều 133",
+          "article_title": "Mua lại cổ phần theo quyết định của công ty",
+          "score": 0.027272727272727275,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "qa_022",
+      "question": "Vốn của công ty cổ phần được pháp luật quy định như thế nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 112"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_119",
+          "article": "Điều 119",
+          "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
+          "score": 0.0293236301369863,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_135",
+          "article": "Điều 135",
+          "article_title": "Trảcổtức",
+          "score": 0.028258706467661692,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_198",
+          "article": "Điều 198",
+          "article_title": "Chia công ty",
+          "score": 0.027809742999616416,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_111",
+          "article": "Điều 111",
+          "article_title": "Công ty cổ phần",
+          "score": 0.01639344262295082,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_187",
+          "article": "Điều 187",
+          "article_title": "Quyền và nghĩa vụ của thành viên góp vốn",
+          "score": 0.01639344262295082,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "qa_023",
+      "question": "Việc chào bán cổ phần của công ty cổ phần được thực hiện như thế nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 123"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_123",
+          "article": "Điều 123",
+          "article_title": "Chao bán cé phan",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_124",
+          "article": "Điều 124",
+          "article_title": "Chào bán cổ phần cho cốđông hiện hữu",
+          "score": 0.032266458495966696,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_125",
+          "article": "Điều 125",
+          "article_title": "Chao bán cổ phần riêng lẻ",
+          "score": 0.03200204813108039,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_128",
+          "article": "Điều 128",
+          "article_title": "Chào bán trái phiếu riêng lẻ",
+          "score": 0.03125,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_130",
+          "article": "Điều 130",
+          "article_title": "Quyết định chào bán trái phiếu riêng lẻ",
+          "score": 0.03076923076923077,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_024",
+      "question": "Điều kiện tiến hành họp Đại hội đồng cổ đông được quy định như thế nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 145"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_145",
+          "article": "Điều 145",
+          "article_title": "Điều kiện tiến hành hop Đại hội đồng cổ đông Be",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_146",
+          "article": "Điều 146",
+          "article_title": "Thểthức tiến hành hop va biểu quyết tại cuộc họp Đại hội",
+          "score": 0.031746031746031744,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_142",
+          "article": "Điều 142",
+          "article_title": "Chương trình và nội dung họp Đại hội đồng cốđông —",
+          "score": 0.030834914611005692,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_58",
+          "article": "Điều 58",
+          "article_title": "Điều kiện và thểthức tiến hành họp Hội đồng thành viên —",
+          "score": 0.029906956136464335,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_140",
+          "article": "Điều 140",
+          "article_title": "Triệu tập hop Đại hội đồng cổđồng == “[[ z nh lơ",
+          "score": 0.029709507042253523,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_025",
+      "question": "Việc mời họp Đại hội đồng cổ đông được pháp luật quy định như thế nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 143"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_145",
+          "article": "Điều 145",
+          "article_title": "Điều kiện tiến hành hop Đại hội đồng cổ đông Be",
+          "score": 0.032266458495966696,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_143",
+          "article": "Điều 143",
+          "article_title": "Mời họp Đại hội đồng cổ đông _ .",
+          "score": 0.03177805800756621,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_146",
+          "article": "Điều 146",
+          "article_title": "Thểthức tiến hành hop va biểu quyết tại cuộc họp Đại hội",
+          "score": 0.03125,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_140",
+          "article": "Điều 140",
+          "article_title": "Triệu tập hop Đại hội đồng cổđồng == “[[ z nh lơ",
+          "score": 0.03036576949620428,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_58",
+          "article": "Điều 58",
+          "article_title": "Điều kiện và thểthức tiến hành họp Hội đồng thành viên —",
+          "score": 0.029827662395050816,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "qa_026",
+      "question": "Nhiệm kỳ và số lượng thành viên Hội đồng quản trị của công ty cổ phần được quy định như thế nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 154"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_154",
+          "article": "Điều 154",
+          "article_title": "Nhiệmkỳvà số lượng thành viên Hội đồng quan trị— —.“ :",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_91",
+          "article": "Điều 91",
+          "article_title": "Hội đồng thành viên",
+          "score": 0.030798389007344232,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_157",
+          "article": "Điều 157",
+          "article_title": "Cuộc họp Hội đồng quản trị ¦ .",
+          "score": 0.029211087420042643,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_160",
+          "article": "Điều 160",
+          "article_title": "Miễn nhiệm, bãi nhiệm, thay thếvà bổsung thành viên Hội",
+          "score": 0.02919863597612958,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_80",
+          "article": "Điều 80",
+          "article_title": "Hội đồng thành viên",
+          "score": 0.028484848484848488,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_027",
+      "question": "Ban kiểm soát trong công ty cổ phần được quy định như thế nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 168"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_170",
+          "article": "Điều 170",
+          "article_title": "Quyền và nghĩa vụ của Ban kiếm soát",
+          "score": 0.030834914611005692,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_103",
+          "article": "Điều 103",
+          "article_title": "Ban kiếm soát, Kiểm soát viên",
+          "score": 0.03055037313432836,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_138",
+          "article": "Điều 138",
+          "article_title": "Quyền và nghĩa vụ của Đại hội đồng cốđông",
+          "score": 0.030090497737556562,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_172",
+          "article": "Điều 172",
+          "article_title": "Tiền lương, thù lao, thưởng và lợi ích khác của Kiếm soát viên",
+          "score": 0.029709507042253523,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_79",
+          "article": "Điều 79",
+          "article_title": "Cơ cấu tổ chức quản lý của công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sở hữu",
+          "score": 0.029386529386529386,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "qa_028",
+      "question": "Việc công khai thông tin của công ty cổ phần được pháp luật quy định như thế nào?",
+      "category": "joint_stock_company",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 176"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_176",
+          "article": "Điều 176",
+          "article_title": "Công khai thông tin ln",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_32",
+          "article": "Điều 32",
+          "article_title": "Công bốnội dung đăng ký doanh nghiệp",
+          "score": 0.031754032258064516,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_119",
+          "article": "Điều 119",
+          "article_title": "Nghĩa vụ của cốGong ee ee 0 3/06 ur —",
+          "score": 0.03057889822595705,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_124",
+          "article": "Điều 124",
+          "article_title": "Chào bán cổ phần cho cốđông hiện hữu",
+          "score": 0.03057889822595705,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_109",
+          "article": "Điều 109",
+          "article_title": "Công bốthông tin định kỳ",
+          "score": 0.027242401779095628,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_029",
+      "question": "Công ty hợp danh được pháp luật quy định như thế nào?",
+      "category": "partnership",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 177"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_177",
+          "article": "Điều 177",
+          "article_title": "Công ty hợp danh . C C",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_184",
+          "article": "Điều 184",
+          "article_title": "Điều hành kinh doanh của công ty hợp danh",
+          "score": 0.03076923076923077,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.02946236559139785,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_4",
+          "article": "Điều 4",
+          "article_title": "Giải thích từngữ",
+          "score": 0.028790389395194696,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_179",
+          "article": "Điều 179",
+          "article_title": "Tài san của công ty hợp danh lữ .",
+          "score": 0.02821939586645469,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_030",
+      "question": "Tài sản của công ty hợp danh bao gồm những gì?",
+      "category": "partnership",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 179"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_179",
+          "article": "Điều 179",
+          "article_title": "Tài san của công ty hợp danh lữ .",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_24",
+          "article": "Điều 24",
+          "article_title": "Điều lệcông ty .",
+          "score": 0.031544957774465976,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_181",
+          "article": "Điều 181",
+          "article_title": "Quyền và nghĩa vụ của thành viên hợp danh _",
+          "score": 0.031009615384615385,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_4",
+          "article": "Điều 4",
+          "article_title": "Giải thích từngữ",
+          "score": 0.03036576949620428,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_164",
+          "article": "Điều 164",
+          "article_title": "Công khai các lợi ích liên quan",
+          "score": 0.027526395173453996,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_031",
+      "question": "Việc tiếp nhận thành viên mới của công ty hợp danh được quy định như thế nào?",
+      "category": "partnership",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 186"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_186",
+          "article": "Điều 186",
+          "article_title": "Tiếp nhận thành viên mới —",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_177",
+          "article": "Điều 177",
+          "article_title": "Công ty hợp danh . C C",
+          "score": 0.0315136476426799,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_198",
+          "article": "Điều 198",
+          "article_title": "Chia công ty",
+          "score": 0.029513888888888888,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.029030910609857977,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_184",
+          "article": "Điều 184",
+          "article_title": "Điều hành kinh doanh của công ty hợp danh",
+          "score": 0.02803921568627451,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_032",
+      "question": "Doanh nghiệp tư nhân được pháp luật quy định như thế nào?",
+      "category": "sole_proprietorship",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 188"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_188",
+          "article": "Điều 188",
+          "article_title": "Doanh nghiệp tư nhân ỉ",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.029273504273504274,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_190",
+          "article": "Điều 190",
+          "article_title": "Quản lý doanh nghiệp tư nhân",
+          "score": 0.029116045245077504,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_7",
+          "article": "Điều 7",
+          "article_title": "Quyền của doanh nghiệp —",
+          "score": 0.028484848484848488,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_193",
+          "article": "Điều 193",
+          "article_title": "Thực hiện quyền của chủdoanh nghiệp tư nhân trong một số _",
+          "score": 0.028006267136701922,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_033",
+      "question": "Việc quản lý doanh nghiệp tư nhân được pháp luật quy định như thế nào?",
+      "category": "sole_proprietorship",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 190"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_190",
+          "article": "Điều 190",
+          "article_title": "Quản lý doanh nghiệp tư nhân",
+          "score": 0.032266458495966696,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.03177805800756621,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_188",
+          "article": "Điều 188",
+          "article_title": "Doanh nghiệp tư nhân ỉ",
+          "score": 0.031054405392392875,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_205",
+          "article": "Điều 205",
+          "article_title": "Chuyển đổi doanh nghiệp tư nhân thành công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh",
+          "score": 0.02821939586645469,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_4",
+          "article": "Điều 4",
+          "article_title": "Giải thích từngữ",
+          "score": 0.016129032258064516,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_034",
+      "question": "Việc bán doanh nghiệp tư nhân được quy định như thế nào?",
+      "category": "sole_proprietorship",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 192"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_188",
+          "article": "Điều 188",
+          "article_title": "Doanh nghiệp tư nhân ỉ",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_192",
+          "article": "Điều 192",
+          "article_title": "Bán doanh nghiệp tư nhân Oo",
+          "score": 0.032266458495966696,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_125",
+          "article": "Điều 125",
+          "article_title": "Chao bán cổ phần riêng lẻ",
+          "score": 0.03076923076923077,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_205",
+          "article": "Điều 205",
+          "article_title": "Chuyển đổi doanh nghiệp tư nhân thành công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh",
+          "score": 0.028309409888357256,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_130",
+          "article": "Điều 130",
+          "article_title": "Quyết định chào bán trái phiếu riêng lẻ",
+          "score": 0.028006267136701922,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "qa_035",
+      "question": "Công ty mẹ, công ty con được pháp luật quy định như thế nào?",
+      "category": "corporate_group",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 195"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_195",
+          "article": "Điều 195",
+          "article_title": "Công ty me, công ty con I II",
+          "score": 0.032266458495966696,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_194",
+          "article": "Điều 194",
+          "article_title": "Tập đoàn kinh tế, tổng công ty",
+          "score": 0.03200204813108039,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_197",
+          "article": "Điều 197",
+          "article_title": "Báo cáo tài chính của công ty mẹ, công ty con ` vui",
+          "score": 0.03177805800756621,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_196",
+          "article": "Điều 196",
+          "article_title": "Quyền, nghĩa vu va trách nhiệm của công ty me đối với công",
+          "score": 0.03128054740957967,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_64",
+          "article": "Điều 64",
+          "article_title": "Tiêu chuẩn và điều kiện làm Giám đốc, Tổng giám đốc .",
+          "score": 0.030309988518943745,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_036",
+      "question": "Việc lập báo cáo tài chính của công ty mẹ, công ty con được quy định như thế nào?",
+      "category": "corporate_group",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 197"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_197",
+          "article": "Điều 197",
+          "article_title": "Báo cáo tài chính của công ty mẹ, công ty con ` vui",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_195",
+          "article": "Điều 195",
+          "article_title": "Công ty me, công ty con I II",
+          "score": 0.03225806451612903,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_196",
+          "article": "Điều 196",
+          "article_title": "Quyền, nghĩa vu va trách nhiệm của công ty me đối với công",
+          "score": 0.031024531024531024,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_109",
+          "article": "Điều 109",
+          "article_title": "Công bốthông tin định kỳ",
+          "score": 0.0293236301369863,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_194",
+          "article": "Điều 194",
+          "article_title": "Tập đoàn kinh tế, tổng công ty",
+          "score": 0.029206349206349208,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_037",
+      "question": "Việc hợp nhất công ty được quy định như thế nào?",
+      "category": "reorganization",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 200"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_177",
+          "article": "Điều 177",
+          "article_title": "Công ty hợp danh . C C",
+          "score": 0.030776515151515152,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_198",
+          "article": "Điều 198",
+          "article_title": "Chia công ty",
+          "score": 0.026992753623188405,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_187",
+          "article": "Điều 187",
+          "article_title": "Quyền và nghĩa vụ của thành viên góp vốn",
+          "score": 0.016129032258064516,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_195",
+          "article": "Điều 195",
+          "article_title": "Công ty me, công ty con I II",
+          "score": 0.016129032258064516,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_038",
+      "question": "Việc chuyển đổi công ty trách nhiệm hữu hạn thành công ty cổ phần được quy định như thế nào?",
+      "category": "reorganization",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 202"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_199",
+          "article": "Điều 199",
+          "article_title": "Tách công ty",
+          "score": 0.032018442622950824,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_202",
+          "article": "Điều 202",
+          "article_title": "Chuyển doi công ty trách nhiệm hữu hạn thành công ty cốphần",
+          "score": 0.032018442622950824,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_203",
+          "article": "Điều 203",
+          "article_title": "Chuyển đối công ty cốphần thành công ty trách nhiệm hữu",
+          "score": 0.0315136476426799,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_204",
+          "article": "Điều 204",
+          "article_title": "Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln",
+          "score": 0.030798389007344232,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_205",
+          "article": "Điều 205",
+          "article_title": "Chuyển đổi doanh nghiệp tư nhân thành công ty trách nhiệm hữu hạn, công ty cổ phần, công ty hợp danh",
+          "score": 0.030536130536130537,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "qa_039",
+      "question": "Việc giải thể doanh nghiệp được pháp luật quy định như thế nào?",
+      "category": "dissolution",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 207"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_208",
+          "article": "Điều 208",
+          "article_title": "Trình tự, thủ tục giải thé doanh nghiệp —. __... . ` w !.",
+          "score": 0.03200204813108039,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_209",
+          "article": "Điều 209",
+          "article_title": "Giải thểdoanh nghiệp trong trường hợp bi thu hồi Giấy",
+          "score": 0.03177805800756621,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_1",
+          "article": "Điều 1",
+          "article_title": "Phạm vi điều chỉnh ——— ` Bi t I",
+          "score": 0.030303030303030304,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_210",
+          "article": "Điều 210",
+          "article_title": "Hồ sơ giải thếdoanh nghiệp",
+          "score": 0.028991596638655463,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_213",
+          "article": "Điều 213",
+          "article_title": "Chấm dứt hoạt động chi nhánh, văn phòng đại diện, địa",
+          "score": 0.028083267871170464,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 0.0,
+      "recall_at_5": 0.0,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "qa_040",
+      "question": "Hồ sơ giải thể doanh nghiệp gồm những giấy tờ gì?",
+      "category": "dissolution",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 210"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_210",
+          "article": "Điều 210",
+          "article_title": "Hồ sơ giải thếdoanh nghiệp",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_208",
+          "article": "Điều 208",
+          "article_title": "Trình tự, thủ tục giải thé doanh nghiệp —. __... . ` w !.",
+          "score": 0.03200204813108039,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_209",
+          "article": "Điều 209",
+          "article_title": "Giải thểdoanh nghiệp trong trường hợp bi thu hồi Giấy",
+          "score": 0.031754032258064516,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_20",
+          "article": "Điều 20",
+          "article_title": "Hồ sơ đăng ký công ty hợp danh",
+          "score": 0.028850145288501453,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_216",
+          "article": "Điều 216",
+          "article_title": "Cơ quan đăng ký kinh doanh",
+          "score": 0.028258706467661692,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_041",
+      "question": "Doanh nghiệp bị thu hồi Giấy chứng nhận đăng ký doanh nghiệp trong những trường hợp nào?",
+      "category": "registration_revocation",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 212"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_212",
+          "article": "Điều 212",
+          "article_title": "Thu hồi Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_209",
+          "article": "Điều 209",
+          "article_title": "Giải thểdoanh nghiệp trong trường hợp bi thu hồi Giấy",
+          "score": 0.03225806451612903,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_216",
+          "article": "Điều 216",
+          "article_title": "Cơ quan đăng ký kinh doanh",
+          "score": 0.03149801587301587,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_207",
+          "article": "Điều 207",
+          "article_title": "Các trường hợp và điều kiện giải thểdoanh nghiệp",
+          "score": 0.030309988518943745,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_30",
+          "article": "Điều 30",
+          "article_title": "Đăng ký thay đổi nội dung Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.02964426877470356,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_042",
+      "question": "Phần vốn góp trong các trường hợp đặc biệt của công ty trách nhiệm hữu hạn hai thành viên trở lên được xử lý như thế nào?",
+      "category": "multi_member_llc",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 53"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_46",
+          "article": "Điều 46",
+          "article_title": "Công ty trách nhiệm hữu hạn hai thành viên trở lên",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_47",
+          "article": "Điều 47",
+          "article_title": "Góp vốn thành lập công ty và cấp giấy chứng nhận phần vốn góp",
+          "score": 0.03076923076923077,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_53",
+          "article": "Điều 53",
+          "article_title": "Xửlý phần vốn góp trong một sốtrường hợp đặc biệt",
+          "score": 0.03057889822595705,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_52",
+          "article": "Điều 52",
+          "article_title": "Chuyển nhượng phần vốn góp",
+          "score": 0.030303030303030304,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 0.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "id": "qa_043",
+      "question": "Những tổ chức, cá nhân nào không có quyền thành lập và quản lý doanh nghiệp?",
+      "category": "enterprise_establishment",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 17"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_188",
+          "article": "Điều 188",
+          "article_title": "Doanh nghiệp tư nhân ỉ",
+          "score": 0.03252247488101534,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.032018442622950824,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_79",
+          "article": "Điều 79",
+          "article_title": "Cơ cấu tổ chức quản lý của công ty trách nhiệm hữu hạn một thành viên do tổ chức làm chủ sở hữu",
+          "score": 0.030158730158730156,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_194",
+          "article": "Điều 194",
+          "article_title": "Tập đoàn kinh tế, tổng công ty",
+          "score": 0.016129032258064516,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_190",
+          "article": "Điều 190",
+          "article_title": "Quản lý doanh nghiệp tư nhân",
+          "score": 0.015873015873015872,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "qa_044",
+      "question": "Việc tiếp nhận thành viên mới của công ty hợp danh được quy định như thế nào?",
+      "category": "partnership",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 186"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_186",
+          "article": "Điều 186",
+          "article_title": "Tiếp nhận thành viên mới —",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_177",
+          "article": "Điều 177",
+          "article_title": "Công ty hợp danh . C C",
+          "score": 0.0315136476426799,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_198",
+          "article": "Điều 198",
+          "article_title": "Chia công ty",
+          "score": 0.029513888888888888,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.029030910609857977,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_184",
+          "article": "Điều 184",
+          "article_title": "Điều hành kinh doanh của công ty hợp danh",
+          "score": 0.02803921568627451,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_045",
+      "question": "Tập đoàn kinh tế, tổng công ty trong nhóm công ty được pháp luật quy định như thế nào?",
+      "category": "corporate_group",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 194"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_194",
+          "article": "Điều 194",
+          "article_title": "Tập đoàn kinh tế, tổng công ty",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59_signed_điều_88",
+          "article": "Điều 88",
+          "article_title": "Doanh nghiệp nhà nước",
+          "score": 0.030834914611005692,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_177",
+          "article": "Điều 177",
+          "article_title": "Công ty hợp danh . C C",
+          "score": 0.02819138376017471,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_71",
+          "article": "Điều 71",
+          "article_title": "Trách nhiệm của Chủtịch Hội đồng thành viên, Giám đốc,",
+          "score": 0.027583600982429624,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_195",
+          "article": "Điều 195",
+          "article_title": "Công ty me, công ty con I II",
+          "score": 0.016129032258064516,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_046",
+      "question": "Việc chia công ty được pháp luật doanh nghiệp quy định như thế nào?",
+      "category": "reorganization",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 198"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_198",
+          "article": "Điều 198",
+          "article_title": "Chia công ty",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_199",
+          "article": "Điều 199",
+          "article_title": "Tách công ty",
+          "score": 0.03149801587301587,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_111",
+          "article": "Điều 111",
+          "article_title": "Công ty cổ phần",
+          "score": 0.028991596638655463,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_200",
+          "article": "Điều 200",
+          "article_title": "Hợp nhất công ty",
+          "score": 0.028370221327967807,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59tiep_điều_208",
+          "article": "Điều 208",
+          "article_title": "Trình tự, thủ tục giải thé doanh nghiệp —. __... . ` w !.",
+          "score": 0.02651914295749912,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_047",
+      "question": "Thủ tục tách công ty trách nhiệm hữu hạn và công ty cổ phần được quy định như thế nào?",
+      "category": "reorganization",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 199"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_199",
+          "article": "Điều 199",
+          "article_title": "Tách công ty",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_198",
+          "article": "Điều 198",
+          "article_title": "Chia công ty",
+          "score": 0.03225806451612903,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.029631255487269532,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_77",
+          "article": "Điều 77",
+          "article_title": "Nghĩa vụ của chủ sở hữu công ty",
+          "score": 0.028693528693528692,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_74",
+          "article": "Điều 74",
+          "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
+          "score": 0.015873015873015872,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "qa_048",
+      "question": "Việc chuyển đổi công ty cổ phần thành công ty trách nhiệm hữu hạn một thành viên được quy định như thế nào?",
+      "category": "reorganization",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 203"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59_signed_điều_74",
+          "article": "Điều 74",
+          "article_title": "Công ty trách nhiệm hữu hạn một thành viên",
+          "score": 0.03131881575727918,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_203",
+          "article": "Điều 203",
+          "article_title": "Chuyển đối công ty cốphần thành công ty trách nhiệm hữu",
+          "score": 0.03128054740957967,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59tiep_điều_204",
+          "article": "Điều 204",
+          "article_title": "Chuyển đổi công ty cổ phần thành công ty trách nhiệm hạn hữu— hai thành viên trở lên _ | IN LỄ BH IN ln",
+          "score": 0.03125763125763126,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59tiep_điều_199",
+          "article": "Điều 199",
+          "article_title": "Tách công ty",
+          "score": 0.031024531024531024,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_87",
+          "article": "Điều 87",
+          "article_title": "Tăng, giảm vốn điều lệ .",
+          "score": 0.030834914611005692,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 0.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "qa_049",
+      "question": "Cơ quan đăng ký kinh doanh có nhiệm vụ và quyền hạn gì?",
+      "category": "business_registration_authority",
+      "expected": [
+        {
+          "law_id": "59/2020/qh14",
+          "article": "điều 216"
+        }
+      ],
+      "retrieved": [
+        {
+          "rank": 1,
+          "chunk_id": "59tiep_điều_216",
+          "article": "Điều 216",
+          "article_title": "Cơ quan đăng ký kinh doanh",
+          "score": 0.03278688524590164,
+          "source": "hybrid"
+        },
+        {
+          "rank": 2,
+          "chunk_id": "59tiep_điều_215",
+          "article": "Điều 215",
+          "article_title": "Trách nhiệm các cơ quan quản lý nhà nước .",
+          "score": 0.03076923076923077,
+          "source": "hybrid"
+        },
+        {
+          "rank": 3,
+          "chunk_id": "59_signed_điều_45",
+          "article": "Điều 45",
+          "article_title": "Đăng ký hoạt động chi nhánh, văn phòng đại diện của doanh",
+          "score": 0.03057889822595705,
+          "source": "hybrid"
+        },
+        {
+          "rank": 4,
+          "chunk_id": "59_signed_điều_30",
+          "article": "Điều 30",
+          "article_title": "Đăng ký thay đổi nội dung Giấy chứng nhận đăng ký doanh nghiệp",
+          "score": 0.03007688828584351,
+          "source": "hybrid"
+        },
+        {
+          "rank": 5,
+          "chunk_id": "59_signed_điều_17",
+          "article": "Điều 17",
+          "article_title": "Quyền thành lập, góp vốn, mua cổ phần, mua phần vốn góp quản lý doanh nghiệp",
+          "score": 0.016129032258064516,
+          "source": "hybrid"
+        }
+      ],
+      "hit_at_1": 1.0,
+      "hit_at_3": 1.0,
+      "hit_at_5": 1.0,
+      "recall_at_5": 1.0,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}
