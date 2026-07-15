@@ -37,8 +37,9 @@ RUN uv sync --frozen --no-dev --no-install-project
 COPY --chown=app:app . .
 
 RUN uv sync --frozen --no-dev \
-    && python -m compileall -q src
+    && python -m compileall -q src \
+    && python -m src.indexing.ensure_indexes
 
-EXPOSE 8000 8501
+EXPOSE 8000 8501 10000
 
-CMD ["uvicorn", "src.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "python -m src.indexing.ensure_indexes && exec uvicorn src.api.main:app --host 0.0.0.0 --port \"${PORT:-8000}\""]

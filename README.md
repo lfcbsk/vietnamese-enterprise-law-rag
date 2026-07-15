@@ -467,7 +467,9 @@ Response có dạng:
 
 ## Chạy bằng Docker
 
-Docker image đã bao gồm Python 3.12, dependencies và Tesseract `vie+eng`.
+Docker image đã bao gồm Python 3.12, dependencies, Tesseract `vie+eng` và
+retrieval indexes được tạo từ `data/law_chunks.json`. Khi container khởi động,
+`ensure_indexes` kiểm tra lại và chỉ build nếu index thiếu hoặc đã stale.
 
 ### 1. Chuẩn bị `.env`
 
@@ -523,9 +525,10 @@ docker compose run --rm indexer
 docker compose restart api
 ```
 
-Thư mục `./data` được bind vào container. Model Hugging Face được giữ trong
-named volume `huggingface-cache`. `.env`, SQLite database và index runtime không
-được copy vào image hoặc commit lên Git.
+Khi chạy Compose, thư mục `./data` được bind vào container và thay thế dữ liệu
+đã tạo trong image; service `indexer` sẽ chuẩn bị index trong thư mục này. Model
+Hugging Face được giữ trong named volume `huggingface-cache`. `.env` và SQLite
+database không được copy vào image hoặc commit lên Git.
 
 ## Cấu hình
 
