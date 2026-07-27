@@ -1,199 +1,209 @@
 from __future__ import annotations
 
-import os
+import logging
+from collections.abc import Callable
+from typing import Any
 
-import requests
-import streamlit as st
-from dotenv import load_dotenv
+import gradio as gr
 
-load_dotenv()
+logger = logging.getLogger(__name__)
 
-API_URL = os.getenv("API_URL", "http://127.0.0.1:8000").rstrip("/")
+ChatHandler = Callable[[str, str | None], dict[str, Any]]
+ReadinessHandler = Callable[[], tuple[bool, str]]
+
+EXAMPLES = [
+    "Điều 111 quy định gì?",
+    "Khoản 2 Điều 17 nói gì?",
+    "Quyền của cổ đông phổ thông là gì?",
+    "So sánh Điều 111 với Điều 120.",
+]
+
+CSS = """
+.gradio-container {
+    max-width: 980px !important;
+    margin: 0 auto !important;
+}
+.legal-note {
+    border-left: 4px solid var(--primary-500);
+    padding: 0.65rem 0.9rem;
+    background: var(--background-fill-secondary);
+    border-radius: 0.4rem;
+}
+"""
 
 
-st.set_page_config(
-    page_title="Vietnamese Enterprise Law Assistant",
-    page_icon="⚖️",
-    layout="centered",
-)
+def _format_sources(sources: list[dict[str, Any]]) -> str:
+    if not sources:
+        return ""
 
-st.title("⚖️ Trợ lý Luật Doanh nghiệp Việt Nam")
-st.caption(
-    "Hệ thống RAG hỗ trợ tra cứu Luật Doanh nghiệp 2020. "
-    "Câu trả lời chỉ mang tính tham khảo."
-)
+    lines = ["", "---", "**Nguồn tham khảo**"]
+    for source in sources:
+        article = source.get("article") or "Không rõ điều"
+        title = source.get("article_title")
+        pages = _format_pages(source.get("page_start"), source.get("page_end"))
 
-if "messages" not in st.session_state:
-    st.session_state.messages = []
+        description = str(article)
+        if title:
+            description += f" — {title}"
+        if pages:
+            description += f" ({pages})"
+        lines.append(f"- {description}")
 
-if "conversation_id" not in st.session_state:
-    st.session_state.conversation_id = None
+    return "\n".join(lines)
 
 
-def call_chat_api(
-    question: str,
+def _format_pages(page_start: Any, page_end: Any) -> str:
+    if not page_start:
+        return ""
+    if page_end and page_end != page_start:
+        return f"trang {page_start}–{page_end}"
+    return f"trang {page_start}"
+
+
+def handle_message(
+    message: str,
+    history: list[dict[str, Any]] | None,
     conversation_id: str | None,
-) -> dict:
-    payload = {
-        "question": question,
-        "conversation_id": conversation_id,
-    }
-
-    response = requests.post(
-        f"{API_URL}/chat",
-        json=payload,
-        timeout=120,
-    )
-    response.raise_for_status()
-    return response.json()
-
-
-@st.cache_data(ttl=5, show_spinner=False)
-def check_api_health(api_url: str) -> tuple[bool, str]:
-    try:
-        response = requests.get(
-            f"{api_url}/health",
-            timeout=5,
+    chat_handler: ChatHandler,
+) -> tuple[str, list[dict[str, Any]], str | None, str]:
+    """Handle one Gradio turn while keeping the callback easy to unit test."""
+    question = message.strip()
+    current_history = list(history or [])
+    if not question:
+        return (
+            "",
+            current_history,
+            conversation_id,
+            "⚠️ Vui lòng nhập câu hỏi.",
         )
-        response.raise_for_status()
-        payload = response.json()
-        if payload.get("status") != "ok":
-            return False, f"Phản hồi không hợp lệ: {payload}"
-        return True, "Backend đang hoạt động"
-    except (requests.RequestException, ValueError) as error:
-        return False, str(error)
 
-
-def get_api_error_detail(error: requests.RequestException) -> str:
-    response = error.response
-    if response is None:
-        return str(error)
+    current_history.append({"role": "user", "content": question})
 
     try:
-        detail = response.json().get("detail")
-    except (requests.JSONDecodeError, ValueError):
-        detail = None
+        result = chat_handler(question, conversation_id)
+    except Exception:
+        logger.exception("Gradio chat request failed")
+        current_history.append(
+            {
+                "role": "assistant",
+                "content": (
+                    "Không thể xử lý câu hỏi lúc này. Mô hình có thể đang "
+                    "khởi tạo hoặc dịch vụ LLM đang tạm thời không khả dụng. "
+                    "Vui lòng thử lại sau."
+                ),
+            }
+        )
+        return (
+            "",
+            current_history,
+            conversation_id,
+            "❌ Yêu cầu thất bại. Xem log máy chủ để biết chi tiết.",
+        )
 
-    message = str(detail or error)
-    return f"{message} (HTTP {response.status_code}, URL: {response.url})"
-
-
-with st.sidebar:
-    st.subheader("Phiên hội thoại")
-
-    st.caption("Backend API")
-    st.code(API_URL, language=None)
-    backend_ready, backend_status = check_api_health(API_URL)
-    if backend_ready:
-        st.success(backend_status)
-    else:
-        st.error(f"Không kết nối được backend: {backend_status}")
-
-    if st.button("Tạo cuộc hội thoại mới", use_container_width=True):
-        st.session_state.messages = []
-        st.session_state.conversation_id = None
-        st.rerun()
-
-    st.write(
-        "Conversation ID:",
-        st.session_state.conversation_id or "Chưa có",
-    )
-
-for message in st.session_state.messages:
-    with st.chat_message(message["role"]):
-        st.markdown(message["content"])
-
-        sources = message.get("sources", [])
-        if sources:
-            with st.expander("Nguồn tham khảo"):
-                for source in sources:
-                    article = source.get("article", "Không rõ điều")
-                    law_name = source.get(
-                        "law_name",
-                        "Luật Doanh nghiệp 2020",
-                    )
-                    st.markdown(f"- **{article}** — {law_name}")
-
-question = st.chat_input("Nhập câu hỏi pháp lý...")
-
-if question:
-    st.session_state.messages.append(
+    answer = str(result.get("answer") or "Không nhận được câu trả lời.")
+    sources = result.get("sources") or []
+    current_history.append(
         {
-            "role": "user",
-            "content": question,
+            "role": "assistant",
+            "content": answer + _format_sources(sources),
         }
     )
+    next_conversation_id = result.get("conversation_id") or conversation_id
 
-    with st.chat_message("user"):
-        st.markdown(question)
+    return (
+        "",
+        current_history,
+        next_conversation_id,
+        f"✅ Đã trả lời · Phiên: `{next_conversation_id}`",
+    )
 
-    with st.chat_message("assistant"):
-        with st.spinner("Đang tra cứu văn bản pháp luật..."):
-            try:
-                result = call_chat_api(
-                    question=question,
-                    conversation_id=(
-                        st.session_state.conversation_id
-                    ),
-                )
 
-                answer = result.get(
-                    "answer",
-                    "Không nhận được câu trả lời.",
-                )
-                sources = result.get("sources", [])
+def create_demo(
+    chat_handler: ChatHandler,
+    readiness_handler: ReadinessHandler,
+) -> gr.Blocks:
+    """Create a Gradio UI that is mounted by the FastAPI application."""
 
-                st.session_state.conversation_id = result.get(
-                    "conversation_id"
-                )
+    def submit_message(
+        message: str,
+        history: list[dict[str, Any]] | None,
+        conversation_id: str | None,
+    ) -> tuple[str, list[dict[str, Any]], str | None, str]:
+        return handle_message(
+            message,
+            history,
+            conversation_id,
+            chat_handler,
+        )
 
-                st.markdown(answer)
+    def reset_conversation() -> tuple[list[Any], None, str, str]:
+        return [], None, "", "🆕 Đã tạo phiên hội thoại mới."
 
-                if sources:
-                    with st.expander("Nguồn tham khảo"):
-                        for source in sources:
-                            article = source.get(
-                                "article",
-                                "Không rõ điều",
-                            )
-                            law_name = source.get(
-                                "law_name",
-                                "Luật Doanh nghiệp 2020",
-                            )
-                            st.markdown(
-                                f"- **{article}** — {law_name}"
-                            )
+    def show_readiness() -> str:
+        ready, detail = readiness_handler()
+        icon = "✅" if ready else "⏳"
+        return f"{icon} {detail}"
 
-                st.session_state.messages.append(
-                    {
-                        "role": "assistant",
-                        "content": answer,
-                        "sources": sources,
-                    }
-                )
+    with gr.Blocks(title="Trợ lý Luật Doanh nghiệp Việt Nam") as demo:
+        gr.Markdown(
+            """
+            # ⚖️ Trợ lý Luật Doanh nghiệp Việt Nam
 
-            except requests.Timeout:
-                error_message = (
-                    "Máy chủ phản hồi quá lâu. "
-                    "Vui lòng thử lại."
-                )
-                st.error(error_message)
-                st.session_state.messages.append(
-                    {
-                        "role": "assistant",
-                        "content": error_message,
-                    }
-                )
+            Tra cứu Luật Doanh nghiệp 2020 bằng RAG, có dẫn nguồn theo điều luật.
+            """
+        )
+        gr.Markdown(
+            (
+                "Câu trả lời chỉ mang tính tham khảo, không thay thế tư vấn "
+                "pháp lý từ người có chuyên môn."
+            ),
+            elem_classes=["legal-note"],
+        )
 
-            except requests.RequestException as exc:
-                error_message = (
-                    "Backend không thể xử lý yêu cầu: "
-                    f"{get_api_error_detail(exc)}"
-                )
-                st.error(error_message)
-                st.session_state.messages.append(
-                    {
-                        "role": "assistant",
-                        "content": error_message,
-                    }
-                )
+        conversation_id = gr.State(value=None)
+        status = gr.Markdown("⏳ Đang kiểm tra trạng thái mô hình...")
+        chatbot = gr.Chatbot(
+            height=520,
+            layout="bubble",
+            placeholder="Hãy chọn một câu hỏi mẫu hoặc nhập câu hỏi pháp lý.",
+            buttons=["copy"],
+        )
+
+        with gr.Row():
+            question = gr.Textbox(
+                placeholder="Nhập câu hỏi pháp lý...",
+                label="Câu hỏi",
+                lines=2,
+                max_lines=5,
+                scale=8,
+            )
+            submit = gr.Button("Gửi", variant="primary", scale=1)
+
+        with gr.Row():
+            new_conversation = gr.Button("Tạo hội thoại mới")
+            gr.Markdown("[API docs](/docs) · [Health](/health)")
+
+        gr.Examples(
+            examples=EXAMPLES,
+            inputs=question,
+            label="Câu hỏi gợi ý",
+        )
+
+        outputs = [question, chatbot, conversation_id, status]
+        submit.click(
+            submit_message,
+            inputs=[question, chatbot, conversation_id],
+            outputs=outputs,
+        )
+        question.submit(
+            submit_message,
+            inputs=[question, chatbot, conversation_id],
+            outputs=outputs,
+        )
+        new_conversation.click(
+            reset_conversation,
+            outputs=[chatbot, conversation_id, question, status],
+        )
+        demo.load(show_readiness, outputs=status)
+
+    return demo.queue(default_concurrency_limit=2)

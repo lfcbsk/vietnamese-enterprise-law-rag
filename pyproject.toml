@@ -27,9 +27,8 @@ dependencies = [
     "langgraph==1.2.9",
     "langgraph-checkpoint-sqlite==3.1.0",
 
-    # Giao diện Streamlit
-    "requests==2.34.2",
-    "streamlit==1.59.2",
+    # Giao diện Gradio được mount trực tiếp vào FastAPI
+    "gradio==6.20.0",
 ]
 
 [dependency-groups]

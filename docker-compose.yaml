@@ -49,38 +49,5 @@ services:
       start_period: 60s
     restart: unless-stopped
 
-  frontend:
-    <<: *rag-service
-    command:
-      - streamlit
-      - run
-      - src/app/app.py
-      - --server.address
-      - 0.0.0.0
-      - --server.port
-      - "8501"
-      - --server.headless
-      - "true"
-    environment:
-      API_URL: http://api:8000
-    ports:
-      - "8501:8501"
-    depends_on:
-      api:
-        condition: service_healthy
-    healthcheck:
-      test:
-        - CMD
-        - python
-        - -c
-        - >-
-          import urllib.request;
-          urllib.request.urlopen('http://127.0.0.1:8501/_stcore/health', timeout=5)
-      interval: 10s
-      timeout: 5s
-      retries: 12
-      start_period: 30s
-    restart: unless-stopped
-
 volumes:
   huggingface-cache:

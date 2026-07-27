@@ -49,13 +49,27 @@ def chat(
     payload: ChatRequest,
     request: Request,
 ) -> ChatResponse:
+    initialization_status = getattr(
+        request.app.state,
+        "initialization_status",
+        "initializing",
+    )
+    engine = getattr(request.app.state, "rag_engine", None)
+    if initialization_status != "ready" or engine is None:
+        detail = (
+            "Khởi tạo RAG engine thất bại. Vui lòng kiểm tra log máy chủ."
+            if initialization_status == "failed"
+            else "Mô hình đang khởi tạo. Vui lòng thử lại sau."
+        )
+        raise HTTPException(status_code=503, detail=detail)
+
     conversation_id = (
         payload.conversation_id
         or str(uuid4())
     )
 
     try:
-        result = request.app.state.rag_engine.ask(
+        result = engine.ask(
             conversation_id=conversation_id,
             question=payload.question.strip(),
         )

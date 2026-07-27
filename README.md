@@ -8,8 +8,7 @@ khảo.
 
 Project cung cấp:
 
-- FastAPI backend cho API hỏi đáp;
-- Streamlit frontend để chat trên trình duyệt;
+- FastAPI phục vụ API hỏi đáp và Gradio UI trên cùng một process;
 - LangGraph để điều phối rewrite → retrieve → generate và lưu hội thoại;
 - ChromaDB + Sentence Transformers cho semantic retrieval;
 - BM25 cho lexical retrieval;
@@ -54,7 +53,7 @@ flowchart TD
     end
 
     subgraph ONLINE["2. RAG query pipeline - chạy cho mỗi câu hỏi"]
-        USER["Người dùng / Streamlit"] --> API["POST /chat - FastAPI"]
+        USER["Người dùng / Gradio"] --> API["FastAPI + Gradio"]
         API --> REWRITE["Rewrite câu hỏi theo lịch sử hội thoại"]
         REWRITE --> EXPLICIT{"Có nêu rõ Điều N?"}
 
@@ -185,10 +184,10 @@ Trên bộ evaluation hiện tại, Hybrid giữ nguyên `Hit@1` của Dense nh�
 │   │   ├── config.py             # Đọc cấu hình từ .env
 │   │   └── main.py               # FastAPI application
 │   └── app/
-│       └── app.py                # Streamlit frontend
+│       └── app.py                # Gradio UI được mount vào FastAPI
 ├── tests/                         # Unit test retrieval và OCR segment fix
 ├── .env.example                   # Mẫu biến môi trường
-├── docker-compose.yaml            # Indexer, API và frontend services
+├── docker-compose.yaml            # Indexer và unified API/UI service
 ├── Dockerfile                     # Image Python 3.12 + uv + Tesseract
 ├── pyproject.toml                 # Dependencies và cấu hình project
 └── uv.lock                        # Lock toàn bộ dependency
@@ -269,7 +268,7 @@ model embedding và số lượng chunk:
 
 Lần đầu có thể mất vài phút vì phải tải model embedding và sinh vector trên CPU.
 
-### 4. Chạy FastAPI backend
+### 4. Chạy FastAPI + Gradio
 
 Mở terminal thứ nhất:
 
@@ -279,19 +278,13 @@ uv run uvicorn src.api.main:app --host 127.0.0.1 --port 8000 --reload
 
 Kiểm tra:
 
+- Gradio UI: <http://127.0.0.1:8000/app>
 - Health: <http://127.0.0.1:8000/health>
 - Swagger UI: <http://127.0.0.1:8000/docs>
 - OpenAPI JSON: <http://127.0.0.1:8000/openapi.json>
 
-### 5. Chạy Streamlit frontend
-
-Giữ backend đang chạy và mở terminal thứ hai:
-
-```powershell
-uv run streamlit run src/app/app.py --server.port 8501
-```
-
-Mở <http://127.0.0.1:8501> và nhập câu hỏi. Ví dụ:
+Gradio được mount trực tiếp vào FastAPI nên không cần mở terminal hoặc port frontend
+riêng. Mở <http://127.0.0.1:8000/app> và nhập câu hỏi. Ví dụ:
 
 ```text
 Điều 111 quy định gì?
@@ -311,8 +304,8 @@ python -m pip install --upgrade pip
 python -m pip install -e .
 ```
 
-Sau đó thay `uv run python` bằng `python`, `uv run uvicorn` bằng `uvicorn` và
-`uv run streamlit` bằng `streamlit` trong các lệnh ở trên.
+Sau đó thay `uv run python` bằng `python` và `uv run uvicorn` bằng `uvicorn`
+trong các lệnh ở trên.
 
 ## Chuẩn bị lại dữ liệu và index
 
@@ -488,13 +481,12 @@ docker compose up --build
 Compose khởi động theo thứ tự:
 
 1. `indexer` kiểm tra và tạo index nếu cần;
-2. `api` chạy sau khi indexer hoàn thành;
-3. `frontend` chạy sau khi API healthy.
+2. `api` chạy FastAPI và Gradio sau khi indexer hoàn thành.
 
 Truy cập:
 
-- Streamlit: <http://127.0.0.1:8501>
-- FastAPI: <http://127.0.0.1:8000>
+- Gradio UI: <http://127.0.0.1:8000/app>
+- FastAPI root: <http://127.0.0.1:8000>
 - Swagger: <http://127.0.0.1:8000/docs>
 
 Chạy nền và xem log:
@@ -509,7 +501,6 @@ Xem log riêng từng service:
 ```powershell
 docker compose logs --follow indexer
 docker compose logs --follow api
-docker compose logs --follow frontend
 ```
 
 Dừng stack nhưng giữ dữ liệu/index/model cache:
@@ -548,7 +539,6 @@ Các biến trong `.env.example`:
 | `EMBEDDING_BATCH_SIZE` | `16` | Batch size khi sinh embedding |
 | `CHROMA_PERSIST_DIR` | `data/chroma_db` | Thư mục ChromaDB persistent |
 | `CHROMA_COLLECTION_NAME` | `law_chunks` | Tên Chroma collection |
-| `API_URL` | `http://127.0.0.1:8000` | Backend URL mà Streamlit gọi |
 
 Khi đổi `EMBEDDING_MODEL_NAME`, `CHROMA_PERSIST_DIR` hoặc
 `CHROMA_COLLECTION_NAME`, cần build lại dense index.
@@ -657,7 +647,8 @@ môi trường đích.
 ### `GET /chat` trả `405 Method Not Allowed`
 
 Đây là hành vi đúng vì `/chat` chỉ nhận `POST`. Dùng Swagger tại
-<http://127.0.0.1:8000/docs>, Streamlit hoặc gửi JSON bằng PowerShell/curl.
+<http://127.0.0.1:8000/docs>, Gradio tại <http://127.0.0.1:8000/app> hoặc gửi
+JSON bằng PowerShell/curl.
 `GET /favicon.ico 404` không ảnh hưởng API.
 
 ### `POST /chat` trả `500 Internal Server Error`
@@ -729,11 +720,10 @@ lần đầu và được tái sử dụng ở những lần sau.
 Đảm bảo `.env` nằm ở thư mục gốc, chứa key thật và Uvicorn được chạy từ thư mục
 gốc repository. Khởi động lại backend sau khi sửa `.env`.
 
-### Streamlit không kết nối được backend
+### Gradio UI không mở được
 
-Kiểm tra <http://127.0.0.1:8000/health>, terminal Uvicorn và giá trị `API_URL`.
-Khi chạy Docker, frontend phải dùng địa chỉ nội bộ `http://api:8000`; Compose đã
-cấu hình sẵn giá trị này.
+Kiểm tra <http://127.0.0.1:8000/health> và terminal Uvicorn. Gradio chạy trong
+cùng process FastAPI tại `/app`, vì vậy không có service hoặc `API_URL` riêng.
 
 ### Tesseract không có language `vie`
 
