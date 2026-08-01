@@ -1,6 +1,6 @@
 from types import SimpleNamespace
 
-from langchain_core.messages import AIMessage, HumanMessage
+from langchain_core.messages import AIMessage, HumanMessage, SystemMessage
 
 from src.api.services.rag_engine import RAGEngine
 from src.retrieval.article_lookup import (
@@ -73,7 +73,7 @@ def test_lookup_returns_empty_for_semantic_or_unknown_article() -> None:
     assert lookup.search("Điều 999 quy định gì?") == []
 
 
-def test_rag_engine_skips_hybrid_when_direct_lookup_succeeds() -> None:
+def test_article_lookup_success_routes_directly_to_generate() -> None:
     direct_result = RetrievalResult(
         chunk_id="law_dieu_111",
         content="Điều 111. Công ty cổ phần...",
@@ -90,34 +90,57 @@ def test_rag_engine_skips_hybrid_when_direct_lookup_succeeds() -> None:
         def search(self, query: str, top_k: int) -> list[RetrievalResult]:
             return [direct_result]
 
-    class HybridMustNotRun:
-        def search(self, *args: object, **kwargs: object) -> list[RetrievalResult]:
-            raise AssertionError("Hybrid không được chạy khi direct lookup thành công")
-
     engine = object.__new__(RAGEngine)
     engine.article_lookup = DirectLookupStub()
-    engine.retriever = HybridMustNotRun()
     engine.settings = SimpleNamespace(rag_top_k=5, rag_candidate_k=40)
 
-    response = engine._retrieve({"standalone_query": "Điều 111 quy định gì?"})
+    response = engine._article_lookup(
+        {"standalone_query": "Điều 111 quy định gì?"}
+    )
 
     assert response["sources"][0]["article"] == "Điều 111"
     assert "Điều 111. Công ty cổ phần" in response["context"]
+    assert response["lookup_succeeded"] is True
+    assert engine._route_retrieval(response) == "direct"
+
+
+def test_article_lookup_miss_routes_to_hybrid_retrieval() -> None:
+    class EmptyLookupStub:
+        def search(self, query: str, top_k: int) -> list[RetrievalResult]:
+            return []
+
+    engine = object.__new__(RAGEngine)
+    engine.article_lookup = EmptyLookupStub()
+    engine.settings = SimpleNamespace(rag_top_k=5)
+
+    response = engine._article_lookup(
+        {"standalone_query": "Quyền của cổ đông là gì?"}
+    )
+
+    assert response == {
+        "context": "",
+        "sources": [],
+        "lookup_succeeded": False,
+    }
+    assert engine._route_retrieval(response) == "hybrid"
 
 
 def test_structural_follow_up_reuses_previous_article_without_llm() -> None:
     engine = object.__new__(RAGEngine)
 
-    response = engine._rewrite_query(
-        {
-            "messages": [
-                HumanMessage(content="Điều 111 quy định gì?"),
-                AIMessage(content="Điều 111 quy định về công ty cổ phần."),
-                HumanMessage(content="Khoản 2 nói gì?"),
-            ],
-            "standalone_query": "Điều 111 quy định gì?",
-            "sources": [{"article": "Điều 111"}],
-        }
+    state = {
+        "messages": [
+            HumanMessage(content="Điều 111 quy định gì?"),
+            AIMessage(content="Điều 111 quy định về công ty cổ phần."),
+            HumanMessage(content="Khoản 2 nói gì?"),
+        ],
+        "standalone_query": "Điều 111 quy định gì?",
+        "sources": [{"article": "Điều 111"}],
+    }
+
+    assert engine._route_query_rewrite(state) == "structural"
+    response = engine._rewrite_structural_query(
+        state
     )
 
     assert response == {
@@ -125,19 +148,36 @@ def test_structural_follow_up_reuses_previous_article_without_llm() -> None:
     }
 
 
-def test_semantic_follow_up_does_not_force_previous_article() -> None:
+def test_semantic_follow_up_is_rewritten_from_short_memory() -> None:
+    class RewriteLLMStub:
+        def __init__(self) -> None:
+            self.messages: list[object] = []
+
+        def invoke(self, messages: list[object]) -> AIMessage:
+            self.messages = messages
+            return AIMessage(
+                content="Quyền của cổ đông trong công ty cổ phần là gì?"
+            )
+
     engine = object.__new__(RAGEngine)
+    engine.llm = RewriteLLMStub()
 
-    response = engine._rewrite_query(
-        {
-            "messages": [
-                HumanMessage(content="Điều 111 quy định gì?"),
-                AIMessage(content="Điều 111 quy định về công ty cổ phần."),
-                HumanMessage(content="Vậy quyền cổ đông thì sao?"),
-            ],
-            "standalone_query": "Điều 111 quy định gì?",
-            "sources": [{"article": "Điều 111"}],
-        }
-    )
+    state = {
+        "messages": [
+            HumanMessage(content="Điều 111 quy định gì?"),
+            AIMessage(content="Điều 111 quy định về công ty cổ phần."),
+            HumanMessage(content="Vậy quyền cổ đông thì sao?"),
+        ],
+        "standalone_query": "Điều 111 quy định gì?",
+        "sources": [{"article": "Điều 111"}],
+    }
 
-    assert response == {"standalone_query": "Vậy quyền cổ đông thì sao?"}
+    assert engine._route_query_rewrite(state) == "llm"
+    response = engine._rewrite_query_with_llm(state)
+
+    assert response == {
+        "standalone_query": "Quyền của cổ đông trong công ty cổ phần là gì?"
+    }
+    assert len(engine.llm.messages) == 4
+    assert isinstance(engine.llm.messages[0], SystemMessage)
+    assert engine.llm.messages[-1].content == "Vậy quyền cổ đông thì sao?"

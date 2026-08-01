@@ -25,6 +25,7 @@ from src.generation.context_builder import (
 )
 from src.generation.prompts import (
     LEGAL_SYSTEM_PROMPT,
+    REWRITE_QUERY_PROMPT,
 )
 from src.memory.checkpointer import (
     create_sqlite_checkpointer,
@@ -35,15 +36,18 @@ from src.retrieval.title_reranker import rerank_by_title
 
 
 _STRUCTURAL_FOLLOW_UP = re.compile(
-    r"\b(khoản|điểm|điều này|quy định này|nội dung này|nó)\b",
+    r"\b(khoản|điểm|điều này)\b",
     re.IGNORECASE,
 )
+
+_SHORT_MEMORY_MESSAGE_LIMIT = 8
 
 
 class RAGState(MessagesState):
     standalone_query: str
     context: str
     sources: list[dict[str, Any]]
+    lookup_succeeded: bool
 
 
 class RAGEngine:
@@ -73,71 +77,126 @@ class RAGEngine:
         builder = StateGraph(RAGState)
 
         builder.add_node(
-            "rewrite_query",
-            self._rewrite_query,
+            "use_original_query",
+            self._use_original_query,
         )
         builder.add_node(
-            "retrieve",
-            self._retrieve,
+            "rewrite_structural_query",
+            self._rewrite_structural_query,
+        )
+        builder.add_node(
+            "rewrite_query_with_llm",
+            self._rewrite_query_with_llm,
+        )
+        builder.add_node(
+            "article_lookup",
+            self._article_lookup,
+        )
+        builder.add_node(
+            "hybrid_retrieve",
+            self._hybrid_retrieve,
         )
         builder.add_node(
             "generate",
             self._generate,
         )
 
-        builder.add_edge(START, "rewrite_query")
-        builder.add_edge(
-            "rewrite_query",
-            "retrieve",
+        builder.add_conditional_edges(
+            START,
+            self._route_query_rewrite,
+            {
+                "original": "use_original_query",
+                "structural": "rewrite_structural_query",
+                "llm": "rewrite_query_with_llm",
+            },
         )
-        builder.add_edge("retrieve", "generate")
+        builder.add_edge("use_original_query", "article_lookup")
+        builder.add_edge("rewrite_structural_query", "article_lookup")
+        builder.add_edge("rewrite_query_with_llm", "article_lookup")
+        builder.add_conditional_edges(
+            "article_lookup",
+            self._route_retrieval,
+            {
+                "direct": "generate",
+                "hybrid": "hybrid_retrieve",
+            },
+        )
+        builder.add_edge("hybrid_retrieve", "generate")
         builder.add_edge("generate", END)
 
         return builder.compile(
             checkpointer=self.checkpointer
         )
 
-    def _rewrite_query(
-        self,
-        state: RAGState,
-    ) -> dict[str, str]:
-        messages = state["messages"]
-
-        human_messages = [
+    @staticmethod
+    def _human_messages(state: RAGState) -> list[HumanMessage]:
+        return [
             message
-            for message in messages
+            for message in state["messages"]
             if isinstance(message, HumanMessage)
         ]
 
-        current_question = (
-            human_messages[-1].content
+    @classmethod
+    def _current_query(cls, state: RAGState) -> str:
+        return str(cls._human_messages(state)[-1].content).strip()
+
+    def _route_query_rewrite(self, state: RAGState) -> str:
+        human_messages = self._human_messages(state)
+        query = str(human_messages[-1].content).strip()
+
+        if len(human_messages) == 1 or extract_article_numbers(query):
+            return "original"
+
+        has_structural_reference = bool(_STRUCTURAL_FOLLOW_UP.search(query))
+        has_previous_article = any(
+            source.get("article") for source in state.get("sources", [])
+        )
+        if has_structural_reference and has_previous_article:
+            return "structural"
+
+        return "llm"
+
+    def _use_original_query(
+        self,
+        state: RAGState,
+    ) -> dict[str, str]:
+        return {"standalone_query": self._current_query(state)}
+
+    def _rewrite_structural_query(
+        self,
+        state: RAGState,
+    ) -> dict[str, str]:
+        query = self._current_query(state)
+        previous_article = next(
+            (
+                str(source["article"]).strip()
+                for source in state.get("sources", [])
+                if source.get("article")
+            ),
+            "",
         )
 
-        query = str(current_question).strip()
+        return {"standalone_query": f"{query} (thuộc {previous_article})"}
 
-        # Không gọi LLM để rewrite: mỗi lượt hội thoại chỉ nên tốn một request
-        # Gemini ở bước generate. Với follow-up cấu trúc như "Khoản 2 thì sao?",
-        # dùng Điều đã retrieve ở lượt trước để tạo query độc lập cục bộ.
-        if (
-            len(human_messages) > 1
-            and not extract_article_numbers(query)
-            and _STRUCTURAL_FOLLOW_UP.search(query)
-        ):
-            previous_sources = state.get("sources", [])
-            previous_article = next(
-                (
-                    str(source["article"]).strip()
-                    for source in previous_sources
-                    if source.get("article")
-                ),
-                "",
-            )
-            if previous_article:
-                query = f"{query} (thuộc {previous_article})"
+    def _rewrite_query_with_llm(
+        self,
+        state: RAGState,
+    ) -> dict[str, str]:
+        query = self._current_query(state)
+        recent_messages = state["messages"][-_SHORT_MEMORY_MESSAGE_LIMIT:]
+        response = self.llm.invoke(
+            [
+                SystemMessage(content=REWRITE_QUERY_PROMPT),
+                *recent_messages,
+            ]
+        )
+        rewritten_query = str(response.content).strip()
+        if rewritten_query:
+            query = rewritten_query
 
         return {"standalone_query": query}
 
-    def _retrieve(
+    def _article_lookup(
         self,
         state: RAGState,
     ) -> dict[str, Any]:
@@ -147,25 +206,37 @@ class RAGEngine:
             top_k=self.settings.rag_top_k,
         )
 
-        # Chỉ chạy retrieval tốn tài nguyên khi câu hỏi không nêu số điều
-        # hợp lệ hoặc số điều được hỏi chưa có trong dữ liệu ingestion.
-        if not results:
-            candidates = self.retriever.search(
-                query,
-                top_k=self.settings.rag_candidate_k,
-                candidate_k=self.settings.rag_candidate_k,
-            )
-            results = rerank_by_title(
-                query,
-                candidates,
-                top_k=self.settings.rag_top_k,
-            )
+        return {
+            "context": build_context(results),
+            "sources": serialize_sources(results),
+            "lookup_succeeded": bool(results),
+        }
+
+    @staticmethod
+    def _route_retrieval(state: RAGState) -> str:
+        if state.get("lookup_succeeded", False):
+            return "direct"
+        return "hybrid"
+
+    def _hybrid_retrieve(
+        self,
+        state: RAGState,
+    ) -> dict[str, Any]:
+        query = state["standalone_query"]
+        candidates = self.retriever.search(
+            query,
+            top_k=self.settings.rag_candidate_k,
+            candidate_k=self.settings.rag_candidate_k,
+        )
+        results = rerank_by_title(
+            query,
+            candidates,
+            top_k=self.settings.rag_top_k,
+        )
 
         return {
             "context": build_context(results),
-            "sources": serialize_sources(
-                results
-            ),
+            "sources": serialize_sources(results),
         }
 
     def _generate(
@@ -182,7 +253,7 @@ class RAGEngine:
 
         # Chỉ đưa một số turn gần nhất vào LLM.
         # Toàn bộ state vẫn được checkpointer lưu.
-        recent_messages = state["messages"][-8:]
+        recent_messages = state["messages"][-_SHORT_MEMORY_MESSAGE_LIMIT:]
 
         response = self.llm.invoke(
             [
